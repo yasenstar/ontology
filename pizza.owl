@@ -169,6 +169,24 @@
     
 
 
+    <!-- http://www.pizza.com#CheesePizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com#CheesePizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.pizza.com#CheeseTopping"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://www.pizza.com#CheeseTopping -->
 
     <owl:Class rdf:about="http://www.pizza.com#CheeseTopping">
@@ -358,6 +376,16 @@
 
     <owl:Class rdf:about="http://www.pizza.com#PrawnTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com#SeafoodTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#ProbeInconsistentTopping -->
+
+    <owl:Class rdf:about="http://www.pizza.com#ProbeInconsistentTopping">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#CheeseTopping"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#VegetableTopping"/>
+        <rdfs:comment>This class should be inconsistent when the ontology is classified.</rdfs:comment>
     </owl:Class>
     
 
