@@ -44,6 +44,15 @@
     
 
 
+    <!-- http://www.pizza.com#hasSpiciness -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.com#hasSpiciness">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.pizza.com#SpicinessValuePartition"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.pizza.com#hasTopping -->
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com#hasTopping">
@@ -87,6 +96,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.com#hasCalorificContentValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.pizza.com#hasCalorificContentValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -123,6 +149,21 @@
                 <owl:someValuesFrom rdf:resource="http://www.pizza.com#TomatoTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.com#JalapenoPepperTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#PepperoniSausageTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -149,6 +190,20 @@
                 <owl:someValuesFrom rdf:resource="http://www.pizza.com#TomatoTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.com#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#PepperoniSausageTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -165,6 +220,12 @@
 
     <owl:Class rdf:about="http://www.pizza.com#CaperTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com#VegetableTopping"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasSpiciness"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.com#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -195,11 +256,32 @@
     
 
 
+    <!-- http://www.pizza.com#Country -->
+
+    <owl:Class rdf:about="http://www.pizza.com#Country"/>
+    
+
+
     <!-- http://www.pizza.com#DeepPanBase -->
 
     <owl:Class rdf:about="http://www.pizza.com#DeepPanBase">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com#PizzaBase"/>
         <owl:disjointWith rdf:resource="http://www.pizza.com#ThinAndCrispBase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#FourCheesePizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com#FourCheesePizza">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#Pizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.pizza.com#CheeseTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -220,10 +302,50 @@
     
 
 
+    <!-- http://www.pizza.com#HighCaloriePizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com#HighCaloriePizza">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#Hot -->
+
+    <owl:Class rdf:about="http://www.pizza.com#Hot">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#SpicinessValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#InterestingPizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com#InterestingPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
     <!-- http://www.pizza.com#JalapenoPepperTopping -->
 
     <owl:Class rdf:about="http://www.pizza.com#JalapenoPepperTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com#PepperTopping"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasSpiciness"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.com#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -244,6 +366,19 @@
                 <owl:someValuesFrom rdf:resource="http://www.pizza.com#TomatoTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.com#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A pizza that only have Mozarella and Tomato toppings.</rdfs:comment>
     </owl:Class>
     
@@ -253,6 +388,22 @@
 
     <owl:Class rdf:about="http://www.pizza.com#MeatTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#Medium -->
+
+    <owl:Class rdf:about="http://www.pizza.com#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#SpicinessValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#Mild -->
+
+    <owl:Class rdf:about="http://www.pizza.com#Mild">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#SpicinessValuePartition"/>
     </owl:Class>
     
 
@@ -356,6 +507,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.pizza.com#PizzaBase"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasCalorificContentValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -442,6 +599,38 @@
                 <owl:someValuesFrom rdf:resource="http://www.pizza.com#TomatoTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.com#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#OliveTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#ParmezanTopping"/>
+                            <rdf:Description rdf:about="http://www.pizza.com#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#SpicinessValuePartition -->
+
+    <owl:Class rdf:about="http://www.pizza.com#SpicinessValuePartition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com#Hot"/>
+                    <rdf:Description rdf:about="http://www.pizza.com#Medium"/>
+                    <rdf:Description rdf:about="http://www.pizza.com#Mild"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com#ValuePartition"/>
     </owl:Class>
     
 
@@ -450,6 +639,34 @@
 
     <owl:Class rdf:about="http://www.pizza.com#SpicyBeefTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#SpicyPizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com#SpicyPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.pizza.com#PizzaTopping"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.pizza.com#hasSpiciness"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.pizza.com#Hot"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </owl:Class>
     
 
@@ -478,11 +695,119 @@
     
 
 
+    <!-- http://www.pizza.com#ValuePartition -->
+
+    <owl:Class rdf:about="http://www.pizza.com#ValuePartition"/>
+    
+
+
     <!-- http://www.pizza.com#VegetableTopping -->
 
     <owl:Class rdf:about="http://www.pizza.com#VegetableTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com#PizzaTopping"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com#VegetarianPizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com#VegetarianPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.pizza.com#hasTopping"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.pizza.com#CheeseTopping"/>
+                                    <rdf:Description rdf:about="http://www.pizza.com#VegetableTopping"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.com#America -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#America">
+        <rdf:type rdf:resource="http://www.pizza.com#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#China">
+        <rdf:type rdf:resource="http://www.pizza.com#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com#England -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#England">
+        <rdf:type rdf:resource="http://www.pizza.com#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com#ExampleMargherita -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#ExampleMargherita">
+        <rdf:type rdf:resource="http://www.pizza.com#MargheritaPizza"/>
+        <hasCalorificContentValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263</hasCalorificContentValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com#France -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#France">
+        <rdf:type rdf:resource="http://www.pizza.com#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#Germany">
+        <rdf:type rdf:resource="http://www.pizza.com#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com#Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#Italy">
+        <rdf:type rdf:resource="http://www.pizza.com#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com#QuattroFormaggio -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com#QuattroFormaggio">
+        <rdf:type rdf:resource="http://www.pizza.com#AmericanaPizza"/>
+        <hasCalorificContentValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">723</hasCalorificContentValue>
+    </owl:NamedIndividual>
     
 
 
@@ -546,6 +871,14 @@
             <rdf:Description rdf:about="http://www.pizza.com#PepperoniSausageTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com#SalamiTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com#SpicyBeefTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.com#Hot"/>
+            <rdf:Description rdf:about="http://www.pizza.com#Medium"/>
+            <rdf:Description rdf:about="http://www.pizza.com#Mild"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
