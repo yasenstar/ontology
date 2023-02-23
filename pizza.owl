@@ -513,6 +513,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>https://en.wikipedia.org/wiki/Pizza</rdfs:comment>
     </owl:Class>
     
 

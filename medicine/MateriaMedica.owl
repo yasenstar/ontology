@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.materiamedica.com"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.materiamedica.com">
+    <Prefix name="" IRI="http://www.materiamedica.com"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#五果类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#冬青"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#味苦"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#味道"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#味酸"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#寓木类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#山果类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#性味"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#性大寒"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#性寒"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#性平"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#性微温"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#无毒"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#木部"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#本草"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#杉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#李"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#李叶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#李实"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#李树胶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#李核仁"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#李根白皮"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#李花"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#杏"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#松"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#果部"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#枳"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#柏"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#桑"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#梨"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#棠梨"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#槐"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#毒性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#海红"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#灌木类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#白杨"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#石鳞鱼"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#茯神"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#茯苓"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#药性"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#虫部"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#蛤蟆"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#蟾蜍"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#蟾酥"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#金樱子"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#香木类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#鳞部"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#鹿梨"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#味道是"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#性味"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#毒性是"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#药性是"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#五果类"/>
+        <Class IRI="#果部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#冬青"/>
+        <Class IRI="#灌木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#味苦"/>
+        <Class IRI="#味道"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#味道"/>
+        <Class IRI="#性味"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#味酸"/>
+        <Class IRI="#味道"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#寓木类"/>
+        <Class IRI="#木部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#山果类"/>
+        <Class IRI="#果部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#性大寒"/>
+        <Class IRI="#药性"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#性寒"/>
+        <Class IRI="#药性"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#性平"/>
+        <Class IRI="#药性"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#性微温"/>
+        <Class IRI="#药性"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#无毒"/>
+        <Class IRI="#毒性"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#木部"/>
+        <Class IRI="#本草"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#杉"/>
+        <Class IRI="#香木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李"/>
+        <Class IRI="#五果类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李叶"/>
+        <Class IRI="#李"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#味道是"/>
+            <Class IRI="#味苦"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#味道是"/>
+            <Class IRI="#味酸"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#毒性是"/>
+            <Class IRI="#无毒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#药性是"/>
+            <Class IRI="#性微温"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李实"/>
+        <Class IRI="#李"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李实"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#味道是"/>
+            <Class IRI="#味苦"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李实"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#毒性是"/>
+            <Class IRI="#无毒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李实"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#药性是"/>
+            <Class IRI="#性平"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李树胶"/>
+        <Class IRI="#李"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李树胶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#味道是"/>
+            <Class IRI="#味苦"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李树胶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#药性是"/>
+            <Class IRI="#性寒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李核仁"/>
+        <Class IRI="#李"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李根白皮"/>
+        <Class IRI="#李"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李根白皮"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#毒性是"/>
+            <Class IRI="#无毒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李根白皮"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#药性是"/>
+            <Class IRI="#性大寒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#李花"/>
+        <Class IRI="#李"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#杏"/>
+        <Class IRI="#五果类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#松"/>
+        <Class IRI="#香木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#果部"/>
+        <Class IRI="#本草"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#枳"/>
+        <Class IRI="#灌木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏"/>
+        <Class IRI="#香木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#桑"/>
+        <Class IRI="#灌木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#梨"/>
+        <Class IRI="#山果类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#棠梨"/>
+        <Class IRI="#山果类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#槐"/>
+        <Class IRI="#香木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#毒性"/>
+        <Class IRI="#性味"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#海红"/>
+        <Class IRI="#山果类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#灌木类"/>
+        <Class IRI="#木部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#白杨"/>
+        <Class IRI="#香木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#石鳞鱼"/>
+        <Class IRI="#虫部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#茯神"/>
+        <Class IRI="#寓木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#茯苓"/>
+        <Class IRI="#寓木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#药性"/>
+        <Class IRI="#性味"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#虫部"/>
+        <Class IRI="#本草"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#蛤蟆"/>
+        <Class IRI="#虫部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#蟾蜍"/>
+        <Class IRI="#虫部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#蟾酥"/>
+        <Class IRI="#蟾蜍"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#金樱子"/>
+        <Class IRI="#灌木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#香木类"/>
+        <Class IRI="#木部"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#鳞部"/>
+        <Class IRI="#本草"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#鹿梨"/>
+        <Class IRI="#山果类"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#味道是"/>
+        <ObjectProperty IRI="#性味"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#毒性是"/>
+        <ObjectProperty IRI="#性味"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#药性是"/>
+        <ObjectProperty IRI="#性味"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#性味"/>
+        <Class IRI="#本草"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#性味"/>
+        <Class IRI="#性味"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#味道是"/>
+        <ObjectProperty IRI="#毒性是"/>
+        <ObjectProperty IRI="#药性是"/>
+    </DisjointObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
