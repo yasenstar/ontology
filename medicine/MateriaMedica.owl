@@ -49,7 +49,13 @@
         <Class IRI="#原禽类"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#叶"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#吴茱萸"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#味甘"/>
     </Declaration>
     <Declaration>
         <Class IRI="#味苦"/>
@@ -92,6 +98,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#性平"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#性微寒"/>
     </Declaration>
     <Declaration>
         <Class IRI="#性微温"/>
@@ -148,6 +157,9 @@
         <Class IRI="#林禽类"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#果实"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#果部"/>
     </Declaration>
     <Declaration>
@@ -155,6 +167,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#柏"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#柏叶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#柏实"/>
     </Declaration>
     <Declaration>
         <Class IRI="#桂花"/>
@@ -179,6 +197,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#水龟"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#治鼻中出血"/>
     </Declaration>
     <Declaration>
         <Class IRI="#海红"/>
@@ -259,6 +280,9 @@
         <Class IRI="#药性"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#药方"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#菜油"/>
     </Declaration>
     <Declaration>
@@ -296,6 +320,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#造酿类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#部位"/>
     </Declaration>
     <Declaration>
         <Class IRI="#酒"/>
@@ -391,6 +418,9 @@
         <ObjectProperty IRI="#味道是"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#属于部位"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#性味"/>
     </Declaration>
     <Declaration>
@@ -398,6 +428,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#药性是"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#功效主治"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#乌蛇"/>
@@ -448,8 +481,16 @@
         <Class IRI="#禽部"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#叶"/>
+        <Class IRI="#部位"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#吴茱萸"/>
         <Class IRI="#调饪类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#味甘"/>
+        <Class IRI="#味道"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#味苦"/>
@@ -501,6 +542,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#性平"/>
+        <Class IRI="#药性"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#性微寒"/>
         <Class IRI="#药性"/>
     </SubClassOf>
     <SubClassOf>
@@ -649,6 +694,10 @@
         <Class IRI="#禽部"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#果实"/>
+        <Class IRI="#部位"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#果部"/>
         <Class IRI="#本草"/>
     </SubClassOf>
@@ -659,6 +708,70 @@
     <SubClassOf>
         <Class IRI="#柏"/>
         <Class IRI="#香木类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏叶"/>
+        <Class IRI="#柏"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#味道是"/>
+            <Class IRI="#味甘"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#属于部位"/>
+            <Class IRI="#叶"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#毒性是"/>
+            <Class IRI="#无毒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏叶"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#药性是"/>
+            <Class IRI="#性微温"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏实"/>
+        <Class IRI="#柏"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏实"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#味道是"/>
+            <Class IRI="#味甘"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏实"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#属于部位"/>
+            <Class IRI="#果实"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏实"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#毒性是"/>
+            <Class IRI="#无毒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#柏实"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#药性是"/>
+            <Class IRI="#性平"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#桂花"/>
@@ -691,6 +804,10 @@
     <SubClassOf>
         <Class IRI="#水龟"/>
         <Class IRI="#龟鳖类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#治鼻中出血"/>
+        <Class IRI="#药方"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#海红"/>
@@ -949,6 +1066,27 @@
         <Class IRI="#杂类"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#麻油"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#味道是"/>
+            <Class IRI="#味甘"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#麻油"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#毒性是"/>
+            <Class IRI="#无毒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#麻油"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#药性是"/>
+            <Class IRI="#性微寒"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#黄鱼"/>
         <Class IRI="#无鳞鱼类"/>
     </SubClassOf>
@@ -981,9 +1119,23 @@
         <ObjectProperty IRI="#性味"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#属于部位"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#属于部位"/>
+            <Class IRI="#本草"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#性味"/>
         <Class IRI="#本草"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#属于部位"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#属于部位"/>
+            <Class IRI="#部位"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#性味"/>
         <Class IRI="#性味"/>
@@ -993,6 +1145,16 @@
         <ObjectProperty IRI="#毒性是"/>
         <ObjectProperty IRI="#药性是"/>
     </DisjointObjectProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#柏</IRI>
+        <Literal>李时珍说：《史记》里把柏称为百木之长，树高而且直，皮很薄，质地很细腻，开细琐的花；它的果实是圆形的，到秋霜自然裂开，中间有几颗籽，像麦粒那么大，有芳香味。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#功效主治"/>
+        <IRI>#柏实</IRI>
+        <Literal>治安神，润肝肾，主治惊厥，小儿惊厥，神志不清，腹痛出虚汗，小便不利，有安神镇静的作用。它的气味清香，能透心肾，益脾胃。</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
