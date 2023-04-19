@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力的应用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力的应用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#位移 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#位移">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#坐标系"/>
+        <rdfs:comment>质点由位置A运动到位置B，无论经历的路径如何，由位置A向位置B引一条有向线段--矢量，叫做质点的位移。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#位置 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#位置">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#坐标系"/>
+        <rdfs:comment>在坐标系中，质点的坐标(x,y,z)表示质点所处的位置。
+质点的位置会因所选择的坐标系的不同而不同，是相对的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#光学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#光学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#初速度为0的匀变速直线运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#初速度为0的匀变速直线运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#变速直线运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力学"/>
+        <rdfs:comment>定义1：物体间的相互作用。
+定义2：物体运动状态变化的原因。（牛顿第一定律）
+定义3：物体的动量随时间的变化率，即 F=Delta(p)/Delta(t)。
+
+即物体间的相互作用，表现为两个物体交换彼此的动量。（牛顿第三定律）。
+力是物体运动状态变化的量度。（牛顿第二定律）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#加速度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#加速度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#瞬时速度"/>
+        <rdfs:comment>物体瞬时速度随时间的变化率叫做加速度，是描述速度随时间变化快慢的物理量，是矢量，其方向与速度的变化方向相同。
+a = Delta(v)/Delta(t) = (v2-v1)/(t2-t1)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#动量守恒定律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#动量守恒定律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点的功能关系"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#动量定理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#动量定理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点的功能关系"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#匀变速曲线运动特例-平抛运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#匀变速曲线运动特例-平抛运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#抛体运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#匀速直线运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#匀速直线运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#直线运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#参考系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#参考系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力学"/>
+        <rdfs:comment>研究质点位置变化时所参照的物体</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#变速曲线运动特例-圆周运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#变速曲线运动特例-圆周运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#曲线运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#变速直线运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#变速直线运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#直线运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#坐标系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#坐标系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#参考系"/>
+        <rdfs:comment>参考系的数学抽象</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#声学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#声学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#弹力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#弹力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力"/>
+        <rdfs:comment>由于物体发生弹性形变而产生的力，作用在与它直接接触、并使它发生形变的物体上，方向沿着恢复形变的方向。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#抛体运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#抛体运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#曲线运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#接触面的弹力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#接触面的弹力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#弹力"/>
+        <rdfs:comment>提供垂直于接触面方向的支持力或压力。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#摩擦力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#摩擦力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#斜抛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#斜抛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#抛体运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时刻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时刻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时间"/>
+        <rdfs:comment>时刻对应时间轴上的一个点。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力学"/>
+        <rdfs:comment>时间表示运动的连续性。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时间间隔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时间间隔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#时间"/>
+        <rdfs:comment>时间间隔对应时间轴上的一条线段。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#曲线运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#曲线运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#求解中心天体表面的引力场强度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#求解中心天体表面的引力场强度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力的应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#求解中心天体质量及密度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#求解中心天体质量及密度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力的应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#求解天体运行规律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#求解天体运行规律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力的应用"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#滑动摩擦力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#滑动摩擦力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#摩擦力"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#滚动摩擦力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#滚动摩擦力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#摩擦力"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#热学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#热学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿第一定律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿第一定律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿运动定律"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿第三定律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿第三定律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿运动定律"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿第二定律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿第二定律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿运动定律"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿运动定律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#牛顿运动定律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#电学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#电学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#直线运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#直线运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#瞬时速度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#瞬时速度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#速度"/>
+        <rdfs:comment>当所选时间间隔 Delta(t) 无限趋于0时，速度公式定义的就是质点的瞬时速度，其大小叫做速率。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#磁学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#磁学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#空间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#空间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力学"/>
+        <rdfs:comment>空间表示运动的延展性。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#竖直上抛运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#竖直上抛运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#变速直线运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#自由落体运动 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#自由落体运动">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#变速直线运动"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#力学"/>
+        <rdfs:comment>当物体的几何尺寸对所研究问题来说可以忽略不计时，物体就被看做一个几何点，即质点。可以用一个坐标(x,y,z)来表示。
+质点的运动形式：
+（1）当质点的初速度与加速度平行时，质点作直线运动
+（2）当质点的初速度与加速度不平行时，质点作曲线运动</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点的功能关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点的功能关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#质点"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#路程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#路程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#坐标系"/>
+        <rdfs:comment>运动轨迹的长度，不是矢量。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#轻质弹簧的弹力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#轻质弹簧的弹力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#弹力"/>
+        <rdfs:comment>遵守胡克定律，F = -k * Delta(x)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#轻质杆的弹力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#轻质杆的弹力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#弹力"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#轻质绳的弹力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#轻质绳的弹力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#弹力"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#运动方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#运动方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#位置"/>
+        <rdfs:comment>描述物体位置随时间变化的方程。
+一维问题：x = x(t)
+二维问题：x = x(t) and y = y(t)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#速度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#速度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#位移"/>
+        <rdfs:comment>位移随时间的变化率，是描述位移随时间变化快慢的物理量，是矢量，其方向与位移矢量的方向相同。
+v = Delta(x)/Delta(t) = (x2-x1)/(t2-t1)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#重力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#重力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#万有引力"/>
+        <rdfs:comment>其中一个物体是地球时的万有引力。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#静摩擦力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#静摩擦力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/3/highschool_physics#摩擦力"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
