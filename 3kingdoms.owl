@@ -112,10 +112,6 @@
         <NamedIndividual IRI="#蜀"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#文官"/>
-        <NamedIndividual IRI="#诸葛亮"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#马匹"/>
         <NamedIndividual IRI="#赤兔马"/>
     </ClassAssertion>
@@ -145,11 +141,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#属于"/>
         <NamedIndividual IRI="#刘备"/>
-        <NamedIndividual IRI="#蜀"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#属于"/>
-        <NamedIndividual IRI="#诸葛亮"/>
         <NamedIndividual IRI="#蜀"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyDomain>
