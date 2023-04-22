@@ -28,10 +28,16 @@
         <Class IRI="#000-010-比-坤下坎上-08"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#000-111-否-坤下乾上-12"/>
     </Declaration>
     <Declaration>
         <Class IRI="#001-艮-山"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
     </Declaration>
     <Declaration>
         <Class IRI="#01-少阳-春"/>
@@ -55,10 +61,16 @@
         <Class IRI="#1-乾（阳）"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#1-初九-同人于门，无咎。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#1-初九-复自道，何其咎，吉"/>
     </Declaration>
     <Declaration>
         <Class IRI="#1-初九-拔茅茹，以其汇征，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-无交害，匪咎，艰则无咎。"/>
     </Declaration>
     <Declaration>
         <Class IRI="#1-初九-潜龙勿用"/>
@@ -88,6 +100,12 @@
         <Class IRI="#1-初六-有孚，比之，无咎。有孚，盈缶，终来有它吉"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#1-初六-谦谦君子，用涉大川，吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-鸣豫，凶。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#1-初九-磐桓(huan2)，利居贞，利建侯"/>
     </Declaration>
     <Declaration>
@@ -103,7 +121,7 @@
         <Class IRI="#101-离-火"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#101-111-同人-离下乾上-12"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
     </Declaration>
     <Declaration>
         <Class IRI="#11-老阳-夏"/>
@@ -127,6 +145,9 @@
         <Class IRI="#111-011-小畜-乾下巽上-09"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#111-111-乾-乾下乾上-01"/>
     </Declaration>
     <Declaration>
@@ -142,6 +163,9 @@
         <Class IRI="#2-九二-在师中，吉无咎，王三锡命"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#2-九二-大车以载，有攸往，无咎。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#2-九二-履道坦坦，幽人贞吉"/>
     </Declaration>
     <Declaration>
@@ -154,7 +178,13 @@
         <Class IRI="#2-九二-需于沙，小有言，终吉"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#2-六二-介于石，不终日，贞吉。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#2-六二-包成，小人吉，大人否亨。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-同人于宗，吝。"/>
     </Declaration>
     <Declaration>
         <Class IRI="#2-六二-屯如？如，乘马班如，匪寇婚媾，女子贞十字，十年乃字"/>
@@ -164,6 +194,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#2-六二-直方，大，不习，无不利"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-鸣谦，贞吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-伏戎于莽，升其高陵，三岁不兴。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-公用亨于天子，小人弗克。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-劳谦，君子有终，吉。"/>
     </Declaration>
     <Declaration>
         <Class IRI="#3-九三-君子终日乾乾，夕惕若，厉，无咎"/>
@@ -199,10 +241,19 @@
         <Class IRI="#3-六三-食旧德，贞厉，终吉，或从王事无成"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#3-六三-盱(xu1)豫悔，迟有悔。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#3-六三-眇能视，跛(bo3)能履，履虎尾，咥(die2)人，凶，武人为于大君"/>
     </Declaration>
     <Declaration>
         <Class IRI="#4-九四-不克讼，复即命，渝安贞，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-乘其墉，弗克攻，吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-匪其彭，无咎。"/>
     </Declaration>
     <Declaration>
         <Class IRI="#4-九四-或跃在渊，无咎"/>
@@ -238,6 +289,12 @@
         <Class IRI="#4-九四-履虎尾，愬愬(su4)终吉"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#4-九四-由豫，大有得，勿疑，朋盍(he2)簪。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-无不利，㧑(wei2)谦。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#5-九五-休否，大人吉，其亡其亡，系于苞桑。"/>
     </Declaration>
     <Declaration>
@@ -256,6 +313,9 @@
         <Class IRI="#5-九五-飞龙在天，利见大人"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#5-六五-不富以其邻，利用侵伐，无不利。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#5-六五-屯其膏，小贞吉，大贞凶"/>
     </Declaration>
     <Declaration>
@@ -265,10 +325,19 @@
         <Class IRI="#5-六五-童蒙，吉"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#5-六五-贞疾，恒不死。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#5-六五-黄裳，元吉"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#5-九五-同人先号咷(tao2)而后笑，大师克相遇。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#5-九五-夬(guai4)履，贞厉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-厥(jue2)孚交如，威如，吉。"/>
     </Declaration>
     <Declaration>
         <Class IRI="#5-六五-帝乙归妹，以祉(zhi3)，元吉。"/>
@@ -283,7 +352,13 @@
         <Class IRI="#6-上九-击蒙，不利为寇，利御寇"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#6-上九-同人于郊，无悔。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-自天祐之，吉无不利。"/>
     </Declaration>
     <Declaration>
         <Class IRI="#6-上九-视履考祥，其旋元吉"/>
@@ -295,6 +370,9 @@
         <Class IRI="#6-上六-入于穴，有不速之客三人来，敬之终吉"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#6-上六-冥豫，成有渝，无咎。"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#6-上六-城复于隍，勿用师，自邑告命，贞吝。"/>
     </Declaration>
     <Declaration>
@@ -302,6 +380,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#6-上六-比之无首，凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-鸣谦，利用行师，征邑国。"/>
     </Declaration>
     <Declaration>
         <Class IRI="#6-上六-龙战于野，其血玄黄"/>
@@ -362,6 +443,17 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-000-谦-艮下坤上-15"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#000-111-否-坤下乾上-12"/>
         <Class IRI="#000-坤-地"/>
     </SubClassOf>
@@ -369,7 +461,7 @@
         <Class IRI="#000-111-否-坤下乾上-12"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#后序"/>
-            <Class IRI="#101-111-同人-离下乾上-12"/>
+            <Class IRI="#101-111-同人-离下乾上-13"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -382,6 +474,24 @@
     <SubClassOf>
         <Class IRI="#001-艮-山"/>
         <Class IRI="#00-老阴-冬"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-101-大有-乾下离上-14"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-100-豫-坤下震上-16"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#01-少阳-春"/>
@@ -450,12 +560,20 @@
         <Class IRI="#01-少阳-春"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#1-初九-同人于门，无咎。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#1-初九-复自道，何其咎，吉"/>
         <Class IRI="#111-011-小畜-乾下巽上-09"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#1-初九-拔茅茹，以其汇征，吉"/>
         <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-无交害，匪咎，艰则无咎。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#1-初九-潜龙勿用"/>
@@ -494,6 +612,14 @@
         <Class IRI="#000-010-比-坤下坎上-08"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#1-初六-谦谦君子，用涉大川，吉。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-鸣豫，凶。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#1-初九-磐桓(huan2)，利居贞，利建侯"/>
         <Class IRI="#100-010-屯-震下坎上-03"/>
     </SubClassOf>
@@ -521,14 +647,28 @@
         <Class IRI="#10-少阴-秋"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#101-111-同人-离下乾上-12"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
         <Class IRI="#101-离-火"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#101-111-同人-离下乾上-12"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#前序"/>
             <Class IRI="#000-111-否-坤下乾上-12"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-101-大有-乾下离上-14"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#相对"/>
+            <Class IRI="#111-101-大有-乾下离上-14"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -623,6 +763,31 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-111-同人-离下乾上-13"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-000-谦-艮下坤上-15"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#相对"/>
+            <Class IRI="#101-111-同人-离下乾上-13"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#111-111-乾-乾下乾上-01"/>
         <Class IRI="#111-乾-天"/>
     </SubClassOf>
@@ -643,6 +808,10 @@
         <Class IRI="#010-000-师-坎下坤上-07"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#2-九二-大车以载，有攸往，无咎。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#2-九二-履道坦坦，幽人贞吉"/>
         <Class IRI="#110-111-履-兑下乾上-10"/>
     </SubClassOf>
@@ -659,8 +828,16 @@
         <Class IRI="#111-010-需-乾下坎上-05"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#2-六二-介于石，不终日，贞吉。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#2-六二-包成，小人吉，大人否亨。"/>
         <Class IRI="#000-111-否-坤下乾上-12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-同人于宗，吝。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#2-六二-屯如？如，乘马班如，匪寇婚媾，女子贞十字，十年乃字"/>
@@ -673,6 +850,22 @@
     <SubClassOf>
         <Class IRI="#2-六二-直方，大，不习，无不利"/>
         <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-鸣谦，贞吉。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-伏戎于莽，升其高陵，三岁不兴。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-公用亨于天子，小人弗克。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-劳谦，君子有终，吉。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#3-九三-君子终日乾乾，夕惕若，厉，无咎"/>
@@ -719,12 +912,24 @@
         <Class IRI="#010-111-讼-坎下乾上-06"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#3-六三-盱(xu1)豫悔，迟有悔。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#3-六三-眇能视，跛(bo3)能履，履虎尾，咥(die2)人，凶，武人为于大君"/>
         <Class IRI="#110-111-履-兑下乾上-10"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#4-九四-不克讼，复即命，渝安贞，吉"/>
         <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-乘其墉，弗克攻，吉。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-匪其彭，无咎。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#4-九四-或跃在渊，无咎"/>
@@ -771,6 +976,14 @@
         <Class IRI="#110-111-履-兑下乾上-10"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#4-九四-由豫，大有得，勿疑，朋盍(he2)簪。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-无不利，㧑(wei2)谦。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#5-九五-休否，大人吉，其亡其亡，系于苞桑。"/>
         <Class IRI="#000-111-否-坤下乾上-12"/>
     </SubClassOf>
@@ -795,6 +1008,10 @@
         <Class IRI="#111-111-乾-乾下乾上-01"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#5-六五-不富以其邻，利用侵伐，无不利。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#5-六五-屯其膏，小贞吉，大贞凶"/>
         <Class IRI="#100-010-屯-震下坎上-03"/>
     </SubClassOf>
@@ -807,12 +1024,24 @@
         <Class IRI="#010-001-蒙-坎下艮上-04"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#5-六五-贞疾，恒不死。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#5-六五-黄裳，元吉"/>
         <Class IRI="#000-000-坤-坤下坤上-02"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#5-九五-同人先号咷(tao2)而后笑，大师克相遇。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#5-九五-夬(guai4)履，贞厉"/>
         <Class IRI="#110-111-履-兑下乾上-10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-厥(jue2)孚交如，威如，吉。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#5-六五-帝乙归妹，以祉(zhi3)，元吉。"/>
@@ -831,8 +1060,16 @@
         <Class IRI="#010-001-蒙-坎下艮上-04"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#6-上九-同人于郊，无悔。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶"/>
         <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-自天祐之，吉无不利。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#6-上九-视履考祥，其旋元吉"/>
@@ -847,6 +1084,10 @@
         <Class IRI="#111-010-需-乾下坎上-05"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#6-上六-冥豫，成有渝，无咎。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#6-上六-城复于隍，勿用师，自邑告命，贞吝。"/>
         <Class IRI="#111-000-泰-乾下坤上-11"/>
     </SubClassOf>
@@ -857,6 +1098,10 @@
     <SubClassOf>
         <Class IRI="#6-上六-比之无首，凶"/>
         <Class IRI="#000-010-比-坤下坎上-08"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-鸣谦，利用行师，征邑国。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#6-上六-龙战于野，其血玄黄"/>
@@ -896,6 +1141,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#000-100-豫-坤下震上-16</IRI>
+        <Literal>《序卦传》说：&quot;有大而能谦必豫，故受之以豫。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#001-000-谦-艮下坤上-15</IRI>
+        <Literal>《序卦传》说：&quot;有大者不可以盈，姑受之以谦。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#010-坎-水（云）</IRI>
         <Literal>坎义为险。</Literal>
     </AnnotationAssertion>
@@ -927,13 +1182,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#101-111-同人-离下乾上-12</IRI>
+        <IRI>#101-111-同人-离下乾上-13</IRI>
         <Literal>《序卦传》说：&quot;物不可以终否，故受之以同人。&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#111-011-小畜-乾下巽上-09</IRI>
         <Literal>《序卦》：&quot;比必有所畜，故受之以小畜。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#111-101-大有-乾下离上-14</IRI>
+        <Literal>《序卦传》说：&quot;与人同者，物必归焉，故受之以大有。&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
