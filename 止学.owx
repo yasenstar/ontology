@@ -49,7 +49,70 @@
         <Class IRI="#02-用势卷"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#02-01_势无常也，仁者勿恃"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-02_势伏凶也，智者不矜"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-03_势莫加君子"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-04_德休与小人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-05_君子势不于力也，力尽而势亡焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-06_小人势不惠人也，趋之必祸焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-07_众成其势，一人堪毁"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-08_强者凌弱，人怨乃弃"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-09_势极无让者疑，位尊弗恭者忌"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-10_势或失之，名或谤之，少怨者再得也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-11_势固灭之，人固死之，无骄者惠嗣焉"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#03-利卷"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-01_惑人者无逾利也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-02_利无求弗获，德无施不积"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-03_众逐利而富寡，贤让功而名高"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-04_利大伤身，利小惠人，择之宜慎也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-05_天贵于时，人贵于明，动之有戒也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-06_众见其利者，非利也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-07_众见其害者，或利也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-08_君子重义轻利，小人嗜利远信，利御小人而莫御君子矣"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-09_利无尽处，命有尽时，不怠可焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-10_利无独据，运有兴衰，存畏警焉"/>
     </Declaration>
     <Declaration>
         <Class IRI="#04-辩卷"/>
@@ -111,6 +174,90 @@
     <SubClassOf>
         <Class IRI="#01-10_智者言智，愚者言愚，以愚饰智，以智止智，智也"/>
         <Class IRI="#01-智卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-01_势无常也，仁者勿恃"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-02_势伏凶也，智者不矜"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-03_势莫加君子"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-04_德休与小人"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-05_君子势不于力也，力尽而势亡焉"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-06_小人势不惠人也，趋之必祸焉"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-07_众成其势，一人堪毁"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-08_强者凌弱，人怨乃弃"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-09_势极无让者疑，位尊弗恭者忌"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-10_势或失之，名或谤之，少怨者再得也"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-11_势固灭之，人固死之，无骄者惠嗣焉"/>
+        <Class IRI="#02-用势卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-01_惑人者无逾利也"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-02_利无求弗获，德无施不积"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-03_众逐利而富寡，贤让功而名高"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-04_利大伤身，利小惠人，择之宜慎也"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-05_天贵于时，人贵于明，动之有戒也"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-06_众见其利者，非利也"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-07_众见其害者，或利也"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-08_君子重义轻利，小人嗜利远信，利御小人而莫御君子矣"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-09_利无尽处，命有尽时，不怠可焉"/>
+        <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-10_利无独据，运有兴衰，存畏警焉"/>
+        <Class IRI="#03-利卷"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#01-智卷"/>
@@ -135,6 +282,31 @@
         <Class IRI="#01-08_智有所缺，深存其敌，慎之少祸焉"/>
         <Class IRI="#01-09_智不及而谋大者毁，智无歇而谋远者逆"/>
         <Class IRI="#01-10_智者言智，愚者言愚，以愚饰智，以智止智，智也"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#02-01_势无常也，仁者勿恃"/>
+        <Class IRI="#02-02_势伏凶也，智者不矜"/>
+        <Class IRI="#02-03_势莫加君子"/>
+        <Class IRI="#02-04_德休与小人"/>
+        <Class IRI="#02-05_君子势不于力也，力尽而势亡焉"/>
+        <Class IRI="#02-06_小人势不惠人也，趋之必祸焉"/>
+        <Class IRI="#02-07_众成其势，一人堪毁"/>
+        <Class IRI="#02-08_强者凌弱，人怨乃弃"/>
+        <Class IRI="#02-09_势极无让者疑，位尊弗恭者忌"/>
+        <Class IRI="#02-10_势或失之，名或谤之，少怨者再得也"/>
+        <Class IRI="#02-11_势固灭之，人固死之，无骄者惠嗣焉"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#03-01_惑人者无逾利也"/>
+        <Class IRI="#03-02_利无求弗获，德无施不积"/>
+        <Class IRI="#03-03_众逐利而富寡，贤让功而名高"/>
+        <Class IRI="#03-04_利大伤身，利小惠人，择之宜慎也"/>
+        <Class IRI="#03-05_天贵于时，人贵于明，动之有戒也"/>
+        <Class IRI="#03-06_众见其利者，非利也"/>
+        <Class IRI="#03-07_众见其害者，或利也"/>
+        <Class IRI="#03-08_君子重义轻利，小人嗜利远信，利御小人而莫御君子矣"/>
+        <Class IRI="#03-09_利无尽处，命有尽时，不怠可焉"/>
+        <Class IRI="#03-10_利无独据，运有兴衰，存畏警焉"/>
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
