@@ -118,22 +118,232 @@
         <Class IRI="#04-辩卷"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#04-01_好誉者多辱也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-01_物朴乃存，器工招损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-02_言拙意隐，辞尽锋出"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-02_誉满主惊，名高众之所忌焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-03_誉存其伪，谄者以誉欺人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-03_识不逾人，莫言断也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-04_势不及人者，休言讳也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-04_名不由己，明者言不自赞"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-05_力不胜人者，勿言强也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-05_贪巧之功，天不佑也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-06_王者不辩，辩则少威焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-06_赏誉勿轻，轻者誉贱，贱则无功也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-07_受誉知辞，辞则德显，显则释疑也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-07_智者讷言，讷则惑敌焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-08_上下无争，誉之不废焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-08_勇者无语，语则怯行焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-09_人无誉堪存，誉非正当灭"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-09_忠臣不表其功，窃功者必奸也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-10_君子堪隐人恶，谤贤者固小人矣"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-10_求誉不得，或为福也"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#05-誉卷"/>
     </Declaration>
     <Declaration>
         <Class IRI="#06-情卷"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#06-01_情滥无行，欲多失矩"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-02_其色如一，神鬼莫测"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-03_上无度失威，下无忍數"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-04_上下知离，其位自安"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-05_君臣殊密，其臣反殃"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-06_小人之荣，情不可攀也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-07_情存疏也，近不过己，智者无痴焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-08_情难追也，逝者不返，明者无悔焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-09_多情者多艰，寡情者少艰"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-10_情之不敛，运无幸耳"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#07-蹇卷"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-01_人困乃正，命顺乃奇"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-02_以正化奇，止为枢也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-03_事变非智勿晓，事本非止勿存"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-04_天灾示警，逆之必亡。人祸告诫，省之固益"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-05_躁生百端，困出妄念，非止莫阻害止蔓焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-06_视己勿重者重，视人为轻者轻"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-07_患以心生，以蹇为乐，蹇不为蹇矣"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-08_穷不言富，贱不趋贵"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-09_忍辱为大，不怒为尊"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-10_蹇非敌也，敌乃乱焉"/>
     </Declaration>
     <Declaration>
         <Class IRI="#08-释怨卷"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#08-01_世之不公，人怨难止"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-02_穷富为仇，弥祸不消"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-03_君子不念旧恶，旧恶害德也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-04_小人存隙必报，必报自毁也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-05_和而弗争，谋之首也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-06_名不正而谤兴，正名者必自屈也焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-07_惑不解而恨重，释惑者固自罪焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-08_私念不生，仇怨不结焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-09_宽不足以悦人，严堪补也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-10_敬无助于劝善，诤堪教矣"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#09-心卷"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#09-01_欲无止也，其心堪制"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-02_惑无尽也，其行乃解"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-03_不求于人，其尊弗伤"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-04_无嗜之病，其身靡失"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-05_自弃者人莫救也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-06_苦乐无形，成于心焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-07_荣辱存异，贤者同焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-08_事之未济，志之非达，心无怨而忧患弗加矣"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-09_仁者好礼，不欺其心也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-10_智者示愚，不显其心哉"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#10-修身卷"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-01_服人者德也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-02_德之不修，其才必曲，其人非善矣"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-03_纳言不失，不辍亡废"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-04_小处容疵，大节堪毁"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-05_敬人敬心，德之厚也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-06_诚非致虚，君子不行诡道"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-07_祸由己生，小人难于胜己"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-08_谤言无惧，强者不纵，堪验其德焉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-09_不察其德，非识人也"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-10_识而勿用，非大德也"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#01-01_智极则愚也"/>
@@ -258,6 +468,286 @@
     <SubClassOf>
         <Class IRI="#03-10_利无独据，运有兴衰，存畏警焉"/>
         <Class IRI="#03-利卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-01_好誉者多辱也"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-01_物朴乃存，器工招损"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-02_言拙意隐，辞尽锋出"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-02_誉满主惊，名高众之所忌焉"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-03_誉存其伪，谄者以誉欺人"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-03_识不逾人，莫言断也"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-04_势不及人者，休言讳也"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-04_名不由己，明者言不自赞"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-05_力不胜人者，勿言强也"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-05_贪巧之功，天不佑也"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-06_王者不辩，辩则少威焉"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-06_赏誉勿轻，轻者誉贱，贱则无功也"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-07_受誉知辞，辞则德显，显则释疑也"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-07_智者讷言，讷则惑敌焉"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-08_上下无争，誉之不废焉"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-08_勇者无语，语则怯行焉"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-09_人无誉堪存，誉非正当灭"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-09_忠臣不表其功，窃功者必奸也"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-10_君子堪隐人恶，谤贤者固小人矣"/>
+        <Class IRI="#04-辩卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-10_求誉不得，或为福也"/>
+        <Class IRI="#05-誉卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-01_情滥无行，欲多失矩"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-02_其色如一，神鬼莫测"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-03_上无度失威，下无忍數"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-04_上下知离，其位自安"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-05_君臣殊密，其臣反殃"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-06_小人之荣，情不可攀也"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-07_情存疏也，近不过己，智者无痴焉"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-08_情难追也，逝者不返，明者无悔焉"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-09_多情者多艰，寡情者少艰"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-10_情之不敛，运无幸耳"/>
+        <Class IRI="#06-情卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-01_人困乃正，命顺乃奇"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-02_以正化奇，止为枢也"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-03_事变非智勿晓，事本非止勿存"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-04_天灾示警，逆之必亡。人祸告诫，省之固益"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-05_躁生百端，困出妄念，非止莫阻害止蔓焉"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-06_视己勿重者重，视人为轻者轻"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-07_患以心生，以蹇为乐，蹇不为蹇矣"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-08_穷不言富，贱不趋贵"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-09_忍辱为大，不怒为尊"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-10_蹇非敌也，敌乃乱焉"/>
+        <Class IRI="#07-蹇卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-01_世之不公，人怨难止"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-02_穷富为仇，弥祸不消"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-03_君子不念旧恶，旧恶害德也"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-04_小人存隙必报，必报自毁也"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-05_和而弗争，谋之首也"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-06_名不正而谤兴，正名者必自屈也焉"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-07_惑不解而恨重，释惑者固自罪焉"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-08_私念不生，仇怨不结焉"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-09_宽不足以悦人，严堪补也"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-10_敬无助于劝善，诤堪教矣"/>
+        <Class IRI="#08-释怨卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-01_欲无止也，其心堪制"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-02_惑无尽也，其行乃解"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-03_不求于人，其尊弗伤"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-04_无嗜之病，其身靡失"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-05_自弃者人莫救也"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-06_苦乐无形，成于心焉"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-07_荣辱存异，贤者同焉"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-08_事之未济，志之非达，心无怨而忧患弗加矣"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-09_仁者好礼，不欺其心也"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-10_智者示愚，不显其心哉"/>
+        <Class IRI="#09-心卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-01_服人者德也"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-02_德之不修，其才必曲，其人非善矣"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-03_纳言不失，不辍亡废"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-04_小处容疵，大节堪毁"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-05_敬人敬心，德之厚也"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-06_诚非致虚，君子不行诡道"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-07_祸由己生，小人难于胜己"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-08_谤言无惧，强者不纵，堪验其德焉"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-09_不察其德，非识人也"/>
+        <Class IRI="#10-修身卷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-10_识而勿用，非大德也"/>
+        <Class IRI="#10-修身卷"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#01-智卷"/>
@@ -308,9 +798,103 @@
         <Class IRI="#03-09_利无尽处，命有尽时，不怠可焉"/>
         <Class IRI="#03-10_利无独据，运有兴衰，存畏警焉"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#04-01_好誉者多辱也"/>
+        <Class IRI="#04-02_誉满主惊，名高众之所忌焉"/>
+        <Class IRI="#04-03_誉存其伪，谄者以誉欺人"/>
+        <Class IRI="#04-04_名不由己，明者言不自赞"/>
+        <Class IRI="#04-05_贪巧之功，天不佑也"/>
+        <Class IRI="#04-06_赏誉勿轻，轻者誉贱，贱则无功也"/>
+        <Class IRI="#04-07_受誉知辞，辞则德显，显则释疑也"/>
+        <Class IRI="#04-08_上下无争，誉之不废焉"/>
+        <Class IRI="#04-09_人无誉堪存，誉非正当灭"/>
+        <Class IRI="#04-10_求誉不得，或为福也"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#04-01_物朴乃存，器工招损"/>
+        <Class IRI="#04-02_言拙意隐，辞尽锋出"/>
+        <Class IRI="#04-03_识不逾人，莫言断也"/>
+        <Class IRI="#04-04_势不及人者，休言讳也"/>
+        <Class IRI="#04-05_力不胜人者，勿言强也"/>
+        <Class IRI="#04-06_王者不辩，辩则少威焉"/>
+        <Class IRI="#04-07_智者讷言，讷则惑敌焉"/>
+        <Class IRI="#04-08_勇者无语，语则怯行焉"/>
+        <Class IRI="#04-09_忠臣不表其功，窃功者必奸也"/>
+        <Class IRI="#04-10_君子堪隐人恶，谤贤者固小人矣"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#06-01_情滥无行，欲多失矩"/>
+        <Class IRI="#06-02_其色如一，神鬼莫测"/>
+        <Class IRI="#06-03_上无度失威，下无忍數"/>
+        <Class IRI="#06-04_上下知离，其位自安"/>
+        <Class IRI="#06-05_君臣殊密，其臣反殃"/>
+        <Class IRI="#06-06_小人之荣，情不可攀也"/>
+        <Class IRI="#06-07_情存疏也，近不过己，智者无痴焉"/>
+        <Class IRI="#06-08_情难追也，逝者不返，明者无悔焉"/>
+        <Class IRI="#06-09_多情者多艰，寡情者少艰"/>
+        <Class IRI="#06-10_情之不敛，运无幸耳"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#07-01_人困乃正，命顺乃奇"/>
+        <Class IRI="#07-02_以正化奇，止为枢也"/>
+        <Class IRI="#07-03_事变非智勿晓，事本非止勿存"/>
+        <Class IRI="#07-04_天灾示警，逆之必亡。人祸告诫，省之固益"/>
+        <Class IRI="#07-05_躁生百端，困出妄念，非止莫阻害止蔓焉"/>
+        <Class IRI="#07-06_视己勿重者重，视人为轻者轻"/>
+        <Class IRI="#07-07_患以心生，以蹇为乐，蹇不为蹇矣"/>
+        <Class IRI="#07-08_穷不言富，贱不趋贵"/>
+        <Class IRI="#07-09_忍辱为大，不怒为尊"/>
+        <Class IRI="#07-10_蹇非敌也，敌乃乱焉"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#08-01_世之不公，人怨难止"/>
+        <Class IRI="#08-02_穷富为仇，弥祸不消"/>
+        <Class IRI="#08-03_君子不念旧恶，旧恶害德也"/>
+        <Class IRI="#08-04_小人存隙必报，必报自毁也"/>
+        <Class IRI="#08-05_和而弗争，谋之首也"/>
+        <Class IRI="#08-06_名不正而谤兴，正名者必自屈也焉"/>
+        <Class IRI="#08-07_惑不解而恨重，释惑者固自罪焉"/>
+        <Class IRI="#08-08_私念不生，仇怨不结焉"/>
+        <Class IRI="#08-09_宽不足以悦人，严堪补也"/>
+        <Class IRI="#08-10_敬无助于劝善，诤堪教矣"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#09-01_欲无止也，其心堪制"/>
+        <Class IRI="#09-02_惑无尽也，其行乃解"/>
+        <Class IRI="#09-03_不求于人，其尊弗伤"/>
+        <Class IRI="#09-04_无嗜之病，其身靡失"/>
+        <Class IRI="#09-05_自弃者人莫救也"/>
+        <Class IRI="#09-06_苦乐无形，成于心焉"/>
+        <Class IRI="#09-07_荣辱存异，贤者同焉"/>
+        <Class IRI="#09-08_事之未济，志之非达，心无怨而忧患弗加矣"/>
+        <Class IRI="#09-09_仁者好礼，不欺其心也"/>
+        <Class IRI="#09-10_智者示愚，不显其心哉"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#10-01_服人者德也"/>
+        <Class IRI="#10-02_德之不修，其才必曲，其人非善矣"/>
+        <Class IRI="#10-03_纳言不失，不辍亡废"/>
+        <Class IRI="#10-04_小处容疵，大节堪毁"/>
+        <Class IRI="#10-05_敬人敬心，德之厚也"/>
+        <Class IRI="#10-06_诚非致虚，君子不行诡道"/>
+        <Class IRI="#10-07_祸由己生，小人难于胜己"/>
+        <Class IRI="#10-08_谤言无惧，强者不纵，堪验其德焉"/>
+        <Class IRI="#10-09_不察其德，非识人也"/>
+        <Class IRI="#10-10_识而勿用，非大德也"/>
+    </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>《止书》</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>王通，字仲淹，谥号&quot;文中子&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing（止学）</AbbreviatedIRI>
         <Literal>墨子：知止，则日进无疆，反者，道之动。知足不辱，知止不殆。持盈保泰、长生久视之道。</Literal>
     </AnnotationAssertion>
 </Ontology>
