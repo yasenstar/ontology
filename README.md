@@ -9,6 +9,10 @@ https://yasenstar.github.io/ontology/
 
 https://service.tib.eu/webvowl/
 
+## my ontologies
+
+- [Yi - 易经](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/yi/yi-ontology/yi-rdf.owl)
+
 ## collections of ontology practices
 
 - [Classes or Individuals? a post from Casey Hart](https://oliveai.com/resources/blog/classes-or-individuals-ontologies)
