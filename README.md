@@ -12,6 +12,7 @@ https://service.tib.eu/webvowl/
 ## my ontologies
 
 - [Yi - 易经](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/yi/yi-ontology/yi-rdf.owl)
+- [止学](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/ontology/止学.owx)
 
 ## collections of ontology practices
 
