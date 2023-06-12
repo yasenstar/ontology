@@ -1,0 +1,1089 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2023/6/止学/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2023/6/止学/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-01_智极则愚也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-01_智极则愚也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-02_圣人不患智寡，患德之有失焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-02_圣人不患智寡，患德之有失焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-03_才高非智，智者弗显也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-03_才高非智，智者弗显也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-04_位尊实危，智者不就也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-04_位尊实危，智者不就也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-05_大智知止，小智惟谋，智有穷而道无尽哉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-05_大智知止，小智惟谋，智有穷而道无尽哉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-06_谋人者成于智，亦丧于智也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-06_谋人者成于智，亦丧于智也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-07_谋身者恃其智，亦舍其智也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-07_谋身者恃其智，亦舍其智也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-08_智有所缺，深存其敌，慎之少祸焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-08_智有所缺，深存其敌，慎之少祸焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-09_智不及而谋大者毁，智无歇而谋远者逆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-09_智不及而谋大者毁，智无歇而谋远者逆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-10_智者言智，愚者言愚，以愚饰智，以智止智，智也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-10_智者言智，愚者言愚，以愚饰智，以智止智，智也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-01_势无常也，仁者勿恃 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-01_势无常也，仁者勿恃">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-02_势伏凶也，智者不矜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-02_势伏凶也，智者不矜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-03_势莫加君子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-03_势莫加君子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-04_德休与小人 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-04_德休与小人">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-05_君子势不于力也，力尽而势亡焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-05_君子势不于力也，力尽而势亡焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-06_小人势不惠人也，趋之必祸焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-06_小人势不惠人也，趋之必祸焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-07_众成其势，一人堪毁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-07_众成其势，一人堪毁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-08_强者凌弱，人怨乃弃 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-08_强者凌弱，人怨乃弃">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-09_势极无让者疑，位尊弗恭者忌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-09_势极无让者疑，位尊弗恭者忌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-10_势或失之，名或谤之，少怨者再得也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-10_势或失之，名或谤之，少怨者再得也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-11_势固灭之，人固死之，无骄者惠嗣焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-11_势固灭之，人固死之，无骄者惠嗣焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-01_惑人者无逾利也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-01_惑人者无逾利也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-02_利无求弗获，德无施不积 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-02_利无求弗获，德无施不积">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-03_众逐利而富寡，贤让功而名高 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-03_众逐利而富寡，贤让功而名高">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-04_利大伤身，利小惠人，择之宜慎也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-04_利大伤身，利小惠人，择之宜慎也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-05_天贵于时，人贵于明，动之有戒也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-05_天贵于时，人贵于明，动之有戒也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-06_众见其利者，非利也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-06_众见其利者，非利也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-07_众见其害者，或利也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-07_众见其害者，或利也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-08_君子重义轻利，小人嗜利远信，利御小人而莫御君子矣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-08_君子重义轻利，小人嗜利远信，利御小人而莫御君子矣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-09_利无尽处，命有尽时，不怠可焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-09_利无尽处，命有尽时，不怠可焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-10_利无独据，运有兴衰，存畏警焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-10_利无独据，运有兴衰，存畏警焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-01_好誉者多辱也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-01_好誉者多辱也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-01_物朴乃存，器工招损 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-01_物朴乃存，器工招损">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-02_言拙意隐，辞尽锋出 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-02_言拙意隐，辞尽锋出">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-02_誉满主惊，名高众之所忌焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-02_誉满主惊，名高众之所忌焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-03_誉存其伪，谄者以誉欺人 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-03_誉存其伪，谄者以誉欺人">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-03_识不逾人，莫言断也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-03_识不逾人，莫言断也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-04_势不及人者，休言讳也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-04_势不及人者，休言讳也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-04_名不由己，明者言不自赞 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-04_名不由己，明者言不自赞">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-05_力不胜人者，勿言强也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-05_力不胜人者，勿言强也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-05_贪巧之功，天不佑也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-05_贪巧之功，天不佑也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-06_王者不辩，辩则少威焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-06_王者不辩，辩则少威焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-06_赏誉勿轻，轻者誉贱，贱则无功也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-06_赏誉勿轻，轻者誉贱，贱则无功也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-07_受誉知辞，辞则德显，显则释疑也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-07_受誉知辞，辞则德显，显则释疑也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-07_智者讷言，讷则惑敌焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-07_智者讷言，讷则惑敌焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-08_上下无争，誉之不废焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-08_上下无争，誉之不废焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-08_勇者无语，语则怯行焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-08_勇者无语，语则怯行焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-09_人无誉堪存，誉非正当灭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-09_人无誉堪存，誉非正当灭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-09_忠臣不表其功，窃功者必奸也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-09_忠臣不表其功，窃功者必奸也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-10_君子堪隐人恶，谤贤者固小人矣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-10_君子堪隐人恶，谤贤者固小人矣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-10_求誉不得，或为福也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-10_求誉不得，或为福也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-01_情滥无行，欲多失矩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-01_情滥无行，欲多失矩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-02_其色如一，神鬼莫测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-02_其色如一，神鬼莫测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-03_上无度失威，下无忍數 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-03_上无度失威，下无忍數">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-04_上下知离，其位自安 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-04_上下知离，其位自安">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-05_君臣殊密，其臣反殃 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-05_君臣殊密，其臣反殃">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-06_小人之荣，情不可攀也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-06_小人之荣，情不可攀也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-07_情存疏也，近不过己，智者无痴焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-07_情存疏也，近不过己，智者无痴焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-08_情难追也，逝者不返，明者无悔焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-08_情难追也，逝者不返，明者无悔焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-09_多情者多艰，寡情者少艰 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-09_多情者多艰，寡情者少艰">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-10_情之不敛，运无幸耳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-10_情之不敛，运无幸耳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-01_人困乃正，命顺乃奇 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-01_人困乃正，命顺乃奇">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-02_以正化奇，止为枢也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-02_以正化奇，止为枢也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-03_事变非智勿晓，事本非止勿存 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-03_事变非智勿晓，事本非止勿存">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-04_天灾示警，逆之必亡。人祸告诫，省之固益 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-04_天灾示警，逆之必亡。人祸告诫，省之固益">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-05_躁生百端，困出妄念，非止莫阻害止蔓焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-05_躁生百端，困出妄念，非止莫阻害止蔓焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-06_视己勿重者重，视人为轻者轻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-06_视己勿重者重，视人为轻者轻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-07_患以心生，以蹇为乐，蹇不为蹇矣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-07_患以心生，以蹇为乐，蹇不为蹇矣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-08_穷不言富，贱不趋贵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-08_穷不言富，贱不趋贵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-09_忍辱为大，不怒为尊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-09_忍辱为大，不怒为尊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-10_蹇非敌也，敌乃乱焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-10_蹇非敌也，敌乃乱焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-01_世之不公，人怨难止 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-01_世之不公，人怨难止">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-02_穷富为仇，弥祸不消 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-02_穷富为仇，弥祸不消">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-03_君子不念旧恶，旧恶害德也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-03_君子不念旧恶，旧恶害德也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-04_小人存隙必报，必报自毁也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-04_小人存隙必报，必报自毁也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-05_和而弗争，谋之首也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-05_和而弗争，谋之首也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-06_名不正而谤兴，正名者必自屈也焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-06_名不正而谤兴，正名者必自屈也焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-07_惑不解而恨重，释惑者固自罪焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-07_惑不解而恨重，释惑者固自罪焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-08_私念不生，仇怨不结焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-08_私念不生，仇怨不结焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-09_宽不足以悦人，严堪补也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-09_宽不足以悦人，严堪补也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-10_敬无助于劝善，诤堪教矣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-10_敬无助于劝善，诤堪教矣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-01_欲无止也，其心堪制 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-01_欲无止也，其心堪制">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-02_惑无尽也，其行乃解 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-02_惑无尽也，其行乃解">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-03_不求于人，其尊弗伤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-03_不求于人，其尊弗伤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-04_无嗜之病，其身靡失 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-04_无嗜之病，其身靡失">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-05_自弃者人莫救也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-05_自弃者人莫救也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-06_苦乐无形，成于心焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-06_苦乐无形，成于心焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-07_荣辱存异，贤者同焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-07_荣辱存异，贤者同焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-08_事之未济，志之非达，心无怨而忧患弗加矣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-08_事之未济，志之非达，心无怨而忧患弗加矣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-09_仁者好礼，不欺其心也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-09_仁者好礼，不欺其心也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-10_智者示愚，不显其心哉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-10_智者示愚，不显其心哉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-01_服人者德也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-01_服人者德也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-02_德之不修，其才必曲，其人非善矣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-02_德之不修，其才必曲，其人非善矣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-03_纳言不失，不辍亡废 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-03_纳言不失，不辍亡废">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-04_小处容疵，大节堪毁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-04_小处容疵，大节堪毁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-05_敬人敬心，德之厚也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-05_敬人敬心，德之厚也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-06_诚非致虚，君子不行诡道 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-06_诚非致虚，君子不行诡道">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-07_祸由己生，小人难于胜己 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-07_祸由己生，小人难于胜己">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-08_谤言无惧，强者不纵，堪验其德焉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-08_谤言无惧，强者不纵，堪验其德焉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-09_不察其德，非识人也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-09_不察其德，非识人也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-10_识而勿用，非大德也 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-10_识而勿用，非大德也">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>《止书》</rdfs:comment>
+        <rdfs:isDefinedBy>王通，字仲淹，谥号&quot;文中子&quot;</rdfs:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing（止学）">
+        <rdfs:comment>墨子：知止，则日进无疆，反者，道之动。知足不辱，知止不殆。持盈保泰、长生久视之道。</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-智卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-用势卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-利卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-辩卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#05-誉卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-情卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-蹇卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-释怨卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-心卷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-修身卷"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-01_智极则愚也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-02_圣人不患智寡，患德之有失焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-03_才高非智，智者弗显也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-04_位尊实危，智者不就也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-05_大智知止，小智惟谋，智有穷而道无尽哉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-06_谋人者成于智，亦丧于智也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-07_谋身者恃其智，亦舍其智也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-08_智有所缺，深存其敌，慎之少祸焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-09_智不及而谋大者毁，智无歇而谋远者逆"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#01-10_智者言智，愚者言愚，以愚饰智，以智止智，智也"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-01_势无常也，仁者勿恃"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-02_势伏凶也，智者不矜"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-03_势莫加君子"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-04_德休与小人"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-05_君子势不于力也，力尽而势亡焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-06_小人势不惠人也，趋之必祸焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-07_众成其势，一人堪毁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-08_强者凌弱，人怨乃弃"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-09_势极无让者疑，位尊弗恭者忌"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-10_势或失之，名或谤之，少怨者再得也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#02-11_势固灭之，人固死之，无骄者惠嗣焉"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-01_惑人者无逾利也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-02_利无求弗获，德无施不积"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-03_众逐利而富寡，贤让功而名高"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-04_利大伤身，利小惠人，择之宜慎也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-05_天贵于时，人贵于明，动之有戒也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-06_众见其利者，非利也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-07_众见其害者，或利也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-08_君子重义轻利，小人嗜利远信，利御小人而莫御君子矣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-09_利无尽处，命有尽时，不怠可焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#03-10_利无独据，运有兴衰，存畏警焉"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-01_好誉者多辱也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-02_誉满主惊，名高众之所忌焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-03_誉存其伪，谄者以誉欺人"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-04_名不由己，明者言不自赞"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-05_贪巧之功，天不佑也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-06_赏誉勿轻，轻者誉贱，贱则无功也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-07_受誉知辞，辞则德显，显则释疑也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-08_上下无争，誉之不废焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-09_人无誉堪存，誉非正当灭"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-10_求誉不得，或为福也"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-01_物朴乃存，器工招损"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-02_言拙意隐，辞尽锋出"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-03_识不逾人，莫言断也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-04_势不及人者，休言讳也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-05_力不胜人者，勿言强也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-06_王者不辩，辩则少威焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-07_智者讷言，讷则惑敌焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-08_勇者无语，语则怯行焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-09_忠臣不表其功，窃功者必奸也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#04-10_君子堪隐人恶，谤贤者固小人矣"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-01_情滥无行，欲多失矩"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-02_其色如一，神鬼莫测"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-03_上无度失威，下无忍數"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-04_上下知离，其位自安"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-05_君臣殊密，其臣反殃"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-06_小人之荣，情不可攀也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-07_情存疏也，近不过己，智者无痴焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-08_情难追也，逝者不返，明者无悔焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-09_多情者多艰，寡情者少艰"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#06-10_情之不敛，运无幸耳"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-01_人困乃正，命顺乃奇"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-02_以正化奇，止为枢也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-03_事变非智勿晓，事本非止勿存"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-04_天灾示警，逆之必亡。人祸告诫，省之固益"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-05_躁生百端，困出妄念，非止莫阻害止蔓焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-06_视己勿重者重，视人为轻者轻"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-07_患以心生，以蹇为乐，蹇不为蹇矣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-08_穷不言富，贱不趋贵"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-09_忍辱为大，不怒为尊"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#07-10_蹇非敌也，敌乃乱焉"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-01_世之不公，人怨难止"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-02_穷富为仇，弥祸不消"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-03_君子不念旧恶，旧恶害德也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-04_小人存隙必报，必报自毁也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-05_和而弗争，谋之首也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-06_名不正而谤兴，正名者必自屈也焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-07_惑不解而恨重，释惑者固自罪焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-08_私念不生，仇怨不结焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-09_宽不足以悦人，严堪补也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#08-10_敬无助于劝善，诤堪教矣"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-01_欲无止也，其心堪制"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-02_惑无尽也，其行乃解"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-03_不求于人，其尊弗伤"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-04_无嗜之病，其身靡失"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-05_自弃者人莫救也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-06_苦乐无形，成于心焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-07_荣辱存异，贤者同焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-08_事之未济，志之非达，心无怨而忧患弗加矣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-09_仁者好礼，不欺其心也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#09-10_智者示愚，不显其心哉"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-01_服人者德也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-02_德之不修，其才必曲，其人非善矣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-03_纳言不失，不辍亡废"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-04_小处容疵，大节堪毁"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-05_敬人敬心，德之厚也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-06_诚非致虚，君子不行诡道"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-07_祸由己生，小人难于胜己"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-08_谤言无惧，强者不纵，堪验其德焉"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-09_不察其德，非识人也"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/6/止学#10-10_识而勿用，非大德也"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
