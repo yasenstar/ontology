@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathCanada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathCanada"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG01P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG01P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG01P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG01P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG02P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG02P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG02P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG02P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG03P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG03P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG03P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG03P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG04P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG04P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG04P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG04P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG05P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG05P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG05P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG05P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG06P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG06P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG06P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG06P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG07P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG07P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG07P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG07P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG08P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG08P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG08P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG08P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG09P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG09P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG09P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG09P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG10P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG10P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG10P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG10P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG11P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG11P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG11P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG11P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG12P1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG12P1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG12P2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG12P2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG01P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG01P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG02P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG02P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG03P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG03P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG04P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG04P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG05P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG05P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG06P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG06P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG07P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG07P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG08P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG08P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG09P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG09P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG10P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG10P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG11P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG11P2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG12P1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG12P2"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
