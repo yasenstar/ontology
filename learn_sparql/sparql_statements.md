@@ -90,3 +90,17 @@ Result:
 | --- | --- |
 |ls:craig	| craigellis@yahoo.co^^xsd:string |
 
+# Figure 1-3
+
+The `d:musicalArtist` should be just `d:artist`:
+
+```SPARQL
+PREFIX d: <http://dbpedia.org/ontology/>
+
+SELECT ?artist ?album WHERE {
+    ?album d:producer :Timbaland .
+    ?album d:artist ?artist .
+}
+ORDER BY ?artist
+```
+
