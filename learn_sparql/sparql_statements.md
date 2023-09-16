@@ -72,3 +72,20 @@ Result:
 cindym@gmail.com^^xsd:string
 ```
 
+# ex021
+
+```SPARQL
+SELECT *
+WHERE {
+    ?s ls:email ?o .
+    FILTER (regex(?o, "yahoo", "i"))
+}
+```
+
+Note: you cannot have wild query of predicate in Snap SPARQL query within Protege, which is one functional bug.
+
+Result:
+
+?s          ?o
+ls:craig	craigellis@yahoo.co^^xsd:string
+
