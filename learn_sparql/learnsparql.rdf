@@ -31,9 +31,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#firstName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#homeTel -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#homeTel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#lastName">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -73,6 +91,22 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#cindy">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#person"/>
         <learnsparql:email>cindym@gmail.com</learnsparql:email>
+        <learnsparql:firstName>Cindy</learnsparql:firstName>
+        <learnsparql:homeTel>(245) 646-5488</learnsparql:homeTel>
+        <learnsparql:lastName>Marshall</learnsparql:lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#craig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#craig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#person"/>
+        <learnsparql:email>c.ellis@usairwaysgroup.com</learnsparql:email>
+        <learnsparql:email>craigellis@yahoo.co</learnsparql:email>
+        <learnsparql:firstName>Craig</learnsparql:firstName>
+        <learnsparql:homeTel>(194) 966-1505</learnsparql:homeTel>
+        <learnsparql:lastName>Ellis</learnsparql:lastName>
     </owl:NamedIndividual>
     
 
@@ -82,7 +116,20 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#richard">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#person"/>
         <learnsparql:email>richard49@hotmail.com</learnsparql:email>
+        <learnsparql:firstName>Richard</learnsparql:firstName>
         <learnsparql:homeTel>(229) 276-5135</learnsparql:homeTel>
+        <learnsparql:lastName>Mutt</learnsparql:lastName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#yasen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#yasen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/9/learnsparql#person"/>
+        <learnsparql:email>xiaoqizhao@outlook.com</learnsparql:email>
+        <learnsparql:firstName>Yasen</learnsparql:firstName>
+        <learnsparql:lastName>Zhao</learnsparql:lastName>
     </owl:NamedIndividual>
 </rdf:RDF>
 
