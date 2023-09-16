@@ -86,6 +86,7 @@ Note: you cannot have wild query of predicate in Snap SPARQL query within Proteg
 
 Result:
 
-?s          ?o
-ls:craig	craigellis@yahoo.co^^xsd:string
+|?s |         ?o |
+| --- | --- |
+|ls:craig	| craigellis@yahoo.co^^xsd:string |
 
