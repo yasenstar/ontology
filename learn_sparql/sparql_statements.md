@@ -103,4 +103,3 @@ SELECT ?artist ?album WHERE {
 }
 ORDER BY ?artist
 ```
-
