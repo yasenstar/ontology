@@ -524,11 +524,29 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AG2R_LA_MONDIALE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AG2R_LA_MONDIALE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-10T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ag2rlamondiale.fr/</rdfs:comment>
+        <rdfs:comment>Joel01 (2023-10-19):
+Hi,
+As an Architect for the french AG2R LA MONDIALE firm:
+Archi is used to document the global IS/IT Landscape, from an infrastructure, application and business point of view.
+We use it for impact analysis (together with information shared in a CMDB based on MEGA - maybe in the future we&apos;ll use full archi...) and as a basis for each architecture change (ie. for project related solution architecture) where deliverables are created through the buitin jasperreport engine (whith a customized report we should soon share with the community).
+Joël</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagraming"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+        <MyKN:usedBy rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KPN"/>
         <MyKN:usedBy rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS"/>
         <rdfs:label>Archi</rdfs:label>
     </owl:NamedIndividual>
@@ -562,6 +580,58 @@ I now use Archi in AstraZeneca and am an ambassador there .. fighting off BiZZde
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BKWI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BKWI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-30T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.bkwi.nl/</rdfs:comment>
+        <rdfs:comment>tgurts (2017-10-30):
+I am currently working as a solution and project architect at BKWI, a Dutch government organization at the domain of Work and Income. We are using Archi
+
+to model reference architecture
+to describe architectural and orgnizational principles
+to descibe the architecture of our application landscape
+to model project architectures
+
+Ton Geurts</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BOD_Banco_Universal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BOD_Banco_Universal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-18T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.linkedin.com/company/bod-banco-universal/about/</rdfs:comment>
+        <rdfs:comment>jose_agc@msn.com Jose Alfredo Guillen (2018-04-18):
+Dear Archi Forum,
+
+I work for a Bank in Venezuela, we have evaluated commercial software/tools to facilitate the incorporation of the practice of EA in the company.
+
+The conclusion: There are very good tools, however, the implementation process is complex because they are more oriented to the tool than to the value that the practice of architecture can provide within the industry where it is or is intended to be implemented. Their licensing and implementation costs are very high and usually do not end up convincing the sponsors about the return on investment.
+
+My recommendation: The focus of the architecture practice should be on the value it generates within the industry where it will be applied. Going to have a well governed repository, which allows to respond things of value to the business easily and within the reach of those interested. So that it allows them to advance to a new business result.
+
+We evaluated Archi vs. The Essential Project and my recommendation was Archi, among the reasons is the noise generated by adding ontological themes to modeling. Being that our framework is based on TOGAF and this speaks in terms of Archimate. My recommendation was Archi.
+
+What would we like to be incorporated in Archi?
+Multi-user and collaborative facility. Which is in progress.
+Extend the tool so that it covers the entire TOGAF architecture repository structure and the artifacts link to the model.
+Incorporate a graph database to facilitate impact analysis at a greater depth level.
+
+In my case we are doing a work to define/create the meta architecture (Phase A) that will start by modeling BIAN Landscape v6.0 (Phase A, B and C), Hybrid Cloud and dockerization (Phase D), DevOps (We are working on how).
+
+Best regards,
+José Alfredo Guillén
+https://www.linkedin.com/in/jose-guillen-12160085</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CGI -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CGI">
@@ -580,11 +650,42 @@ Personally, I opted to be a Patron because it&apos;s only fair to support your w
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#DXC_Technology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#DXC_Technology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-08T00:00:00</MyKN:dateUseArchi>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-28T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://dxc.com/us/en</rdfs:comment>
+        <rdfs:comment>Pino (2017-11-28):
+Hi all,
+
+Here in DXC Technology (https://www.dxc.technology/) Archi is quite a common tool among architects. Sure, being DXC a TOGAF Platinum Member might be one of the reasons, but with or without the company decision to be a Platinum member, Archi is a great tool that allowed me to deliver real life architectures for multiple projects. Can Archi be improved? Sure it can, but as it stands is already quite up to its task.
+
+Pino</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
         <MyKN:usedBy rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GSK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GSK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-05T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gsk.com</rdfs:comment>
+        <rdfs:comment>nair (2022-09-05):
+I used Archi at GSK. I was engaged at GSK as a consultant. I noticed that GSK has Archi available for anyone to install through their internal Software Center.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -597,10 +698,82 @@ Personally, I opted to be a Patron because it&apos;s only fair to support your w
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jokosun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jokosun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-03T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">tpedot (2023-12-03):
+Hello the Archicommunity,
+I just joined Jokosun company, startup company for deploying energy solutions in west Africa, as a CTO/CIO last September and will use with Archi to construct the first EA model.
+
+It will be used to discuss with CEO, represent actual architecture and defining the strategy.
+I am an experienced user of Python and DevOps oriented I will push for automation wherever I can.
+
+I am also see open source as a corner stone of our strategy and for that I consider contributing to Archi.
+
+Happy to join this community.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.jokosun.solutions/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KBC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KBC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-08T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kbc.com/</rdfs:comment>
+        <rdfs:comment>Luc Gadeyne (2017-08-08):
+I am working as an Enterprise/Solution Architect @KBC Belgium.
+Together with a number of colleagues I am introducing Archimate 3.0 in IT.
+We use Archi as a tool to support modeling.
+We combine this with Grafico and GIT (or SVN-Subversion) to enable collaboration.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KPN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KPN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-18T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kpn.com/</rdfs:comment>
+        <rdfs:comment>wiebow (2023-10-18):
+Hi,
+
+I work as an architect for KPN (Dutch Telecom and Network company) and we use Archimate and Archi.
+I&apos;ve moved to a new team recently and we are introducing Archimate as a way to get more architects and consultants involved. We do this using the collaboration plug-in and so far it has been lots of fun and value is already starting to show.  I am proud to contribute a small amount of euros each month to support this fantastic toolset.
+
+Regards,
+Wiebo</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MassMutual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MassMutual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.massmutual.com/</rdfs:comment>
+        <rdfs:comment>kkosienski (Kevin) (2020-11-04):
+Hi,
+
+I am part of an enterprise architecture group at a large financial services company (MassMutual) and we use Archi across our entire federated architecture community.  We use it to produce various viewpoints supporting enterprise architecture planning, strategy, and solutions delivery. We have implemented a standard &quot;EA&quot; model which we manage change in Github using Co-archi plugin functionality.  We have integrated it with our EAMS and import content from the EAMS into the model in order to make it available to use in our views.
+
+-Kevin</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -620,10 +793,108 @@ I discovered Archi a few month ago and I find this tool very simple and intuitiv
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Nijmegen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Nijmegen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-08T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.intonijmegen.com/</rdfs:comment>
+        <rdfs:comment>AdGerrits (2018-05-08):
+Although we have been working with Archi for some time within the municipality of Nijmegen (the Netherlands), it is from today the standard architecture-tool that we use. The lack of collaboration functionality used to be a showstopper, but it is now present in sufficient quantities and hopefully will be even better in the future. I really think that Archi is in many cases more usable than other closed and expensive applications. Go go Archi!</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#O-DA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#O-DA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-26T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment>majiro (2023-07-26):
+Hi,
+
+I am a member of an ongoing project to define next version of O-DA.
+# O-DA: https://www.opengroup.org/open-group-releases-dependability-through-assuredness-%E2%84%A2-standard
+
+Archimate is set as language for enterprise architecture design in the new standard and of course Archi is de facto.
+I am in charge of some Archi extention for O-DA.
+
+BR
+Jiro</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ordnance_Survey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ordnance_Survey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-20T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Jacqui (2023-12-20):
+I wanted to add Ordnance Survey to the list of organisations using Archi.
+As a Solution Architect I have been using Archi to model the part of the business I am working in, and a few others have been doing the same. It is so much easier to use than Sparx, which I just don&apos;t have the time to learn to use!
+
+Recently I have been creating data models in Archi, which ArchiMate isn&apos;t that good for, but it is better than nothing.
+
+I love that I can publish to HTML and my coworkers can then access views and the model easily (we push to a git repo, using the collab plugin, which then automatically publishes to an Azure site).
+
+People are loving my ArchiMate views in e.g. presentations, rather than Visio diagrams (we all know these don&apos;t get updated).
+
+Thank you all, and I&apos;m looking forward to contributing in some way.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ordnancesurvey.co.uk/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#RSPCA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#RSPCA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-15T16:25:21</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">smileham (2022-06-15):
+Let&apos;s add the Royal Society for the Prevention of Cruelty to Animals (RSPCA) to the list of organisations using Archi.
+
+I&apos;ve been supporting Enterprise Architecture at the RSPCA for some time now, using Archi to maintain an Architecture Repository to deliver ArchiMate models/designs for both large scale Enterprise projects/programmes, but also smaller &quot;Business as Usual&quot; demand.
+
+We have a small team of three architects (Enterprise, Solution and Data) all using Archi to model our solutions in a shared repository synchronised using coArchi, with a dash of jArchi for automation.
+
+A huge thankyou to the Archi development team!</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rspca.org.uk/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#University_of_St_Gallen_HSG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#University_of_St_Gallen_HSG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.unisg.ch/en/</rdfs:comment>
+        <rdfs:comment>Thomas Rischbeck (2023-03-12):
+I&apos;m using Archi to teach &quot;Enterprise Modeling&quot; for a course at the University of St. Gallen HSG (www.unisg.ch). About 50 Bachelor students in Business Information Systems take this course.
+
+I&apos;m convinced that this skill will be important for future business leaders. Our highly dynamic time needs informed decision-making that takes into account all perspectives and knowledge at all levels. Participation creates shared ownership and emotional buy-in. This makes transformation manageable and achievable. An enterprise model supports dialogue and orientation and furthers organizational learning at all levels.
+
+Archi comes in very handy to acquire practical tooling experience and understand the concept of repository vs. views plus learn some ArchiMate concepts.
+ITMC AG • Bahnhofstrasse 10 • CH-8001 Zürich
+Dr. Thomas Rischbeck
+PhD in Computer Science
+Managing Partner   
+rischbeck@itmc.ch
+www.itmc.ch</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -635,6 +906,24 @@ I discovered Archi a few month ago and I find this tool very simple and intuitiv
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-01T00:00:00</MyKN:dateUseArchi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Walraven -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Walraven">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-15T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">www.walraven.com</rdfs:comment>
+        <rdfs:comment>Marco m@rco (2017-08-15):
+Hi,
+
+I use Archi primarily to maintain the Application Landscape and derived models for Walraven (www.walraven.com), a multinational manufacturing company. I also use it to make specific project views on the landscape, depicting changes. It really helps that integrity of relations is kept at all times, to decide in what views to show these or not.
+
+Regards,
+Marco</rdfs:comment>
     </owl:NamedIndividual>
     
 
