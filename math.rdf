@@ -13,11 +13,81 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathCanada"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Geometry"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Measurement"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Probability"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Statistics"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#G5_Decimal_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#G5_Decimal_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathCanada"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#G5_Decimal_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#G5_Decimal_A"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#G5_Decimal_A"/>
+    </owl:Class>
     
 
 
@@ -222,6 +292,543 @@
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChinaG12P2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#mathChina"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.1_Place_Value_in_a_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.1_Place_Value_in_a_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.1_Representing_Numbers_Up_to_1000000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.1_Representing_Numbers_Up_to_1000000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.2_Comparing_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.2_Comparing_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.2_Decomposing_a_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.2_Decomposing_a_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.3_Multiplying_3-Digit_Number_by_2-Digit_Numbers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.3_Multiplying_3-Digit_Number_by_2-Digit_Numbers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.3_Rounding_Natural_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.3_Rounding_Natural_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.4_Exponential_Notation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.4_Exponential_Notation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.5_Divisibility_Rules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.5_Divisibility_Rules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.6_Decompsing_a_Number_into_Prime_Factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.6_Decompsing_a_Number_into_Prime_Factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.7_Estimating_and_Measuring_Angles_in_Degrees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.7_Estimating_and_Measuring_Angles_in_Degrees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.7_Triangles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.7_Triangles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Geometry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.8_Bar_Graphs_and_Broken-line_Graphs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#1.8_Bar_Graphs_and_Broken-line_Graphs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme1_Super_Sports"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Statistics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.1_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.1_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.2_Different_Meanings_of_Fractions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.2_Different_Meanings_of_Fractions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.3_Equivalent_Fractions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.3_Equivalent_Fractions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.3_Reducing_a_Fraction_to_Its_Simplest_Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.3_Reducing_a_Fraction_to_Its_Simplest_Form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.4_Ordering_Fractions_Where_One_Denominator_Is_a_Multiple_of_the_Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.4_Ordering_Fractions_Where_One_Denominator_Is_a_Multiple_of_the_Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.4_Ordering_Fractions_with_the_Same_Denominator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.4_Ordering_Fractions_with_the_Same_Denominator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.4_Ordering_Fractions_with_the_Same_Numerator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.4_Ordering_Fractions_with_the_Same_Numerator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.5_Adding_and_Subtracting_Fractions_When_the_Denominator_of_One_Fraction_Is_a_Multiple_of_the_Other_Fractions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.5_Adding_and_Subtracting_Fractions_When_the_Denominator_of_One_Fraction_Is_a_Multiple_of_the_Other_Fractions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.6_Multiplying_a_Natural_Number_by_a_Fraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.6_Multiplying_a_Natural_Number_by_a_Fraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.7_Establishing_Relationships_Between_Units_of_Measure_for_Length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.7_Establishing_Relationships_Between_Units_of_Measure_for_Length">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.7_Estimating_and_Measuring_the_Dimensions_of_an_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#2.7_Estimating_and_Measuring_the_Dimensions_of_an_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme2_Adventures_in_the_Kitchen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.1_Comparing_Decimals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.1_Comparing_Decimals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.1_Representing_Decimals_to_the_thousandths -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.1_Representing_Decimals_to_the_thousandths">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.2_Decomposing_a_Decimal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.2_Decomposing_a_Decimal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.2_Equivalent_Expressions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.2_Equivalent_Expressions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.3_Estimating_and_Approximating_Sums_and_Differences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.3_Estimating_and_Approximating_Sums_and_Differences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.3_Rounding_Decimals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.3_Rounding_Decimals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.4_Multiplying_a_Decimal_by_a_Natural_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.4_Multiplying_a_Decimal_by_a_Natural_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.4_Nultiplying_by_10_100_and_1000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.4_Nultiplying_by_10_100_and_1000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.5_Matching_a_Decimal_or_Percentage_to_a_Fraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.5_Matching_a_Decimal_or_Percentage_to_a_Fraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.6_Predicting_an_Outcome_or_Several_Events_Using_a_Probability_Line -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.6_Predicting_an_Outcome_or_Several_Events_Using_a_Probability_Line">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.6_Writing_Probabilities_as_Fractions_Decimals_or_Percentages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.6_Writing_Probabilities_as_Fractions_Decimals_or_Percentages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Probability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.7_Circle_Graphs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.7_Circle_Graphs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.7_Circles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#3.7_Circles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Theme3_The_Technology_Shop"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#isCategoryOf"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Geometry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Arithmetic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Geometry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Geometry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Measurement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Measurement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Probability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Probability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Statistics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Statistics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/math#Category"/>
+    </owl:NamedIndividual>
     
 
 
