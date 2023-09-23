@@ -5,6 +5,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:MyKN="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN"/>
     
@@ -21,11 +22,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#standardComplyTo -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#adopting -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#standardComplyTo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#adopting">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#usedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:ObjectProperty>
     
 
@@ -33,6 +35,32 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#supporting -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#supporting"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#usedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#usedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#dateUseArchi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#dateUseArchi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -47,24 +75,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagraming"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#standardComplyTo"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ArchiMate"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ArchiMate -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ArchiMate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TOGAF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AsciiDoctor_Diagrame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AsciiDoctor_Diagrame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code"/>
     </owl:Class>
     
 
@@ -130,39 +152,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagrams -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagrams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture"/>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential_Cloud -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential_Cloud">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential_OpenSource -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential_OpenSource">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential"/>
-    </owl:Class>
     
 
 
@@ -204,10 +212,10 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Graphviz -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Graphviz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code"/>
     </owl:Class>
     
 
@@ -229,16 +237,16 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Java -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Java">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#supporting"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -262,14 +270,6 @@ Users of Julia have many reasons for loving its syntax and capabilities, but som
 Julia has an active community around its development and its use, so it&apos;s also been tailored for domain-specific purposes, including image processing (JuliaImages), biology (BioJulia), quantum physics (QuantumBFS), nonlinear dynamics (JuliaDynamics), economics (QuantEcon), astronomy (JuliaAstro) and more.
 
 Julia is licensed under the MIT license, and can be downloaded from julialang.org.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
     </owl:Class>
     
 
@@ -354,6 +354,14 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PlantUML -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PlantUML">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PowerBI -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PowerBI">
@@ -366,12 +374,6 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Protege">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ontology"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#supporting"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential_OpenSource"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -446,10 +448,10 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Structurizr_DSL -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Structurizr_DSL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code"/>
     </owl:Class>
     
 
@@ -468,18 +470,18 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Zachman -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#WebSequenceDiagrams -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Zachman">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#WebSequenceDiagrams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#coArchi -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Zachman -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#coArchi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Zachman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture"/>
     </owl:Class>
     
 
@@ -489,14 +491,6 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#draw.io">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagraming"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://app.diagrams.net/</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#jArchi -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#jArchi">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
     </owl:Class>
     
 
@@ -516,6 +510,139 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Modeling">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagraming"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+        <MyKN:usedBy rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS"/>
+        <rdfs:label>Archi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aréas_Assurance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aréas_Assurance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-18T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.areas.fr/</rdfs:comment>
+        <rdfs:comment>romuald (2023/09/18):
+As the only EA in my company (Aréas Assurance, French Insurance), I chose to Archimate for the Architecture Description of the company from Capacities to server...</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AstraZeneca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AstraZeneca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-21T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.astrazeneca.com/</rdfs:comment>
+        <rdfs:comment>2023/08/21: danisman
+Myself and the Head of Architecture used it for a large UK Ministry of Defence project we were delivering from 2020 to 2022 (when I left Sopra Steria) .. I then moved the model to BiZZdesign .. but boy oh boy, was that GUI and UX a hot mess. Would rather have stayed on Archi but the client wanted it.  :-[   Beugh.
+I now use Archi in AstraZeneca and am an ambassador there .. fighting off BiZZdesign, Lean.IX and (guess what) Microsoft Access. We will move to a SaaS platform one day I&apos;m sure, but Archi gets us value very very quickly.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CGI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CGI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-15T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cgi.com/en</rdfs:comment>
+        <rdfs:comment>danisman (2023/08/21):
+When I was in CGI, I used to use Archi all the time, before being forced into some other monstrosity!</rdfs:comment>
+        <rdfs:comment>sianvanes (2023/03/15):
+At CGI we have a number of tools, Archi and Sparx are the tools most commonly used for architecture with a few clients opting to go for BiZZdesign etc.
+My preference, and often a client preference is Archi because it is aesthetically more pleasing to the eye, easier to read and navigate.
+Personally, I opted to be a Patron because it&apos;s only fair to support your work. I&apos;ve been really pleased with the tools for publishing in different formats, to make it easier for non-architects to read documentation.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Essential">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+        <MyKN:usedBy rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ministere_Des_Armees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ministere_Des_Armees">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-09T00:00:00</MyKN:dateUseArchi>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.defense.gouv.fr/</rdfs:comment>
+        <rdfs:comment>Jean Christophe (2023/06/09):
+I&apos;m currently working with the french ministry of defence as an enterprise architect.
+The use of Archi is promoted in the IT department of the ministry.
+I discovered Archi a few month ago and I find this tool very simple and intuitive</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX"/>
+        <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-01T00:00:00</MyKN:dateUseArchi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#iServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#iServer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
