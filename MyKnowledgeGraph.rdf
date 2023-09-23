@@ -499,8 +499,8 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#picture2openscad">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#OpenSCAD"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/JerryJiaGit/picture2openscad.py</rdfs:comment>
         <rdfs:comment>Created by Jerry Jia</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/JerryJiaGit/picture2openscad.py</rdfs:comment>
     </owl:Class>
     
 
@@ -541,9 +541,9 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-18T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.areas.fr/</rdfs:comment>
         <rdfs:comment>romuald (2023/09/18):
 As the only EA in my company (Aréas Assurance, French Insurance), I chose to Archimate for the Architecture Description of the company from Capacities to server...</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.areas.fr/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -554,10 +554,10 @@ As the only EA in my company (Aréas Assurance, French Insurance), I chose to Ar
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-21T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.astrazeneca.com/</rdfs:comment>
         <rdfs:comment>2023/08/21: danisman
 Myself and the Head of Architecture used it for a large UK Ministry of Defence project we were delivering from 2020 to 2022 (when I left Sopra Steria) .. I then moved the model to BiZZdesign .. but boy oh boy, was that GUI and UX a hot mess. Would rather have stayed on Archi but the client wanted it.  :-[   Beugh.
 I now use Archi in AstraZeneca and am an ambassador there .. fighting off BiZZdesign, Lean.IX and (guess what) Microsoft Access. We will move to a SaaS platform one day I&apos;m sure, but Archi gets us value very very quickly.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.astrazeneca.com/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -569,13 +569,13 @@ I now use Archi in AstraZeneca and am an ambassador there .. fighting off BiZZde
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-15T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cgi.com/en</rdfs:comment>
         <rdfs:comment>danisman (2023/08/21):
 When I was in CGI, I used to use Archi all the time, before being forced into some other monstrosity!</rdfs:comment>
         <rdfs:comment>sianvanes (2023/03/15):
 At CGI we have a number of tools, Archi and Sparx are the tools most commonly used for architecture with a few clients opting to go for BiZZdesign etc.
 My preference, and often a client preference is Archi because it is aesthetically more pleasing to the eye, easier to read and navigate.
 Personally, I opted to be a Patron because it&apos;s only fair to support your work. I&apos;ve been really pleased with the tools for publishing in different formats, to make it easier for non-architects to read documentation.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cgi.com/en</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -611,11 +611,11 @@ Personally, I opted to be a Patron because it&apos;s only fair to support your w
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-09T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.defense.gouv.fr/</rdfs:comment>
         <rdfs:comment>Jean Christophe (2023/06/09):
 I&apos;m currently working with the french ministry of defence as an enterprise architect.
 The use of Archi is promoted in the IT department of the ministry.
 I discovered Archi a few month ago and I find this tool very simple and intuitive</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.defense.gouv.fr/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -632,6 +632,7 @@ I discovered Archi a few month ago and I find this tool very simple and intuitiv
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+        <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-01T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
