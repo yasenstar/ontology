@@ -95,7 +95,7 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#DataAnalytics -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#DataAnalytics">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
     
 
@@ -114,10 +114,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagraming"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagraming -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagraming">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
     
 
@@ -167,6 +175,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GNU_Octave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GNU_Octave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative"/>
+        <rdfs:comment>GNU Octave (https://www.gnu.org/software/octave/) may be the best-known alternative to MATLAB. In active development for almost three decades, Octave runs on Linux, Windows, and Mac—and is packaged for most major distributions. If you&apos;re looking for a project that is as close to the actual MATLAB language as possible, Octave may be a good fit for you; it strives for exact compatibility, so many of your projects developed for MATLAB may run in Octave with no modification necessary.
+
+Octave has many different choices available for a front-end interaction outside of the default that now ships with version 4; some resemble MATLAB&apos;s interface more than others. Octave&apos;s Wikipedia page lists several options.
+
+Octave is licensed under the GPL, and its source code can be found on the GNU download site (ftp://ftp.gnu.org/gnu/octave).</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Dev -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Dev">
@@ -178,7 +199,7 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Graph -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Graph">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
     
 
@@ -188,12 +209,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
     
 
 
@@ -209,7 +224,7 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Imaging -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Imaging">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
     
 
@@ -236,6 +251,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Julia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Julia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Julia is a dynamically typed programming language featuring Lisp-style macros, built-in primitives for parallel computing, and functions designed for matrix manipulation, data visualization, and much more. It&apos;s designed to feel like a scripting language rather than a C-style programming-language and even has an interactive mode (REPL), and can be embedded into other languages through its embedding API.
+
+Users of Julia have many reasons for loving its syntax and capabilities, but some of the popular examples include its broadcasting feature, which lets you apply a function to one or more arrays without a writing a complex loop, its simple array functions that let you rotate and reshape arrays, matrix transforms, autodiff, native Unicode support, integrated unit testing, easy paralellisation, and all-round simpler syntax with no loss of functionality (and improved code efficiency.)
+
+Julia has an active community around its development and its use, so it&apos;s also been tailored for domain-specific purposes, including image processing (JuliaImages), biology (BioJulia), quantum physics (QuantumBFS), nonlinear dynamics (JuliaDynamics), economics (QuantEcon), astronomy (JuliaAstro) and more.
+
+Julia is licensed under the MIT license, and can be downloaded from julialang.org.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#LeanIX">
@@ -258,10 +288,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MindMap -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MindMap">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
     
 
@@ -269,7 +307,7 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Natural_Language -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Natural_Language">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
     
 
@@ -282,10 +320,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#NumPy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#NumPy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative"/>
+        <rdfs:comment>NumPy (http://www.numpy.org/) is the main package for scientific computing with Python (as its name suggests). It can process N-dimensional arrays, complex matrix transforms, linear algebra, Fourier transforms, and can act as a gateway for C and C++ integration. It&apos;s been used in the world of game and film visual effect development, and is the fundamental data-array structure for the SciPy Stack, an ecosystem of Python-based math, science, and engineering software. NumPy is licensed under the BSD license, and packages are available for Linux, Windows, and Mac OS X.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ontology -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ontology">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
     
 
@@ -293,7 +340,7 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#OpenSCAD -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#OpenSCAD">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Print"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Modeling"/>
     </owl:Class>
     
 
@@ -367,6 +414,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative"/>
+        <rdfs:comment>SageMath (http://www.sagemath.org/index.html) is another open source mathematics software system that might be a good option for those seeking a MATLAB alternative. It&apos;s built on top of a variety of well-known Python-based scientific computing libraries, and its own language is syntactically similar to Python. It has many features including a command-line interface, browser-based notebooks, tools for embedding formulas in other documents, and of course, many mathematical libraries.
+
+SageMath is available under a GPL license, and its source code can be found on the project website (http://www.sagemath.org/download-source.html).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scilab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scilab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative"/>
+        <rdfs:comment>Scilab (http://www.scilab.org/) is another open source option for numerical computing that runs across all the major platforms: Windows, Mac, and Linux included. Scilab is perhaps the best known alternative outside of Octave, and (like Octave) it is very similar to MATLAB in its implementation, although exact compatibility is not a goal of the project&apos;s developers.
+
+Scilab is distributed as open source under the GPL-compatible CeCILL license, and its source code (http://www.scilab.org/development/sources/stable) is available on the project website.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Shape_in_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Shape_in_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Documentation: https://compmec-shape.readthedocs.io/en/latest/rst/get_started.html</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Github: https://github.com/compmec/shape</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx">
@@ -380,6 +459,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TOGAF">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     
 
 
@@ -416,10 +501,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Print -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#picture2openscad -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Print">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HandsOn_Tools"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#picture2openscad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#OpenSCAD"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/JerryJiaGit/picture2openscad.py</rdfs:comment>
+        <rdfs:comment>Created by Jerry Jia</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Modeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Modeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:Class>
 </rdf:RDF>
 
