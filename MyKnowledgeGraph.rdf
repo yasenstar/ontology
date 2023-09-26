@@ -75,6 +75,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Arcade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Arcade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ArchiMate -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ArchiMate">
@@ -91,11 +99,59 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Automation_Testing_in_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Automation_Testing_in_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Beautiful_Soup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Beautiful_Soup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Behave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Behave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Automation_Testing_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Bottle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Bottle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CherryPy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CherryPy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Chinese_PinYin_Converter -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Chinese_PinYin_Converter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Natural_Language"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.mdbg.net/chinese/webime-pinyin</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CubicWeb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CubicWeb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
     </owl:Class>
     
 
@@ -110,6 +166,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Neo4j"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
     </owl:Class>
     
 
@@ -160,6 +224,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Django -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Django">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool">
@@ -171,6 +243,22 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Enterprise_Architecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Falcon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Falcon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Flask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Flask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
     
 
 
@@ -204,6 +292,14 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Graph -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Graph">
@@ -229,6 +325,14 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Image_Processing_in_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Image_Processing_in_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Imaging -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Imaging">
@@ -240,6 +344,14 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ixml -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ixml">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python"/>
+    </owl:Class>
     
 
 
@@ -274,6 +386,14 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Keras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Keras">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Lua -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Lua">
@@ -288,10 +408,34 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Mahotas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Mahotas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Image_Processing_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matlab_OpenSource_Alternative">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matplotlib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Matplotlib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
     </owl:Class>
     
 
@@ -329,10 +473,26 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Numpy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Numpy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ontology -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ontology">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#OpenCV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#OpenCV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Image_Processing_in_Python"/>
     </owl:Class>
     
 
@@ -350,6 +510,30 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Paint.Net">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Imaging"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://getpaint.net/</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Panda3D -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Panda3D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pandas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pandas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pgmagick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pgmagick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Image_Processing_in_Python"/>
     </owl:Class>
     
 
@@ -378,10 +562,66 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyGlet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyGlet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyOpenGL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyOpenGL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyTorch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PyTorch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pyramid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pyramid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pytest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pytest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Automation_Testing_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pyunit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Pyunit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Automation_Testing_in_Python"/>
     </owl:Class>
     
 
@@ -394,10 +634,26 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Requests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Requests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Roblox_Dev -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Roblox_Dev">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Dev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Robot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Robot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Automation_Testing_in_Python"/>
     </owl:Class>
     
 
@@ -427,6 +683,22 @@ SageMath is available under a GPL license, and its source code can be found on t
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scikit-Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scikit-Image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Image_Processing_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scikit-Learn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scikit-Learn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scilab -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scilab">
@@ -438,12 +710,60 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scipy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scipy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scrapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Scrapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Seaborn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Seaborn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Selenium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Selenium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Shape_in_Python -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Shape_in_Python">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Documentation: https://compmec-shape.readthedocs.io/en/latest/rst/get_started.html</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Github: https://github.com/compmec/shape</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#SimpleITK -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#SimpleITK">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Image_Processing_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Splinter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Splinter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Automation_Testing_in_Python"/>
     </owl:Class>
     
 
@@ -464,9 +784,41 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TensorFlow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TensorFlow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Theano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Theano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TurboGears -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TurboGears">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web2Py -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web2Py">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python"/>
+    </owl:Class>
     
 
 
@@ -474,6 +826,22 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#WebSequenceDiagrams">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Diagram_as_Code"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Dev_in_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
     </owl:Class>
     
 
@@ -655,7 +1023,6 @@ Personally, I opted to be a Patron because it&apos;s only fair to support your w
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Canadian_province_of_New_Brunswick">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.archimatetool.com/blog/2016/05/16/archi-spotlight-archi-supports-the-government-of-new-brunswicks-ea-program/</rdfs:comment>
         <rdfs:comment>prgee (2016-05-12):
 Archi Supports the Government of New Brunswick’s EA Program
 As a consultant working with the Office of the CIO in the Canadian province of New Brunswick, I introduced
@@ -695,6 +1062,7 @@ and footers.
  User-defined properties for &quot;French:name&quot; and &quot;French:documentation&quot;.were added to the French versions.
  The model was exported to CSV files, using some Excel tricks to swap the French and English values, and
 re-imported to Archi before repeating the above steps.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.archimatetool.com/blog/2016/05/16/archi-spotlight-archi-supports-the-government-of-new-brunswicks-ea-program/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -725,7 +1093,6 @@ re-imported to Archi before repeating the above steps.</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-25T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.htcinc.com/</rdfs:comment>
         <rdfs:comment>Johan2 (2016-03-25):
 As Enterprise Architect for Ciber International:
 * Started with Archi to create a multidimensional model, with lots of views on different architecture subdomains, like Business, Application, Technology etc.
@@ -735,6 +1102,7 @@ As Enterprise Architect for BDO International:
 * Started with Archi to create amultidimensional model, with lots of views on different architecture subdomains, like Business, Application, Technology etc.
 
 Ciber Global is now HTC Global Services with effect from November 30, 2021. This account will close soon.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.htcinc.com/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -770,7 +1138,6 @@ Pino</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#European_Commission">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://joinup.ec.europa.eu/collection/european-interoperability-reference-architecture-eira/solution/eira</rdfs:comment>
         <rdfs:comment>Jean-Baptiste Sarrodie (2016-03-24):
 Another known usage is the official documentation of the European Interoperability Reference Architecture.
 
@@ -780,6 +1147,7 @@ The reference to Archi at the end of the official page
 The publication of the HTML export of the beta version of the reference architecture
 
 The EIRA uses (and extends) the ArchiMate language as a modelling notation and uses service orientation as an architectural style.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://joinup.ec.europa.eu/collection/european-interoperability-reference-architecture-eira/solution/eira</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -841,7 +1209,6 @@ I used Archi at GSK. I was engaged at GSK as a consultant. I noticed that GSK ha
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://developer.ibm.com/depmodels/cloud/</rdfs:comment>
         <rdfs:comment>FJL (2016-04-15):
 Another example: IBM
 
@@ -850,6 +1217,7 @@ http://www.ibm.com/developerworks/cloud/library/cl-cloudecosystem/
 regards,
 
 F.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://developer.ibm.com/depmodels/cloud/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -915,13 +1283,13 @@ Wiebo</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-10T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://eng.kemcardio.ru/</rdfs:comment>
         <rdfs:comment>mdvadim (2017-05-10):
 Kemerovo Heart Disease Hospital and Dispensary.
 
 As CQO and my team we are trying to describe the architecture of our institute using world-famous languages ​​like Archi and methods, realizing that, perhaps, among our Russian colleagues we will not understand.
 
 New language - new opportunities for communication.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://eng.kemcardio.ru/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -932,7 +1300,6 @@ New language - new opportunities for communication.</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-24T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.holcim.com/</rdfs:comment>
         <rdfs:comment>Jean-Baptiste Sarrodie (2016-03-24):
 As former Architect for the french LafargeHolcim division:
 Archi is used to document the global IS/IT Landscape, mainly from an infrastructure and application point of view. This is used for impact analysis (together with information shared in a CMDB based on CMDBuild) and as a basis for each architecture change (ie. for project related solution architecture) where deliverables are created through the buitin jasperreport engine (customizable report).
@@ -947,6 +1314,7 @@ by trainees during official ArchiMate trainings
 Regards,
 
 JB</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.holcim.com/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1053,9 +1421,9 @@ Thank you all, and I&apos;m looking forward to contributing in some way.</rdfs:c
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-27T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pharmapartners.nl/</rdfs:comment>
         <rdfs:comment>Guido Janssen (2016-06-27):
 I am working as a architect at PharmaPartners, a dutch IT company creating software for pharmacies and doctor&apos;s. I used Archi for a few years already first just as an architecture diagram drawing tool. Recently I used it to set up an IT landscape model. Since I wanted to share the model with different stakeholder I created a reporting website using XSLT based on the Open Exchange format. I have started to share the more generic parts in a Github project (archimateviewer) especially the views using SVGs. This would actually allows for dynamic views based on properties or as the previous post was washing for replacing the visualisation of certain elements by simply drawing a different kind of node in the view.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pharmapartners.nl/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1066,7 +1434,6 @@ I am working as a architect at PharmaPartners, a dutch IT company creating softw
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-23T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.lighting.philips.com/</rdfs:comment>
         <rdfs:comment>Paul Kraakman (pkraakman) (2016-05-23):
 I work as an Enterprise Security Architect in the new company called Philips Lighting founded by Royal Philips.
 
@@ -1075,6 +1442,7 @@ For creating the Enterprise Security Architecture I am using Archimate as a open
 As I wanted to use an architecture tool to manage and share my views and designs I started to use Archi as an alternative to commercial EA tools also hoping for an easy exchange of models with other architecture disciplines. This is still in the early stages as I am working my way throuhg the various domains also sharing and getting feedback from the other domain architects.
 
 Paul Kraakman</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.lighting.philips.com/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1132,7 +1500,6 @@ A huge thankyou to the Archi development team!</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://musketeers.group/</rdfs:comment>
         <rdfs:comment>Herve (2026-04-15):
 Hi,
 
@@ -1145,6 +1512,7 @@ I developped an Archi plugin to import all our CIs from our ServiceNow CMDB (htt
 I am also developping a plugin to store the Archi plugins into a database. The alpha relase will be available on Github soon.
 
 Best regards</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://musketeers.group/</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1198,11 +1566,11 @@ www.itmc.ch</rdfs:comment>
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-06T00:00:00</MyKN:dateUseArchi>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sydney.edu.au/</rdfs:comment>
         <rdfs:comment>yvain (2016-07-06):
 We&apos;re using it in an unofficial capacity at the University of Sydney.
 
 What we&apos;ve liked about Archi is that it enforces the Archimate syntax - which is invaluable when you&apos;re first coming up to speed with the language itself. Likewise, the fact that it enforces what are in the standard viewpoints - which again is great for people who are coming up to speed with Archimate.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sydney.edu.au/</rdfs:comment>
     </owl:NamedIndividual>
     
 
