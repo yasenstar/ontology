@@ -1,14 +1,14 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Knowledge Graph" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1695691506695"><hook NAME="MapStyle" background="#f5f5dc">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sepia_template.mm"/>
+<node TEXT="Knowledge Graph" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1695755967065" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#f5f5dc">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_sepia_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_1558627382" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#2c2b29" BACKGROUND_COLOR="#eedfcc" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-10.5 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1558627382" STARTINCLINATION="81.75 pt;-9.75 pt;" ENDINCLINATION="81.75 pt;19.5 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="9" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -76,7 +76,8 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="The Art of Understanding" POSITION="bottom_or_right" ID="ID_1001622709" CREATED="1695691532687" MODIFIED="1695691539037">
+<node TEXT="Knowledge Graph in the Web of Data" POSITION="bottom_or_right" ID="ID_165789378" CREATED="1695755974238" MODIFIED="1695756064788">
+<node TEXT="The Art of Understanding" FOLDED="true" ID="ID_1001622709" CREATED="1695691532687" MODIFIED="1695691539037">
 <node TEXT="Understanding" ID="ID_1820242084" CREATED="1695691561281" MODIFIED="1695691573020">
 <node TEXT="Understanding (in general) is the ability to grasp the meaning of information" ID="ID_1114068425" CREATED="1695691574274" MODIFIED="1695691594117"/>
 <node TEXT="Information is conveyed in the message using a specific language from a sender to a receiver." ID="ID_1607261938" CREATED="1695691594745" MODIFIED="1695691624630"/>
@@ -121,6 +122,15 @@
 <node TEXT="the pragmatics of the sender" ID="ID_920521127" CREATED="1695692435351" MODIFIED="1695692441023"/>
 </node>
 <node TEXT="(Personal) experience determines how sender and receiver interpret the semantics, context, and pragmatics of a message, and thus its intended meaning" ID="ID_1720764518" CREATED="1695692441885" MODIFIED="1695692481633"/>
+</node>
+</node>
+<node TEXT="Towards a Universal Knowledge Representation" ID="ID_225357650" CREATED="1695755938201" MODIFIED="1695755967061">
+<node TEXT="The Meaning (Semantics) of entities and classes must be defined explicitly" ID="ID_936509996" CREATED="1695756086830" MODIFIED="1695756263907"/>
+<node TEXT="Knowledge Representation vs Data Structure" ID="ID_1737396896" CREATED="1695756831721" MODIFIED="1695756844160">
+<node TEXT="Mathematical Logic provides a framework to formally express the semantics of knowledge representations" ID="ID_1488585016" CREATED="1695756844160" MODIFIED="1695756868260"/>
+<node TEXT="Semantics of knowledge representations can be defined explicitly." ID="ID_822165023" CREATED="1695756868433" MODIFIED="1695756882643"/>
+<node TEXT="Mathematical Logic enables logical inferences and reasoning for knowledge representations" ID="ID_441501604" CREATED="1695756883355" MODIFIED="1695756906879"/>
+</node>
 </node>
 </node>
 </node>
