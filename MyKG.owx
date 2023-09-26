@@ -1,0 +1,2048 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN">
+    <Prefix name="" IRI="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="MyKN" IRI="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Arcade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArchiMate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsciiDoctor_Diagrame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Automation_Testing_in_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beautiful_Soup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bottle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CherryPy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chinese_PinYin_Converter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CubicWeb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cypher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataAnalytics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dev_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagram_as_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagraming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagrams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Django"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EA_Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enterprise_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Falcon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreePlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GNU_Octave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game_Dev"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game_Development_in_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphviz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImageMagick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image_Processing_in_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ixml"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Julia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Keras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ML_in_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mahotas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matlab_OpenSource_Alternative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matplotlib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MindMap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neo4j"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumPy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numpy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ontology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenCV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenSCAD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paint.Net"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Panda3D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pandas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pgmagick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlantUML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowerBI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protege"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PyGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PyGlet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PyOpenGL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PyTorch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pyramid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pytest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pyunit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Query_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roblox_Dev"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SPARQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scikit-Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scikit-Learn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scilab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scipy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scrapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seaborn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selenium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shape_in_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleITK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Splinter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Structurizr_DSL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TOGAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TensorFlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurboGears"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web2Py"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WebSequenceDiagrams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Scrapping_in_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zachman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#draw.io"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#picture2openscad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3D_Modeling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adopting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supporting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateUseArchi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AG2R_LA_MONDIALE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Archi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aréas_Assurance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AstraZeneca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BKWI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BOD_Banco_Universal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CGI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canadian_province_of_New_Brunswick"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cap_Gemini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casewise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ciber_International"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DXC_Technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Essential"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#European_Commission"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GE_Corporate_Initiatives_Group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Government_of_Canada_-_Treasury_Board"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HOPEX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Havenbedrijf_Rotterdam_N.V."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IBM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jokosun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KBC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kemerovo_Heart_Disease_Hospital_and_Dispensary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lafarge_Holcim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeanIX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MassMutual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ministere_Des_Armees"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nijmegen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#O-DA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ordnance_Survey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PharmaPartners"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Philips_Lighting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RSPCA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sogeti_Nederland_B.V."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sparx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Standard_Bank_of_South_Africa_Limited"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_TriZetto_Group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_States_Department_of_Labor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#University_of_St_Gallen_HSG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#University_of_Sydney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VFS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Walraven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iServer"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Arcade"/>
+        <Class IRI="#Game_Development_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArchiMate"/>
+        <Class IRI="#TOGAF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsciiDoctor_Diagrame"/>
+        <Class IRI="#Diagram_as_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Automation_Testing_in_Python"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beautiful_Soup"/>
+        <Class IRI="#Web_Scrapping_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behave"/>
+        <Class IRI="#Automation_Testing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bottle"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CherryPy"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chinese_PinYin_Converter"/>
+        <Class IRI="#Natural_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CubicWeb"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cypher"/>
+        <Class IRI="#Query_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cypher"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supporting"/>
+            <Class IRI="#Neo4j"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dash"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataAnalytics"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dev_Language"/>
+        <Class IRI="#Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagram_as_Code"/>
+        <Class IRI="#Diagraming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagraming"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagrams"/>
+        <Class IRI="#Diagram_as_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Django"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EA_Tool"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Falcon"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flask"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreePlane"/>
+        <Class IRI="#MindMap"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GNU_Octave"/>
+        <Class IRI="#Matlab_OpenSource_Alternative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game_Dev"/>
+        <Class IRI="#Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game_Development_in_Python"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graph"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graphviz"/>
+        <Class IRI="#Diagram_as_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImageMagick"/>
+        <Class IRI="#Imaging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image_Processing_in_Python"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imaging"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ixml"/>
+        <Class IRI="#Web_Scrapping_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java"/>
+        <Class IRI="#Dev_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScript"/>
+        <Class IRI="#Dev_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Julia"/>
+        <Class IRI="#Matlab_OpenSource_Alternative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Keras"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lua"/>
+        <Class IRI="#Dev_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lua"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supporting"/>
+            <Class IRI="#Roblox_Dev"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ML_in_Python"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mahotas"/>
+        <Class IRI="#Image_Processing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matlab_OpenSource_Alternative"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matplotlib"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MindMap"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Language"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neo4j"/>
+        <Class IRI="#Graph"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumPy"/>
+        <Class IRI="#Matlab_OpenSource_Alternative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numpy"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ontology"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenCV"/>
+        <Class IRI="#Image_Processing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenSCAD"/>
+        <Class IRI="#3D_Modeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paint.Net"/>
+        <Class IRI="#Imaging"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panda3D"/>
+        <Class IRI="#Game_Development_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pandas"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pgmagick"/>
+        <Class IRI="#Image_Processing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantUML"/>
+        <Class IRI="#Diagram_as_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerBI"/>
+        <Class IRI="#DataAnalytics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protege"/>
+        <Class IRI="#Ontology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PyGame"/>
+        <Class IRI="#Game_Development_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PyGlet"/>
+        <Class IRI="#Game_Development_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PyOpenGL"/>
+        <Class IRI="#Game_Development_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PyTorch"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pyramid"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pytest"/>
+        <Class IRI="#Automation_Testing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python"/>
+        <Class IRI="#Dev_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pyunit"/>
+        <Class IRI="#Automation_Testing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Query_Language"/>
+        <Class IRI="#Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requests"/>
+        <Class IRI="#Web_Scrapping_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roblox_Dev"/>
+        <Class IRI="#Game_Dev"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <Class IRI="#Automation_Testing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SPARQL"/>
+        <Class IRI="#Query_Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SPARQL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#supporting"/>
+            <Class IRI="#Protege"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sage"/>
+        <Class IRI="#Matlab_OpenSource_Alternative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scikit-Image"/>
+        <Class IRI="#Image_Processing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scikit-Learn"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scilab"/>
+        <Class IRI="#Matlab_OpenSource_Alternative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scipy"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scrapy"/>
+        <Class IRI="#Web_Scrapping_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaborn"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selenium"/>
+        <Class IRI="#Web_Scrapping_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shape_in_Python"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleITK"/>
+        <Class IRI="#Image_Processing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Splinter"/>
+        <Class IRI="#Automation_Testing_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Structurizr_DSL"/>
+        <Class IRI="#Diagram_as_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TOGAF"/>
+        <Class IRI="#Enterprise_Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TensorFlow"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theano"/>
+        <Class IRI="#ML_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurboGears"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web2Py"/>
+        <Class IRI="#Web_Dev_in_Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WebSequenceDiagrams"/>
+        <Class IRI="#Diagram_as_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Dev_in_Python"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Scrapping_in_Python"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zachman"/>
+        <Class IRI="#Enterprise_Architecture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#draw.io"/>
+        <Class IRI="#Diagraming"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#picture2openscad"/>
+        <Class IRI="#OpenSCAD"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3D_Modeling"/>
+        <Class IRI="#Tools"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#AG2R_LA_MONDIALE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagraming"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EA_Tool"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Aréas_Assurance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#AstraZeneca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#BKWI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#BOD_Banco_Universal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#CGI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Canadian_province_of_New_Brunswick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Cap_Gemini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Casewise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Ciber_International"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#DXC_Technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EA_Tool"/>
+        <NamedIndividual IRI="#Essential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#European_Commission"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#GE_Corporate_Initiatives_Group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#GSK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Government_of_Canada_-_Treasury_Board"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EA_Tool"/>
+        <NamedIndividual IRI="#HOPEX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Havenbedrijf_Rotterdam_N.V."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#IBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Jokosun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#KBC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#KPN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Kemerovo_Heart_Disease_Hospital_and_Dispensary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Lafarge_Holcim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EA_Tool"/>
+        <NamedIndividual IRI="#LeanIX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#MassMutual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Ministere_Des_Armees"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Nijmegen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#O-DA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Ordnance_Survey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#PharmaPartners"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Philips_Lighting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#RSPCA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Sogeti_Nederland_B.V."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EA_Tool"/>
+        <NamedIndividual IRI="#Sparx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Standard_Bank_of_South_Africa_Limited"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Stime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#The_TriZetto_Group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#United_States_Department_of_Labor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#University_of_St_Gallen_HSG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#University_of_Sydney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#VFS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institute"/>
+        <NamedIndividual IRI="#Walraven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EA_Tool"/>
+        <NamedIndividual IRI="#iServer"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#AG2R_LA_MONDIALE"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Archi"/>
+        <NamedIndividual IRI="#KPN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Archi"/>
+        <NamedIndividual IRI="#VFS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Aréas_Assurance"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#AstraZeneca"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#BKWI"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#BOD_Banco_Universal"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#CGI"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#CGI"/>
+        <NamedIndividual IRI="#Sparx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Canadian_province_of_New_Brunswick"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Cap_Gemini"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Casewise"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Ciber_International"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#DXC_Technology"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedBy"/>
+        <NamedIndividual IRI="#Essential"/>
+        <NamedIndividual IRI="#VFS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#GE_Corporate_Initiatives_Group"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#GSK"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Government_of_Canada_-_Treasury_Board"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Havenbedrijf_Rotterdam_N.V."/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#IBM"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Jokosun"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#KBC"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Kemerovo_Heart_Disease_Hospital_and_Dispensary"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Lafarge_Holcim"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#MassMutual"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Ministere_Des_Armees"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Nijmegen"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#O-DA"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Ordnance_Survey"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#PharmaPartners"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Philips_Lighting"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#RSPCA"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Sogeti_Nederland_B.V."/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Standard_Bank_of_South_Africa_Limited"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Stime"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#The_TriZetto_Group"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#United_States_Department_of_Labor"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#University_of_St_Gallen_HSG"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#University_of_Sydney"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#VFS"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#VFS"/>
+        <NamedIndividual IRI="#HOPEX"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adopting"/>
+        <NamedIndividual IRI="#Walraven"/>
+        <NamedIndividual IRI="#Archi"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#AG2R_LA_MONDIALE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Aréas_Assurance"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#AstraZeneca"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-21T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#BKWI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-30T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#BOD_Banco_Universal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#CGI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Cap_Gemini"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Casewise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Ciber_International"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-25T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#DXC_Technology"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#DXC_Technology"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-28T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#GE_Corporate_Initiatives_Group"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#GSK"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-05T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Government_of_Canada_-_Treasury_Board"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Havenbedrijf_Rotterdam_N.V."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#IBM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Jokosun"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-03T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#KBC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#KPN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Kemerovo_Heart_Disease_Hospital_and_Dispensary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Lafarge_Holcim"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-24T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#MassMutual"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Ministere_Des_Armees"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Nijmegen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#O-DA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-26T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Ordnance_Survey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-20T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#PharmaPartners"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-27T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Philips_Lighting"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#RSPCA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-15T16:25:21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Sogeti_Nederland_B.V."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Standard_Bank_of_South_Africa_Limited"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Stime"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#The_TriZetto_Group"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#United_States_Department_of_Labor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#University_of_St_Gallen_HSG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#University_of_Sydney"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-06T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#VFS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateUseArchi"/>
+        <NamedIndividual IRI="#Walraven"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#adopting"/>
+        <ObjectProperty IRI="#usedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#adopting"/>
+        <Class IRI="#Institute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#adopting"/>
+        <Class IRI="#Tools"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateUseArchi"/>
+        <Class IRI="#Institute"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateUseArchi"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AG2R_LA_MONDIALE</IRI>
+        <Literal>Joel01 (2023-10-19):
+Hi,
+As an Architect for the french AG2R LA MONDIALE firm:
+Archi is used to document the global IS/IT Landscape, from an infrastructure, application and business point of view.
+We use it for impact analysis (together with information shared in a CMDB based on MEGA - maybe in the future we&apos;ll use full archi...) and as a basis for each architecture change (ie. for project related solution architecture) where deliverables are created through the buitin jasperreport engine (whith a customized report we should soon share with the community).
+Joël</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AG2R_LA_MONDIALE</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ag2rlamondiale.fr/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Archi</IRI>
+        <Literal>Archi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aréas_Assurance</IRI>
+        <Literal>romuald (2023/09/18):
+As the only EA in my company (Aréas Assurance, French Insurance), I chose to Archimate for the Architecture Description of the company from Capacities to server...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aréas_Assurance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.areas.fr/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AstraZeneca</IRI>
+        <Literal>2023/08/21: danisman
+Myself and the Head of Architecture used it for a large UK Ministry of Defence project we were delivering from 2020 to 2022 (when I left Sopra Steria) .. I then moved the model to BiZZdesign .. but boy oh boy, was that GUI and UX a hot mess. Would rather have stayed on Archi but the client wanted it.  :-[   Beugh.
+I now use Archi in AstraZeneca and am an ambassador there .. fighting off BiZZdesign, Lean.IX and (guess what) Microsoft Access. We will move to a SaaS platform one day I&apos;m sure, but Archi gets us value very very quickly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AstraZeneca</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.astrazeneca.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BKWI</IRI>
+        <Literal>tgurts (2017-10-30):
+I am currently working as a solution and project architect at BKWI, a Dutch government organization at the domain of Work and Income. We are using Archi
+
+to model reference architecture
+to describe architectural and orgnizational principles
+to descibe the architecture of our application landscape
+to model project architectures
+
+Ton Geurts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BKWI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.bkwi.nl/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BOD_Banco_Universal</IRI>
+        <Literal>jose_agc@msn.com Jose Alfredo Guillen (2018-04-18):
+Dear Archi Forum,
+
+I work for a Bank in Venezuela, we have evaluated commercial software/tools to facilitate the incorporation of the practice of EA in the company.
+
+The conclusion: There are very good tools, however, the implementation process is complex because they are more oriented to the tool than to the value that the practice of architecture can provide within the industry where it is or is intended to be implemented. Their licensing and implementation costs are very high and usually do not end up convincing the sponsors about the return on investment.
+
+My recommendation: The focus of the architecture practice should be on the value it generates within the industry where it will be applied. Going to have a well governed repository, which allows to respond things of value to the business easily and within the reach of those interested. So that it allows them to advance to a new business result.
+
+We evaluated Archi vs. The Essential Project and my recommendation was Archi, among the reasons is the noise generated by adding ontological themes to modeling. Being that our framework is based on TOGAF and this speaks in terms of Archimate. My recommendation was Archi.
+
+What would we like to be incorporated in Archi?
+Multi-user and collaborative facility. Which is in progress.
+Extend the tool so that it covers the entire TOGAF architecture repository structure and the artifacts link to the model.
+Incorporate a graph database to facilitate impact analysis at a greater depth level.
+
+In my case we are doing a work to define/create the meta architecture (Phase A) that will start by modeling BIAN Landscape v6.0 (Phase A, B and C), Hybrid Cloud and dockerization (Phase D), DevOps (We are working on how).
+
+Best regards,
+José Alfredo Guillén
+https://www.linkedin.com/in/jose-guillen-12160085</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BOD_Banco_Universal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.linkedin.com/company/bod-banco-universal/about/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CGI</IRI>
+        <Literal>danisman (2023/08/21):
+When I was in CGI, I used to use Archi all the time, before being forced into some other monstrosity!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CGI</IRI>
+        <Literal>sianvanes (2023/03/15):
+At CGI we have a number of tools, Archi and Sparx are the tools most commonly used for architecture with a few clients opting to go for BiZZdesign etc.
+My preference, and often a client preference is Archi because it is aesthetically more pleasing to the eye, easier to read and navigate.
+Personally, I opted to be a Patron because it&apos;s only fair to support your work. I&apos;ve been really pleased with the tools for publishing in different formats, to make it easier for non-architects to read documentation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CGI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cgi.com/en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Canadian_province_of_New_Brunswick</IRI>
+        <Literal>prgee (2016-05-12):
+Archi Supports the Government of New Brunswick’s EA Program
+As a consultant working with the Office of the CIO in the Canadian province of New Brunswick, I introduced
+ArchiMate as the recommended modeling notation for developing a Business Architecture framework. Since they
+had no &quot;official&quot; tool in place I also introduced them to Archi (http://www.archimatetool.com, an open source
+implementation of ArchiMate) as a means to learn the language and start on the development of some Business
+Architecture models. Archi is very easy to install and much quicker to learn than most of the commercial tools
+(e.g. Sparx EA) I have worked with. It also had &quot;just enough&quot; functionality to support our modelling needs at the
+time. Archi&apos;s CSV import/export functionality allowed us to quickly import model content from external sources as
+well as utilize an export-update-import approach to manage bulk updates to the model. Its support for the Open
+Group’s ArchiMate Model Exchange File format further guarantees the portability of model files and mitigates the
+risk of vendor lock-in. Its sole limitation is that it does not support external image files in a diagram.
+The key deliverables for the project included a Business Capability Map which was developed as a hierarchical,
+nested diagram based on a set of ArchiMate &quot;business function&quot; elements. Since ArchiMate 2.1 does not include
+a &quot;capability&quot; element, we followed the prevailing practise of using the &quot;business function&quot; element for this
+purpose. We also used the Jasper Reports module included with Archi to generate a supporting Business
+Capability Reference document which contained the capability descriptions, as well as other supporting
+information.
+New Brunswick is officially bilingual (English/French) so we were required to publish these deliverables in both
+official languages. Please refer to the following links to view the resulting deliverables – the Business Capability
+Map and Reference Model are accessible via the “Quick Links” section on each page:
+www.gnb.ca/OCIO
+ English Capability Map
+ English Capability Reference
+www.gnb.ca/BCSI
+ French Capability Map
+ French Capability Reference
+
+Note: The following techniques were used to produce these artifacts.
+ Capability Map was created as an ArchiMate view and then the diagram was exported as a PDF file.
+ Pages that include graphics were created using blank Business Canvas pages.
+ The Provincial logo was added to the PDF using the open-source Inkscape graphics editor
+(https://inkscape.org).
+ The Reference document was 100% generated from Archi using a customized set of Jasper control files.
+ The Jasper report was generated in MS Word format in order to fine tune page breaks and add headers
+and footers.
+ User-defined properties for &quot;French:name&quot; and &quot;French:documentation&quot;.were added to the French versions.
+ The model was exported to CSV files, using some Excel tricks to swap the French and English values, and
+re-imported to Archi before repeating the above steps.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Canadian_province_of_New_Brunswick</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.archimatetool.com/blog/2016/05/16/archi-spotlight-archi-supports-the-government-of-new-brunswicks-ea-program/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chinese_PinYin_Converter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.mdbg.net/chinese/webime-pinyin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ciber_International</IRI>
+        <Literal>Johan2 (2016-03-25):
+As Enterprise Architect for Ciber International:
+* Started with Archi to create a multidimensional model, with lots of views on different architecture subdomains, like Business, Application, Technology etc.
+* Also other architects work with Archi.
+
+As Enterprise Architect for BDO International:
+* Started with Archi to create amultidimensional model, with lots of views on different architecture subdomains, like Business, Application, Technology etc.
+
+Ciber Global is now HTC Global Services with effect from November 30, 2021. This account will close soon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ciber_International</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.htcinc.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DXC_Technology</IRI>
+        <Literal>Pino (2017-11-28):
+Hi all,
+
+Here in DXC Technology (https://www.dxc.technology/) Archi is quite a common tool among architects. Sure, being DXC a TOGAF Platinum Member might be one of the reasons, but with or without the company decision to be a Platinum member, Archi is a great tool that allowed me to deliver real life architectures for multiple projects. Can Archi be improved? Sure it can, but as it stands is already quite up to its task.
+
+Pino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DXC_Technology</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://dxc.com/us/en</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#European_Commission</IRI>
+        <Literal>Jean-Baptiste Sarrodie (2016-03-24):
+Another known usage is the official documentation of the European Interoperability Reference Architecture.
+
+This is made clear by:
+
+The reference to Archi at the end of the official page
+The publication of the HTML export of the beta version of the reference architecture
+
+The EIRA uses (and extends) the ArchiMate language as a modelling notation and uses service orientation as an architectural style.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#European_Commission</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://joinup.ec.europa.eu/collection/european-interoperability-reference-architecture-eira/solution/eira</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FreePlane</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.freeplane.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GNU_Octave</IRI>
+        <Literal>GNU Octave (https://www.gnu.org/software/octave/) may be the best-known alternative to MATLAB. In active development for almost three decades, Octave runs on Linux, Windows, and Mac—and is packaged for most major distributions. If you&apos;re looking for a project that is as close to the actual MATLAB language as possible, Octave may be a good fit for you; it strives for exact compatibility, so many of your projects developed for MATLAB may run in Octave with no modification necessary.
+
+Octave has many different choices available for a front-end interaction outside of the default that now ships with version 4; some resemble MATLAB&apos;s interface more than others. Octave&apos;s Wikipedia page lists several options.
+
+Octave is licensed under the GPL, and its source code can be found on the GNU download site (ftp://ftp.gnu.org/gnu/octave).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GSK</IRI>
+        <Literal>nair (2022-09-05):
+I used Archi at GSK. I was engaged at GSK as a consultant. I noticed that GSK has Archi available for anyone to install through their internal Software Center.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GSK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.gsk.com</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IBM</IRI>
+        <Literal>FJL (2016-04-15):
+Another example: IBM
+
+http://www.ibm.com/developerworks/cloud/library/cl-cloudecosystem/
+
+regards,
+
+F.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IBM</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://developer.ibm.com/depmodels/cloud/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ImageMagick</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://imagemagick.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jokosun</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">tpedot (2023-12-03):
+Hello the Archicommunity,
+I just joined Jokosun company, startup company for deploying energy solutions in west Africa, as a CTO/CIO last September and will use with Archi to construct the first EA model.
+
+It will be used to discuss with CEO, represent actual architecture and defining the strategy.
+I am an experienced user of Python and DevOps oriented I will push for automation wherever I can.
+
+I am also see open source as a corner stone of our strategy and for that I consider contributing to Archi.
+
+Happy to join this community.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jokosun</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.jokosun.solutions/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Julia</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">Julia is a dynamically typed programming language featuring Lisp-style macros, built-in primitives for parallel computing, and functions designed for matrix manipulation, data visualization, and much more. It&apos;s designed to feel like a scripting language rather than a C-style programming-language and even has an interactive mode (REPL), and can be embedded into other languages through its embedding API.
+
+Users of Julia have many reasons for loving its syntax and capabilities, but some of the popular examples include its broadcasting feature, which lets you apply a function to one or more arrays without a writing a complex loop, its simple array functions that let you rotate and reshape arrays, matrix transforms, autodiff, native Unicode support, integrated unit testing, easy paralellisation, and all-round simpler syntax with no loss of functionality (and improved code efficiency.)
+
+Julia has an active community around its development and its use, so it&apos;s also been tailored for domain-specific purposes, including image processing (JuliaImages), biology (BioJulia), quantum physics (QuantumBFS), nonlinear dynamics (JuliaDynamics), economics (QuantEcon), astronomy (JuliaAstro) and more.
+
+Julia is licensed under the MIT license, and can be downloaded from julialang.org.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KBC</IRI>
+        <Literal>Luc Gadeyne (2017-08-08):
+I am working as an Enterprise/Solution Architect @KBC Belgium.
+Together with a number of colleagues I am introducing Archimate 3.0 in IT.
+We use Archi as a tool to support modeling.
+We combine this with Grafico and GIT (or SVN-Subversion) to enable collaboration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KBC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kbc.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KPN</IRI>
+        <Literal>wiebow (2023-10-18):
+Hi,
+
+I work as an architect for KPN (Dutch Telecom and Network company) and we use Archimate and Archi.
+I&apos;ve moved to a new team recently and we are introducing Archimate as a way to get more architects and consultants involved. We do this using the collaboration plug-in and so far it has been lots of fun and value is already starting to show.  I am proud to contribute a small amount of euros each month to support this fantastic toolset.
+
+Regards,
+Wiebo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#KPN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.kpn.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kemerovo_Heart_Disease_Hospital_and_Dispensary</IRI>
+        <Literal>mdvadim (2017-05-10):
+Kemerovo Heart Disease Hospital and Dispensary.
+
+As CQO and my team we are trying to describe the architecture of our institute using world-famous languages ​​like Archi and methods, realizing that, perhaps, among our Russian colleagues we will not understand.
+
+New language - new opportunities for communication.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kemerovo_Heart_Disease_Hospital_and_Dispensary</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://eng.kemcardio.ru/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lafarge_Holcim</IRI>
+        <Literal>Jean-Baptiste Sarrodie (2016-03-24):
+As former Architect for the french LafargeHolcim division:
+Archi is used to document the global IS/IT Landscape, mainly from an infrastructure and application point of view. This is used for impact analysis (together with information shared in a CMDB based on CMDBuild) and as a basis for each architecture change (ie. for project related solution architecture) where deliverables are created through the buitin jasperreport engine (customizable report).
+
+As Enterprise Architect Consultant for Arismore:
+Archi is used:
+
+to document architectures for our customers when they have no EA tooling in place,
+to document architectures for our own, internal, projet,
+by trainees during official ArchiMate trainings
+
+Regards,
+
+JB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lafarge_Holcim</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.holcim.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MassMutual</IRI>
+        <Literal>kkosienski (Kevin) (2020-11-04):
+Hi,
+
+I am part of an enterprise architecture group at a large financial services company (MassMutual) and we use Archi across our entire federated architecture community.  We use it to produce various viewpoints supporting enterprise architecture planning, strategy, and solutions delivery. We have implemented a standard &quot;EA&quot; model which we manage change in Github using Co-archi plugin functionality.  We have integrated it with our EAMS and import content from the EAMS into the model in order to make it available to use in our views.
+
+-Kevin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MassMutual</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.massmutual.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ministere_Des_Armees</IRI>
+        <Literal>Jean Christophe (2023/06/09):
+I&apos;m currently working with the french ministry of defence as an enterprise architect.
+The use of Archi is promoted in the IT department of the ministry.
+I discovered Archi a few month ago and I find this tool very simple and intuitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ministere_Des_Armees</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.defense.gouv.fr/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nijmegen</IRI>
+        <Literal>AdGerrits (2018-05-08):
+Although we have been working with Archi for some time within the municipality of Nijmegen (the Netherlands), it is from today the standard architecture-tool that we use. The lack of collaboration functionality used to be a showstopper, but it is now present in sufficient quantities and hopefully will be even better in the future. I really think that Archi is in many cases more usable than other closed and expensive applications. Go go Archi!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nijmegen</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.intonijmegen.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumPy</IRI>
+        <Literal>NumPy (http://www.numpy.org/) is the main package for scientific computing with Python (as its name suggests). It can process N-dimensional arrays, complex matrix transforms, linear algebra, Fourier transforms, and can act as a gateway for C and C++ integration. It&apos;s been used in the world of game and film visual effect development, and is the fundamental data-array structure for the SciPy Stack, an ecosystem of Python-based math, science, and engineering software. NumPy is licensed under the BSD license, and packages are available for Linux, Windows, and Mac OS X.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#O-DA</IRI>
+        <Literal>majiro (2023-07-26):
+Hi,
+
+I am a member of an ongoing project to define next version of O-DA.
+# O-DA: https://www.opengroup.org/open-group-releases-dependability-through-assuredness-%E2%84%A2-standard
+
+Archimate is set as language for enterprise architecture design in the new standard and of course Archi is de facto.
+I am in charge of some Archi extention for O-DA.
+
+BR
+Jiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ordnance_Survey</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Jacqui (2023-12-20):
+I wanted to add Ordnance Survey to the list of organisations using Archi.
+As a Solution Architect I have been using Archi to model the part of the business I am working in, and a few others have been doing the same. It is so much easier to use than Sparx, which I just don&apos;t have the time to learn to use!
+
+Recently I have been creating data models in Archi, which ArchiMate isn&apos;t that good for, but it is better than nothing.
+
+I love that I can publish to HTML and my coworkers can then access views and the model easily (we push to a git repo, using the collab plugin, which then automatically publishes to an Azure site).
+
+People are loving my ArchiMate views in e.g. presentations, rather than Visio diagrams (we all know these don&apos;t get updated).
+
+Thank you all, and I&apos;m looking forward to contributing in some way.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ordnance_Survey</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ordnancesurvey.co.uk/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Paint.Net</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://getpaint.net/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PharmaPartners</IRI>
+        <Literal>Guido Janssen (2016-06-27):
+I am working as a architect at PharmaPartners, a dutch IT company creating software for pharmacies and doctor&apos;s. I used Archi for a few years already first just as an architecture diagram drawing tool. Recently I used it to set up an IT landscape model. Since I wanted to share the model with different stakeholder I created a reporting website using XSLT based on the Open Exchange format. I have started to share the more generic parts in a Github project (archimateviewer) especially the views using SVGs. This would actually allows for dynamic views based on properties or as the previous post was washing for replacing the visualisation of certain elements by simply drawing a different kind of node in the view.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PharmaPartners</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.pharmapartners.nl/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Philips_Lighting</IRI>
+        <Literal>Paul Kraakman (pkraakman) (2016-05-23):
+I work as an Enterprise Security Architect in the new company called Philips Lighting founded by Royal Philips.
+
+For creating the Enterprise Security Architecture I am using Archimate as a open standard and well developed language, although an extension to risk and security would be welcome (understand that Open Group is investigating this).
+
+As I wanted to use an architecture tool to manage and share my views and designs I started to use Archi as an alternative to commercial EA tools also hoping for an easy exchange of models with other architecture disciplines. This is still in the early stages as I am working my way throuhg the various domains also sharing and getting feedback from the other domain architects.
+
+Paul Kraakman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Philips_Lighting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.lighting.philips.com/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RSPCA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">smileham (2022-06-15):
+Let&apos;s add the Royal Society for the Prevention of Cruelty to Animals (RSPCA) to the list of organisations using Archi.
+
+I&apos;ve been supporting Enterprise Architecture at the RSPCA for some time now, using Archi to maintain an Architecture Repository to deliver ArchiMate models/designs for both large scale Enterprise projects/programmes, but also smaller &quot;Business as Usual&quot; demand.
+
+We have a small team of three architects (Enterprise, Solution and Data) all using Archi to model our solutions in a shared repository synchronised using coArchi, with a dash of jArchi for automation.
+
+A huge thankyou to the Archi development team!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RSPCA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rspca.org.uk/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sage</IRI>
+        <Literal>SageMath (http://www.sagemath.org/index.html) is another open source mathematics software system that might be a good option for those seeking a MATLAB alternative. It&apos;s built on top of a variety of well-known Python-based scientific computing libraries, and its own language is syntactically similar to Python. It has many features including a command-line interface, browser-based notebooks, tools for embedding formulas in other documents, and of course, many mathematical libraries.
+
+SageMath is available under a GPL license, and its source code can be found on the project website (http://www.sagemath.org/download-source.html).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Scilab</IRI>
+        <Literal>Scilab (http://www.scilab.org/) is another open source option for numerical computing that runs across all the major platforms: Windows, Mac, and Linux included. Scilab is perhaps the best known alternative outside of Octave, and (like Octave) it is very similar to MATLAB in its implementation, although exact compatibility is not a goal of the project&apos;s developers.
+
+Scilab is distributed as open source under the GPL-compatible CeCILL license, and its source code (http://www.scilab.org/development/sources/stable) is available on the project website.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shape_in_Python</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">Documentation: https://compmec-shape.readthedocs.io/en/latest/rst/get_started.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shape_in_Python</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">Github: https://github.com/compmec/shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stime</IRI>
+        <Literal>Herve (2026-04-15):
+Hi,
+
+As far as I&apos;m concerned, I&apos;m a technical architect at Stime, the IT company of the musqueteers group (Intermarche, Bricomarche, Netto, Poivre Rouge, ...).
+
+I replaced Visio by Archi to draw all my architecture diagrams.
+
+I developped an Archi plugin to import all our CIs from our ServiceNow CMDB (https://github.com/archi-contribs/snow-import-plugin).
+
+I am also developping a plugin to store the Archi plugins into a database. The alpha relase will be available on Github soon.
+
+Best regards</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://musketeers.group/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#University_of_St_Gallen_HSG</IRI>
+        <Literal>Thomas Rischbeck (2023-03-12):
+I&apos;m using Archi to teach &quot;Enterprise Modeling&quot; for a course at the University of St. Gallen HSG (www.unisg.ch). About 50 Bachelor students in Business Information Systems take this course.
+
+I&apos;m convinced that this skill will be important for future business leaders. Our highly dynamic time needs informed decision-making that takes into account all perspectives and knowledge at all levels. Participation creates shared ownership and emotional buy-in. This makes transformation manageable and achievable. An enterprise model supports dialogue and orientation and furthers organizational learning at all levels.
+
+Archi comes in very handy to acquire practical tooling experience and understand the concept of repository vs. views plus learn some ArchiMate concepts.
+ITMC AG • Bahnhofstrasse 10 • CH-8001 Zürich
+Dr. Thomas Rischbeck
+PhD in Computer Science
+Managing Partner   
+rischbeck@itmc.ch
+www.itmc.ch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#University_of_St_Gallen_HSG</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.unisg.ch/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#University_of_Sydney</IRI>
+        <Literal>yvain (2016-07-06):
+We&apos;re using it in an unofficial capacity at the University of Sydney.
+
+What we&apos;ve liked about Archi is that it enforces the Archimate syntax - which is invaluable when you&apos;re first coming up to speed with the language itself. Likewise, the fact that it enforces what are in the standard viewpoints - which again is great for people who are coming up to speed with Archimate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#University_of_Sydney</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.sydney.edu.au/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Walraven</IRI>
+        <Literal>Marco m@rco (2017-08-15):
+Hi,
+
+I use Archi primarily to maintain the Application Landscape and derived models for Walraven (www.walraven.com), a multinational manufacturing company. I also use it to make specific project views on the landscape, depicting changes. It really helps that integrity of relations is kept at all times, to decide in what views to show these or not.
+
+Regards,
+Marco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Walraven</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">www.walraven.com</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#draw.io</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://app.diagrams.net/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#picture2openscad</IRI>
+        <Literal>Created by Jerry Jia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#picture2openscad</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/JerryJiaGit/picture2openscad.py</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

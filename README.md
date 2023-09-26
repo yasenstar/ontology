@@ -13,8 +13,8 @@ https://service.tib.eu/webvowl/
 
 - [Yi - 易经](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/yi/yi-ontology/yi-rdf.owl)
 - [止学](https://service.tib.eu/webvowl/#iri=https://github.com/yasenstar/ontology/blob/main/zhixue/zhixue.rdf)
-- [My Knowledge Graph](./MyKnowledgeGraph.rdf)
-- [Chinese Gov Relationships](./ChinaGovForeignRelations.rdf)
+- [My Knowledge Graph](./MyKG.owx)
+- [Chinese Gov Relationships](./ChineseGov.owx)
 - [3 kingdoms](./3kingdoms.owl)
 - [Essential Meta Model](./EssentialMetaModel.rdf)
 

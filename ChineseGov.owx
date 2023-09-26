@@ -1,0 +1,737 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2023/9/ChinaGovForeignRelations"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/v0cn037/ontologies/2023/9/ChinaGovForeignRelations">
+    <Prefix name="" IRI="http://www.semanticweb.org/v0cn037/ontologies/2023/9/ChinaGovForeignRelations/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中国-叙利亚-20230922"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#联合声明"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#referTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方同意与尼方加强牦牛和山羊品种选育和标准化规模养殖技术交流合作"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方同意积极考虑尼方提出的从中国西藏地区向尼泊尔北部边远地区送电的需求，同意在商业原则下通盘统筹考虑提供设备、技术等协助"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方坚定支持叙利亚维护国家独立、主权、统一和领土完整，支持叙利亚人民走符合本国国情的发展道路，支持叙利亚政府采取的旨在维护国家安全、稳定、发展的政策与举措，反对外部势力干涉叙利亚内政、破坏叙利亚安全稳定，反对在叙利亚非法军事存在、开展非法军事行动、非法掠夺叙利亚自然资源，敦促有关国家立即解除所有对叙利亚非法单边制裁"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方愿与尼方探讨在联合办学基础上，逐步拓展合作方式和规模，支持尼方建设马丹·班达里大学"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方愿通过扩大中文考试服务、派遣中文教师和志愿者等，为尼泊尔中文教学发展提供支持。双方将继续发挥尼泊尔中国文化中心、孔子学院、孔子课堂对中尼文化交流与合作的促进作用"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方支持并欢迎叙利亚重返阿拉伯国家联盟，支持叙利亚改善同其他阿拉伯国家关系，支持包括叙利亚在内的地区阿拉伯国家团结自强"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方重申将继续坚持亲诚惠容理念和与邻为善、以邻为伴的周边外交方针，坚定支持尼泊尔维护国家独立、主权和领土完整，尊重和支持尼方自主选择符合本国国情的社会制度和发展道路"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#互联互通"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#产能"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#关于中尼友谊工业园项目开发协议，尼泊尔投资委员会与拉萨经济技术开发区投资发展公司已一致同意加快商谈进程，尽快签署项目开发协议，推动该工业园早开工、早运营"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#农业"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#减贫"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#卫生"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方同意加快推动多卡－察哈尔隧道工程可行性研究，认为该项目将提升两国互联互通水平。双方同意加快落实加德满都内环路二期项目"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方同意在联合国等多边机制内加强合作，维护广大发展中国家的共同利益"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方同意开展两国边界联检。双方同意推动《中尼边界管理制度协定》尽快生效。双方同意继续磋商《中华人民共和国公安部与尼泊尔内政部关于建立边境三级联系制度的议定书》，提升两国边界管理与合作水平"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方对两国民航主管部门此前就扩大航权安排达成一致表示欢迎，对博克拉国际机场建成投入使用表示满意，支持和鼓励双方空运企业在双边航权安排下根据市场需求恢复并新开包括连接博克拉在内的两国间航班航线，为双方经贸和人员往来提供便利"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方对吉隆至加德满都跨境铁路项目可行性研究进度表示满意，计划尽早举行中尼铁路合作第8次工作会议。中方愿帮助尼方培训铁路领域人才"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方对签署《中华人民共和国国家新闻出版署与尼泊尔政府文化、旅游与民航部关于经典著作互译出版的备忘录》感到满意"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方对续签《中华人民共和国农业农村部与尼泊尔农业畜牧业发展部关于农业畜牧业渔业合作谅解备忘录》表示欢迎，认为该协议将提升两国农业合作水平，同意尽早召开中尼农业合作联委会第四次会议。双方愿探索共同建设农业产业示范园以促进合作，尼方将积极研究示范园选址和合作设想"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方对近日在华成功举行中尼贸易畅通工作组第二次会议表示满意，认为该会议有利于促进双边经贸往来。为促进两国贸易投资，双方承诺为两国企业在对方国家投资经营提供公平、透明、非歧视的营商环境"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方将共同推动经济全球化朝着开放、包容、普惠、平衡、共赢的方向发展，促进全球与地区和平、安全、发展与繁荣，构建人类命运共同体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方将在地区和国际事务中加强协调配合，共同坚持真正的多边主义，捍卫以联合国为核心的国际体系、以国际法为基础的国际秩序、以联合国宪章宗旨和原则为基础的国际关系基本准则，坚决反对一切形式的霸权主义和强权政治，包括对他国实施非法单边制裁和限制措施，推动构建新型国际关系，携手构建人类命运共同体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方将进一步开展能源领域合作，特别是水电开发和跨境电网项目及其配套变电站建设。双方将尽快举行中国－尼泊尔能源联合工作组第二次会议并定稿完成《中尼电力合作规划》。双方将早日启动建设吉隆－热索瓦跨境输变电项目。双方将继续用好中尼能源联合工作组平台，开展水电、风电、光伏、生物质和氢能等新能源领域交流合作"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方强调，要坚持真正的多边主义，推进国际关系民主化，推动全球治理朝着更加公正合理的方向发展"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方愿加强教育、科技、通信、文化、旅游、广播电视、智库、青年等领域不同层级的交流合作。双方对签署《中华人民共和国科学技术部与尼泊尔教育科技部关于科技创新合作的协议》表示满意。中方同意探讨在数字经济、数字基础设施、人工智能等领域的交流合作。"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方愿深化两国政党、议会、地方交流合作，加强治国理政经验交流。双方将加强在经贸、农业、文化、青年、新闻等各领域友好合作。中方将继续向叙方提供力所能及的援助，支持叙方开展重建、恢复发展。叙方感谢中方的政治支持和无私帮助，感谢中方在联合国安理会为叙方仗义执言。双方一致同意继续加强反恐安全合作，合力打击恐怖主义"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方愿进一步探讨拓展应急管理、防灾减灾救灾领域合作。中方愿推进尼泊尔国家应急运行中心信息平台技术援助项目，做好援尼地震监测台网运行维护工作。双方同意开展地震学、地震区划、历史建筑工程抗震等领域交流，为尼方提供防灾减灾技术培训"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方支持两国学者、学生、艺术家和私营部门企业家加强友好交流合作"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方支持多边贸易体制，反对保护主义"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方支持弘扬和平、发展、公平、正义、民主、自由的全人类共同价值，尊重各国人民自主选择适合本国国情的发展道路和社会制度，坚决反对将人权问题政治化、工具化，坚决反对任何国家以民主、人权为借口干涉别国内政"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方欢迎中尼过境运输协定下首批经中国中转的进口货物于2023年9月7日运抵尼泊尔"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方欢迎尼泊尔青贮饲料成功实现输华，签署《中华人民共和国海关总署与尼泊尔农业畜牧业发展部关于尼泊尔植物源性中药材输华植物检疫要求议定书》，愿加快推进尼泊尔熟制水牛肉输华批准程序，认为这是缓解两国贸易不平衡状况的积极举措。中方愿协助尼方落实尼泊尔柑橘输华检疫要求，愿帮助尼方建设多功能检疫实验室"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方欢迎按照《中华人民共和国国家中医药管理局和尼泊尔卫生与人口部关于传统医学合作的谅解备忘录》，成立中尼传统医药合作委员会，将继续支持中尼中医药中心在尼泊尔开展义诊、培训、医疗服务等，支持中国援尼医疗队在加德满都新设医疗点"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方签署关于成立审议和修订《中尼贸易和支付协定》联合技术工作组的谅解备忘录"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方认为尼方今年8月作为主题国参加第七届中国－南亚博览会，为两国经贸合作注入新的生机和活力。中方欢迎尼方参加将于2023年11月在上海举办的第六届中国国际进口博览会"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方认为开展执法合作对维护两国安全具有重要意义，同意进一步加强执法机构信息交流、能力建设和培训合作。双方同意加快中尼刑事司法协助条约批准工作"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方赞赏彼此相互支持，合作抗击新冠疫情。双方对中国援尼公务员医院升级改造项目竣工和移交表示满意，愿继续加强医疗卫生领域合作，加快推进中国援尼B.P.柯伊拉腊肿瘤医院骨髓移植医疗项目。中方愿积极考虑尼方其他援助项目诉求"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方高度评价中阿合作论坛机制在推动中阿集体合作上发挥的重要作用，强调将积极开展合作，推动落实首届中国－阿拉伯国家峰会成果，弘扬中阿友好精神，携手构建面向新时代的中阿命运共同体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#叙方高度赞赏中国为推动沙特阿拉伯王国和伊朗伊斯兰共和国恢复外交关系所作外交努力，感谢中方为推动中东地区热点问题解决、维护中东地区和平稳定所作积极贡献"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#国际关系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#安全"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#尼方感谢中方为尼泊尔经济社会发展提供宝贵支持。双方同意加快落实业已达成共识的地震后重建项目"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#尼方感谢中方给予百分之98税目输华产品零关税优惠待遇。中方愿继续采取积极措施为尼泊尔产品输华提供便利"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#尼方承诺向中方赠送一对独角犀牛，作为尼泊尔政府和人民送给中国政府和人民的礼物，以此象征双方的长久友谊"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#尼方重申西藏事务是中国内政，决不允许利用尼泊尔领土从事任何反华分裂活动"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#投资"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#教育"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#文化交流"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#旅游"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#核心利益"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#经贸"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#能源"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#防灾减灾"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中方将继续支持尼泊尔各层级文化和旅游机构以灵活方式参与中方主办的文化和旅游交流活动，在华举办旅游推介活动，鼓励更多中国游客赴尼泊尔旅游。为推动更多游客访问尼泊尔，双方同意在华宣布2025年为“尼泊尔旅游年”。中方欢迎尼泊尔友好组织来华参加第八届中国·南亚友好组织论坛。双方期待两国城市间进一步建立友城关系，推动深化人文交往"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方同意继续落实已签署的过境运输、借道运输等有关合作文件，帮助尼从“陆锁国”转变为“陆联国”。中方愿根据尼方需求，适时启动阿尼哥公路四期保通项目。中方愿在尼方完成拆迁工作后尽快启动沙拉公路修复项目"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方欢迎两国政党“点亮未来”民生与减贫行动在尼泊尔启动，中国南亚国家减贫与发展合作中心“活力乡村”示范项目成功揭牌，愿聚焦减贫发展、民生改善、乡村振兴等扩大交流合作"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方欢迎里孜－乃琼口岸顺利开通、樟木口岸恢复客运功能。双方高度评价普兰、吉隆口岸保持“客货两通”并平稳有序运行。中方将为尼方尽快完善里孜－乃琼口岸尼方一侧设施建设提供支持。中方同意积极推动符合条件的传统边贸点尽快恢复开放。双方同意就早日开放陈塘、日屋口岸保持沟通"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#双方考虑到两国政府已于2017年5月12日签署关于在“一带一路”倡议下开展合作的谅解备忘录，表示愿就《中华人民共和国政府和尼泊尔政府关于共同推进“一带一路”建设的合作规划》加快磋商，尽早达成一致。双方愿加强两国发展战略经验交流，深化基础设施互联互通、贸易、旅游、产能与投资等领域务实合作，进一步推动双方共建“一带一路”合作走深走实，让共建“一带一路”更好造福两国人民。双方同意有序推进口岸、公路、铁路、航空、电网等方面互联互通，共同打造跨喜马拉雅立体互联互通网络，共同保障两国合作项目及企业人员安全，帮助尼方实现发展议程，包括尽早从最不发达国家行列毕业"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#叙方坚定奉行一个中国原则，承认中华人民共和国政府是代表全中国的唯一合法政府，台湾是中国不可分割的一部分，支持中国维护国家主权、统一和领土完整，坚决反对任何势力干涉中国内政，支持中国政府为实现国家统一所作的一切努力；坚定支持中方在涉港问题上的立场，支持中方在“一国两制”框架下维护国家安全的努力，坚定认为香港事务纯属中国内政，强烈谴责外部势力干涉香港事务和中国内政的非法行径；坚定支持中方在涉疆问题上的立场，重申涉疆问题不是人权问题，而是反暴恐、去极端化和反分裂问题，叙方坚定支持中方反恐和去极端化努力，坚决反对借口涉疆问题干涉中国内政"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#叙方高度评价并积极支持中华人民共和国主席习近平提出的全球发展倡议、全球安全倡议、全球文明倡议。双方将开展积极合作，落实好上述倡议，携手推进高质量共建“一带一路”，共同推动构建人类命运共同体"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#尼方支持中方提出的全球发展倡议，将考虑加入“全球发展倡议之友小组”。中方愿同尼方加强发展经验分享"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#尼方重申坚定奉行一个中国原则，承认中华人民共和国政府是代表全中国的唯一合法政府，台湾是中国领土不可分割的一部分，反对“台湾独立”"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <Class IRI="#联合声明"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <Class IRI="#联合声明"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#中方同意与尼方加强牦牛和山羊品种选育和标准化规模养殖技术交流合作"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#中方同意积极考虑尼方提出的从中国西藏地区向尼泊尔北部边远地区送电的需求，同意在商业原则下通盘统筹考虑提供设备、技术等协助"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#中方坚定支持叙利亚维护国家独立、主权、统一和领土完整，支持叙利亚人民走符合本国国情的发展道路，支持叙利亚政府采取的旨在维护国家安全、稳定、发展的政策与举措，反对外部势力干涉叙利亚内政、破坏叙利亚安全稳定，反对在叙利亚非法军事存在、开展非法军事行动、非法掠夺叙利亚自然资源，敦促有关国家立即解除所有对叙利亚非法单边制裁"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#中方愿与尼方探讨在联合办学基础上，逐步拓展合作方式和规模，支持尼方建设马丹·班达里大学"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#中方愿通过扩大中文考试服务、派遣中文教师和志愿者等，为尼泊尔中文教学发展提供支持。双方将继续发挥尼泊尔中国文化中心、孔子学院、孔子课堂对中尼文化交流与合作的促进作用"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#中方支持并欢迎叙利亚重返阿拉伯国家联盟，支持叙利亚改善同其他阿拉伯国家关系，支持包括叙利亚在内的地区阿拉伯国家团结自强"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#中方重申将继续坚持亲诚惠容理念和与邻为善、以邻为伴的周边外交方针，坚定支持尼泊尔维护国家独立、主权和领土完整，尊重和支持尼方自主选择符合本国国情的社会制度和发展道路"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#产能"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#关于中尼友谊工业园项目开发协议，尼泊尔投资委员会与拉萨经济技术开发区投资发展公司已一致同意加快商谈进程，尽快签署项目开发协议，推动该工业园早开工、早运营"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#农业"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#减贫"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#卫生"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方同意加快推动多卡－察哈尔隧道工程可行性研究，认为该项目将提升两国互联互通水平。双方同意加快落实加德满都内环路二期项目"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方同意在联合国等多边机制内加强合作，维护广大发展中国家的共同利益"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方同意开展两国边界联检。双方同意推动《中尼边界管理制度协定》尽快生效。双方同意继续磋商《中华人民共和国公安部与尼泊尔内政部关于建立边境三级联系制度的议定书》，提升两国边界管理与合作水平"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方对两国民航主管部门此前就扩大航权安排达成一致表示欢迎，对博克拉国际机场建成投入使用表示满意，支持和鼓励双方空运企业在双边航权安排下根据市场需求恢复并新开包括连接博克拉在内的两国间航班航线，为双方经贸和人员往来提供便利"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方对吉隆至加德满都跨境铁路项目可行性研究进度表示满意，计划尽早举行中尼铁路合作第8次工作会议。中方愿帮助尼方培训铁路领域人才"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方对签署《中华人民共和国国家新闻出版署与尼泊尔政府文化、旅游与民航部关于经典著作互译出版的备忘录》感到满意"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方对续签《中华人民共和国农业农村部与尼泊尔农业畜牧业发展部关于农业畜牧业渔业合作谅解备忘录》表示欢迎，认为该协议将提升两国农业合作水平，同意尽早召开中尼农业合作联委会第四次会议。双方愿探索共同建设农业产业示范园以促进合作，尼方将积极研究示范园选址和合作设想"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方对近日在华成功举行中尼贸易畅通工作组第二次会议表示满意，认为该会议有利于促进双边经贸往来。为促进两国贸易投资，双方承诺为两国企业在对方国家投资经营提供公平、透明、非歧视的营商环境"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方将共同推动经济全球化朝着开放、包容、普惠、平衡、共赢的方向发展，促进全球与地区和平、安全、发展与繁荣，构建人类命运共同体"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#双方将在地区和国际事务中加强协调配合，共同坚持真正的多边主义，捍卫以联合国为核心的国际体系、以国际法为基础的国际秩序、以联合国宪章宗旨和原则为基础的国际关系基本准则，坚决反对一切形式的霸权主义和强权政治，包括对他国实施非法单边制裁和限制措施，推动构建新型国际关系，携手构建人类命运共同体"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方将进一步开展能源领域合作，特别是水电开发和跨境电网项目及其配套变电站建设。双方将尽快举行中国－尼泊尔能源联合工作组第二次会议并定稿完成《中尼电力合作规划》。双方将早日启动建设吉隆－热索瓦跨境输变电项目。双方将继续用好中尼能源联合工作组平台，开展水电、风电、光伏、生物质和氢能等新能源领域交流合作"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方强调，要坚持真正的多边主义，推进国际关系民主化，推动全球治理朝着更加公正合理的方向发展"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方愿加强教育、科技、通信、文化、旅游、广播电视、智库、青年等领域不同层级的交流合作。双方对签署《中华人民共和国科学技术部与尼泊尔教育科技部关于科技创新合作的协议》表示满意。中方同意探讨在数字经济、数字基础设施、人工智能等领域的交流合作。"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#双方愿深化两国政党、议会、地方交流合作，加强治国理政经验交流。双方将加强在经贸、农业、文化、青年、新闻等各领域友好合作。中方将继续向叙方提供力所能及的援助，支持叙方开展重建、恢复发展。叙方感谢中方的政治支持和无私帮助，感谢中方在联合国安理会为叙方仗义执言。双方一致同意继续加强反恐安全合作，合力打击恐怖主义"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方愿进一步探讨拓展应急管理、防灾减灾救灾领域合作。中方愿推进尼泊尔国家应急运行中心信息平台技术援助项目，做好援尼地震监测台网运行维护工作。双方同意开展地震学、地震区划、历史建筑工程抗震等领域交流，为尼方提供防灾减灾技术培训"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方支持两国学者、学生、艺术家和私营部门企业家加强友好交流合作"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方支持多边贸易体制，反对保护主义"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#双方支持弘扬和平、发展、公平、正义、民主、自由的全人类共同价值，尊重各国人民自主选择适合本国国情的发展道路和社会制度，坚决反对将人权问题政治化、工具化，坚决反对任何国家以民主、人权为借口干涉别国内政"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方欢迎中尼过境运输协定下首批经中国中转的进口货物于2023年9月7日运抵尼泊尔"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方欢迎尼泊尔青贮饲料成功实现输华，签署《中华人民共和国海关总署与尼泊尔农业畜牧业发展部关于尼泊尔植物源性中药材输华植物检疫要求议定书》，愿加快推进尼泊尔熟制水牛肉输华批准程序，认为这是缓解两国贸易不平衡状况的积极举措。中方愿协助尼方落实尼泊尔柑橘输华检疫要求，愿帮助尼方建设多功能检疫实验室"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方欢迎按照《中华人民共和国国家中医药管理局和尼泊尔卫生与人口部关于传统医学合作的谅解备忘录》，成立中尼传统医药合作委员会，将继续支持中尼中医药中心在尼泊尔开展义诊、培训、医疗服务等，支持中国援尼医疗队在加德满都新设医疗点"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方签署关于成立审议和修订《中尼贸易和支付协定》联合技术工作组的谅解备忘录"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方认为尼方今年8月作为主题国参加第七届中国－南亚博览会，为两国经贸合作注入新的生机和活力。中方欢迎尼方参加将于2023年11月在上海举办的第六届中国国际进口博览会"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方认为开展执法合作对维护两国安全具有重要意义，同意进一步加强执法机构信息交流、能力建设和培训合作。双方同意加快中尼刑事司法协助条约批准工作"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方赞赏彼此相互支持，合作抗击新冠疫情。双方对中国援尼公务员医院升级改造项目竣工和移交表示满意，愿继续加强医疗卫生领域合作，加快推进中国援尼B.P.柯伊拉腊肿瘤医院骨髓移植医疗项目。中方愿积极考虑尼方其他援助项目诉求"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#双方高度评价中阿合作论坛机制在推动中阿集体合作上发挥的重要作用，强调将积极开展合作，推动落实首届中国－阿拉伯国家峰会成果，弘扬中阿友好精神，携手构建面向新时代的中阿命运共同体"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#叙方高度赞赏中国为推动沙特阿拉伯王国和伊朗伊斯兰共和国恢复外交关系所作外交努力，感谢中方为推动中东地区热点问题解决、维护中东地区和平稳定所作积极贡献"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#安全"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#尼方感谢中方为尼泊尔经济社会发展提供宝贵支持。双方同意加快落实业已达成共识的地震后重建项目"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#尼方感谢中方给予百分之98税目输华产品零关税优惠待遇。中方愿继续采取积极措施为尼泊尔产品输华提供便利"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#尼方承诺向中方赠送一对独角犀牛，作为尼泊尔政府和人民送给中国政府和人民的礼物，以此象征双方的长久友谊"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#尼方重申西藏事务是中国内政，决不允许利用尼泊尔领土从事任何反华分裂活动"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#投资"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#教育"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#旅游"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#核心利益"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#经贸"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#能源"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Category"/>
+        <NamedIndividual IRI="#防灾减灾"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#中方将继续支持尼泊尔各层级文化和旅游机构以灵活方式参与中方主办的文化和旅游交流活动，在华举办旅游推介活动，鼓励更多中国游客赴尼泊尔旅游。为推动更多游客访问尼泊尔，双方同意在华宣布2025年为“尼泊尔旅游年”。中方欢迎尼泊尔友好组织来华参加第八届中国·南亚友好组织论坛。双方期待两国城市间进一步建立友城关系，推动深化人文交往"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方同意继续落实已签署的过境运输、借道运输等有关合作文件，帮助尼从“陆锁国”转变为“陆联国”。中方愿根据尼方需求，适时启动阿尼哥公路四期保通项目。中方愿在尼方完成拆迁工作后尽快启动沙拉公路修复项目"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方欢迎两国政党“点亮未来”民生与减贫行动在尼泊尔启动，中国南亚国家减贫与发展合作中心“活力乡村”示范项目成功揭牌，愿聚焦减贫发展、民生改善、乡村振兴等扩大交流合作"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方欢迎里孜－乃琼口岸顺利开通、樟木口岸恢复客运功能。双方高度评价普兰、吉隆口岸保持“客货两通”并平稳有序运行。中方将为尼方尽快完善里孜－乃琼口岸尼方一侧设施建设提供支持。中方同意积极推动符合条件的传统边贸点尽快恢复开放。双方同意就早日开放陈塘、日屋口岸保持沟通"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#双方考虑到两国政府已于2017年5月12日签署关于在“一带一路”倡议下开展合作的谅解备忘录，表示愿就《中华人民共和国政府和尼泊尔政府关于共同推进“一带一路”建设的合作规划》加快磋商，尽早达成一致。双方愿加强两国发展战略经验交流，深化基础设施互联互通、贸易、旅游、产能与投资等领域务实合作，进一步推动双方共建“一带一路”合作走深走实，让共建“一带一路”更好造福两国人民。双方同意有序推进口岸、公路、铁路、航空、电网等方面互联互通，共同打造跨喜马拉雅立体互联互通网络，共同保障两国合作项目及企业人员安全，帮助尼方实现发展议程，包括尽早从最不发达国家行列毕业"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#叙方坚定奉行一个中国原则，承认中华人民共和国政府是代表全中国的唯一合法政府，台湾是中国不可分割的一部分，支持中国维护国家主权、统一和领土完整，坚决反对任何势力干涉中国内政，支持中国政府为实现国家统一所作的一切努力；坚定支持中方在涉港问题上的立场，支持中方在“一国两制”框架下维护国家安全的努力，坚定认为香港事务纯属中国内政，强烈谴责外部势力干涉香港事务和中国内政的非法行径；坚定支持中方在涉疆问题上的立场，重申涉疆问题不是人权问题，而是反暴恐、去极端化和反分裂问题，叙方坚定支持中方反恐和去极端化努力，坚决反对借口涉疆问题干涉中国内政"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-叙利亚-20230922"/>
+        <NamedIndividual IRI="#叙方高度评价并积极支持中华人民共和国主席习近平提出的全球发展倡议、全球安全倡议、全球文明倡议。双方将开展积极合作，落实好上述倡议，携手推进高质量共建“一带一路”，共同推动构建人类命运共同体"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#尼方支持中方提出的全球发展倡议，将考虑加入“全球发展倡议之友小组”。中方愿同尼方加强发展经验分享"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#中国-尼泊尔-20230926"/>
+        <NamedIndividual IRI="#尼方重申坚定奉行一个中国原则，承认中华人民共和国政府是代表全中国的唯一合法政府，台湾是中国领土不可分割的一部分，反对“台湾独立”"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方同意与尼方加强牦牛和山羊品种选育和标准化规模养殖技术交流合作"/>
+        <NamedIndividual IRI="#农业"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方同意积极考虑尼方提出的从中国西藏地区向尼泊尔北部边远地区送电的需求，同意在商业原则下通盘统筹考虑提供设备、技术等协助"/>
+        <NamedIndividual IRI="#能源"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方坚定支持叙利亚维护国家独立、主权、统一和领土完整，支持叙利亚人民走符合本国国情的发展道路，支持叙利亚政府采取的旨在维护国家安全、稳定、发展的政策与举措，反对外部势力干涉叙利亚内政、破坏叙利亚安全稳定，反对在叙利亚非法军事存在、开展非法军事行动、非法掠夺叙利亚自然资源，敦促有关国家立即解除所有对叙利亚非法单边制裁"/>
+        <NamedIndividual IRI="#核心利益"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方愿与尼方探讨在联合办学基础上，逐步拓展合作方式和规模，支持尼方建设马丹·班达里大学"/>
+        <NamedIndividual IRI="#教育"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方愿通过扩大中文考试服务、派遣中文教师和志愿者等，为尼泊尔中文教学发展提供支持。双方将继续发挥尼泊尔中国文化中心、孔子学院、孔子课堂对中尼文化交流与合作的促进作用"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方支持并欢迎叙利亚重返阿拉伯国家联盟，支持叙利亚改善同其他阿拉伯国家关系，支持包括叙利亚在内的地区阿拉伯国家团结自强"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方重申将继续坚持亲诚惠容理念和与邻为善、以邻为伴的周边外交方针，坚定支持尼泊尔维护国家独立、主权和领土完整，尊重和支持尼方自主选择符合本国国情的社会制度和发展道路"/>
+        <NamedIndividual IRI="#核心利益"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#关于中尼友谊工业园项目开发协议，尼泊尔投资委员会与拉萨经济技术开发区投资发展公司已一致同意加快商谈进程，尽快签署项目开发协议，推动该工业园早开工、早运营"/>
+        <NamedIndividual IRI="#投资"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方同意加快推动多卡－察哈尔隧道工程可行性研究，认为该项目将提升两国互联互通水平。双方同意加快落实加德满都内环路二期项目"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方同意在联合国等多边机制内加强合作，维护广大发展中国家的共同利益"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方同意开展两国边界联检。双方同意推动《中尼边界管理制度协定》尽快生效。双方同意继续磋商《中华人民共和国公安部与尼泊尔内政部关于建立边境三级联系制度的议定书》，提升两国边界管理与合作水平"/>
+        <NamedIndividual IRI="#安全"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方对两国民航主管部门此前就扩大航权安排达成一致表示欢迎，对博克拉国际机场建成投入使用表示满意，支持和鼓励双方空运企业在双边航权安排下根据市场需求恢复并新开包括连接博克拉在内的两国间航班航线，为双方经贸和人员往来提供便利"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方对吉隆至加德满都跨境铁路项目可行性研究进度表示满意，计划尽早举行中尼铁路合作第8次工作会议。中方愿帮助尼方培训铁路领域人才"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方对签署《中华人民共和国国家新闻出版署与尼泊尔政府文化、旅游与民航部关于经典著作互译出版的备忘录》感到满意"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方对续签《中华人民共和国农业农村部与尼泊尔农业畜牧业发展部关于农业畜牧业渔业合作谅解备忘录》表示欢迎，认为该协议将提升两国农业合作水平，同意尽早召开中尼农业合作联委会第四次会议。双方愿探索共同建设农业产业示范园以促进合作，尼方将积极研究示范园选址和合作设想"/>
+        <NamedIndividual IRI="#农业"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方对近日在华成功举行中尼贸易畅通工作组第二次会议表示满意，认为该会议有利于促进双边经贸往来。为促进两国贸易投资，双方承诺为两国企业在对方国家投资经营提供公平、透明、非歧视的营商环境"/>
+        <NamedIndividual IRI="#经贸"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方将共同推动经济全球化朝着开放、包容、普惠、平衡、共赢的方向发展，促进全球与地区和平、安全、发展与繁荣，构建人类命运共同体"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方将在地区和国际事务中加强协调配合，共同坚持真正的多边主义，捍卫以联合国为核心的国际体系、以国际法为基础的国际秩序、以联合国宪章宗旨和原则为基础的国际关系基本准则，坚决反对一切形式的霸权主义和强权政治，包括对他国实施非法单边制裁和限制措施，推动构建新型国际关系，携手构建人类命运共同体"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方将进一步开展能源领域合作，特别是水电开发和跨境电网项目及其配套变电站建设。双方将尽快举行中国－尼泊尔能源联合工作组第二次会议并定稿完成《中尼电力合作规划》。双方将早日启动建设吉隆－热索瓦跨境输变电项目。双方将继续用好中尼能源联合工作组平台，开展水电、风电、光伏、生物质和氢能等新能源领域交流合作"/>
+        <NamedIndividual IRI="#能源"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方强调，要坚持真正的多边主义，推进国际关系民主化，推动全球治理朝着更加公正合理的方向发展"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方愿加强教育、科技、通信、文化、旅游、广播电视、智库、青年等领域不同层级的交流合作。双方对签署《中华人民共和国科学技术部与尼泊尔教育科技部关于科技创新合作的协议》表示满意。中方同意探讨在数字经济、数字基础设施、人工智能等领域的交流合作。"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方愿深化两国政党、议会、地方交流合作，加强治国理政经验交流。双方将加强在经贸、农业、文化、青年、新闻等各领域友好合作。中方将继续向叙方提供力所能及的援助，支持叙方开展重建、恢复发展。叙方感谢中方的政治支持和无私帮助，感谢中方在联合国安理会为叙方仗义执言。双方一致同意继续加强反恐安全合作，合力打击恐怖主义"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方愿进一步探讨拓展应急管理、防灾减灾救灾领域合作。中方愿推进尼泊尔国家应急运行中心信息平台技术援助项目，做好援尼地震监测台网运行维护工作。双方同意开展地震学、地震区划、历史建筑工程抗震等领域交流，为尼方提供防灾减灾技术培训"/>
+        <NamedIndividual IRI="#防灾减灾"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方支持两国学者、学生、艺术家和私营部门企业家加强友好交流合作"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方支持多边贸易体制，反对保护主义"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方支持弘扬和平、发展、公平、正义、民主、自由的全人类共同价值，尊重各国人民自主选择适合本国国情的发展道路和社会制度，坚决反对将人权问题政治化、工具化，坚决反对任何国家以民主、人权为借口干涉别国内政"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方欢迎中尼过境运输协定下首批经中国中转的进口货物于2023年9月7日运抵尼泊尔"/>
+        <NamedIndividual IRI="#经贸"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方欢迎尼泊尔青贮饲料成功实现输华，签署《中华人民共和国海关总署与尼泊尔农业畜牧业发展部关于尼泊尔植物源性中药材输华植物检疫要求议定书》，愿加快推进尼泊尔熟制水牛肉输华批准程序，认为这是缓解两国贸易不平衡状况的积极举措。中方愿协助尼方落实尼泊尔柑橘输华检疫要求，愿帮助尼方建设多功能检疫实验室"/>
+        <NamedIndividual IRI="#农业"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方欢迎按照《中华人民共和国国家中医药管理局和尼泊尔卫生与人口部关于传统医学合作的谅解备忘录》，成立中尼传统医药合作委员会，将继续支持中尼中医药中心在尼泊尔开展义诊、培训、医疗服务等，支持中国援尼医疗队在加德满都新设医疗点"/>
+        <NamedIndividual IRI="#卫生"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方签署关于成立审议和修订《中尼贸易和支付协定》联合技术工作组的谅解备忘录"/>
+        <NamedIndividual IRI="#经贸"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方认为尼方今年8月作为主题国参加第七届中国－南亚博览会，为两国经贸合作注入新的生机和活力。中方欢迎尼方参加将于2023年11月在上海举办的第六届中国国际进口博览会"/>
+        <NamedIndividual IRI="#经贸"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方认为开展执法合作对维护两国安全具有重要意义，同意进一步加强执法机构信息交流、能力建设和培训合作。双方同意加快中尼刑事司法协助条约批准工作"/>
+        <NamedIndividual IRI="#安全"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方赞赏彼此相互支持，合作抗击新冠疫情。双方对中国援尼公务员医院升级改造项目竣工和移交表示满意，愿继续加强医疗卫生领域合作，加快推进中国援尼B.P.柯伊拉腊肿瘤医院骨髓移植医疗项目。中方愿积极考虑尼方其他援助项目诉求"/>
+        <NamedIndividual IRI="#卫生"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方高度评价中阿合作论坛机制在推动中阿集体合作上发挥的重要作用，强调将积极开展合作，推动落实首届中国－阿拉伯国家峰会成果，弘扬中阿友好精神，携手构建面向新时代的中阿命运共同体"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#叙方高度赞赏中国为推动沙特阿拉伯王国和伊朗伊斯兰共和国恢复外交关系所作外交努力，感谢中方为推动中东地区热点问题解决、维护中东地区和平稳定所作积极贡献"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#尼方感谢中方为尼泊尔经济社会发展提供宝贵支持。双方同意加快落实业已达成共识的地震后重建项目"/>
+        <NamedIndividual IRI="#防灾减灾"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#尼方感谢中方给予百分之98税目输华产品零关税优惠待遇。中方愿继续采取积极措施为尼泊尔产品输华提供便利"/>
+        <NamedIndividual IRI="#经贸"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#尼方承诺向中方赠送一对独角犀牛，作为尼泊尔政府和人民送给中国政府和人民的礼物，以此象征双方的长久友谊"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#尼方重申西藏事务是中国内政，决不允许利用尼泊尔领土从事任何反华分裂活动"/>
+        <NamedIndividual IRI="#核心利益"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#中方将继续支持尼泊尔各层级文化和旅游机构以灵活方式参与中方主办的文化和旅游交流活动，在华举办旅游推介活动，鼓励更多中国游客赴尼泊尔旅游。为推动更多游客访问尼泊尔，双方同意在华宣布2025年为“尼泊尔旅游年”。中方欢迎尼泊尔友好组织来华参加第八届中国·南亚友好组织论坛。双方期待两国城市间进一步建立友城关系，推动深化人文交往"/>
+        <NamedIndividual IRI="#文化交流"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方同意继续落实已签署的过境运输、借道运输等有关合作文件，帮助尼从“陆锁国”转变为“陆联国”。中方愿根据尼方需求，适时启动阿尼哥公路四期保通项目。中方愿在尼方完成拆迁工作后尽快启动沙拉公路修复项目"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方欢迎两国政党“点亮未来”民生与减贫行动在尼泊尔启动，中国南亚国家减贫与发展合作中心“活力乡村”示范项目成功揭牌，愿聚焦减贫发展、民生改善、乡村振兴等扩大交流合作"/>
+        <NamedIndividual IRI="#减贫"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方欢迎里孜－乃琼口岸顺利开通、樟木口岸恢复客运功能。双方高度评价普兰、吉隆口岸保持“客货两通”并平稳有序运行。中方将为尼方尽快完善里孜－乃琼口岸尼方一侧设施建设提供支持。中方同意积极推动符合条件的传统边贸点尽快恢复开放。双方同意就早日开放陈塘、日屋口岸保持沟通"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#双方考虑到两国政府已于2017年5月12日签署关于在“一带一路”倡议下开展合作的谅解备忘录，表示愿就《中华人民共和国政府和尼泊尔政府关于共同推进“一带一路”建设的合作规划》加快磋商，尽早达成一致。双方愿加强两国发展战略经验交流，深化基础设施互联互通、贸易、旅游、产能与投资等领域务实合作，进一步推动双方共建“一带一路”合作走深走实，让共建“一带一路”更好造福两国人民。双方同意有序推进口岸、公路、铁路、航空、电网等方面互联互通，共同打造跨喜马拉雅立体互联互通网络，共同保障两国合作项目及企业人员安全，帮助尼方实现发展议程，包括尽早从最不发达国家行列毕业"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#叙方坚定奉行一个中国原则，承认中华人民共和国政府是代表全中国的唯一合法政府，台湾是中国不可分割的一部分，支持中国维护国家主权、统一和领土完整，坚决反对任何势力干涉中国内政，支持中国政府为实现国家统一所作的一切努力；坚定支持中方在涉港问题上的立场，支持中方在“一国两制”框架下维护国家安全的努力，坚定认为香港事务纯属中国内政，强烈谴责外部势力干涉香港事务和中国内政的非法行径；坚定支持中方在涉疆问题上的立场，重申涉疆问题不是人权问题，而是反暴恐、去极端化和反分裂问题，叙方坚定支持中方反恐和去极端化努力，坚决反对借口涉疆问题干涉中国内政"/>
+        <NamedIndividual IRI="#核心利益"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#叙方高度评价并积极支持中华人民共和国主席习近平提出的全球发展倡议、全球安全倡议、全球文明倡议。双方将开展积极合作，落实好上述倡议，携手推进高质量共建“一带一路”，共同推动构建人类命运共同体"/>
+        <NamedIndividual IRI="#互联互通"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#尼方支持中方提出的全球发展倡议，将考虑加入“全球发展倡议之友小组”。中方愿同尼方加强发展经验分享"/>
+        <NamedIndividual IRI="#国际关系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#referTo"/>
+        <NamedIndividual IRI="#尼方重申坚定奉行一个中国原则，承认中华人民共和国政府是代表全中国的唯一合法政府，台湾是中国领土不可分割的一部分，反对“台湾独立”"/>
+        <NamedIndividual IRI="#核心利益"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#referTo"/>
+        <Class IRI="#联合声明"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#referTo"/>
+        <Class IRI="#Category"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#中国-尼泊尔-20230926</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-26T00:00:00</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
