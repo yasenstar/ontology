@@ -125,11 +125,45 @@
 </node>
 </node>
 <node TEXT="Towards a Universal Knowledge Representation" ID="ID_225357650" CREATED="1695755938201" MODIFIED="1695755967061">
-<node TEXT="The Meaning (Semantics) of entities and classes must be defined explicitly" ID="ID_936509996" CREATED="1695756086830" MODIFIED="1695756263907"/>
+<node TEXT="Entity processing" ID="ID_787142215" CREATED="1695762593859" MODIFIED="1695762598372">
+<node TEXT="Entity Typing is the task of labeling a given entity mention in tex with a semantic label" POSITION="bottom_or_right" ID="ID_289126324" CREATED="1695762569287" MODIFIED="1695762593292"/>
+<node TEXT="Entity Resolution locates entity terms in text and links them to manifestations of real world objects" POSITION="bottom_or_right" ID="ID_1488696262" CREATED="1695762523457" MODIFIED="1695762556211"/>
+<node TEXT="Word Sense Disambiguation helps to identify which sense of a word is used in a sentence" POSITION="bottom_or_right" ID="ID_564554588" CREATED="1695762619363" MODIFIED="1695762643209"/>
+<node TEXT="Relation Extraction is the detection and classification of semantic relationship mentions within a set of artifacts, typically from text" POSITION="bottom_or_right" ID="ID_31585663" CREATED="1695762649116" MODIFIED="1695762677781"/>
+<node TEXT="Syntax defines the normative structure of message" POSITION="bottom_or_right" ID="ID_1605274700" CREATED="1695762829580" MODIFIED="1695762842396"/>
+</node>
+<node TEXT="The Meaning of Information" ID="ID_448779378" CREATED="1695762697742" MODIFIED="1695762709476">
+<node TEXT="The meaning defines what the elements of a message represent" ID="ID_1030815464" CREATED="1695762709480" MODIFIED="1695762728613"/>
+<node TEXT="Machines are able to understand the meaning of information by using formal knowledge representation" ID="ID_1199348372" CREATED="1695762737035" MODIFIED="1695762755621"/>
+<node TEXT="To understand, the meaning (Semantic) of entities and classes must be defined explicitly" ID="ID_655164738" CREATED="1695762756748" MODIFIED="1695762791279"/>
+<node TEXT="Meaning can be expressed with the help of knowledge representations (Ontologies)" POSITION="bottom_or_right" ID="ID_936509996" CREATED="1695756086830" MODIFIED="1695762819942"/>
+</node>
 <node TEXT="Knowledge Representation vs Data Structure" ID="ID_1737396896" CREATED="1695756831721" MODIFIED="1695756844160">
 <node TEXT="Mathematical Logic provides a framework to formally express the semantics of knowledge representations" ID="ID_1488585016" CREATED="1695756844160" MODIFIED="1695756868260"/>
 <node TEXT="Semantics of knowledge representations can be defined explicitly." ID="ID_822165023" CREATED="1695756868433" MODIFIED="1695756882643"/>
 <node TEXT="Mathematical Logic enables logical inferences and reasoning for knowledge representations" ID="ID_441501604" CREATED="1695756883355" MODIFIED="1695756906879"/>
+</node>
+<node TEXT="The Semantic Web (a web of data)" ID="ID_494693449" CREATED="1695756918297" MODIFIED="1695762343368"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The Semantic Web is an extension of the current web in which information is given well-defined meaning, better enabling computers and people to work in cooperation.
+    </p>
+    <p>
+      By Tim Berners-Less, James Hendler, Ora Lassila at Scientific American, 2001
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="The Semantic Web is an Extension of the current web" ID="ID_864742775" CREATED="1695756929941" MODIFIED="1695756940876"/>
+<node TEXT="The meaning of information (Semantics) is made explicit by formal (structured) and standardized knowledge representations (Ontologies)" ID="ID_109736636" CREATED="1695756941384" MODIFIED="1695756975153"/>
+<node TEXT="Thereby it&apos;s possible to process the meaning of information automatically" ID="ID_1880125203" CREATED="1695756976832" MODIFIED="1695756995460"/>
+<node TEXT="It&apos;s possible to relate and integrate heterogeneous data" ID="ID_477563697" CREATED="1695756995663" MODIFIED="1695757008845"/>
+<node TEXT="It&apos;s possible to deduce implicit (not evident) information from existing (evident) information in an automated way" ID="ID_1906618614" CREATED="1695757009019" MODIFIED="1695757032949"/>
+<node TEXT="The Semantic Web is kind of a global database that contains a universal network of semantic propositions" ID="ID_26858583" CREATED="1695757033435" MODIFIED="1695757057709"/>
 </node>
 </node>
 </node>

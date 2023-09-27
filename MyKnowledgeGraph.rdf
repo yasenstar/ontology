@@ -148,6 +148,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cocos2D-x_Lua -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cocos2D-x_Lua">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Lua"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://cocos2d-lua.org/</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CubicWeb -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CubicWeb">
@@ -186,9 +195,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Development"/>
     </owl:Class>
     
@@ -358,7 +367,7 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Java -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Java">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang"/>
     </owl:Class>
     
 
@@ -366,7 +375,7 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang"/>
     </owl:Class>
     
 
@@ -397,7 +406,7 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Lua -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Lua">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#supporting"/>
@@ -613,7 +622,7 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Language"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang"/>
     </owl:Class>
     
 
