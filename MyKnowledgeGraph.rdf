@@ -264,6 +264,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#FNA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#FNA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Engine"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fna-xna.github.io/</rdfs:comment>
+        <rdfs:comment>FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 (https://en.wikipedia.org/wiki/Microsoft_XNA) Refresh libraries.
+
+FNA is primarily developed by video game porter Ethan Lee (https://www.flibitijibibo.com/), who has shipped more than four dozen ports of XNA games using the exact branch that you see on GitHub today!</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Falcon -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Falcon">
@@ -314,6 +326,23 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Development_in_Python">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Engine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Engine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Dev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Godot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Godot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Engine"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://godotengine.org/</rdfs:comment>
     </owl:Class>
     
 
@@ -595,6 +624,14 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Protege -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Protege">
@@ -717,8 +754,8 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#SQLFlow">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Database"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://sqlflow.gudusoft.com/#/</rdfs:comment>
         <rdfs:comment>Visualize column impact and data lineage to track columns across transformations by analyzing SQL query.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://sqlflow.gudusoft.com/#/</rdfs:comment>
     </owl:Class>
     
 
@@ -865,6 +902,14 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Unity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Unity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Engine"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web2Py -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web2Py">
@@ -901,8 +946,8 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#YouTube_Downloader">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Info"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/yt-dlp/yt-dlp</rdfs:comment>
         <rdfs:comment>yt-dlp.exe --write-auto-subs [URL]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/yt-dlp/yt-dlp</rdfs:comment>
     </owl:Class>
     
 
