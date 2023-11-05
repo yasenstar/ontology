@@ -268,10 +268,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#FNA">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Game_Engine"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fna-xna.github.io/</rdfs:comment>
         <rdfs:comment>FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 (https://en.wikipedia.org/wiki/Microsoft_XNA) Refresh libraries.
 
 FNA is primarily developed by video game porter Ethan Lee (https://www.flibitijibibo.com/), who has shipped more than four dozen ports of XNA games using the exact branch that you see on GitHub today!</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fna-xna.github.io/</rdfs:comment>
     </owl:Class>
     
 
@@ -473,6 +473,15 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#ML_in_Python">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Python"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MS_SQL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MS_SQL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Database"/>
+        <rdfs:comment>Check SQL version: https://www.sqlserverversions.com/</rdfs:comment>
     </owl:Class>
     
 
