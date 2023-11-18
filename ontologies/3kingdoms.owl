@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2023/3/3kingdoms"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yasen/ontologies/2023/3/3kingdoms">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#人物"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#势力"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#工具"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#文官"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#武器"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#武将"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#皇族"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#马匹"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#使用"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#属于"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#座骑"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#关羽"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#刘备"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#吴"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#张飞"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#蜀"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#诸葛亮"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#赤兔马"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#青龙偃月刀"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#魏"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#文官"/>
+        <Class IRI="#人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#武器"/>
+        <Class IRI="#工具"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#武将"/>
+        <Class IRI="#人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#皇族"/>
+        <Class IRI="#人物"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#马匹"/>
+        <Class IRI="#工具"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#武将"/>
+        <NamedIndividual IRI="#关羽"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#皇族"/>
+        <NamedIndividual IRI="#刘备"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#势力"/>
+        <NamedIndividual IRI="#吴"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#武将"/>
+        <NamedIndividual IRI="#张飞"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#势力"/>
+        <NamedIndividual IRI="#蜀"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#马匹"/>
+        <NamedIndividual IRI="#赤兔马"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#武器"/>
+        <NamedIndividual IRI="#青龙偃月刀"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#势力"/>
+        <NamedIndividual IRI="#魏"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#使用"/>
+        <NamedIndividual IRI="#关羽"/>
+        <NamedIndividual IRI="#青龙偃月刀"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#属于"/>
+        <NamedIndividual IRI="#关羽"/>
+        <NamedIndividual IRI="#蜀"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#座骑"/>
+        <NamedIndividual IRI="#关羽"/>
+        <NamedIndividual IRI="#赤兔马"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#属于"/>
+        <NamedIndividual IRI="#刘备"/>
+        <NamedIndividual IRI="#蜀"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#使用"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#属于"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#座骑"/>
+        <Class IRI="#人物"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#使用"/>
+        <Class IRI="#武器"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#属于"/>
+        <Class IRI="#势力"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#座骑"/>
+        <Class IRI="#马匹"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
