@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:family-relation="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#从事 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#从事">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#职业"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#小辈 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#小辈">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#祖先"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#祖先 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#祖先">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#配偶 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#配偶">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#性别 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#性别">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>不想透露</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>女性</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>男性</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#籍贯 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#籍贯">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#身高 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#身高">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#爱好 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#爱好"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#职业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#职业"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物1-爷爷 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物1-爷爷">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <family-relation:从事 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#公务员"/>
+        <family-relation:祖先 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物2-父亲"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物2-父亲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物2-父亲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <family-relation:祖先 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物4-我"/>
+        <family-relation:配偶 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物3-母亲"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物3-母亲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物3-母亲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物4-我 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物4-我">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#公务员 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#公务员">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#职业"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#军人 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#军人">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#职业"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#学生 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#学生">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#职业"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#教师 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#教师">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#职业"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#游泳 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#游泳">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#爱好"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#篮球 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#篮球">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#爱好"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#绘画 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#绘画">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#爱好"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#读书 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#读书">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#爱好"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
