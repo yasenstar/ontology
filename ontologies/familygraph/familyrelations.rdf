@@ -167,6 +167,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
         <family-relation:从事 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#公务员"/>
         <family-relation:祖先 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物2-父亲"/>
+        <family-relation:籍贯>广东</family-relation:籍贯>
     </owl:NamedIndividual>
     
 
@@ -177,6 +178,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
         <family-relation:祖先 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物4-我"/>
         <family-relation:配偶 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物3-母亲"/>
+        <family-relation:身高 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</family-relation:身高>
     </owl:NamedIndividual>
     
 
@@ -193,6 +195,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物4-我">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#人物"/>
+        <family-relation:性别>男性</family-relation:性别>
     </owl:NamedIndividual>
     
 
@@ -258,6 +261,20 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#读书">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/family-relation#爱好"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>家庭关系图-示意模型</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
