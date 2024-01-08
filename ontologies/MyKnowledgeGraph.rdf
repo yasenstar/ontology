@@ -943,6 +943,33 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VChart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VChart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VisActor"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.visactor.io/vchart</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VTable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VTable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VisActor"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.visactor.io/vtable</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VisActor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VisActor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#DataAnalytics"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.visactor.io/</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vue.JS -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vue.JS">
@@ -1076,6 +1103,33 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Modeling">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Database_Batch_Load:_DataMaster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Database_Batch_Load:_DataMaster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Protege"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://protegewiki.stanford.edu/wiki/DataMaster</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#SpreadSheet_Data_Load:_cellfie-plugin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#SpreadSheet_Data_Load:_cellfie-plugin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Protege"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/protegeproject/cellfie-plugin</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#XML_Data_Load:_XML_Tab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#XML_Data_Load:_XML_Tab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Protege"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://protegewiki.stanford.edu/wiki/XML_Tab</rdfs:comment>
     </owl:Class>
     
 
