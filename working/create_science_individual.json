@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"E","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\nTypes: @B*\nFacts: gender @C*\nFacts: studied_credits @D*(xsd:integer)\nFacts: Total_number_of_clicks @E*(xsd:integer)","active":true}]}
