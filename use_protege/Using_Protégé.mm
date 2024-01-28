@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Using Protégé" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1706466927410" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#fbf1c7">
+<hook NAME="MapStyle" background="#fbf1c7" zoom="0.769">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_gruvbox_template.mm"/>
 
 <map_styles>
@@ -76,17 +76,175 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Protege 5 Documentation" POSITION="bottom_or_right" ID="ID_1824909855" CREATED="1706466954748" MODIFIED="1706466967908" LINK="https://protegeproject.github.io/protege/">
+<node TEXT="Protege 5 Documentation" POSITION="bottom_or_right" ID="ID_1824909855" CREATED="1706466954748" MODIFIED="1706477027130" LINK="https://protegeproject.github.io/protege/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Protege: https://protege.stanford.edu/support.php
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Protege 5 Documentation:
+    </p>
+    <p>
+      https://protegeproject.github.io/protege/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Protege Desktop User Documentation:
+    </p>
+    <p>
+      https://protegewiki.stanford.edu/wiki/ProtegeDesktopUserDocs
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="1. Installation" ID="ID_959855209" CREATED="1706466969277" MODIFIED="1706466973968">
 <node TEXT="Download Page" ID="ID_804660057" CREATED="1706467059068" MODIFIED="1706467065104" LINK="http://protege.stanford.edu/software.php#desktop-protege"/>
 <node TEXT="Installing Protege on Mac OS X" ID="ID_176320450" CREATED="1706466995559" MODIFIED="1706467014729" LINK="https://protegeproject.github.io/protege/installation/osx"/>
 <node TEXT="Installing Protege on Windows" ID="ID_913653701" CREATED="1706467016263" MODIFIED="1706467039771" LINK="https://protegeproject.github.io/protege/installation/windows"/>
 <node TEXT="Installing Protege on Linux" ID="ID_1885638554" CREATED="1706467024896" MODIFIED="1706467035135" LINK="https://protegeproject.github.io/protege/installation/linux"/>
 </node>
-<node TEXT="2. Getting Started" ID="ID_127424502" CREATED="1706466974127" MODIFIED="1706466978268"/>
-<node TEXT="3. Views" ID="ID_1980997349" CREATED="1706466978484" MODIFIED="1706466981188"/>
-<node TEXT="4. Menus" ID="ID_1471734419" CREATED="1706466981368" MODIFIED="1706466984045"/>
-<node TEXT="5. Class Expression Syntax" ID="ID_316416786" CREATED="1706466984234" MODIFIED="1706466990692"/>
+<node TEXT="2. Getting Started" ID="ID_127424502" CREATED="1706466974127" MODIFIED="1706466978268">
+<node TEXT="Navigation" ID="ID_123978473" CREATED="1706467330326" MODIFIED="1706467333662">
+<node TEXT="Switching among tabs" ID="ID_1799029177" CREATED="1706467545376" MODIFIED="1706467550419">
+<node TEXT="Entities Tab" ID="ID_860413222" CREATED="1706474571716" MODIFIED="1706474584167"/>
+<node TEXT="OWLViz" ID="ID_1169686486" CREATED="1706474592048" MODIFIED="1706474596119">
+<node TEXT="Prerequisite: GraphViz" ID="ID_874204105" CREATED="1706474668804" MODIFIED="1706474684850" LINK="http://www.graphviz.org/"/>
+<node TEXT="OWLViz documentation" ID="ID_252011140" CREATED="1706474691808" MODIFIED="1706474703858" LINK="https://github.com/protegeproject/owlviz"/>
+</node>
+</node>
+<node TEXT="Using &quot;Search...&quot; (ctrl+F)" ID="ID_229856687" CREATED="1706467550673" MODIFIED="1706467585834"/>
+</node>
+<node TEXT="Reasoning" ID="ID_1777984569" CREATED="1706467346384" MODIFIED="1706467348974">
+<node TEXT="Protege comes with a built-in reasoner called HermiT" ID="ID_78863915" CREATED="1706467598216" MODIFIED="1706467619316" LINK="http://www.hermit-reasoner.com/"/>
+</node>
+<node TEXT="Reconfigure the User Interface" ID="ID_714560559" CREATED="1706474772820" MODIFIED="1706474783355"/>
+<node TEXT="Human Readable Entity Names" ID="ID_1289853114" CREATED="1706474839444" MODIFIED="1706474846718"/>
+<node TEXT="Pizzas in 10 Minutes" ID="ID_1800850098" CREATED="1706475850031" MODIFIED="1706475863342" LINK="https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes">
+<node TEXT="pizza.owl" POSITION="bottom_or_right" ID="ID_64857512" CREATED="1706467115067" MODIFIED="1706467122435" LINK="http://protege.stanford.edu/ontologies/pizza/pizza.owl"/>
+</node>
+</node>
+<node TEXT="3. Editor features" ID="ID_815631675" CREATED="1706476487751" MODIFIED="1706476494297">
+<node TEXT="Views" FOLDED="true" POSITION="bottom_or_right" ID="ID_1980997349" CREATED="1706466978484" MODIFIED="1706476504270">
+<node TEXT="Annotations" ID="ID_523961943" CREATED="1706474933437" MODIFIED="1706474939016"/>
+<node TEXT="Class Description" ID="ID_475660866" CREATED="1706474939624" MODIFIED="1706474943702"/>
+<node TEXT="Class Hierarchy" ID="ID_720190931" CREATED="1706474944094" MODIFIED="1706474948436"/>
+<node TEXT="Data Property Hierarchy" ID="ID_923292333" CREATED="1706474949031" MODIFIED="1706474957486"/>
+<node TEXT="Imported Ontologies" ID="ID_744999960" CREATED="1706474958000" MODIFIED="1706474962047"/>
+<node TEXT="Individual Description" ID="ID_282267810" CREATED="1706474962249" MODIFIED="1706474968188"/>
+<node TEXT="Instances" ID="ID_1752172743" CREATED="1706474969109" MODIFIED="1706474971432"/>
+<node TEXT="Object Property Characteristics" ID="ID_560526885" CREATED="1706474974953" MODIFIED="1706474981875"/>
+<node TEXT="Object Property Description" ID="ID_388158740" CREATED="1706474982079" MODIFIED="1706474988617"/>
+<node TEXT="Object Property Hierarchy" ID="ID_802955808" CREATED="1706474988858" MODIFIED="1706474996382"/>
+<node TEXT="Ontology Header" ID="ID_1017765378" CREATED="1706474996557" MODIFIED="1706475005312"/>
+<node TEXT="Ontology Metrics" ID="ID_816248245" CREATED="1706475005493" MODIFIED="1706475008952"/>
+<node TEXT="Usage" ID="ID_302012651" CREATED="1706475009407" MODIFIED="1706475010718"/>
+</node>
+<node TEXT="Menus" FOLDED="true" POSITION="bottom_or_right" ID="ID_1471734419" CREATED="1706466981368" MODIFIED="1706476513826">
+<node TEXT="File &gt; Export inferrred axioms as ontology" ID="ID_1114488530" CREATED="1706475018766" MODIFIED="1706475069094"/>
+<node TEXT="Edit &gt; Find" ID="ID_969375304" CREATED="1706475203895" MODIFIED="1706475210439"/>
+<node TEXT="File &gt; Gather ontologies" ID="ID_1046855123" CREATED="1706475212033" MODIFIED="1706475221766"/>
+<node TEXT="File &gt; Loaded ontology sources" ID="ID_829345897" CREATED="1706475240391" MODIFIED="1706475246688"/>
+<node TEXT="File &gt; New" ID="ID_416066810" CREATED="1706475259830" MODIFIED="1706475263080"/>
+<node TEXT="File &gt; Ontology libraries" ID="ID_547499605" CREATED="1706475266100" MODIFIED="1706475361330">
+<icon BUILTIN="closed"/>
+</node>
+<node TEXT="File &gt; Open" ID="ID_677904052" CREATED="1706475367111" MODIFIED="1706475370720"/>
+<node TEXT="File &gt; Open from URL" ID="ID_1354921666" CREATED="1706475381392" MODIFIED="1706475386673"/>
+<node TEXT="File &gt; Open recent" ID="ID_1409422011" CREATED="1706475386908" MODIFIED="1706475394174"/>
+<node TEXT="File &gt; Reload" ID="ID_54786978" CREATED="1706475398568" MODIFIED="1706475402580"/>
+<node TEXT="Refactor &gt; Rename entity" ID="ID_1860596307" CREATED="1706475408967" MODIFIED="1706475420917"/>
+<node TEXT="File &gt; Save" ID="ID_954557546" CREATED="1706475421877" MODIFIED="1706475424861"/>
+<node TEXT="File &gt; Save As" ID="ID_1676591337" CREATED="1706475425048" MODIFIED="1706475429237"/>
+<node TEXT="Reasoner &gt; Start Reasoner" ID="ID_1575961558" CREATED="1706475432462" MODIFIED="1706475443299"/>
+<node TEXT="Reasoner &gt; Synchronize reasoner" ID="ID_1646641297" CREATED="1706475443565" MODIFIED="1706475453611"/>
+</node>
+<node TEXT="Protege preferences guide" POSITION="bottom_or_right" ID="ID_272880739" CREATED="1706476555504" MODIFIED="1706476566085"/>
+<node TEXT="Naming and rendering of entities" POSITION="bottom_or_right" ID="ID_1101550761" CREATED="1706476587486" MODIFIED="1706476595786"/>
+<node TEXT="Protege Expression Editor" POSITION="bottom_or_right" ID="ID_516258077" CREATED="1706476619618" MODIFIED="1706476629006">
+<node TEXT="Class Expression Syntax" FOLDED="true" POSITION="bottom_or_right" ID="ID_316416786" CREATED="1706466984234" MODIFIED="1706476552689" LINK="https://www.w3.org/TR/owl2-manchester-syntax/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Class expressions are used to describe individuals that share common characteristics. This includes both class names (or named classes) and complex class expressions. The table below presents the keywords that are used to build up complex class expressions along with some examples. Class expressions can be nested to arbitrary depths in order to build up rich descriptions of the domain being modelled.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The Manchester OWL Syntax is used for presenting and writing various kinds of complex expressions in Protégé. This page provides a brief overview of the class expression syntax.
+    </p>
+    <p>
+      (https://www.w3.org/TR/owl2-manchester-syntax/)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="some" ID="ID_158275833" CREATED="1706475468136" MODIFIED="1706475491584">
+<node TEXT="hasPet some Dog&#xa;(Things that have a pet that is a Dog)" ID="ID_404162764" CREATED="1706475491584" MODIFIED="1706475507346"/>
+</node>
+<node TEXT="value" ID="ID_1290486647" CREATED="1706475520580" MODIFIED="1706475523050">
+<node TEXT="hasPet value Tibbs&#xa;(Things that have a pet that is Tibbs)" ID="ID_733285956" CREATED="1706475523064" MODIFIED="1706475539471"/>
+</node>
+<node TEXT="only" ID="ID_1353326615" CREATED="1706475541268" MODIFIED="1706475543347">
+<node TEXT="hasPet only Cat&#xa;(Things that have pets that are only Cats)" ID="ID_1405369149" CREATED="1706475543347" MODIFIED="1706475559189"/>
+</node>
+<node TEXT="min" ID="ID_74091927" CREATED="1706475560268" MODIFIED="1706475562612">
+<node TEXT="hasPet min 3 Cat&#xa;(Things that have at least three pets that are Cats)" ID="ID_1134923283" CREATED="1706475562612" MODIFIED="1706475585356"/>
+</node>
+<node TEXT="max" ID="ID_763195735" CREATED="1706475586430" MODIFIED="1706475590564">
+<node TEXT="hasPet max 5 Dog&#xa;(Things that have at most five pets that are Dogs)" ID="ID_624739850" CREATED="1706475590564" MODIFIED="1706475607649"/>
+</node>
+<node TEXT="exactly" ID="ID_1119990928" CREATED="1706475608843" MODIFIED="1706475613919">
+<node TEXT="hasPet exactly 2 GoldFish&#xa;(Things that have exactly 2 GoldFish as pets)" ID="ID_1775740287" CREATED="1706475613919" MODIFIED="1706475642868"/>
+</node>
+<node TEXT="and" ID="ID_1277223171" CREATED="1706475647473" MODIFIED="1706475649266">
+<node TEXT="Person and (hasPet some Cat)&#xa;(People that have a pet that&apos;s a Cat)" ID="ID_419677225" CREATED="1706475649274" MODIFIED="1706475673104"/>
+</node>
+<node TEXT="or" ID="ID_87589295" CREATED="1706475674411" MODIFIED="1706475676963">
+<node TEXT="(hasPet some Cat) or (hasPet some Dog)&#xa;(Things that have a pet that&apos;s a Cat or have a pet that&apos;s a Dog)" ID="ID_357478124" CREATED="1706475676963" MODIFIED="1706475709457"/>
+</node>
+<node TEXT="not" ID="ID_1438106387" CREATED="1706475712939" MODIFIED="1706475714642">
+<node TEXT="not (hasPet some Dog)&#xa;(Things that do not have a pet that&apos;s a dog)" ID="ID_941026089" CREATED="1706475714642" MODIFIED="1706475729263"/>
+</node>
+</node>
+<node TEXT="Expression Editor Usage" POSITION="bottom_or_right" ID="ID_19951295" CREATED="1706476643831" MODIFIED="1706476657487"/>
+</node>
+<node TEXT="Manchester OWL Syntax" POSITION="bottom_or_right" ID="ID_1992868598" CREATED="1706476683477" MODIFIED="1706476694997" LINK="https://www.w3.org/TR/owl2-manchester-syntax/"/>
+<node TEXT="DL Query Tab" POSITION="bottom_or_right" ID="ID_1500892533" CREATED="1706476704548" MODIFIED="1706476708103"/>
+<node TEXT="OWL Imports" POSITION="bottom_or_right" ID="ID_518005023" CREATED="1706476708609" MODIFIED="1706476712174"/>
+<node TEXT="Axiom annotations" POSITION="bottom_or_right" ID="ID_1893499680" CREATED="1706476713372" MODIFIED="1706476718421"/>
+<node TEXT="Protege OWL Diff" POSITION="bottom_or_right" ID="ID_1362637939" CREATED="1706476719460" MODIFIED="1706476724638"/>
+</node>
+<node TEXT="4. Protege Advanced features" ID="ID_11724474" CREATED="1706476524197" MODIFIED="1706476532443">
+<node TEXT="The Bean Shell" ID="ID_1038680511" CREATED="1706476731152" MODIFIED="1706476735433"/>
+<node TEXT="The Protege Server" ID="ID_1145620055" CREATED="1706476735623" MODIFIED="1706476740640"/>
+</node>
+<node TEXT="5. Further setup / Configuration" ID="ID_1620497773" CREATED="1706476742058" MODIFIED="1706476748720">
+<node TEXT="Adding more memory" ID="ID_950096050" CREATED="1706476748723" MODIFIED="1706476752722"/>
+<node TEXT="Double-clicking on OWL files" ID="ID_531108929" CREATED="1706476752998" MODIFIED="1706476761077"/>
+<node TEXT="Dealing with Protege preferences problems" ID="ID_1369085219" CREATED="1706476761345" MODIFIED="1706476770789"/>
+<node TEXT="Working with firewalls and proxies" ID="ID_473893949" CREATED="1706476771261" MODIFIED="1706476779151"/>
+</node>
+<node TEXT="6. Protege plugins" ID="ID_130262879" CREATED="1706476779906" MODIFIED="1706476813205">
+<node TEXT="Auto Update plugins" ID="ID_667416116" CREATED="1706476813872" MODIFIED="1706476845979" LINK="https://protegewiki.stanford.edu/wiki/EnablePluginAutoUpdate"/>
+<node TEXT="List of Protege Plugins" ID="ID_1986064854" CREATED="1706476847429" MODIFIED="1706476862161" LINK="https://protegewiki.stanford.edu/wiki/Protege-OWL_4.0"/>
+<node TEXT="CO-ODE Protege Plugins" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins"/>
+</node>
 </node>
 </node>
 </map>
