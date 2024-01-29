@@ -91,14 +91,14 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="RDF" POSITION="bottom_or_right" ID="ID_1120968592" CREATED="1706468966044" MODIFIED="1706468968811">
+<node TEXT="RDF" FOLDED="true" POSITION="bottom_or_right" ID="ID_1120968592" CREATED="1706468966044" MODIFIED="1706468968811">
 <node TEXT="Simple triple based data model: subject, predicate, object" ID="ID_151995247" CREATED="1706468968811" MODIFIED="1706468989375"/>
 <node TEXT="Individual things, and not just files, are given unique identifiers" ID="ID_1927633990" CREATED="1706468989958" MODIFIED="1706469005174"/>
 <node TEXT="XML serialization (RDF/XML) for ease of data exchange" ID="ID_1609102305" CREATED="1706469005570" MODIFIED="1706469020953"/>
 <node TEXT="Various textual representations for ease of human understanding" ID="ID_1333801666" CREATED="1706469021124" MODIFIED="1706469037349"/>
 <node TEXT="No Schema" ID="ID_928293780" CREATED="1706469037516" MODIFIED="1706469040330"/>
 </node>
-<node TEXT="Ontology" POSITION="bottom_or_right" ID="ID_114099074" CREATED="1706469047050" MODIFIED="1706469051574">
+<node TEXT="Ontology" FOLDED="true" POSITION="bottom_or_right" ID="ID_114099074" CREATED="1706469047050" MODIFIED="1706469051574">
 <node ID="ID_1856530141" CREATED="1706469051574" MODIFIED="1706469098949"><richcontent TYPE="NODE">
 
 <html>
@@ -231,7 +231,7 @@
 </node>
 <node TEXT="OWL does not support defining specific validation constraints in different contexts" ID="ID_43947134" CREATED="1706469719833" MODIFIED="1706469739409"/>
 </node>
-<node TEXT="SHACL (An RDF Validator)" POSITION="bottom_or_right" ID="ID_1200238652" CREATED="1706469839033" MODIFIED="1706469959833" LINK="https://www.w3.org/TR/shacl/"><richcontent TYPE="NOTE">
+<node TEXT="SHACL (An RDF Validator)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1200238652" CREATED="1706469839033" MODIFIED="1706469959833" LINK="https://www.w3.org/TR/shacl/"><richcontent TYPE="NOTE">
 <html>
   <head>
     

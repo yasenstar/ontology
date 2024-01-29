@@ -131,7 +131,8 @@
 </node>
 <node TEXT="Reconfigure the User Interface" ID="ID_714560559" CREATED="1706474772820" MODIFIED="1706474783355"/>
 <node TEXT="Human Readable Entity Names" ID="ID_1289853114" CREATED="1706474839444" MODIFIED="1706474846718"/>
-<node TEXT="Pizzas in 10 Minutes" ID="ID_1800850098" CREATED="1706475850031" MODIFIED="1706475863342" LINK="https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes">
+<node TEXT="Pizzas in 10 Minutes" FOLDED="true" ID="ID_1800850098" CREATED="1706475850031" MODIFIED="1706539697557" LINK="https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes">
+<arrowlink DESTINATION="ID_64857512"/>
 <node TEXT="pizza.owl" POSITION="bottom_or_right" ID="ID_64857512" CREATED="1706467115067" MODIFIED="1706467122435" LINK="http://protege.stanford.edu/ontologies/pizza/pizza.owl"/>
 </node>
 </node>
@@ -234,8 +235,7 @@
 <node TEXT="The Bean Shell" ID="ID_1038680511" CREATED="1706476731152" MODIFIED="1706476735433"/>
 <node TEXT="The Protege Server" ID="ID_1145620055" CREATED="1706476735623" MODIFIED="1706476740640"/>
 </node>
-<node TEXT="5. Further setup / Configuration" FOLDED="true" ID="ID_1620497773" CREATED="1706476742058" MODIFIED="1706489304759">
-<arrowlink DESTINATION="ID_959855209"/>
+<node TEXT="5. Further setup / Configuration" FOLDED="true" ID="ID_1620497773" CREATED="1706476742058" MODIFIED="1706539730252">
 <node TEXT="Adding more memory" ID="ID_950096050" CREATED="1706476748723" MODIFIED="1706489300526" LINK="https://protegewiki.stanford.edu/wiki/ChangingTheHeapSize"/>
 <node TEXT="Double-clicking on OWL files (MacOS specified)" ID="ID_531108929" CREATED="1706476752998" MODIFIED="1706489754292" LINK="https://protegewiki.stanford.edu/wiki/EnablingDoubleClick"/>
 <node TEXT="Dealing with Protege preferences problems" ID="ID_1369085219" CREATED="1706476761345" MODIFIED="1706489316009" LINK="https://protegewiki.stanford.edu/wiki/ClearingP4Preferences">
@@ -266,7 +266,12 @@
 <node TEXT="CO-ODE Protege Plugins" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins"/>
 </node>
 </node>
-<node TEXT="Protege OWL Tutorial" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706538950006">
+<node TEXT="WebProtege" POSITION="bottom_or_right" ID="ID_570018266" CREATED="1706539639292" MODIFIED="1706539646456">
+<node TEXT="WebProtege Overview" ID="ID_1760700010" CREATED="1706539647753" MODIFIED="1706539661903" LINK="http://protegewiki.stanford.edu/wiki/WebProtege"/>
+<node TEXT="WebProtege User Guide" ID="ID_82492711" CREATED="1706539652326" MODIFIED="1706539667259" LINK="http://protegewiki.stanford.edu/wiki/WebProtegeUsersGuide"/>
+</node>
+<node TEXT="Protege OWL Tutorial" FOLDED="true" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706539697556">
+<arrowlink DESTINATION="ID_64857512"/>
 <node TEXT="Tutorial in Protege Website" ID="ID_1648662599" CREATED="1706538950960" MODIFIED="1706538986572" LINK="http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -284,5 +289,6 @@
 <node TEXT="My Playlist of Pizza OWL practical videos (Referred by Michael)" ID="ID_1566331058" CREATED="1706539526343" MODIFIED="1706539596963" LINK="https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist"/>
 <node TEXT="My Pizza OWL practice GitHub Repo" ID="ID_1328512994" CREATED="1706539559173" MODIFIED="1706539573591" LINK="https://github.com/yasenstar/protege_pizza"/>
 </node>
+<node TEXT="Ontology Development 101" POSITION="bottom_or_right" ID="ID_744791886" CREATED="1706539622153" MODIFIED="1706539633964" LINK="http://protegewiki.stanford.edu/wiki/Ontology101"/>
 </node>
 </map>
