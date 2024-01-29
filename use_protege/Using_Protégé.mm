@@ -115,7 +115,7 @@
 <node TEXT="Installing Protege on Windows" ID="ID_913653701" CREATED="1706467016263" MODIFIED="1706467039771" LINK="https://protegeproject.github.io/protege/installation/windows"/>
 <node TEXT="Installing Protege on Linux" ID="ID_1885638554" CREATED="1706467024896" MODIFIED="1706467035135" LINK="https://protegeproject.github.io/protege/installation/linux"/>
 </node>
-<node TEXT="2. Getting Started" ID="ID_127424502" CREATED="1706466974127" MODIFIED="1706466978268">
+<node TEXT="2. Getting Started" FOLDED="true" ID="ID_127424502" CREATED="1706466974127" MODIFIED="1706466978268">
 <node TEXT="Navigation" FOLDED="true" ID="ID_123978473" CREATED="1706467330326" MODIFIED="1706467333662">
 <node TEXT="Switching among tabs" ID="ID_1799029177" CREATED="1706467545376" MODIFIED="1706467550419">
 <node TEXT="Entities Tab" ID="ID_860413222" CREATED="1706474571716" MODIFIED="1706474584167"/>
@@ -137,7 +137,7 @@
 </node>
 </node>
 <node TEXT="3. Editor features" FOLDED="true" ID="ID_815631675" CREATED="1706476487751" MODIFIED="1706476494297">
-<node TEXT="Views" FOLDED="true" POSITION="bottom_or_right" ID="ID_1980997349" CREATED="1706466978484" MODIFIED="1706476504270">
+<node TEXT="Views" POSITION="bottom_or_right" ID="ID_1980997349" CREATED="1706466978484" MODIFIED="1706476504270">
 <node TEXT="Annotations" ID="ID_523961943" CREATED="1706474933437" MODIFIED="1706474939016"/>
 <node TEXT="Class Description" ID="ID_475660866" CREATED="1706474939624" MODIFIED="1706474943702"/>
 <node TEXT="Class Hierarchy" ID="ID_720190931" CREATED="1706474944094" MODIFIED="1706474948436"/>
@@ -263,7 +263,7 @@
 <node TEXT="6. Protege plugins" ID="ID_130262879" CREATED="1706476779906" MODIFIED="1706476813205">
 <node TEXT="Auto Update plugins" ID="ID_667416116" CREATED="1706476813872" MODIFIED="1706476845979" LINK="https://protegewiki.stanford.edu/wiki/EnablePluginAutoUpdate"/>
 <node TEXT="List of Protege Plugins" ID="ID_1986064854" CREATED="1706476847429" MODIFIED="1706476862161" LINK="https://protegewiki.stanford.edu/wiki/Protege-OWL_4.0"/>
-<node TEXT="CO-ODE Protege Plugins" FOLDED="true" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins">
+<node TEXT="CO-ODE Protege Plugins" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins">
 <node TEXT="Annotation template" ID="ID_539300527" CREATED="1706555489024" MODIFIED="1706556355274" LINK="http://code.google.com/p/co-ode-owl-plugins/wiki/AnnotationTemplate">
 <arrowlink DESTINATION="ID_64857512"/>
 </node>
@@ -295,6 +295,16 @@
 <node TEXT="My Playlist of Pizza OWL practical videos (Referred by Michael)" ID="ID_1566331058" CREATED="1706539526343" MODIFIED="1706539596963" LINK="https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist"/>
 <node TEXT="My Pizza OWL practice GitHub Repo" ID="ID_1328512994" CREATED="1706539559173" MODIFIED="1706539573591" LINK="https://github.com/yasenstar/protege_pizza"/>
 </node>
-<node TEXT="Ontology Development 101" POSITION="bottom_or_right" ID="ID_744791886" CREATED="1706539622153" MODIFIED="1706539633964" LINK="http://protegewiki.stanford.edu/wiki/Ontology101"/>
+<node TEXT="Ontology Development 101" POSITION="bottom_or_right" ID="ID_744791886" CREATED="1706539622153" MODIFIED="1706539633964" LINK="http://protegewiki.stanford.edu/wiki/Ontology101">
+<node TEXT="Steps for making Ontology" ID="ID_369339681" CREATED="1706570180062" MODIFIED="1706570188053"/>
+<node TEXT="Step 1. Determine the domain and scope of the ontology" POSITION="bottom_or_right" ID="ID_262127842" CREATED="1706570188055" MODIFIED="1706570225921"/>
+<node TEXT="Step 2. Consider reusing existing ontologies" POSITION="bottom_or_right" ID="ID_334859526" CREATED="1706570200028" MODIFIED="1706570228156">
+<node TEXT="DAML Ontology Library" POSITION="bottom_or_right" ID="ID_1338855199" CREATED="1706569974850" MODIFIED="1706569987173" LINK="http://www.daml.org/ontologies/"/>
+<node TEXT="UNSPSC" POSITION="bottom_or_right" ID="ID_1563829857" CREATED="1706570277145" MODIFIED="1706570282292" LINK="https://www.unspsc.org/"/>
+<node TEXT="Wine information" POSITION="bottom_or_right" ID="ID_341494352" CREATED="1706570238927" MODIFIED="1706570250845" LINK="http://www.wines.com/"/>
+<node TEXT="FIBO - The Financial Industry Business Ontology" POSITION="bottom_or_right" ID="ID_1388402664" CREATED="1706570314796" MODIFIED="1706570341948" LINK="https://spec.edmcouncil.org/fibo/"/>
+<node TEXT="SUMO - Suggested Upper Merged Ontology" POSITION="bottom_or_right" ID="ID_1885486855" CREATED="1706570374926" MODIFIED="1706570386187" LINK="https://www.ontologyportal.org/"/>
+</node>
+</node>
 </node>
 </map>
