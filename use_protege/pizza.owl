@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
-     xml:base="http://www.co-ode.org/ontologies/pizza/pizza.owl"
-     xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
+<rdf:RDF xmlns="http://www.co-ode.org/ontologies/pizza#"
+     xml:base="http://www.co-ode.org/ontologies/pizza"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/pizza">
         <owl:versionIRI rdf:resource="http://www.co-ode.org/ontologies/pizza/2.0.0"/>
+        <dc:description xml:lang="en">An ontology about pizzas and their toppings.
+
+This is an example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial).</dc:description>
         <dc:title xml:lang="en">pizza</dc:title>
+        <terms:contributor>Alan Rector</terms:contributor>
+        <terms:contributor>Chris Wroe</terms:contributor>
+        <terms:contributor>Matthew Horridge</terms:contributor>
         <terms:contributor>Nick Drummond</terms:contributor>
-        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 3.0 (CC BY 3.0)</terms:license>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pizza</rdfs:label>
+        <terms:contributor>Robert Stevens</terms:contributor>
+        <terms:license>Creative Commons Attribution 3.0 (CC BY 3.0)</terms:license>
         <terms:provenance xml:lang="en">v2.0 Added new annotations to the ontology using standard/well-know annotation properties
 
 v1.5. Removed protege.owl import and references. Made ontology URI date-independent
 
 v1.4. Added Food class (used in domain/range of hasIngredient), Added several hasCountryOfOrigin restrictions on pizzas, Made hasTopping invers functional</terms:provenance>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</owl:versionInfo>
-        <terms:contributor>Alan Rector</terms:contributor>
-        <dc:description xml:lang="en">An ontology about pizzas and their toppings.
-
-This is an example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial).</dc:description>
-        <terms:contributor>Matthew Horridge</terms:contributor>
-        <terms:contributor>Chris Wroe</terms:contributor>
-        <terms:contributor>Robert Stevens</terms:contributor>
+        <rdfs:label>pizza</rdfs:label>
+        <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2584,7 +2584,7 @@ This is an example ontology that contains all constructs required for the variou
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unclosed Pizza cannot be inferred to be either a VegetarianPizza or a NonVegetarianPizza, because it might have other toppings.</rdfs:comment>
+        <rdfs:comment>An unclosed Pizza cannot be inferred to be either a VegetarianPizza or a NonVegetarianPizza, because it might have other toppings.</rdfs:comment>
         <rdfs:label xml:lang="pt">PizzaAberta</rdfs:label>
         <rdfs:label xml:lang="en">UnclosedPizza</rdfs:label>
         <skos:prefLabel xml:lang="en">Unclosed Pizza</skos:prefLabel>
@@ -2595,7 +2595,7 @@ This is an example ontology that contains all constructs required for the variou
     <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#ValuePartition">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ValuePartition is a pattern that describes a restricted set of classes from which a property can be associated. The parent class is used in restrictions, and the covering axiom means that only members of the subclasses may be used as values. The possible subclasses cannot be extended without updating the ValuePartition class.</rdfs:comment>
+        <rdfs:comment>A ValuePartition is a pattern that describes a restricted set of classes from which a property can be associated. The parent class is used in restrictions, and the covering axiom means that only members of the subclasses may be used as values. The possible subclasses cannot be extended without updating the ValuePartition class.</rdfs:comment>
         <rdfs:label xml:lang="pt">ValorDaParticao</rdfs:label>
         <rdfs:label xml:lang="en">ValuePartition</rdfs:label>
         <skos:prefLabel xml:lang="en">Value Partition</skos:prefLabel>
@@ -3000,5 +3000,5 @@ This is an example ontology that contains all constructs required for the variou
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 

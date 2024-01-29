@@ -260,18 +260,24 @@
 </node>
 <node TEXT="Working with firewalls and proxies" ID="ID_473893949" CREATED="1706476771261" MODIFIED="1706489281455" LINK="https://protegewiki.stanford.edu/wiki/Working_with_firewalls_and_proxies"/>
 </node>
-<node TEXT="6. Protege plugins" FOLDED="true" ID="ID_130262879" CREATED="1706476779906" MODIFIED="1706476813205">
+<node TEXT="6. Protege plugins" ID="ID_130262879" CREATED="1706476779906" MODIFIED="1706476813205">
 <node TEXT="Auto Update plugins" ID="ID_667416116" CREATED="1706476813872" MODIFIED="1706476845979" LINK="https://protegewiki.stanford.edu/wiki/EnablePluginAutoUpdate"/>
 <node TEXT="List of Protege Plugins" ID="ID_1986064854" CREATED="1706476847429" MODIFIED="1706476862161" LINK="https://protegewiki.stanford.edu/wiki/Protege-OWL_4.0"/>
-<node TEXT="CO-ODE Protege Plugins" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins"/>
+<node TEXT="CO-ODE Protege Plugins" FOLDED="true" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins">
+<node TEXT="Annotation template" ID="ID_539300527" CREATED="1706555489024" MODIFIED="1706556355274" LINK="http://code.google.com/p/co-ode-owl-plugins/wiki/AnnotationTemplate">
+<arrowlink DESTINATION="ID_64857512"/>
+</node>
+<node TEXT="Matrix" ID="ID_1740826295" CREATED="1706555493894" MODIFIED="1706556355275" LINK="http://code.google.com/p/co-ode-owl-plugins/wiki/MatrixViews">
+<arrowlink DESTINATION="ID_64857512"/>
 </node>
 </node>
-<node TEXT="WebProtege" POSITION="bottom_or_right" ID="ID_570018266" CREATED="1706539639292" MODIFIED="1706539646456">
+</node>
+</node>
+<node TEXT="WebProtege" FOLDED="true" POSITION="bottom_or_right" ID="ID_570018266" CREATED="1706539639292" MODIFIED="1706539646456">
 <node TEXT="WebProtege Overview" ID="ID_1760700010" CREATED="1706539647753" MODIFIED="1706539661903" LINK="http://protegewiki.stanford.edu/wiki/WebProtege"/>
 <node TEXT="WebProtege User Guide" ID="ID_82492711" CREATED="1706539652326" MODIFIED="1706539667259" LINK="http://protegewiki.stanford.edu/wiki/WebProtegeUsersGuide"/>
 </node>
-<node TEXT="Protege OWL Tutorial" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706539697556">
-<arrowlink DESTINATION="ID_64857512"/>
+<node TEXT="Protege OWL Tutorial" FOLDED="true" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706556374728">
 <node TEXT="Tutorial in Protege Website" ID="ID_1648662599" CREATED="1706538950960" MODIFIED="1706538986572" LINK="http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/"><richcontent TYPE="NOTE">
 <html>
   <head>

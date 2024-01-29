@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_3cbe9c65_9c75_4eb6_91a7_13adece3f0c6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_3cbe9c65_9c75_4eb6_91a7_13adece3f0c6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a75a4f07_40ed_4bc0_886a_b411c963b0c5"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">has_topping</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_8e3ac862_bf24_4a36_818b_bb2f5bf110e1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_8e3ac862_bf24_4a36_818b_bb2f5bf110e1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">relational_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a75a4f07_40ed_4bc0_886a_b411c963b0c5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a75a4f07_40ed_4bc0_886a_b411c963b0c5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">modifier_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a7b664fa_03da_4c8d_96e3_a659520f919e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a7b664fa_03da_4c8d_96e3_a659520f919e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_8e3ac862_bf24_4a36_818b_bb2f5bf110e1"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1b3fd853_7397_4fb2_9c91_426ad1b62d9f"/>
+        <rdfs:label xml:lang="en">has_spiciness</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_ae84bcf0_b0b1_4525_bf60_86d039e40a1e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_ae84bcf0_b0b1_4525_bf60_86d039e40a1e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a75a4f07_40ed_4bc0_886a_b411c963b0c5"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e2971d62_f39e_465e_b31d_e11780fb8d15"/>
+        <rdfs:label xml:lang="en">has_base</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b5f59dde_2baf_4fc4_a63e_e0177c6fd16f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_03011d39_169d_4136_aced_0cf677a201c2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_03011d39_169d_4136_aced_0cf677a201c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Meat_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_09cf7f39_e6ae_4b3a_8d35_b8ceecee4adf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_09cf7f39_e6ae_4b3a_8d35_b8ceecee4adf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_61b5eb1d_c633_46fb_a2e0_ba198de3110f"/>
+        <rdfs:label xml:lang="en">Goeganzolla_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_0b764f4b_d419_483b_9337_57ba4e58065f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_0b764f4b_d419_483b_9337_57ba4e58065f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e2971d62_f39e_465e_b31d_e11780fb8d15"/>
+        <rdfs:label xml:lang="en">DeepPan_base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1b3fd853_7397_4fb2_9c91_426ad1b62d9f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1b3fd853_7397_4fb2_9c91_426ad1b62d9f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_d65880c3_ad83_45da_b48f_6de9a6d826d4"/>
+        <rdfs:label xml:lang="en">Spiciness_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b5f59dde_2baf_4fc4_a63e_e0177c6fd16f"/>
+        <rdfs:label xml:lang="en">Pizza_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1f7d640f_0030_46e3_97ea_c6eb3a5112cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1f7d640f_0030_46e3_97ea_c6eb3a5112cd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Sauce_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_218e7d96_776a_42ac_a034_bc709d23612e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_218e7d96_776a_42ac_a034_bc709d23612e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_03011d39_169d_4136_aced_0cf677a201c2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a7b664fa_03da_4c8d_96e3_a659520f919e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_4d4f2104_901d_450b_a678_22d527ba649f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pepperoni_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_2881f051_5c4a_41e0_b79c_e4671dfe5c2a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_2881f051_5c4a_41e0_b79c_e4671dfe5c2a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e2971d62_f39e_465e_b31d_e11780fb8d15"/>
+        <rdfs:label xml:lang="en">ThinAndCrispy_base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_3576691c_4fda_4661_873d_26fd296842e1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_3576691c_4fda_4661_873d_26fd296842e1">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <rdfs:label xml:lang="en">Vegetarian_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_39d20c0a_a9e8_4fd6_83ac_619fcc60365e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_39d20c0a_a9e8_4fd6_83ac_619fcc60365e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_aaef934c_8814_4ee6_aa46_91cc85966b54"/>
+        <rdfs:label xml:lang="en">Tomato_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_3caed31e_5845_46d9_a14d_f6dc317e9701 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_3caed31e_5845_46d9_a14d_f6dc317e9701">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">HerbSpice_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_43bf23b5_9794_4217_b044_dcc0a73e7a2b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_43bf23b5_9794_4217_b044_dcc0a73e7a2b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Seafood_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_4d4f2104_901d_450b_a678_22d527ba649f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_4d4f2104_901d_450b_a678_22d527ba649f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1b3fd853_7397_4fb2_9c91_426ad1b62d9f"/>
+        <rdfs:label xml:lang="en">Medium_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_533786e6_c0e0_451a_8fd9_c158752835fd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_533786e6_c0e0_451a_8fd9_c158752835fd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1b3fd853_7397_4fb2_9c91_426ad1b62d9f"/>
+        <rdfs:label xml:lang="en">Hot_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_53a2b59e_1208_44bd_bc42_4b10bdbdf328 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_53a2b59e_1208_44bd_bc42_4b10bdbdf328">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_3cbe9c65_9c75_4eb6_91a7_13adece3f0c6"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_39d20c0a_a9e8_4fd6_83ac_619fcc60365e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_3cbe9c65_9c75_4eb6_91a7_13adece3f0c6"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_8a8b1013_ddfe_4ca1_82f5_4e17cd6241b4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a7b664fa_03da_4c8d_96e3_a659520f919e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_533786e6_c0e0_451a_8fd9_c158752835fd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Hot_and_spicy_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_5f1f8248_f3da_41d4_ad61_fd0c2bfbbf11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_5f1f8248_f3da_41d4_ad61_fd0c2bfbbf11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_03011d39_169d_4136_aced_0cf677a201c2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a7b664fa_03da_4c8d_96e3_a659520f919e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_533786e6_c0e0_451a_8fd9_c158752835fd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Spicy_beef_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_61b5eb1d_c633_46fb_a2e0_ba198de3110f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_61b5eb1d_c633_46fb_a2e0_ba198de3110f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Cheese_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_8a8b1013_ddfe_4ca1_82f5_4e17cd6241b4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_8a8b1013_ddfe_4ca1_82f5_4e17cd6241b4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_61b5eb1d_c633_46fb_a2e0_ba198de3110f"/>
+        <rdfs:label xml:lang="en">Mozzarella_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_8d0f0886_46b7_47e4_877e_8be8674e5a89 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_8d0f0886_46b7_47e4_877e_8be8674e5a89">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <rdfs:label xml:lang="en">Maguerita_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_9c8b09dc_8dfc_47d6_85ea_9b1fb88bc61b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_9c8b09dc_8dfc_47d6_85ea_9b1fb88bc61b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1b3fd853_7397_4fb2_9c91_426ad1b62d9f"/>
+        <rdfs:label xml:lang="en">Mild_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_aaef934c_8814_4ee6_aa46_91cc85966b54 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_aaef934c_8814_4ee6_aa46_91cc85966b54">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Vegetable_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b029b0e0_2aef_4142_9056_c61be131d7c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b029b0e0_2aef_4142_9056_c61be131d7c1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a7b664fa_03da_4c8d_96e3_a659520f919e"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_533786e6_c0e0_451a_8fd9_c158752835fd"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">Spicy_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b1da5158_a231_4851_91c6_6cd4f157c9c8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b1da5158_a231_4851_91c6_6cd4f157c9c8">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <rdfs:label xml:lang="en">Seefood_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b2ca337d_2028_48c9_8d9a_275f83fce644 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b2ca337d_2028_48c9_8d9a_275f83fce644">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_03011d39_169d_4136_aced_0cf677a201c2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_a7b664fa_03da_4c8d_96e3_a659520f919e"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_4d4f2104_901d_450b_a678_22d527ba649f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Ham_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b34cdde3_b062_4626_8c19_fa21313245b2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b34cdde3_b062_4626_8c19_fa21313245b2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Nut_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b5f59dde_2baf_4fc4_a63e_e0177c6fd16f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b5f59dde_2baf_4fc4_a63e_e0177c6fd16f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_fc95a89e_6b75_49fb_9162_2559e73f9854"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_d65880c3_ad83_45da_b48f_6de9a6d826d4"/>
+        <rdfs:label xml:lang="en">Independent_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_d330cfed_2e28_4b19_9efd_7b181becaf90 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_d330cfed_2e28_4b19_9efd_7b181becaf90">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLObjectProperty_3cbe9c65_9c75_4eb6_91a7_13adece3f0c6"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b029b0e0_2aef_4142_9056_c61be131d7c1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">Spicy_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_d65880c3_ad83_45da_b48f_6de9a6d826d4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_d65880c3_ad83_45da_b48f_6de9a6d826d4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_fc95a89e_6b75_49fb_9162_2559e73f9854"/>
+        <rdfs:label xml:lang="en">Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e2971d62_f39e_465e_b31d_e11780fb8d15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e2971d62_f39e_465e_b31d_e11780fb8d15">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b5f59dde_2baf_4fc4_a63e_e0177c6fd16f"/>
+        <rdfs:label xml:lang="en">Pizz_base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e4d47b08_9561_4919_b48e_6f7c44a8c2fe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e4d47b08_9561_4919_b48e_6f7c44a8c2fe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Vegetarian_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_eb5a0584_3591_45f9_9299_e2546641f800 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_eb5a0584_3591_45f9_9299_e2546641f800">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+        <rdfs:label xml:lang="en">Fruit_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_f6d00ce1_7b65_494c_bd74_3494062f5497 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_f6d00ce1_7b65_494c_bd74_3494062f5497">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <rdfs:label xml:lang="en">Cheesy_pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_fc95a89e_6b75_49fb_9162_2559e73f9854 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_fc95a89e_6b75_49fb_9162_2559e73f9854">
+        <rdfs:label xml:lang="en">Domain_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1e6a8068_d726_4b46_a464_d700bd63e509"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e2971d62_f39e_465e_b31d_e11780fb8d15"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_03011d39_169d_4136_aced_0cf677a201c2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_1f7d640f_0030_46e3_97ea_c6eb3a5112cd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_3caed31e_5845_46d9_a14d_f6dc317e9701"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_43bf23b5_9794_4217_b044_dcc0a73e7a2b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_61b5eb1d_c633_46fb_a2e0_ba198de3110f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_aaef934c_8814_4ee6_aa46_91cc85966b54"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b029b0e0_2aef_4142_9056_c61be131d7c1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b34cdde3_b062_4626_8c19_fa21313245b2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_e4d47b08_9561_4919_b48e_6f7c44a8c2fe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_eb5a0584_3591_45f9_9299_e2546641f800"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_218e7d96_776a_42ac_a034_bc709d23612e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_5f1f8248_f3da_41d4_ad61_fd0c2bfbbf11"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b2ca337d_2028_48c9_8d9a_275f83fce644"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_3576691c_4fda_4661_873d_26fd296842e1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_53a2b59e_1208_44bd_bc42_4b10bdbdf328"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_8d0f0886_46b7_47e4_877e_8be8674e5a89"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_b1da5158_a231_4851_91c6_6cd4f157c9c8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_f6d00ce1_7b65_494c_bd74_3494062f5497"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_4d4f2104_901d_450b_a678_22d527ba649f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_533786e6_c0e0_451a_8fd9_c158752835fd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/1/myPizza#OWLClass_9c8b09dc_8dfc_47d6_85ea_9b1fb88bc61b"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
