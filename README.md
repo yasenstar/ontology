@@ -12,7 +12,7 @@ learn modeling in ontology with variable areas
 
 ## guide of using Protege by practicing
 
-[Learning Structure](./use_protege/README.md)
+[Learning Structure](./use_protege/)
 
 ## my ontologies
 
