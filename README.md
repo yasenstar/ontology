@@ -4,11 +4,11 @@ learn modeling in ontology with variable areas
 
 ## git page for this site
 
-https://yasenstar.github.io/ontology/
+[https://yasenstar.github.io/ontology/](https://yasenstar.github.io/ontology/)
 
 ## view ontology online
 
-https://service.tib.eu/webvowl/
+[https://service.tib.eu/webvowl/](https://service.tib.eu/webvowl/)
 
 ## guide of using Protege by practicing
 
