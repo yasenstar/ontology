@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Using Protégé" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1706466927410" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#fbf1c7" zoom="0.769">
+<hook NAME="MapStyle" background="#fbf1c7">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_gruvbox_template.mm"/>
 
 <map_styles>
@@ -76,7 +76,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Protege 5 Documentation" POSITION="bottom_or_right" ID="ID_1824909855" CREATED="1706466954748" MODIFIED="1706477027130" LINK="https://protegeproject.github.io/protege/"><richcontent TYPE="NOTE">
+<node TEXT="Documentation&#xa;(Protege Desktop)" POSITION="bottom_or_right" ID="ID_1824909855" CREATED="1706466954748" MODIFIED="1706538942463" LINK="https://protegeproject.github.io/protege/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -109,13 +109,13 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="1. Installation" ID="ID_959855209" CREATED="1706466969277" MODIFIED="1706466973968">
+<node TEXT="1. Installation" FOLDED="true" ID="ID_959855209" CREATED="1706466969277" MODIFIED="1706466973968">
 <node TEXT="Download Page" ID="ID_804660057" CREATED="1706467059068" MODIFIED="1706467065104" LINK="http://protege.stanford.edu/software.php#desktop-protege"/>
 <node TEXT="Installing Protege on Mac OS X" ID="ID_176320450" CREATED="1706466995559" MODIFIED="1706467014729" LINK="https://protegeproject.github.io/protege/installation/osx"/>
 <node TEXT="Installing Protege on Windows" ID="ID_913653701" CREATED="1706467016263" MODIFIED="1706467039771" LINK="https://protegeproject.github.io/protege/installation/windows"/>
 <node TEXT="Installing Protege on Linux" ID="ID_1885638554" CREATED="1706467024896" MODIFIED="1706467035135" LINK="https://protegeproject.github.io/protege/installation/linux"/>
 </node>
-<node TEXT="2. Getting Started" FOLDED="true" ID="ID_127424502" CREATED="1706466974127" MODIFIED="1706466978268">
+<node TEXT="2. Getting Started" ID="ID_127424502" CREATED="1706466974127" MODIFIED="1706466978268">
 <node TEXT="Navigation" ID="ID_123978473" CREATED="1706467330326" MODIFIED="1706467333662">
 <node TEXT="Switching among tabs" ID="ID_1799029177" CREATED="1706467545376" MODIFIED="1706467550419">
 <node TEXT="Entities Tab" ID="ID_860413222" CREATED="1706474571716" MODIFIED="1706474584167"/>
@@ -234,7 +234,7 @@
 <node TEXT="The Bean Shell" ID="ID_1038680511" CREATED="1706476731152" MODIFIED="1706476735433"/>
 <node TEXT="The Protege Server" ID="ID_1145620055" CREATED="1706476735623" MODIFIED="1706476740640"/>
 </node>
-<node TEXT="5. Further setup / Configuration" ID="ID_1620497773" CREATED="1706476742058" MODIFIED="1706489304759">
+<node TEXT="5. Further setup / Configuration" FOLDED="true" ID="ID_1620497773" CREATED="1706476742058" MODIFIED="1706489304759">
 <arrowlink DESTINATION="ID_959855209"/>
 <node TEXT="Adding more memory" ID="ID_950096050" CREATED="1706476748723" MODIFIED="1706489300526" LINK="https://protegewiki.stanford.edu/wiki/ChangingTheHeapSize"/>
 <node TEXT="Double-clicking on OWL files (MacOS specified)" ID="ID_531108929" CREATED="1706476752998" MODIFIED="1706489754292" LINK="https://protegewiki.stanford.edu/wiki/EnablingDoubleClick"/>
@@ -242,7 +242,19 @@
 <node TEXT="Linux - stored in ~/.java/.userPrefs" ID="ID_557395212" CREATED="1706489333712" MODIFIED="1706489340988"/>
 <node TEXT="Mac OS X - stored in ~/Library/Preferences/com.apple.java.util.prefs.plist" ID="ID_1634859907" CREATED="1706489341409" MODIFIED="1706489349625"/>
 <node TEXT="Windows - stored in the Windows Registry at HKEY_CURRENT_USER/Software/JavaSoft/Prefs" ID="ID_524121697" CREATED="1706489354232" MODIFIED="1706489356306"/>
-<node TEXT="Java Preferen ces User Interface" ID="ID_594367096" CREATED="1706489371128" MODIFIED="1706489380472" LINK="http://sourceforge.net/projects/jpui/">
+<node TEXT="Java Preferen ces User Interface" ID="ID_594367096" CREATED="1706489371128" MODIFIED="1706539260309" LINK="http://sourceforge.net/projects/jpui/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You can also get the downloaded package from : <a href="https://github.com/yasenstar/ontology/tree/main/use_protege/jpui">my github folder</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="get jpui-0.4.0.jar" ID="ID_1814525635" CREATED="1706539015798" MODIFIED="1706539040835" LINK="https://sourceforge.net/projects/jpui/files/jpui/0.4.0/jpui-0.4.0.jar/download"/>
 <node TEXT="java -jar jpui-0.4.0.jar" ID="ID_303164191" CREATED="1706489703131" MODIFIED="1706489706075"/>
 </node>
 </node>
@@ -254,6 +266,23 @@
 <node TEXT="CO-ODE Protege Plugins" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins"/>
 </node>
 </node>
-<node TEXT="Other usage" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706478838058"/>
+<node TEXT="Protege OWL Tutorial" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706538950006">
+<node TEXT="Tutorial in Protege Website" ID="ID_1648662599" CREATED="1706538950960" MODIFIED="1706538986572" LINK="http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Not maintained in recent years
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Pizza OWL Tutorial by Michael DeBillis" ID="ID_1303776231" CREATED="1706539430921" MODIFIED="1706539524986" LINK="https://www.michaeldebellis.com/post/new-protege-pizza-tutorial"/>
+<node TEXT="My Playlist of Pizza OWL practical videos (Referred by Michael)" ID="ID_1566331058" CREATED="1706539526343" MODIFIED="1706539596963" LINK="https://www.michaeldebellis.com/post/protegetutorialyoutubeplaylist"/>
+<node TEXT="My Pizza OWL practice GitHub Repo" ID="ID_1328512994" CREATED="1706539559173" MODIFIED="1706539573591" LINK="https://github.com/yasenstar/protege_pizza"/>
+</node>
 </node>
 </map>
