@@ -116,7 +116,7 @@
 <node TEXT="Installing Protege on Linux" ID="ID_1885638554" CREATED="1706467024896" MODIFIED="1706467035135" LINK="https://protegeproject.github.io/protege/installation/linux"/>
 </node>
 <node TEXT="2. Getting Started" ID="ID_127424502" CREATED="1706466974127" MODIFIED="1706466978268">
-<node TEXT="Navigation" ID="ID_123978473" CREATED="1706467330326" MODIFIED="1706467333662">
+<node TEXT="Navigation" FOLDED="true" ID="ID_123978473" CREATED="1706467330326" MODIFIED="1706467333662">
 <node TEXT="Switching among tabs" ID="ID_1799029177" CREATED="1706467545376" MODIFIED="1706467550419">
 <node TEXT="Entities Tab" ID="ID_860413222" CREATED="1706474571716" MODIFIED="1706474584167"/>
 <node TEXT="OWLViz" ID="ID_1169686486" CREATED="1706474592048" MODIFIED="1706474596119">
@@ -126,12 +126,12 @@
 </node>
 <node TEXT="Using &quot;Search...&quot; (ctrl+F)" ID="ID_229856687" CREATED="1706467550673" MODIFIED="1706467585834"/>
 </node>
-<node TEXT="Reasoning" ID="ID_1777984569" CREATED="1706467346384" MODIFIED="1706467348974">
+<node TEXT="Reasoning" FOLDED="true" ID="ID_1777984569" CREATED="1706467346384" MODIFIED="1706467348974">
 <node TEXT="Protege comes with a built-in reasoner called HermiT" ID="ID_78863915" CREATED="1706467598216" MODIFIED="1706467619316" LINK="http://www.hermit-reasoner.com/"/>
 </node>
 <node TEXT="Reconfigure the User Interface" ID="ID_714560559" CREATED="1706474772820" MODIFIED="1706474783355"/>
 <node TEXT="Human Readable Entity Names" ID="ID_1289853114" CREATED="1706474839444" MODIFIED="1706474846718"/>
-<node TEXT="Pizzas in 10 Minutes" FOLDED="true" ID="ID_1800850098" CREATED="1706475850031" MODIFIED="1706539697557" LINK="https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes">
+<node TEXT="Pizzas in 10 Minutes" FOLDED="true" ID="ID_1800850098" CREATED="1706475850031" MODIFIED="1706542481581" LINK="https://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes">
 <arrowlink DESTINATION="ID_64857512"/>
 <node TEXT="pizza.owl" POSITION="bottom_or_right" ID="ID_64857512" CREATED="1706467115067" MODIFIED="1706467122435" LINK="http://protege.stanford.edu/ontologies/pizza/pizza.owl"/>
 </node>
@@ -242,7 +242,7 @@
 <node TEXT="Linux - stored in ~/.java/.userPrefs" ID="ID_557395212" CREATED="1706489333712" MODIFIED="1706489340988"/>
 <node TEXT="Mac OS X - stored in ~/Library/Preferences/com.apple.java.util.prefs.plist" ID="ID_1634859907" CREATED="1706489341409" MODIFIED="1706489349625"/>
 <node TEXT="Windows - stored in the Windows Registry at HKEY_CURRENT_USER/Software/JavaSoft/Prefs" ID="ID_524121697" CREATED="1706489354232" MODIFIED="1706489356306"/>
-<node TEXT="Java Preferen ces User Interface" ID="ID_594367096" CREATED="1706489371128" MODIFIED="1706539260309" LINK="http://sourceforge.net/projects/jpui/"><richcontent TYPE="NOTE">
+<node TEXT="Java Preferences User Interface" ID="ID_594367096" CREATED="1706489371128" MODIFIED="1706540109767" LINK="http://sourceforge.net/projects/jpui/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -270,7 +270,7 @@
 <node TEXT="WebProtege Overview" ID="ID_1760700010" CREATED="1706539647753" MODIFIED="1706539661903" LINK="http://protegewiki.stanford.edu/wiki/WebProtege"/>
 <node TEXT="WebProtege User Guide" ID="ID_82492711" CREATED="1706539652326" MODIFIED="1706539667259" LINK="http://protegewiki.stanford.edu/wiki/WebProtegeUsersGuide"/>
 </node>
-<node TEXT="Protege OWL Tutorial" FOLDED="true" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706539697556">
+<node TEXT="Protege OWL Tutorial" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706539697556">
 <arrowlink DESTINATION="ID_64857512"/>
 <node TEXT="Tutorial in Protege Website" ID="ID_1648662599" CREATED="1706538950960" MODIFIED="1706538986572" LINK="http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/"><richcontent TYPE="NOTE">
 <html>
