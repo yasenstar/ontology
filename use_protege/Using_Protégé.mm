@@ -109,7 +109,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="1. Installation" FOLDED="true" ID="ID_959855209" CREATED="1706466969277" MODIFIED="1706466973968">
+<node TEXT="1. Installation" ID="ID_959855209" CREATED="1706466969277" MODIFIED="1706466973968">
 <node TEXT="Download Page" ID="ID_804660057" CREATED="1706467059068" MODIFIED="1706467065104" LINK="http://protege.stanford.edu/software.php#desktop-protege"/>
 <node TEXT="Installing Protege on Mac OS X" ID="ID_176320450" CREATED="1706466995559" MODIFIED="1706467014729" LINK="https://protegeproject.github.io/protege/installation/osx"/>
 <node TEXT="Installing Protege on Windows" ID="ID_913653701" CREATED="1706467016263" MODIFIED="1706467039771" LINK="https://protegeproject.github.io/protege/installation/windows"/>
@@ -234,11 +234,19 @@
 <node TEXT="The Bean Shell" ID="ID_1038680511" CREATED="1706476731152" MODIFIED="1706476735433"/>
 <node TEXT="The Protege Server" ID="ID_1145620055" CREATED="1706476735623" MODIFIED="1706476740640"/>
 </node>
-<node TEXT="5. Further setup / Configuration" FOLDED="true" ID="ID_1620497773" CREATED="1706476742058" MODIFIED="1706476748720">
-<node TEXT="Adding more memory" ID="ID_950096050" CREATED="1706476748723" MODIFIED="1706476752722"/>
-<node TEXT="Double-clicking on OWL files" ID="ID_531108929" CREATED="1706476752998" MODIFIED="1706476761077"/>
-<node TEXT="Dealing with Protege preferences problems" ID="ID_1369085219" CREATED="1706476761345" MODIFIED="1706476770789"/>
-<node TEXT="Working with firewalls and proxies" ID="ID_473893949" CREATED="1706476771261" MODIFIED="1706476779151"/>
+<node TEXT="5. Further setup / Configuration" ID="ID_1620497773" CREATED="1706476742058" MODIFIED="1706489304759">
+<arrowlink DESTINATION="ID_959855209"/>
+<node TEXT="Adding more memory" ID="ID_950096050" CREATED="1706476748723" MODIFIED="1706489300526" LINK="https://protegewiki.stanford.edu/wiki/ChangingTheHeapSize"/>
+<node TEXT="Double-clicking on OWL files (MacOS specified)" ID="ID_531108929" CREATED="1706476752998" MODIFIED="1706489754292" LINK="https://protegewiki.stanford.edu/wiki/EnablingDoubleClick"/>
+<node TEXT="Dealing with Protege preferences problems" ID="ID_1369085219" CREATED="1706476761345" MODIFIED="1706489316009" LINK="https://protegewiki.stanford.edu/wiki/ClearingP4Preferences">
+<node TEXT="Linux - stored in ~/.java/.userPrefs" ID="ID_557395212" CREATED="1706489333712" MODIFIED="1706489340988"/>
+<node TEXT="Mac OS X - stored in ~/Library/Preferences/com.apple.java.util.prefs.plist" ID="ID_1634859907" CREATED="1706489341409" MODIFIED="1706489349625"/>
+<node TEXT="Windows - stored in the Windows Registry at HKEY_CURRENT_USER/Software/JavaSoft/Prefs" ID="ID_524121697" CREATED="1706489354232" MODIFIED="1706489356306"/>
+<node TEXT="Java Preferen ces User Interface" ID="ID_594367096" CREATED="1706489371128" MODIFIED="1706489380472" LINK="http://sourceforge.net/projects/jpui/">
+<node TEXT="java -jar jpui-0.4.0.jar" ID="ID_303164191" CREATED="1706489703131" MODIFIED="1706489706075"/>
+</node>
+</node>
+<node TEXT="Working with firewalls and proxies" ID="ID_473893949" CREATED="1706476771261" MODIFIED="1706489281455" LINK="https://protegewiki.stanford.edu/wiki/Working_with_firewalls_and_proxies"/>
 </node>
 <node TEXT="6. Protege plugins" FOLDED="true" ID="ID_130262879" CREATED="1706476779906" MODIFIED="1706476813205">
 <node TEXT="Auto Update plugins" ID="ID_667416116" CREATED="1706476813872" MODIFIED="1706476845979" LINK="https://protegewiki.stanford.edu/wiki/EnablePluginAutoUpdate"/>
@@ -246,5 +254,6 @@
 <node TEXT="CO-ODE Protege Plugins" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins"/>
 </node>
 </node>
+<node TEXT="Other usage" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706478838058"/>
 </node>
 </map>
