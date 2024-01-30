@@ -246,7 +246,7 @@
 <node TEXT="Proposed as a W3C Recommendation in June 2017" ID="ID_780481026" CREATED="1706469867408" MODIFIED="1706469881397"/>
 <node TEXT="Close World Assumption" ID="ID_717465105" CREATED="1706469881723" MODIFIED="1706469887845"/>
 <node TEXT="Opposite logic than OWL: for validation not inference" ID="ID_116996024" CREATED="1706469888009" MODIFIED="1706469903410">
-<node TEXT="In SHACL, we say, if something belongs to class, it has certain properties" ID="ID_229426606" CREATED="1706470015447" MODIFIED="1706470083665">
+<node TEXT="In SHACL, we say, if something belongs to class, it has certain properties" ID="ID_229426606" CREATED="1706470015447" MODIFIED="1706541969290">
 <arrowlink DESTINATION="ID_1199429275" MIDDLE_LABEL="opposite logic" STARTARROW="DEFAULT" ENDARROW="DEFAULT"/>
 </node>
 </node>

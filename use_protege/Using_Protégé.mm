@@ -292,14 +292,16 @@
 <node TEXT="My Pizza OWL practice GitHub Repo" ID="ID_1328512994" CREATED="1706539559173" MODIFIED="1706539573591" LINK="https://github.com/yasenstar/protege_pizza"/>
 </node>
 <node TEXT="Ontology Development 101" POSITION="bottom_or_right" ID="ID_744791886" CREATED="1706539622153" MODIFIED="1706539633964" LINK="http://protegewiki.stanford.edu/wiki/Ontology101">
-<node TEXT="Steps for making Ontology" ID="ID_369339681" CREATED="1706570180062" MODIFIED="1706570188053">
+<node TEXT="Steps for making Ontology" FOLDED="true" ID="ID_369339681" CREATED="1706570180062" MODIFIED="1706570188053">
 <node TEXT="Step 1. Determine the domain and scope of the ontology" POSITION="bottom_or_right" ID="ID_262127842" CREATED="1706570188055" MODIFIED="1706570225921"/>
 <node TEXT="Step 2. Consider reusing existing ontologies" FOLDED="true" POSITION="bottom_or_right" ID="ID_334859526" CREATED="1706570200028" MODIFIED="1706570228156">
 <node TEXT="List of Ontologies by W3C" POSITION="bottom_or_right" ID="ID_112649259" CREATED="1706574691558" MODIFIED="1706574699558" LINK="https://www.w3.org/wiki/Lists_of_ontologies">
 <node TEXT="The Dublin Core (DC) ontology" ID="ID_935026640" CREATED="1706574717345" MODIFIED="1706574737181" LINK="http://dublincore.org/"/>
-<node TEXT="The Friend Of A Friend (FOAF() ontology" ID="ID_966651107" CREATED="1706574740130" MODIFIED="1706574756795" LINK="http://www.foaf-project.org/"/>
+<node TEXT="The Friend Of A Friend (FOAF) ontology" ID="ID_966651107" CREATED="1706574740130" MODIFIED="1706583397139" LINK="http://www.foaf-project.org/"/>
 </node>
-<node TEXT="DAML Ontology Library" POSITION="bottom_or_right" ID="ID_1338855199" CREATED="1706569974850" MODIFIED="1706569987173" LINK="http://www.daml.org/ontologies/"/>
+<node TEXT="DAML Ontology Library" POSITION="bottom_or_right" ID="ID_1338855199" CREATED="1706569974850" MODIFIED="1706583330114" LINK="http://www.daml.org/ontologies/">
+<icon BUILTIN="button_cancel"/>
+</node>
 <node TEXT="UNSPSC" POSITION="bottom_or_right" ID="ID_1563829857" CREATED="1706570277145" MODIFIED="1706570282292" LINK="https://www.unspsc.org/"/>
 <node TEXT="Wine information" POSITION="bottom_or_right" ID="ID_341494352" CREATED="1706570238927" MODIFIED="1706570250845" LINK="http://www.wines.com/"/>
 <node TEXT="FIBO - The Financial Industry Business Ontology" POSITION="bottom_or_right" ID="ID_1388402664" CREATED="1706570314796" MODIFIED="1706570341948" LINK="https://spec.edmcouncil.org/fibo/"/>
@@ -364,7 +366,7 @@
 </node>
 </node>
 <node TEXT="Limiting the scope" FOLDED="true" ID="ID_888781512" CREATED="1706579576290" MODIFIED="1706579580470">
-<node TEXT="The ontology should now contain all the possible information about the domain: you do not need to specialize (or generalize) more than you need for your application (at most one extra level each way)" ID="ID_587768911" CREATED="1706579580472" MODIFIED="1706579616672"/>
+<node TEXT="The ontology should not contain all the possible information about the domain: you do not need to specialize (or generalize) more than you need for your application (at most one extra level each way)" ID="ID_587768911" CREATED="1706579580472" MODIFIED="1706585349823"/>
 <node TEXT="The ontology should not contain all the possible properties of and distinctions among classes in the hierarchy." ID="ID_1469687352" CREATED="1706579627781" MODIFIED="1706579657939"/>
 </node>
 </node>
