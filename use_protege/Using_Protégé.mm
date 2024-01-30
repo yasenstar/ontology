@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Using Protégé" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1706466927410" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#fbf1c7">
+<hook NAME="MapStyle" background="#fbf1c7" zoom="1.3">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_gruvbox_template.mm"/>
 
 <map_styles>
@@ -76,7 +76,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Documentation&#xa;(Protege Desktop)" POSITION="bottom_or_right" ID="ID_1824909855" CREATED="1706466954748" MODIFIED="1706538942463" LINK="https://protegeproject.github.io/protege/"><richcontent TYPE="NOTE">
+<node TEXT="Documentation&#xa;(Protege Desktop)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1824909855" CREATED="1706466954748" MODIFIED="1706538942463" LINK="https://protegeproject.github.io/protege/"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -260,7 +260,7 @@
 </node>
 <node TEXT="Working with firewalls and proxies" ID="ID_473893949" CREATED="1706476771261" MODIFIED="1706489281455" LINK="https://protegewiki.stanford.edu/wiki/Working_with_firewalls_and_proxies"/>
 </node>
-<node TEXT="6. Protege plugins" ID="ID_130262879" CREATED="1706476779906" MODIFIED="1706476813205">
+<node TEXT="6. Protege plugins" FOLDED="true" ID="ID_130262879" CREATED="1706476779906" MODIFIED="1706476813205">
 <node TEXT="Auto Update plugins" ID="ID_667416116" CREATED="1706476813872" MODIFIED="1706476845979" LINK="https://protegewiki.stanford.edu/wiki/EnablePluginAutoUpdate"/>
 <node TEXT="List of Protege Plugins" ID="ID_1986064854" CREATED="1706476847429" MODIFIED="1706476862161" LINK="https://protegewiki.stanford.edu/wiki/Protege-OWL_4.0"/>
 <node TEXT="CO-ODE Protege Plugins" ID="ID_701901086" CREATED="1706476879626" MODIFIED="1706476890399" LINK="https://github.com/co-ode-owl-plugins">
@@ -272,10 +272,6 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="WebProtege" FOLDED="true" POSITION="bottom_or_right" ID="ID_570018266" CREATED="1706539639292" MODIFIED="1706539646456">
-<node TEXT="WebProtege Overview" ID="ID_1760700010" CREATED="1706539647753" MODIFIED="1706539661903" LINK="http://protegewiki.stanford.edu/wiki/WebProtege"/>
-<node TEXT="WebProtege User Guide" ID="ID_82492711" CREATED="1706539652326" MODIFIED="1706539667259" LINK="http://protegewiki.stanford.edu/wiki/WebProtegeUsersGuide"/>
 </node>
 <node TEXT="Protege OWL Tutorial" FOLDED="true" POSITION="bottom_or_right" ID="ID_1765893058" CREATED="1706478832181" MODIFIED="1706556374728">
 <node TEXT="Tutorial in Protege Website" ID="ID_1648662599" CREATED="1706538950960" MODIFIED="1706538986572" LINK="http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/"><richcontent TYPE="NOTE">
@@ -298,7 +294,7 @@
 <node TEXT="Ontology Development 101" POSITION="bottom_or_right" ID="ID_744791886" CREATED="1706539622153" MODIFIED="1706539633964" LINK="http://protegewiki.stanford.edu/wiki/Ontology101">
 <node TEXT="Steps for making Ontology" ID="ID_369339681" CREATED="1706570180062" MODIFIED="1706570188053">
 <node TEXT="Step 1. Determine the domain and scope of the ontology" POSITION="bottom_or_right" ID="ID_262127842" CREATED="1706570188055" MODIFIED="1706570225921"/>
-<node TEXT="Step 2. Consider reusing existing ontologies" POSITION="bottom_or_right" ID="ID_334859526" CREATED="1706570200028" MODIFIED="1706570228156">
+<node TEXT="Step 2. Consider reusing existing ontologies" FOLDED="true" POSITION="bottom_or_right" ID="ID_334859526" CREATED="1706570200028" MODIFIED="1706570228156">
 <node TEXT="List of Ontologies by W3C" POSITION="bottom_or_right" ID="ID_112649259" CREATED="1706574691558" MODIFIED="1706574699558" LINK="https://www.w3.org/wiki/Lists_of_ontologies">
 <node TEXT="The Dublin Core (DC) ontology" ID="ID_935026640" CREATED="1706574717345" MODIFIED="1706574737181" LINK="http://dublincore.org/"/>
 <node TEXT="The Friend Of A Friend (FOAF() ontology" ID="ID_966651107" CREATED="1706574740130" MODIFIED="1706574756795" LINK="http://www.foaf-project.org/"/>
@@ -316,7 +312,7 @@
 <node TEXT="Step 3. Enumerate important terms in the ontology" POSITION="bottom_or_right" ID="ID_380225857" CREATED="1706577205058" MODIFIED="1706577217341"/>
 <node TEXT="Step 4. Define the classes and the class hierarchy" POSITION="bottom_or_right" ID="ID_811672771" CREATED="1706577863282" MODIFIED="1706577874420"/>
 <node TEXT="Step 5. Define the properties of classes-slots" POSITION="bottom_or_right" ID="ID_357038191" CREATED="1706577887746" MODIFIED="1706577906045"/>
-<node TEXT="Step 6. Define the facets of the slots" POSITION="bottom_or_right" ID="ID_615593316" CREATED="1706577949258" MODIFIED="1706577961623">
+<node TEXT="Step 6. Define the facets of the slots" FOLDED="true" POSITION="bottom_or_right" ID="ID_615593316" CREATED="1706577949258" MODIFIED="1706577961623">
 <node TEXT="Slot cardinality" ID="ID_337247639" CREATED="1706578012750" MODIFIED="1706578019605"/>
 <node TEXT="Slot-value type" ID="ID_72682727" CREATED="1706578020085" MODIFIED="1706578034739"/>
 <node TEXT="Domain and range of a slot" ID="ID_411699073" CREATED="1706578044834" MODIFIED="1706578304766"><richcontent TYPE="NOTE">
@@ -348,19 +344,33 @@
 </node>
 <node TEXT="Step 7. Create instances" POSITION="bottom_or_right" ID="ID_385988242" CREATED="1706578355864" MODIFIED="1706578363516"/>
 </node>
-<node TEXT="A new class or a property value?" ID="ID_1129139852" CREATED="1706580562080" MODIFIED="1706580569239">
-<node TEXT="" ID="ID_1373491423" CREATED="1706580569241" MODIFIED="1706580569241"/>
+<node TEXT="How many is too many and how few are too few?" FOLDED="true" ID="ID_1462790686" CREATED="1706581814340" MODIFIED="1706581831166">
+<node TEXT="If a class has only one direct subclass there may be a modeling problem or the ontology is not complete." ID="ID_343957563" CREATED="1706581831167" MODIFIED="1706581855165"/>
+<node TEXT="If there are more than a dozen subclasses for a given class then additional intermediate categories may be necessary" ID="ID_202207042" CREATED="1706581855660" MODIFIED="1706581877836"/>
 </node>
-<node TEXT="An instance or a class?" ID="ID_1782885992" CREATED="1706579467309" MODIFIED="1706579476310">
+<node TEXT="When to introduce a new class (or not)?" FOLDED="true" ID="ID_1361439930" CREATED="1706581671388" MODIFIED="1706581681651">
+<node TEXT="Subclasses of a class usually (1) have additional properties that the superclass does not have, or (2) restrictions different from those of the superclass, or (3) participate in different relationships than the superclasses" ID="ID_1780871403" CREATED="1706581681655" MODIFIED="1706581741238"/>
+<node TEXT="Classes in terminological hierarchies do not have to introduce new properties" ID="ID_1203342288" CREATED="1706581744091" MODIFIED="1706581759389"/>
+</node>
+<node TEXT="A new class or a property value?" FOLDED="true" ID="ID_1129139852" CREATED="1706580562080" MODIFIED="1706580569239">
+<node TEXT="If the concepts with different slot values become restrictions for different slots in other classes, then we should create a new class for the distinction. Otherwise, we represent the distinction in a slot value." ID="ID_1373491423" CREATED="1706580569241" MODIFIED="1706581325183"/>
+<node TEXT="if a distinction is important in the domain and we think of the objects with different values for the distinction as different kinds of objects, then we should create a new class for the distinction." ID="ID_1843039370" CREATED="1706581518643" MODIFIED="1706581596292"/>
+<node TEXT="A class to which an individual instance belongs should not change often." ID="ID_1825406004" CREATED="1706581617013" MODIFIED="1706581637093"/>
+</node>
+<node TEXT="An instance or a class?" FOLDED="true" ID="ID_1782885992" CREATED="1706579467309" MODIFIED="1706579476310">
 <node TEXT="Individual instances are the most specific concepts represented in a knowledge base." ID="ID_1731193166" CREATED="1706579476318" MODIFIED="1706579498267"/>
 <node TEXT="If concepts form a natural hierarchy, then we should represent them as classes" ID="ID_1219927243" CREATED="1706579498461" MODIFIED="1706579518593">
 <node TEXT="Only classes can be arranged in a hierarchy -- knowledge-representation systems do not have a notion of sub-instance." ID="ID_1343339947" CREATED="1706579523601" MODIFIED="1706579553111"/>
 </node>
 </node>
-<node TEXT="Limiting the scope" ID="ID_888781512" CREATED="1706579576290" MODIFIED="1706579580470">
+<node TEXT="Limiting the scope" FOLDED="true" ID="ID_888781512" CREATED="1706579576290" MODIFIED="1706579580470">
 <node TEXT="The ontology should now contain all the possible information about the domain: you do not need to specialize (or generalize) more than you need for your application (at most one extra level each way)" ID="ID_587768911" CREATED="1706579580472" MODIFIED="1706579616672"/>
 <node TEXT="The ontology should not contain all the possible properties of and distinctions among classes in the hierarchy." ID="ID_1469687352" CREATED="1706579627781" MODIFIED="1706579657939"/>
 </node>
+</node>
+<node TEXT="WebProtege" FOLDED="true" POSITION="bottom_or_right" ID="ID_570018266" CREATED="1706539639292" MODIFIED="1706539646456">
+<node TEXT="WebProtege Overview" ID="ID_1760700010" CREATED="1706539647753" MODIFIED="1706539661903" LINK="http://protegewiki.stanford.edu/wiki/WebProtege"/>
+<node TEXT="WebProtege User Guide" ID="ID_82492711" CREATED="1706539652326" MODIFIED="1706539667259" LINK="http://protegewiki.stanford.edu/wiki/WebProtegeUsersGuide"/>
 </node>
 </node>
 </map>
