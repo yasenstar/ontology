@@ -348,6 +348,9 @@
 </node>
 <node TEXT="Step 7. Create instances" POSITION="bottom_or_right" ID="ID_385988242" CREATED="1706578355864" MODIFIED="1706578363516"/>
 </node>
+<node TEXT="A new class or a property value?" ID="ID_1129139852" CREATED="1706580562080" MODIFIED="1706580569239">
+<node TEXT="" ID="ID_1373491423" CREATED="1706580569241" MODIFIED="1706580569241"/>
+</node>
 <node TEXT="An instance or a class?" ID="ID_1782885992" CREATED="1706579467309" MODIFIED="1706579476310">
 <node TEXT="Individual instances are the most specific concepts represented in a knowledge base." ID="ID_1731193166" CREATED="1706579476318" MODIFIED="1706579498267"/>
 <node TEXT="If concepts form a natural hierarchy, then we should represent them as classes" ID="ID_1219927243" CREATED="1706579498461" MODIFIED="1706579518593">
