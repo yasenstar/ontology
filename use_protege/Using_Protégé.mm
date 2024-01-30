@@ -296,14 +296,67 @@
 <node TEXT="My Pizza OWL practice GitHub Repo" ID="ID_1328512994" CREATED="1706539559173" MODIFIED="1706539573591" LINK="https://github.com/yasenstar/protege_pizza"/>
 </node>
 <node TEXT="Ontology Development 101" POSITION="bottom_or_right" ID="ID_744791886" CREATED="1706539622153" MODIFIED="1706539633964" LINK="http://protegewiki.stanford.edu/wiki/Ontology101">
-<node TEXT="Steps for making Ontology" ID="ID_369339681" CREATED="1706570180062" MODIFIED="1706570188053"/>
+<node TEXT="Steps for making Ontology" ID="ID_369339681" CREATED="1706570180062" MODIFIED="1706570188053">
 <node TEXT="Step 1. Determine the domain and scope of the ontology" POSITION="bottom_or_right" ID="ID_262127842" CREATED="1706570188055" MODIFIED="1706570225921"/>
 <node TEXT="Step 2. Consider reusing existing ontologies" POSITION="bottom_or_right" ID="ID_334859526" CREATED="1706570200028" MODIFIED="1706570228156">
+<node TEXT="List of Ontologies by W3C" POSITION="bottom_or_right" ID="ID_112649259" CREATED="1706574691558" MODIFIED="1706574699558" LINK="https://www.w3.org/wiki/Lists_of_ontologies">
+<node TEXT="The Dublin Core (DC) ontology" ID="ID_935026640" CREATED="1706574717345" MODIFIED="1706574737181" LINK="http://dublincore.org/"/>
+<node TEXT="The Friend Of A Friend (FOAF() ontology" ID="ID_966651107" CREATED="1706574740130" MODIFIED="1706574756795" LINK="http://www.foaf-project.org/"/>
+</node>
 <node TEXT="DAML Ontology Library" POSITION="bottom_or_right" ID="ID_1338855199" CREATED="1706569974850" MODIFIED="1706569987173" LINK="http://www.daml.org/ontologies/"/>
 <node TEXT="UNSPSC" POSITION="bottom_or_right" ID="ID_1563829857" CREATED="1706570277145" MODIFIED="1706570282292" LINK="https://www.unspsc.org/"/>
 <node TEXT="Wine information" POSITION="bottom_or_right" ID="ID_341494352" CREATED="1706570238927" MODIFIED="1706570250845" LINK="http://www.wines.com/"/>
 <node TEXT="FIBO - The Financial Industry Business Ontology" POSITION="bottom_or_right" ID="ID_1388402664" CREATED="1706570314796" MODIFIED="1706570341948" LINK="https://spec.edmcouncil.org/fibo/"/>
 <node TEXT="SUMO - Suggested Upper Merged Ontology" POSITION="bottom_or_right" ID="ID_1885486855" CREATED="1706570374926" MODIFIED="1706570386187" LINK="https://www.ontologyportal.org/"/>
+<node TEXT="NIST Common Core Ontologies" POSITION="bottom_or_right" ID="ID_1883172727" CREATED="1706575172874" MODIFIED="1706575181477" LINK="https://www.ontologyrepository.com/">
+<node TEXT="CCO in GitHub" ID="ID_1027139104" CREATED="1706575187858" MODIFIED="1706575196123" LINK="https://github.com/CommonCoreOntology/CommonCoreOntologies"/>
+</node>
+<node TEXT="Traditional Chinese Medicine (TCM) Domain Ontology" POSITION="bottom_or_right" ID="ID_1386413655" CREATED="1706575285059" MODIFIED="1706575303401" LINK="http://cmsj.cams.cn/EN/10.24920/004151"/>
+</node>
+<node TEXT="Step 3. Enumerate important terms in the ontology" POSITION="bottom_or_right" ID="ID_380225857" CREATED="1706577205058" MODIFIED="1706577217341"/>
+<node TEXT="Step 4. Define the classes and the class hierarchy" POSITION="bottom_or_right" ID="ID_811672771" CREATED="1706577863282" MODIFIED="1706577874420"/>
+<node TEXT="Step 5. Define the properties of classes-slots" POSITION="bottom_or_right" ID="ID_357038191" CREATED="1706577887746" MODIFIED="1706577906045"/>
+<node TEXT="Step 6. Define the facets of the slots" POSITION="bottom_or_right" ID="ID_615593316" CREATED="1706577949258" MODIFIED="1706577961623">
+<node TEXT="Slot cardinality" ID="ID_337247639" CREATED="1706578012750" MODIFIED="1706578019605"/>
+<node TEXT="Slot-value type" ID="ID_72682727" CREATED="1706578020085" MODIFIED="1706578034739"/>
+<node TEXT="Domain and range of a slot" ID="ID_411699073" CREATED="1706578044834" MODIFIED="1706578304766"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The basic rules for determining a domain and a range of a slot are similar:
+    </p>
+    <ul>
+      <li>
+        <span style="font-style: italic;">When defining a domain or a range for a lot, find the most general classes or class that can be respectively the domain or the range for the slots. </span>
+      </li>
+      <li>
+        <span style="font-style: italic;">On the other hand, do not define a domain and range that is overly general: all the classes in the domain of a slot should be described by the slot and instances of all the classes in the range of a slot should be potential fillers for the slot.</span>
+      </li>
+      <li>
+        <span style="font-style: italic;">Do not choose an overly general class for range (i.e., one would not want to make the range THING) but one would want to choose a class that will cover all fillers.</span>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Domain: The classes to which a slot is attached or a classes which property a slot describes, are called the domain of the slot" ID="ID_664373862" CREATED="1706578069610" MODIFIED="1706578101979"/>
+<node TEXT="Range: Allowed classes for slots of type Instance are often called a range of a slot." ID="ID_1127855109" CREATED="1706578102140" MODIFIED="1706578123125"/>
+</node>
+</node>
+<node TEXT="Step 7. Create instances" POSITION="bottom_or_right" ID="ID_385988242" CREATED="1706578355864" MODIFIED="1706578363516"/>
+</node>
+<node TEXT="An instance or a class?" ID="ID_1782885992" CREATED="1706579467309" MODIFIED="1706579476310">
+<node TEXT="Individual instances are the most specific concepts represented in a knowledge base." ID="ID_1731193166" CREATED="1706579476318" MODIFIED="1706579498267"/>
+<node TEXT="If concepts form a natural hierarchy, then we should represent them as classes" ID="ID_1219927243" CREATED="1706579498461" MODIFIED="1706579518593">
+<node TEXT="Only classes can be arranged in a hierarchy -- knowledge-representation systems do not have a notion of sub-instance." ID="ID_1343339947" CREATED="1706579523601" MODIFIED="1706579553111"/>
+</node>
+</node>
+<node TEXT="Limiting the scope" ID="ID_888781512" CREATED="1706579576290" MODIFIED="1706579580470">
+<node TEXT="The ontology should now contain all the possible information about the domain: you do not need to specialize (or generalize) more than you need for your application (at most one extra level each way)" ID="ID_587768911" CREATED="1706579580472" MODIFIED="1706579616672"/>
+<node TEXT="The ontology should not contain all the possible properties of and distinctions among classes in the hierarchy." ID="ID_1469687352" CREATED="1706579627781" MODIFIED="1706579657939"/>
 </node>
 </node>
 </node>
