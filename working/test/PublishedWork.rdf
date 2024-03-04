@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:PublishedWork="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork">
+        <owl:imports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/Books"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#fromBook -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#fromBook">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#fromBook"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_bd82781a_0e2d_4972_9158_a1ec74bb707d"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#fromBook"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/Books#SciFi"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#fromBook"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/Books#TCMBooks"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#fromBook"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/Books#TechBook"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#sourceControlledAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#sourceControlledAt">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#sourceControlledAt"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_bd82781a_0e2d_4972_9158_a1ec74bb707d"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#sourceControlledAt"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_adf6be94_0a0e_482f_b551_3fecf1ed02bc"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_adf6be94_0a0e_482f_b551_3fecf1ed02bc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_adf6be94_0a0e_482f_b551_3fecf1ed02bc">
+        <rdfs:label xml:lang="en">Repository</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_bd82781a_0e2d_4972_9158_a1ec74bb707d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_bd82781a_0e2d_4972_9158_a1ec74bb707d">
+        <rdfs:label xml:lang="en">Videos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#Archi_Tool_Practice-ArchiSurance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#Archi_Tool_Practice-ArchiSurance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_bd82781a_0e2d_4972_9158_a1ec74bb707d"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#DoingMathWithPython -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#DoingMathWithPython">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_adf6be94_0a0e_482f_b551_3fecf1ed02bc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#Doing_Math_with_Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#Doing_Math_with_Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_bd82781a_0e2d_4972_9158_a1ec74bb707d"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#aHa-C-Language -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#aHa-C-Language">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_bd82781a_0e2d_4972_9158_a1ec74bb707d"/>
+        <PublishedWork:fromBook rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/Books#aha-C-Language"/>
+        <PublishedWork:sourceControlledAt rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#aha-C"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#aha-C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#aha-C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/PublishedWork#OWLClass_adf6be94_0a0e_482f_b551_3fecf1ed02bc"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
