@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#FLATICON -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#FLATICON">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.flaticon.com</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#FREEPlk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#FREEPlk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.freepik.com</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#NEWOLDSTOCK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#NEWOLDSTOCK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nos.twnsnd.co</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#PEXELS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#PEXELS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pexels.com</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#PIXABAY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#PIXABAY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://pixabay.com</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#THENOUNPROJECT_Icons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#THENOUNPROJECT_Icons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://thenounproject.com/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#UNSPLASH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#UNSPLASH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://unsplash.com</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#VECTEEZY_Vectors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#VECTEEZY_Vectors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.vecteezy.com/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#VIDEEZY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#VIDEEZY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.videezy.com/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>Useful Information</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
