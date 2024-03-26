@@ -21,6 +21,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Music_and_Audio_Fx -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Music_and_Audio_Fx"/>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
@@ -52,6 +58,24 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#FREEPlk">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.freepik.com</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#FREESOUND -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#FREESOUND">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Music_and_Audio_Fx"/>
+        <rdfs:comment>https://freesound.org/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#INCOMPETECH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#INCOMPETECH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Music_and_Audio_Fx"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://incompetech.com</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -115,6 +139,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#VIDEEZY">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Pictures_and_Videos"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.videezy.com/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#YouTube_Audio_Library -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#YouTube_Audio_Library">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/untitled-ontology-117#Free_Music_and_Audio_Fx"/>
+        <rdfs:comment>https://www.youtube.com/audiolibrary</rdfs:comment>
     </owl:NamedIndividual>
     
 
