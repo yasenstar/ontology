@@ -1,0 +1,972 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/2/essential/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/2/essential/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:essential="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Owner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Owner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Child_Project_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Child_Project_Of">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Parent_Programme_Of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Consists -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Consists"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Contained_In -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Contained_In">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Contains"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Contains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Defined_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Defined_By">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Defines"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Defines -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Defines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#IT_Contact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#IT_Contact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#IT_Owner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#IT_Owner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Impacted_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Impacted_By">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Impacts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Impacts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Impacts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Implemented_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Implemented_By"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Instance_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Instance_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Parent_Programme_Of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Parent_Programme_Of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Performed_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Performed_By">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Performing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Performing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Performing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Produced_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Produced_By"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Realises -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Realises">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Realized_By"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Realized_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Realized_By"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Requires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Requires"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategic_Plans_Supported -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategic_Plans_Supported"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Supported_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Supported_By">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Supports"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Supports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Usage_Location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Usage_Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Offered_Via -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Offered_Via"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Applicaiton_Layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Applicaiton_Layer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Conceptual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Conceptual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Applicaiton_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Logical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Logical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Applicaiton_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Physical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Physical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Applicaiton_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Provider_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Provider_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Provider_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Domain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Layer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Physical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Physical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Logical_Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Strategic_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Strategic_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategic_Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#EA_Support"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Attribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#EA_Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#EA_Support"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Group_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Group_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Actor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Group_Business_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Group_Business_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Role"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Business_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Business_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Business_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Conceptual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Conceptual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Domain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Layer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Logical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Logical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Physical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Physical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Initiative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Initiative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Job_Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Job_Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Actor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Logical_Business_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Logical_Business_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Persona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Individual_Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process_Type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Concept">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Programme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Programme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Project_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Project_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Change_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategic_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategic_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategy_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategy_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Strategy_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#EA_Support"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Conceptual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Conceptual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Layer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Logical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Logical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Physical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Physical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#APMID_Application -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#APMID_Application">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Provider"/>
+        <essential:Business_Owner rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPM_BSPM"/>
+        <essential:IT_Contact rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPO_ITDM"/>
+        <essential:IT_Owner rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPO_SL"/>
+        <essential:Supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process"/>
+        <essential:Usage_Location rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Site"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability"/>
+        <essential:Contains rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process"/>
+        <essential:Contains rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process"/>
+        <essential:Realises rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Flow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Flow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Flow"/>
+        <essential:Defines rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPM_BSPM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPM_BSPM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Persona"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPO_ITDM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPO_ITDM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Persona"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPO_SL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#DPO_SL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Persona"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object"/>
+        <essential:Realises rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Attribute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Attribute">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object_Attribute"/>
+        <essential:Contained_In rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Subject -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Subject">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Subject"/>
+        <essential:Supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept"/>
+        <essential:Supports rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Domain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Domain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Domain"/>
+        <essential:Contains rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Initiative_in_Planview -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Initiative_in_Planview">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Programme"/>
+        <essential:Parent_Programme_Of rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#PPMID_Project_in_PlanView"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L0_Business_Line -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L0_Business_Line">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Concept"/>
+        <essential:Supported_By rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L1_Product_Line -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L1_Product_Line">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Type"/>
+        <essential:Produced_By rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process"/>
+        <essential:Realises rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L0_Business_Line"/>
+        <essential:Value_Offered_Via rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stream"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L2_Core_Product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L2_Core_Product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product"/>
+        <essential:Implemented_By rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#PPMID_Project_in_PlanView"/>
+        <essential:Instance_Of rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#L1_Product_Line"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Must_Do_Classification_in_PlanView -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Must_Do_Classification_in_PlanView">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Strategic_Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#PPMID_Project_in_PlanView -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#PPMID_Project_in_PlanView">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Project"/>
+        <essential:Impacts rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#APMID_Application"/>
+        <essential:Strategic_Plans_Supported rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Must_Do_Classification_in_PlanView"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process"/>
+        <essential:Performing rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Site -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Site">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Site"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stage"/>
+        <essential:Requires rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stream"/>
+        <essential:Consists rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Physical_Process_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Site"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Applicaiton_Layer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Layer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#EA_Support"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Layer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Layer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Conceptual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Logical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Application_Physical"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Capability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Domain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Concept"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Value_Stream"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Conceptual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Logical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Physical"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Process_Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Business_Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Product_Type"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Data_Subject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Concept"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Domain"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Conceptual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Logical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Information_Physical"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Initiative"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Programme"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Project_Activity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Conceptual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Logical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/essential#Technology_Physical"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
