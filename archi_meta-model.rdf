@@ -1,0 +1,817 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:archi-metamodel="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Access -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Access">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Aggregation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Aggregation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Assignment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Assignment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Association -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Association">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Composition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Composition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Flow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Flow">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Influence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Influence">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Realization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Realization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Serving -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Serving">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Specialization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Specialization">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Triggering -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Triggering">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Collaboration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Collaboration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Artifact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Artifact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Assessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Assessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Collaboration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Collaboration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Communication_Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Communication_Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Constraint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Constraint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Contract -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Contract">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Course_Of_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Course_Of_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Data_Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Data_Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Deliverable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Deliverable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Distribution_Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Distribution_Network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Facility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Gap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Gap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Grouping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Grouping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Other"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Meaning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Meaning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Node -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Node">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Other"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Outcome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Path -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Path">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Physical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Physical"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Plateau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Plateau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Principle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Principle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Representation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Representation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Resource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Stakeholder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Strategy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#System_Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#System_Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Collaboration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Collaboration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Interaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Interaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Value_Stream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Value_Stream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Work_Package -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Work_Package">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Application -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Application">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Component"/>
+        <archi-metamodel:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Capability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Capability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Capability"/>
+        <archi-metamodel:Realization rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Application"/>
+        <archi-metamodel:Serving rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#VFS_Market"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#VFS_Initiative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#VFS_Initiative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Work_Package"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#VFS_Market -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#VFS_Market">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Migration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Motivation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Other"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Physical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Strategy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Collaboration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Function"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Interaction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Interface"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Application_Service"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Data_Object"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Artifact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Communication_Network"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Device"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Node"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Path"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#System_Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Collaboration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Function"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Interaction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Interface"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Technology_Service"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Assessment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Constraint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Driver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Goal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Meaning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Principle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Requirement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Stakeholder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Value"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Actor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Collaboration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Function"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Interaction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Interface"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Object"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Business_Service"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Contract"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Representation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Capability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Course_Of_Action"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Resource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Value_Stream"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Deliverable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Gap"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Implementation_Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Plateau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Work_Package"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Distribution_Network"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Equipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Facility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/archi-metamodel#Material"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
