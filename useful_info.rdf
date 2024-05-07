@@ -33,6 +33,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/userful_information#JavaScript_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/userful_information#JavaScript_Tools"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -67,6 +73,21 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/userful_information#FREESOUND">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/userful_information#Free_Music_and_Audio_Fx"/>
         <rdfs:comment>https://freesound.org/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/userful_information#Handsontable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/userful_information#Handsontable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/userful_information#JavaScript_Tools"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://handsontable.com/</rdfs:comment>
+        <rdfs:comment>JavaScript data grid
+with spreadsheet UI
+A front-end component that combines data grid features
+with spreadsheet UX/UI. Professional support included.
+
+Works with React, Angular, Vue, and plain JavaScript</rdfs:comment>
     </owl:NamedIndividual>
     
 
