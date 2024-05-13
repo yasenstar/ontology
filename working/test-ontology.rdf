@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#动物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#动物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#生物"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#植物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#植物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#生物"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#生物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#生物"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Apple_Tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Apple_Tree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Eagle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Eagle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Human -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Human">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Lion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Lion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Tiger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Tiger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#喇叭花 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#喇叭花">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#植物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#狮子 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#狮子">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#动物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#红杉树 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#红杉树">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#植物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#老虎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#老虎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#动物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#苹果树 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#苹果树">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#植物"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#鹰 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#鹰">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#动物"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
