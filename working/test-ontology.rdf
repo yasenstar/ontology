@@ -23,7 +23,15 @@
 
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#belongsTo -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#belongsTo"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#belongsTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#include"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#include -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#include"/>
     
 
 
@@ -65,20 +73,46 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
-    </owl:Class>    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
     </owl:Class>
+    
 
 
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Human -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Human">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#belongsTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#belongsTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#test"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#belongsTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#test"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -86,6 +120,19 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#test">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#include"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -104,13 +151,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Apple_Tree">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant"/>
-    </owl:NamedIndividual>
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Orange -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Orange">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
     </owl:NamedIndividual>
     
 
@@ -119,13 +160,25 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Eagle">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
     </owl:NamedIndividual>
+    
 
 
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Lion -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Lion">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Plant"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
     </owl:NamedIndividual>
     
 
@@ -134,6 +187,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Tiger">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#Animal"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/4/test-vowl#biology"/>
     </owl:NamedIndividual>
     
 
@@ -176,3 +230,4 @@
 
 
 <!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
