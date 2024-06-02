@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Archi_Tool_Modeling_Practice_-_ArchiMetal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Archi_Tool_Modeling_Practice_-_ArchiMetal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Archi_Tool_Modeling_Practice_-_ArchiSurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Archi_Tool_Modeling_Practice_-_ArchiSurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Coding_Mathematics_via_Octave_《编程数学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Coding_Mathematics_via_Octave_《编程数学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Doing_Math_with_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Doing_Math_with_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#GUI_with_Python -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#GUI_with_Python">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#backlog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_LaTex_《简单高效LaTeX》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_LaTex_《简单高效LaTeX》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_Octave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_Octave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_R_in_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_R_in_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_SPARQL_by_Practice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learn_SPARQL_by_Practice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learning_FORTRAN_Programming_Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learning_FORTRAN_Programming_Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learning_SPARX_Systems_Enterprise_Architect_Modeling_Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Learning_SPARX_Systems_Enterprise_Architect_Modeling_Tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Master_OpenSCAD_within_10_Projects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Master_OpenSCAD_within_10_Projects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Model_Building_-_From_EPIC_Games -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Model_Building_-_From_EPIC_Games">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Ontology_Practice_-_Build_pizza.owl_in_Protege -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Ontology_Practice_-_Build_pizza.owl_in_Protege">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#OpenSCAN_3D_Modeling_Practice_-_Tutorials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#OpenSCAN_3D_Modeling_Practice_-_Tutorials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#PlantUML_in_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#PlantUML_in_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Processing创意编程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Processing创意编程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Python_with_MS_Office《让Python遇上Office_-_从编程入门到自动化办公实践》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Python_with_MS_Office《让Python遇上Office_-_从编程入门到自动化办公实践》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Rust_in_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Rust_in_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Scratch_for_Kids_《Scratch少儿编程》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Scratch_for_Kids_《Scratch少儿编程》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#backlog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#backlog"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#C++新经典 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#C++新经典">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#C++_Application_Development_with_Code::Blocks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#C++_Application_Development_with_Code::Blocks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Essential_EA_Project_(Open_Source_EA_Tool) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Essential_EA_Project_(Open_Source_EA_Tool)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Roblox_Programming_Learning_&amp;_Lua_Programming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#Roblox_Programming_Learning_&amp;_Lua_Programming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#三维图形化C++趣味编程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#三维图形化C++趣味编程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#wip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#啊哈C语言_(aha_C_language)_(全64集) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#啊哈C语言_(aha_C_language)_(全64集)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/myvideos#published"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
