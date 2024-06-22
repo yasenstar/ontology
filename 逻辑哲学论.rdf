@@ -151,6 +151,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3_每个事物都像是在一个可能事态的空间里 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3_每个事物都像是在一个可能事态的空间里">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+        <rdfs:comment>我可以设想这个空间是空的，但是我不能设想没有这个空间的事物</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3.1_空间对象必须处在无限的空间之中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3.1_空间对象必须处在无限的空间之中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3_每个事物都像是在一个可能事态的空间里"/>
+        <rdfs:comment>一个空间点就是一个主目位置。
+视域里的一个斑块，虽然不一定是红的，但它必须有某种颜色：所以说它被颜色空间[Farbenraum]所包围。音调必须具有某种高度，触觉对象必须具有某种硬度，等等。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.4_对象包含着一切状况的可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.4_对象包含着一切状况的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
