@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.1_世界为诸事实所规定，为它们即是全部事实所规定 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.1_世界为诸事实所规定，为它们即是全部事实所规定">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.2_因为事实的总体规定那发生的事情，也规定所有未发生的事情 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.2_因为事实的总体规定那发生的事情，也规定所有未发生的事情">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.3_在逻辑空间中的诸事实就是世界 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.3_在逻辑空间中的诸事实就是世界">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2_世界分解为诸事实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2_世界分解为诸事实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2.1_每项事情可以发生或者不发生，其余的一切则仍保持原样 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2.1_每项事情可以发生或者不发生，其余的一切则仍保持原样">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2_世界分解为诸事实"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2_发生的事情，即事实，就是诸事态的存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2_发生的事情，即事实，就是诸事态的存在"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2_发生的事情，即事实，就是诸事态的存在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.1_事物的本质在于能够成为事态的组成部分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.1_事物的本质在于能够成为事态的组成部分">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.1_如果一个事物本身能够独立存在，那么后来的适合于它的状况看来就是一种偶然的事情 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.1_如果一个事物本身能够独立存在，那么后来的适合于它的状况看来就是一种偶然的事情">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+        <rdfs:comment>如果事物能够出现于事态之中，那么这一可能性必定一开始就已经存在于事物之中。
+正如我们根本不能在空间之外思想空间对象，或者在时间之外思想时间对象一样，离开同其他对象结合的可能性，我们也不能思想一个对象。
+如果我能够思想在事态中结合的对象，我就不能离开这种结合的可能性来思想对象。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.2_事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.2_事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+        <rdfs:comment>词以两种不同的方式--单独地和在命题中--出现是不可能的</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+        <rdfs:comment>每一个这种可能性必定在该对象的本性中。
+之后不可能发现新的可能性。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3.1_如果我要知道一个对象，虽然我不一定要知道它的外在性质，但是我必须知道它的一切内在性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3.1_如果我要知道一个对象，虽然我不一定要知道它的外在性质，但是我必须知道它的一切内在性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.4_如果给出所有的对象，那么同时也就给出了所有可能的事态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.4_如果给出所有的对象，那么同时也就给出了所有可能的事态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>逻辑哲学论</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
