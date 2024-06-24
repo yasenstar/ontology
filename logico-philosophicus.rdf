@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus">
+        <rdfs:comment>《逻辑哲学论》（又译《名理论》，英语、拉丁语：Tractatus Logico-philosophicus，德语：Logisch-Philosophische Abhandlung），是奥地利哲学家维特根斯坦在其一生中出版的唯一的书籍篇幅的著作。本书在1918年第一次世界大战作者服兵役期间写成。首先在1921年以德语出版。它现在被广泛的认为是20世纪最重要的哲学著作之一。拉丁语标题Tractatus Logico-Philosophicus最初是乔治·爱德华·摩尔建议的，以表示对斯宾诺莎的《神学政治论》的敬意。维特根斯坦的著名的文笔风格——他表达自身的绝对冷静和简洁的方式——是从他所崇拜的德国逻辑学家和哲学家弗雷格的哲理散文中铸就而来。在他的《哲学评论》中，他写道：“我的句子的风格受到弗雷格的非常强烈的影响。并且如果我想要的话，我能在没有人能第一眼就辨别的地方察觉到这种强烈的影响。</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#1_世界是所有发生的事物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#1_世界是所有发生的事物">
+        <rdfs:comment>Die Welt ist alles, was der Fall ist.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#2_发生的事物（事实）是原子性事态的存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#2_发生的事物（事实）是原子性事态的存在">
+        <rdfs:comment>Was der Fall ist, die Tatsache, ist das Bestehen von Sachverhalten</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想">
+        <rdfs:comment>Das logische Bild der Tatsachen ist der Gedanke</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题">
+        <rdfs:comment>Der Gedanke ist der sinnvolle Satz</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#5_命题是基本命题的真值函数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#5_命题是基本命题的真值函数">
+        <rdfs:comment>Der Satz ist eine Wahrheitsfunktion der Elementarsätze. (Der Elementarsatz ist eine Wahrheitsfunktion seiner selbst.)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#6_命题的一般形式是真值函数的一般形式，它是[_𝑝_¯_,_𝜉_¯_,_𝑁_(_𝜉_¯_)_]。这也是命题的一般形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#6_命题的一般形式是真值函数的一般形式，它是[_𝑝_¯_,_𝜉_¯_,_𝑁_(_𝜉_¯_)_]。这也是命题的一般形式">
+        <rdfs:comment>Die allgemeine Wahrheitsfunktion ist:[
+𝑝
+¯
+,
+𝜉
+¯
+,
+𝑁
+(
+𝜉
+¯
+)
+]
+{\displaystyle [{\bar {p}},{\bar {\xi }},N({\bar {\xi }})]}
+
+命题的一般形式是真值函数的一般形式，它是：
+[
+𝑝
+¯
+,
+𝜉
+¯
+,
+𝑁
+(
+𝜉
+¯
+)
+]
+{\displaystyle [{\bar {p}},{\bar {\xi }},N({\bar {\xi }})]}。这也是命题的一般形式。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#7_对于不可说的东西我们必须保持沉默 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/5/logico-philosophicus#7_对于不可说的东西我们必须保持沉默">
+        <rdfs:comment>Wovon man nicht sprechen kann, darüber muss man schweigen</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
