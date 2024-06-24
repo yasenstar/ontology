@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic/"
-     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic/"
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus">
+        <owl:versionInfo>2024-06-22： 阅读微信读书，创建此本体（way from Montreal to Paris to Beijing）</owl:versionInfo>
+    </owl:Ontology>
     
 
 
@@ -21,94 +23,111 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#在图像和被图示者中必须有某种同一的东西，因此前者才能是后者的图像 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情"/>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#在图像和被图示者中必须有某种同一的东西，因此前者才能是后者的图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.6_事实要成为图像，它和被图示者必须有某种共同的东西"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.1_世界为诸事实所规定，为它们即是全部事实所规定 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1_世界是一切发生的事情 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.1_世界为诸事实所规定，为它们即是全部事实所规定">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1_世界是一切发生的事情"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1_世界是事实的总体，而不是事物的总体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1_世界是事实的总体，而不是事物的总体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1_世界是一切发生的事情"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.2_因为事实的总体规定那发生的事情，也规定所有未发生的事情 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1.1_世界为诸事实所规定，为它们即是全部事实所规定 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.2_因为事实的总体规定那发生的事情，也规定所有未发生的事情">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1.1_世界为诸事实所规定，为它们即是全部事实所规定">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1_世界是事实的总体，而不是事物的总体"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.3_在逻辑空间中的诸事实就是世界 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1.2_因为事实的总体规定那发生的事情，也规定所有未发生的事情 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1.3_在逻辑空间中的诸事实就是世界">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.1_世界是事实的总体，而不是事物的总体"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1.2_因为事实的总体规定那发生的事情，也规定所有未发生的事情">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1_世界是事实的总体，而不是事物的总体"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2_世界分解为诸事实 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1.3_在逻辑空间中的诸事实就是世界 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2_世界分解为诸事实">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1_世界是一切发生的事情"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1.3_在逻辑空间中的诸事实就是世界">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.1_世界是事实的总体，而不是事物的总体"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2.1_每项事情可以发生或者不发生，其余的一切则仍保持原样 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.2_世界分解为诸事实 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2.1_每项事情可以发生或者不发生，其余的一切则仍保持原样">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#1.2_世界分解为诸事实"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.2_世界分解为诸事实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1_世界是一切发生的事情"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2_发生的事情，即事实，就是诸事态的存在 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.2.1_每项事情可以发生或者不发生，其余的一切则仍保持原样 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2_发生的事情，即事实，就是诸事态的存在"/>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2_发生的事情，即事实，就是诸事态的存在"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.2.1_每项事情可以发生或者不发生，其余的一切则仍保持原样">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#1.2_世界分解为诸事实"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.1_事物的本质在于能够成为事态的组成部分 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2_发生的事情，即事实，就是诸事态的存在 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.1_事物的本质在于能够成为事态的组成部分">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2_发生的事情，即事实，就是诸事态的存在"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2_发生的事情，即事实，就是诸事态的存在"/>
+        <rdfs:comment>【添加】</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1_事态是对象（事物）的结合 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1_事态是对象（事物）的结合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.1_如果一个事物本身能够独立存在，那么后来的适合于它的状况看来就是一种偶然的事情 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.1_事物的本质在于能够成为事态的组成部分 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.1_如果一个事物本身能够独立存在，那么后来的适合于它的状况看来就是一种偶然的事情">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.1_事物的本质在于能够成为事态的组成部分">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1_事态是对象（事物）的结合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1_事态是对象（事物）的结合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.1_如果一个事物本身能够独立存在，那么后来的适合于它的状况看来就是一种偶然的事情 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.1_如果一个事物本身能够独立存在，那么后来的适合于它的状况看来就是一种偶然的事情">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
         <rdfs:comment>如果事物能够出现于事态之中，那么这一可能性必定一开始就已经存在于事物之中。
 正如我们根本不能在空间之外思想空间对象，或者在时间之外思想时间对象一样，离开同其他对象结合的可能性，我们也不能思想一个对象。
 如果我能够思想在事态中结合的对象，我就不能离开这种结合的可能性来思想对象。</rdfs:comment>
@@ -116,64 +135,1112 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.2_事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.2_事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.2_事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.2_事物就其能够出现在一切可能的状况中而言是独立的，但是这种独立性的形式是一种与事态相联系的形式，即一种依赖的形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
         <rdfs:comment>词以两种不同的方式--单独地和在命题中--出现是不可能的</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
         <rdfs:comment>每一个这种可能性必定在该对象的本性中。
 之后不可能发现新的可能性。</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3.1_如果我要知道一个对象，虽然我不一定要知道它的外在性质，但是我必须知道它的一切内在性质 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.3.1_如果我要知道一个对象，虽然我不一定要知道它的外在性质，但是我必须知道它的一切内在性质 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3.1_如果我要知道一个对象，虽然我不一定要知道它的外在性质，但是我必须知道它的一切内在性质">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.3.1_如果我要知道一个对象，虽然我不一定要知道它的外在性质，但是我必须知道它的一切内在性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.3_假如我知道一个对象，我也就知道它出现于诸事态中的所有可能性"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.4_如果给出所有的对象，那么同时也就给出了所有可能的事态 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.4_如果给出所有的对象，那么同时也就给出了所有可能的事态 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2.4_如果给出所有的对象，那么同时也就给出了所有可能的事态">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2.4_如果给出所有的对象，那么同时也就给出了所有可能的事态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.2_逻辑中没有偶然的东西：如果一个事物能够出现在一个事态中，那么该事态的可能性必定已经预含于该事物之中"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3_每个事物都像是在一个可能事态的空间里 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.3_每个事物都像是在一个可能事态的空间里 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3_每个事物都像是在一个可能事态的空间里">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.3_每个事物都像是在一个可能事态的空间里">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1_事态是对象（事物）的结合"/>
         <rdfs:comment>我可以设想这个空间是空的，但是我不能设想没有这个空间的事物</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3.1_空间对象必须处在无限的空间之中 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.3.1_空间对象必须处在无限的空间之中 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3.1_空间对象必须处在无限的空间之中">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.3_每个事物都像是在一个可能事态的空间里"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.3.1_空间对象必须处在无限的空间之中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.3_每个事物都像是在一个可能事态的空间里"/>
         <rdfs:comment>一个空间点就是一个主目位置。
 视域里的一个斑块，虽然不一定是红的，但它必须有某种颜色：所以说它被颜色空间[Farbenraum]所包围。音调必须具有某种高度，触觉对象必须具有某种硬度，等等。</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.4_对象包含着一切状况的可能性 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.4_对象包含着一切状况的可能性 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1.4_对象包含着一切状况的可能性">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logic#2.0.1_事态是对象（事物）的结合"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.4_对象包含着一切状况的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1_事态是对象（事物）的结合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.4.1_对象出现在诸事态中的可能性就是对象的形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.4.1_对象出现在诸事态中的可能性就是对象的形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.1.4_对象包含着一切状况的可能性"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.0.1_每一个关于复合物的陈述可以分解为关于各组成部分的陈述，分解为完全地描述该复合物的一些命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.0.1_每一个关于复合物的陈述可以分解为关于各组成部分的陈述，分解为完全地描述该复合物的一些命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1_对象构成世界的实体，因此它们不能是复合的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1_对象构成世界的实体，因此它们不能是复合的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1.1_假如世界没有实体，那么一个命题是否有意义就依赖于另一个命题是否为真 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1.1_假如世界没有实体，那么一个命题是否有意义就依赖于另一个命题是否为真">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1_对象构成世界的实体，因此它们不能是复合的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1.2_在这种情况下就不可能勾画出世界的任何图形（真的或假的） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1.2_在这种情况下就不可能勾画出世界的任何图形（真的或假的）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.1_对象构成世界的实体，因此它们不能是复合的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.2_显然，一个想象的世界，无论它怎样不同于实在的世界，必有某种东西&#45;&#45;一种形式&#45;&#45;为它与实在的世界所共有 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.2_显然，一个想象的世界，无论它怎样不同于实在的世界，必有某种东西--一种形式--为它与实在的世界所共有">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3_正是诸对象构成这种不变的形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3_正是诸对象构成这种不变的形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.1_世界的实体只能规定一种形式，而不能规定任何物质的属性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.1_世界的实体只能规定一种形式，而不能规定任何物质的属性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3_正是诸对象构成这种不变的形式"/>
+        <rdfs:comment>因为物质的属性只有通过命题来表述--只有通过对象的配置来构成</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.2_顺便说一下，对象是无色的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.2_顺便说一下，对象是无色的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3_正是诸对象构成这种不变的形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.3_如果两个对象具有相同的逻辑形式，除了它们外在性质的差异之外，它们之间唯一的区别就是：它们是不同的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.3_如果两个对象具有相同的逻辑形式，除了它们外在性质的差异之外，它们之间唯一的区别就是：它们是不同的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3_正是诸对象构成这种不变的形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.3.1_或者一个事物具有别的任何事物都没有的属性，这时我们可以直接用一个描述使它同别的事物区分开来并指谓它；或者另一种情形，有好几个事物，它们的全部属性都是共有的，这时就完全不可能从它们之中指出某一个来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.3.1_或者一个事物具有别的任何事物都没有的属性，这时我们可以直接用一个描述使它同别的事物区分开来并指谓它；或者另一种情形，有好几个事物，它们的全部属性都是共有的，这时就完全不可能从它们之中指出某一个来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.3.3_如果两个对象具有相同的逻辑形式，除了它们外在性质的差异之外，它们之间唯一的区别就是：它们是不同的"/>
+        <rdfs:comment>因为如果没有任何东西来区分一个事物，我就不能区分它，不然的话它总是会被区分开来的</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.4_实体是独立于发生的事情而存在的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.4_实体是独立于发生的事情而存在的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.5_它是形式的内容 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.5_它是形式的内容">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.5.1_空间、时间和颜色（有色性）是对象的形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.5.1_空间、时间和颜色（有色性）是对象的形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.5_它是形式的内容"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.6_如果世界要有一个不变的形式，就必须要有对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.6_如果世界要有一个不变的形式，就必须要有对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7_不变者、实存者和对象是一个东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7_不变者、实存者和对象是一个东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2_对象是简单的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7.1_对象是不变的和实存的；它们的配置则是可变的和不定的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7.1_对象是不变的和实存的；它们的配置则是可变的和不定的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7_不变者、实存者和对象是一个东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7.2_对象的配置构成事态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7.2_对象的配置构成事态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.2.7_不变者、实存者和对象是一个东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3_在事态中对象就像链条的环节那样互相勾连 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3_在事态中对象就像链条的环节那样互相勾连">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.1_在事态中对象之间以一定的方式相互关联 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.1_在事态中对象之间以一定的方式相互关联">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3_在事态中对象就像链条的环节那样互相勾连"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.2_对象在事态中发生联系的一定的方式，即是事态的结构 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.2_对象在事态中发生联系的一定的方式，即是事态的结构">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3_在事态中对象就像链条的环节那样互相勾连"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.3_形式是结构的可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.3_形式是结构的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3_在事态中对象就像链条的环节那样互相勾连"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.4_事实的结构由诸事态的结构组成 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3.4_事实的结构由诸事态的结构组成">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.3_在事态中对象就像链条的环节那样互相勾连"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.4_存在的事态的总体即是世界 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.4_存在的事态的总体即是世界">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.5_存在的事态的总体也规定哪些事态不存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.5_存在的事态的总体也规定哪些事态不存在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6_事态的存在和不存在即是实在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6_事态的存在和不存在即是实在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0_事态，对象"/>
+        <rdfs:comment>我们还把事态的存在称为肯定的事实，把事态的不存在称为否定的事实</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6.1_事态相互间是独立的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6.1_事态相互间是独立的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6_事态的存在和不存在即是实在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6.2_从一个事态的存在或不存在不能推出另一个事态的存在或不存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6.2_从一个事态的存在或不存在不能推出另一个事态的存在或不存在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6_事态的存在和不存在即是实在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6.3_全部实在即是世界 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6.3_全部实在即是世界">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.0.6_事态的存在和不存在即是实在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2_发生的事情，即事实，就是诸事态的存在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.1_图像描述逻辑空间中的情况，即事态的存在或不存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.1_图像描述逻辑空间中的情况，即事态的存在或不存在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.2_图像是实在的一种模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.2_图像是实在的一种模型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.3_在图像中图像的要素与对象相对应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.3_在图像中图像的要素与对象相对应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.3.1_在图像中图像的要素代表对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.3.1_在图像中图像的要素代表对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.3_在图像中图像的要素与对象相对应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.4_图像的要素以一定的方式相互关联而构成为图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.4_图像的要素以一定的方式相互关联而构成为图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.4.1_图像是一种事实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.4.1_图像是一种事实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.4_图像的要素以一定的方式相互关联而构成为图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5_图像的要素以一定的方式相互关联，这表明事物也是以同样方式相互关联的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5_图像的要素以一定的方式相互关联，这表明事物也是以同样方式相互关联的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+        <rdfs:comment>图像要素的这种关联称为图像的结构，而这种结构的可能性则称为图像的图示形式</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1_图示形式是这种可能性，即事物之间的联系方式和图像要素之间的联系方式是相同的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1_图示形式是这种可能性，即事物之间的联系方式和图像要素之间的联系方式是相同的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5_图像的要素以一定的方式相互关联，这表明事物也是以同样方式相互关联的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.1_图像就是这样依附于实在的；它直接触及实在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.1_图像就是这样依附于实在的；它直接触及实在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1_图示形式是这种可能性，即事物之间的联系方式和图像要素之间的联系方式是相同的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.2_它就像一把衡量实在的标尺 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.2_它就像一把衡量实在的标尺">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1_图示形式是这种可能性，即事物之间的联系方式和图像要素之间的联系方式是相同的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.2.1_只有分度线的端点才真正接触到被测量的对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.2.1_只有分度线的端点才真正接触到被测量的对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.2_它就像一把衡量实在的标尺"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.3_按照这种理解，图像也应包含使之成为图像的图示关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.3_按照这种理解，图像也应包含使之成为图像的图示关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1_图示形式是这种可能性，即事物之间的联系方式和图像要素之间的联系方式是相同的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.4_图示关系是由图像要素和事物之间的相关构成的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.4_图示关系是由图像要素和事物之间的相关构成的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1_图示形式是这种可能性，即事物之间的联系方式和图像要素之间的联系方式是相同的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.5_这些相关像是图像要素的触角，图像通过这些触角而接触实在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1.5_这些相关像是图像要素的触角，图像通过这些触角而接触实在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.5.1_图示形式是这种可能性，即事物之间的联系方式和图像要素之间的联系方式是相同的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.6_事实要成为图像，它和被图示者必须有某种共同的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.6_事实要成为图像，它和被图示者必须有某种共同的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7_图像为了能以自己的方式&#45;&#45;正确的或错误的&#45;&#45;图示实在而必须和实在共有的东西，就是它的图示形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7_图像为了能以自己的方式--正确的或错误的--图示实在而必须和实在共有的东西，就是它的图示形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.1_图像能够图示其形式为图像所具有的一切实在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.1_图像能够图示其形式为图像所具有的一切实在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7_图像为了能以自己的方式--正确的或错误的--图示实在而必须和实在共有的东西，就是它的图示形式"/>
+        <rdfs:comment>空间图像能够图示一切空间的东西，颜色图像能够图示一切有色的东西，等等。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.2_然而图像不能图示它的图示形式；图像显示它的图示形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.2_然而图像不能图示它的图示形式；图像显示它的图示形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7_图像为了能以自己的方式--正确的或错误的--图示实在而必须和实在共有的东西，就是它的图示形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.3_图像从外部表现它的对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.3_图像从外部表现它的对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7_图像为了能以自己的方式--正确的或错误的--图示实在而必须和实在共有的东西，就是它的图示形式"/>
+        <rdfs:comment>它的观点就是它的表现形式。
+因此图像会正确地或错误地表现它的对象。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.4_然而图像本身不能处在它的表现形式之外 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7.4_然而图像本身不能处在它的表现形式之外">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.7_图像为了能以自己的方式--正确的或错误的--图示实在而必须和实在共有的东西，就是它的图示形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8_任何图像，无论具有什么形式，为了能够一般地以某种形式正确或错误地图示实在而必须和实在共有的东西，就是逻辑形式，即实在的形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8_任何图像，无论具有什么形式，为了能够一般地以某种形式正确或错误地图示实在而必须和实在共有的东西，就是逻辑形式，即实在的形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8.1_若图示形式为逻辑形式，图像即称为逻辑图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8.1_若图示形式为逻辑形式，图像即称为逻辑图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8_任何图像，无论具有什么形式，为了能够一般地以某种形式正确或错误地图示实在而必须和实在共有的东西，就是逻辑形式，即实在的形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8.2_每一个图像同时也是一个逻辑图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8.2_每一个图像同时也是一个逻辑图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.8_任何图像，无论具有什么形式，为了能够一般地以某种形式正确或错误地图示实在而必须和实在共有的东西，就是逻辑形式，即实在的形式"/>
+        <rdfs:comment>另一方面，例如，并非每一个图像都是一个空间图像</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.9_逻辑图像可以图示世界 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1.9_逻辑图像可以图示世界">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.1_我们给我们自己建造事实的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2_图像和被图示者共有逻辑图示形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2_图像和被图示者共有逻辑图示形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2_发生的事情，即事实，就是诸事态的存在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0_图像与逻辑空间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0_图像与逻辑空间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2_图像和被图示者共有逻辑图示形式"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0.1_图像用表现事态存在和不存在的可能性来图示实在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0.1_图像用表现事态存在和不存在的可能性来图示实在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0_图像与逻辑空间"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0.2_图像表现逻辑空间中的一种可能状况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0.2_图像表现逻辑空间中的一种可能状况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0_图像与逻辑空间"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.1_图像与实在符合或者不符合；它是正确的或者错误的，真的或者假的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.1_图像与实在符合或者不符合；它是正确的或者错误的，真的或者假的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2_图像和被图示者共有逻辑图示形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2_图像通过图示形式表现它所表现的东西，而与图像本身为真或为假无关 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2_图像通过图示形式表现它所表现的东西，而与图像本身为真或为假无关">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2_图像和被图示者共有逻辑图示形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.1_图像所表现的东西是图像的意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.1_图像所表现的东西是图像的意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2_图像通过图示形式表现它所表现的东西，而与图像本身为真或为假无关"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.2_图像的真或假就在于它的意义与实在符合或者不符合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.2_图像的真或假就在于它的意义与实在符合或者不符合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2_图像通过图示形式表现它所表现的东西，而与图像本身为真或为假无关"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.3_要能看出图像的真假，必须将它同实在比较 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.3_要能看出图像的真假，必须将它同实在比较">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2_图像通过图示形式表现它所表现的东西，而与图像本身为真或为假无关"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.4_单从图像自身不能看出它的真假 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.4_单从图像自身不能看出它的真假">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2_图像通过图示形式表现它所表现的东西，而与图像本身为真或为假无关"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.5_没有先天为真的图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2.5_没有先天为真的图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.2_图像通过图示形式表现它所表现的东西，而与图像本身为真或为假无关"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.20.3_图像包含它所表现的状况的可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.20.3_图像包含它所表现的状况的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#2.2.0_图像与逻辑空间"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.0_事态和思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.0_事态和思想">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.0.1_“事态是可以思想的”，意思是说，我们自己可以构造事态的图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.0.1_“事态是可以思想的”，意思是说，我们自己可以构造事态的图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.0_事态和思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.1_真的思想的总体就是一副世界的图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.1_真的思想的总体就是一副世界的图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.2_思想包含它所思想的情况的可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.2_思想包含它所思想的情况的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想"/>
+        <rdfs:comment>可以思想的东西也就是可能的东西</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3_我们不能思想非逻辑的东西，否则我们就必须非逻辑的思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3_我们不能思想非逻辑的东西，否则我们就必须非逻辑的思想">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3.1_常言道，上帝能够创造一切，只是不能创造违反逻辑规律的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3.1_常言道，上帝能够创造一切，只是不能创造违反逻辑规律的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3_我们不能思想非逻辑的东西，否则我们就必须非逻辑的思想"/>
+        <rdfs:comment>这就是说，我们不能说一个“非逻辑的”世界会是什么样子</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3.2.1_虽然我们能在空间上表现一个违反物理规律的事态，但是我们不能在空间上表现一个违反几何规律的事态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3.2.1_虽然我们能在空间上表现一个违反物理规律的事态，但是我们不能在空间上表现一个违反几何规律的事态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3.2_在语言中不能表现任何“违反逻辑”的东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3.2_在语言中不能表现任何“违反逻辑”的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3.2_在语言中不能表现任何“违反逻辑”的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.3_我们不能思想非逻辑的东西，否则我们就必须非逻辑的思想"/>
+        <rdfs:comment>就像在几何学中不能用坐标来表现违反空间规律的图形，或者给出一个并不存在的点的坐标一样</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.4_如果一个思想是先天地正确的，那么它就是一个其可能性即保证了其真理性的思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.4_如果一个思想是先天地正确的，那么它就是一个其可能性即保证了其真理性的思想">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.5_仅当一个思想的真从它自身（无须同任何东西比较）就能看出时，我们才有关于一个思想为真的先天的知识 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0.5_仅当一个思想的真从它自身（无须同任何东西比较）就能看出时，我们才有关于一个思想为真的先天的知识">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.0_关于思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1_思想在命题中得到了一种可由感官感知到的表达 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1_思想在命题中得到了一种可由感官感知到的表达">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.1_我们用命题中的可由感官感知的记号（声音的或书写的记号等等）作为可能情况的投影 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.1_我们用命题中的可由感官感知的记号（声音的或书写的记号等等）作为可能情况的投影">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1_思想在命题中得到了一种可由感官感知到的表达"/>
+        <rdfs:comment>投影的方法就是思考命题的意义</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.2_我们用以表达思想的记号我称为命题记号。一个命题就是一个处在对世界的投影关系中的命题记号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.2_我们用以表达思想的记号我称为命题记号。一个命题就是一个处在对世界的投影关系中的命题记号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1_思想在命题中得到了一种可由感官感知到的表达"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.3_命题包括投影所包括的一切，而不包括被投影者 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.3_命题包括投影所包括的一切，而不包括被投影者">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1_思想在命题中得到了一种可由感官感知到的表达"/>
+        <rdfs:comment>因此命题包括的是被投影者的可能性，而不是被投影者本身。
+因此命题中也不包含命题的意义，而只包含表达其意义的可能性。
+（“命题的内容”是指有意义的命题的内容。）
+命题中包含命题意义的形式而非其内容。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4_命题记号的构成，在于其中的要素（语词）是以一定方式相互关联的。命题记号即是事实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4_命题记号的构成，在于其中的要素（语词）是以一定方式相互关联的。命题记号即是事实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1_思想在命题中得到了一种可由感官感知到的表达"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.1_命题不是词的混合。&#45;&#45;（就像音乐的主旋律不是音调的混合一样。）命题是可以有节奏地说出的[artikulient] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.1_命题不是词的混合。--（就像音乐的主旋律不是音调的混合一样。）命题是可以有节奏地说出的[artikulient]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4_命题记号的构成，在于其中的要素（语词）是以一定方式相互关联的。命题记号即是事实"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.2_只有事实才能表达意义，一组名称不能表达意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.2_只有事实才能表达意义，一组名称不能表达意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4_命题记号的构成，在于其中的要素（语词）是以一定方式相互关联的。命题记号即是事实"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3_虽然命题记号即是事实，但是这一点却被通常的书写和印刷的表达形式所掩盖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3_虽然命题记号即是事实，但是这一点却被通常的书写和印刷的表达形式所掩盖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4_命题记号的构成，在于其中的要素（语词）是以一定方式相互关联的。命题记号即是事实"/>
+        <rdfs:comment>因为，例如在一个印刷出来的命题中，命题记号和词之间看起来并没有重大差别。
+（这可能就是使弗雷格把命题称为复合名称的原因。）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3.1_如果我们设想一个命题记号是由一些空间对象（例如桌子、椅子和书本）组成，而不是由一些书写记号组成，它的本质就会看得很清楚 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3.1_如果我们设想一个命题记号是由一些空间对象（例如桌子、椅子和书本）组成，而不是由一些书写记号组成，它的本质就会看得很清楚">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3_虽然命题记号即是事实，但是这一点却被通常的书写和印刷的表达形式所掩盖"/>
+        <rdfs:comment>于是这些东西的空间分布就表达出这个命题的意义</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3.2_我们必不可说：“复合记号&apos;aRb&apos;说的是a和b处在关系R中”，而必须说：“&apos;a&apos;和&apos;b&apos;处于某种关系中这一事实说的是，aRb这一事实。” -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3.2_我们必不可说：“复合记号&apos;aRb&apos;说的是a和b处在关系R中”，而必须说：“&apos;a&apos;和&apos;b&apos;处于某种关系中这一事实说的是，aRb这一事实。”">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.3_虽然命题记号即是事实，但是这一点却被通常的书写和印刷的表达形式所掩盖"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.4_情况可以描述，但是不能命名 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4.4_情况可以描述，但是不能命名">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.1.4_命题记号的构成，在于其中的要素（语词）是以一定方式相互关联的。命题记号即是事实"/>
+        <rdfs:comment>（名称像是一些点；命题像是一些箭头--它们具有意义。）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0_命题记号的名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0_命题记号的名称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0.1_我称这些要素为“简单记号”，称这命题为“完全分析了的”命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0.1_我称这些要素为“简单记号”，称这命题为“完全分析了的”命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0_命题记号的名称"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0.2_命题中使用的简单记号称为名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0.2_命题中使用的简单记号称为名称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0_命题记号的名称"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0.3_名称意指对象。对象是名称的指谓。（“A”和“A”是同一个记号。） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0.3_名称意指对象。对象是名称的指谓。（“A”和“A”是同一个记号。）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.0_命题记号的名称"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.1_简单记号在命题记号中的配置，对应于对象在情况中的配置 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.1_简单记号在命题记号中的配置，对应于对象在情况中的配置">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.2_名称在命题中代表对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.2_名称在命题中代表对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.2.1_对象只能被命名。记号是对象的代表 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.2.1_对象只能被命名。记号是对象的代表">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.2_名称在命题中代表对象"/>
+        <rdfs:comment>我只能谈到对象，而不能用语词说出它们来。
+命题只能说事物是怎样的，而不能说它们是什么。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.3_要求简单记号的可能性，就是要求意义的确定性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.3_要求简单记号的可能性，就是要求意义的确定性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.4_关于复合物的命题与关于其组成部分的命题有一种内在的关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.4_关于复合物的命题与关于其组成部分的命题有一种内在的关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应"/>
+        <rdfs:comment>复合物只能通过对它的描述而给出，这描述可以是正确的或错误的。说到一个复合物的命题，如果这个复合物不存在，那么这个命题不是无意义的，而只是假的。
+当一个命题要素标示一个复合物时，可以从它在其中出现的命题的不确定性看出来。我们知道，这种情形下这个命题有些东西是没有规定的。（概况性记号总是包含一种原型。）
+把复合物的符号压缩为简单符号，可以用定义来表达</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.5_命题有一个而且只有一个完全的分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.5_命题有一个而且只有一个完全的分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.5.1_命题以确定的可以清楚陈述的方式表达它所表达的东西：命题是可以有节奏地说出的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.5.1_命题以确定的可以清楚陈述的方式表达它所表达的东西：命题是可以有节奏地说出的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.5_命题有一个而且只有一个完全的分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6_名称不可用定义来作任何进一步的分析：名称是一种初始记号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6_名称不可用定义来作任何进一步的分析：名称是一种初始记号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2_在命题中思想可以这样来表达，使得命题记号的要素与思想的对象相对应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6.1_每个被定义的记号通过那些定义它的记号而起标示作用；定义则指明这一途径 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6.1_每个被定义的记号通过那些定义它的记号而起标示作用；定义则指明这一途径">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6_名称不可用定义来作任何进一步的分析：名称是一种初始记号"/>
+        <rdfs:comment>两个记号，如果一个是初始记号，而另一个是用一些初始记号定义的记号，则二者不能以相同的方式起标示作用。名称不能用定义来分解。（任何一个自身独立地具有指谓的记号也是如此。）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6.2_记号不能表达的东西，其应用显示之。记号隐略了的东西，其应用清楚地说出之 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6.2_记号不能表达的东西，其应用显示之。记号隐略了的东西，其应用清楚地说出之">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6_名称不可用定义来作任何进一步的分析：名称是一种初始记号"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6.3_初始记号的指谓可以通过解释来说明 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6.3_初始记号的指谓可以通过解释来说明">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.2.6_名称不可用定义来作任何进一步的分析：名称是一种初始记号"/>
+        <rdfs:comment>解释就是包含初始记号的命题。所以只有已经知道这些记号的指谓，才能理解它们。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3_只有命题才有意义；只有在命题的联系关系中名称才有指谓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3_只有命题才有意义；只有在命题的联系关系中名称才有指谓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3_只有命题才有意义；只有在命题的联系关系中名称才有指谓"/>
+        <rdfs:comment>（命题本身是一个表达式）
+凡是能够为诸命题所共有、对于命题的意义具有本质重要性的，都是表达式。
+一个表达式标志一个形式和一个内容。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.1_表达式以它能够在其中出现的所有命题的形式为前提 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.1_表达式以它能够在其中出现的所有命题的形式为前提">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+        <rdfs:comment>它是一类命题的共同特征的标记</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.2_因此表达式表现为它所表征的那些命题的一般形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.2_因此表达式表现为它所表征的那些命题的一般形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+        <rdfs:comment>事实上，在这一形式中表达式为常项，而其余的一切都是变项</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.3_因此表达式为一变项所表现，这变项的值就是那些包含该表达式的命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.3_因此表达式为一变项所表现，这变项的值就是那些包含该表达式的命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+        <rdfs:comment>在极限情况下，变项成为常项，表达式成为命题。
+我称这样一种变项为“命题变项”。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.4_表达式只有在命题中才有指谓。所有变项都可理解为命题变项。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.4_表达式只有在命题中才有指谓。所有变项都可理解为命题变项。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+        <rdfs:comment>连变名也一样</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.5_如果我们把命题的一个组成部分改为变项，就有了一个命题，它们全都是由此得来的变项命题的值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.5_如果我们把命题的一个组成部分改为变项，就有了一个命题，它们全都是由此得来的变项命题的值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+        <rdfs:comment>这个类一般还依赖于我们按任意约定所给予的原来命题各组成部分的指谓。但是，如果把其中已任意规定了指谓的所有记号都改为变项，仍然会得到一个这样的类。这个类不再依赖于任何约定，而仅仅依赖于命题的本性。它相应于一种逻辑形式--一种逻辑原型</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.6_一个命题变项可以取一些什么值是某种被规定了的东西。值的规定即是变项 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.6_一个命题变项可以取一些什么值是某种被规定了的东西。值的规定即是变项">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.7_规定命题变项的值就是给出以这变项为共同特征的那些命题。规定就是描述这些命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.7_规定命题变项的值就是给出以这变项为共同特征的那些命题。规定就是描述这些命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+        <rdfs:comment>因此规定只涉及符号，而不涉及它们的指谓。
+对于规定来说唯一重要的事情在于，它仅仅是对符号的描述，而对符号所标示的东西不作任何陈述。
+命题的描述任何产生，那是不重要的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.8_像弗雷格和罗素一样，我把命题看成是其中包含的表达式的函项 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1.8_像弗雷格和罗素一样，我把命题看成是其中包含的表达式的函项">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.1_命题中表征其意义的每个部分我都称为表达式（或符号）"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3_只有命题才有意义；只有在命题的联系关系中名称才有指谓"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.1_故同一个记号（书写记号或声音记号等等）可以为两个不同的符号所共有&#45;&#45;这时两者是以不同的方式在标示 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.1_故同一个记号（书写记号或声音记号等等）可以为两个不同的符号所共有--这时两者是以不同的方式在标示">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.2_如果我们应用同一个记号，而以不同的标示方式来标示两个不同的对象，这样做决不能指示这两者有一个共同的特征。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.2_如果我们应用同一个记号，而以不同的标示方式来标示两个不同的对象，这样做决不能指示这两者有一个共同的特征。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+        <rdfs:comment>当然，这是因为这记号是未知规定的。因此我们可以选用两个不同的记号，这样，标示者一方还保持有什么共同点呢？</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.3_在日常语言中经常碰到同一个词有着不同的标示方式&#45;&#45;因而属于不同的符号&#45;&#45;，或者有着不同标示方式的两个词以表面上相似的方式应用于命题之中。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.3_在日常语言中经常碰到同一个词有着不同的标示方式--因而属于不同的符号--，或者有着不同标示方式的两个词以表面上相似的方式应用于命题之中。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+        <rdfs:comment>就如“是”(ist)这个词既作为系词，也作为相等的记号和存在的表达式出现；“存在”(existieren)作为“去”(gehen)一样的不及物动词出现；“同一的”(identisch)作为一个形容词出现；我们说到某事，同时也意味着说到某事的发生。
+在命题&quot;Grun ist grun&quot;中，第一个词&quot;Grun&quot;是一个人的专名，最后一个词&quot;grun&quot;是一个形容词，这两个词不仅具有不同的指谓，而且它们是不同的符号。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.4_这样就容易发生最根本的混淆（整个哲学充满着这类混淆） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.4_这样就容易发生最根本的混淆（整个哲学充满着这类混淆）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.5_为了避免这类错误，我们必须使用一种能够排除这类错误的记号语言，其中不将同一记号用于不同的符号中，也不以表面上相似的方式应用那些有着不同的标示方式的记号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.5_为了避免这类错误，我们必须使用一种能够排除这类错误的记号语言，其中不将同一记号用于不同的符号中，也不以表面上相似的方式应用那些有着不同的标示方式的记号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+        <rdfs:comment>也就是说，要使用一种遵从逻辑语法--逻辑句法--的语言记号。
+弗雷格和罗素的概念记号系统就是这样的一种语言，诚然它也未能排除一切错误。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.6_为了通过其记号来辨识一个符号，我们必须在有意义的使用中观察它 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.6_为了通过其记号来辨识一个符号，我们必须在有意义的使用中观察它">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.7_记号只有结合它的符合逻辑句法的应用才能规定一种逻辑形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.7_记号只有结合它的符合逻辑句法的应用才能规定一种逻辑形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.8_如果一个记号是无用的，它也就是无指谓的。这就是奥卡姆准则的要旨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2.8_如果一个记号是无用的，它也就是无指谓的。这就是奥卡姆准则的要旨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.2_记号是一个符号中可以被感官感知到的东西"/>
+        <rdfs:comment>如果一切情况都表明一个记号具有指谓，那么这个记号就是具有指谓的。
+奥卡姆的名言：“如无必要，勿增实体”；哲学史上称之为“奥卡姆剃刀”。</rdfs:comment>
     </owl:Class>
     
 
