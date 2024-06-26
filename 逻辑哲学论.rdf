@@ -7,7 +7,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus">
-        <owl:versionInfo>2024-06-22： 阅读微信读书，创建此本体（way from Montreal to Paris to Beijing）</owl:versionInfo>
+        <owl:versionInfo>2024-06-26：
+2024-06-24：添加内容至3.3.3（飞机上）
+2024-06-22： 阅读微信读书，创建此本体（way from Montreal to Paris to Beijing）</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1249,6 +1251,67 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3_在逻辑句法中，记号的指谓诀不应起任何作用。逻辑句法应该无须提到记号的指谓而建立起来；它仅仅以表达式的描述为前提。">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3_只有命题才有意义；只有在命题的联系关系中名称才有指谓"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.1_根据这一见解我们回过来看罗素的“类型论”：罗素的错误显然在于，他在建立记号的规则时必须提到记号的指谓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.1_根据这一见解我们回过来看罗素的“类型论”：罗素的错误显然在于，他在建立记号的规则时必须提到记号的指谓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3_在逻辑句法中，记号的指谓诀不应起任何作用。逻辑句法应该无须提到记号的指谓而建立起来；它仅仅以表达式的描述为前提。"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.2_没有一个命题能够作出关于自身的陈述，因为一个命题记号不能包含于它自身之中（这就是全部的“类型论”） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.2_没有一个命题能够作出关于自身的陈述，因为一个命题记号不能包含于它自身之中（这就是全部的“类型论”）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3_在逻辑句法中，记号的指谓诀不应起任何作用。逻辑句法应该无须提到记号的指谓而建立起来；它仅仅以表达式的描述为前提。"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.3_一个函项所以不能成为它自身的主目，因为函项的记号已经包含着其主目的原型，而且它不能包含自身 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.3_一个函项所以不能成为它自身的主目，因为函项的记号已经包含着其主目的原型，而且它不能包含自身">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3_在逻辑句法中，记号的指谓诀不应起任何作用。逻辑句法应该无须提到记号的指谓而建立起来；它仅仅以表达式的描述为前提。"/>
+        <rdfs:comment>让我们假设函项F(fx)可以成为它自身的主目，这时就会有一个命题“F(F(fx))”，其中的外函项F和内函项F必定有不同的指谓，因为内函项具有A(fx)的形式，而外函项则具有B(A(fx))的形式。只有字母“F”对于两个函项是共同的，但是字母本身不标示任何东西。
+如果我们吧“F(F(u))”写作“(B):F(Au).Au=Fu”，这一点就立刻清楚了。
+这样罗素的悖论就消解了。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.4_只要我们知道每一个别记号如何起标示作用，逻辑句法的规则就应当是自明的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3.4_只要我们知道每一个别记号如何起标示作用，逻辑句法的规则就应当是自明的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.3_在逻辑句法中，记号的指谓诀不应起任何作用。逻辑句法应该无须提到记号的指谓而建立起来；它仅仅以表达式的描述为前提。"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4_命题具有本质特征和偶然特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4_命题具有本质特征和偶然特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3_只有命题才有意义；只有在命题的联系关系中名称才有指谓"/>
+        <rdfs:comment>偶然特征是随同产生命题记号的特定方式而来的特征，本质特征则是命题为了能够表达其意义所必不可少的那些特征</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.1_因此一个命题中本质的东西，是所有能够表达相同意义的命题共有的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.1_因此一个命题中本质的东西，是所有能够表达相同意义的命题共有的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4_命题具有本质特征和偶然特征"/>
+        <rdfs:comment>同样地，一般说来，一个符号中本质的东西，是所有能够达到同一目的的符号共有的东西</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.1.1_因此可以说：一个对象的真正的名称，是所有标示这个对象的符号共有的东西。由此可以依次得出，任何一种组合对于一个名称都不是本质的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.1.1_因此可以说：一个对象的真正的名称，是所有标示这个对象的符号共有的东西。由此可以依次得出，任何一种组合对于一个名称都不是本质的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.1_因此一个命题中本质的东西，是所有能够表达相同意义的命题共有的东西"/>
     </owl:Class>
     
 
