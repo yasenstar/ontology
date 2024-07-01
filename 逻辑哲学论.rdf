@@ -7,7 +7,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus">
-        <owl:versionInfo>2024-06-26：
+        <owl:versionInfo>2024-07-01：完成第三章
+2024-06-26：添加内容至3.3.4
 2024-06-24：添加内容至3.3.3（飞机上）
 2024-06-22： 阅读微信读书，创建此本体（way from Montreal to Paris to Beijing）</owl:versionInfo>
     </owl:Ontology>
@@ -1312,6 +1313,441 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.1.1_因此可以说：一个对象的真正的名称，是所有标示这个对象的符号共有的东西。由此可以依次得出，任何一种组合对于一个名称都不是本质的">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.1_因此一个命题中本质的东西，是所有能够表达相同意义的命题共有的东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.2_虽然我们的记号系统中确有某种随意的东西，但是如下这一点却不是随意的：即只要我们随意地规定了一个东西，某种其他的东西就必然要发生 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.2_虽然我们的记号系统中确有某种随意的东西，但是如下这一点却不是随意的：即只要我们随意地规定了一个东西，某种其他的东西就必然要发生">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4_命题具有本质特征和偶然特征"/>
+        <rdfs:comment>这一点来自记号系统的本质</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.2.1_一种特定的标示样式也许是不重要的，但它是一种可能的标示样式，这一点永远是重要的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.2.1_一种特定的标示样式也许是不重要的，但它是一种可能的标示样式，这一点永远是重要的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.2_虽然我们的记号系统中确有某种随意的东西，但是如下这一点却不是随意的：即只要我们随意地规定了一个东西，某种其他的东西就必然要发生"/>
+        <rdfs:comment>在哲学中一般地正是这样：个别的情形总是一再表明是不重要的，但是每一个别情形的可能性都揭示了关于世界本质的某种东西</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.3_定义是从一种语言翻译为另一种语言的规则 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.3_定义是从一种语言翻译为另一种语言的规则">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4_命题具有本质特征和偶然特征"/>
+        <rdfs:comment>凡是正确的记号语言都应该按照这种规则可以翻译为任何其他一种语言：这一点是一切正确的记号语言所共有的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4_在一个符号中起标示作用的东西，是依据逻辑句法规则可以代换这个符号的一切符号所共有的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4_在一个符号中起标示作用的东西，是依据逻辑句法规则可以代换这个符号的一切符号所共有的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4_命题具有本质特征和偶然特征"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4.1_例如我们可以这样来表述所有真值函项记号系统共同的东西：它们的共同之处在于，比如说，它们每一种都能够用“非p“（~p）和”p或q“构成的记号系统来替换 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4.1_例如我们可以这样来表述所有真值函项记号系统共同的东西：它们的共同之处在于，比如说，它们每一种都能够用“非p“（~p）和”p或q“构成的记号系统来替换">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4_在一个符号中起标示作用的东西，是依据逻辑句法规则可以代换这个符号的一切符号所共有的东西"/>
+        <rdfs:comment>这就表明了一种特定记号系统的可能性任何能够揭示某种一般东西的方式</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4.2_复合物记号在分析中不能这样随意的分解，以致在不同的命题结合中它的每一次分解都不相同 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4.2_复合物记号在分析中不能这样随意的分解，以致在不同的命题结合中它的每一次分解都不相同">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.3.4.4_在一个符号中起标示作用的东西，是依据逻辑句法规则可以代换这个符号的一切符号所共有的东西"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4_一个命题规定逻辑空间中的一个位置 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4_一个命题规定逻辑空间中的一个位置">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想"/>
+        <rdfs:comment>命题的各组成部分的存在--有意义的命题的存在，即保证了这种逻辑位置的存在</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4.1_命题记号加上逻辑坐标，即是逻辑位置 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4.1_命题记号加上逻辑坐标，即是逻辑位置">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4_一个命题规定逻辑空间中的一个位置"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4.1.1_几何位置和逻辑位置的一致之处在于，二者都是某物存在的可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4.1.1_几何位置和逻辑位置的一致之处在于，二者都是某物存在的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4.1_命题记号加上逻辑坐标，即是逻辑位置"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4.2_一个命题虽然只能规定逻辑空间中的一个位置，然而整个逻辑空间也应该已经由它而给出 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4.2_一个命题虽然只能规定逻辑空间中的一个位置，然而整个逻辑空间也应该已经由它而给出">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.4_一个命题规定逻辑空间中的一个位置"/>
+        <rdfs:comment>不然的话，通过否定、逻辑和、逻辑积等等就会在坐标上不断引入新的要素。
+围绕着一个图像的逻辑脚手架规定着逻辑空间。
+一个命题有贯通整个逻辑空间的力量。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.5_被使用的、被思考的命题记号即是思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3.5_被使用的、被思考的命题记号即是思想">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#3_事实的逻辑图像是思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0_命题与语言 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0_命题与语言">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.1_命题的总体即是语言 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.1_命题的总体即是语言">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0_命题与语言"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.2_人有能力构造语言，可以用它表达任何意义，而无须想到每一个词怎样具有指谓和指谓的是什么 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.2_人有能力构造语言，可以用它表达任何意义，而无须想到每一个词怎样具有指谓和指谓的是什么">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0_命题与语言"/>
+        <rdfs:comment>-- 就像人们说话时无须知道每个声音是怎样发生的一样。
+日常语言是人的机体的一部分，而且也像机体那样复杂。
+人不可能直接从日常语言中懂得语言逻辑。
+语言掩饰着思想。而且达到这种程度，就像不能根据衣服的外形来推出它所遮盖的思想的形式一样；因为衣服外形的设计不是为了揭示身体的形状，而是为了全然不同的目的。
+理解日常语言所要依赖的种种默契是极其复杂的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.3_关于哲学问题所写的大多数命题和问题，不是假的而是无意义的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.3_关于哲学问题所写的大多数命题和问题，不是假的而是无意义的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0_命题与语言"/>
+        <rdfs:comment>因为我们根本不能回答这类问题，而只能确定它们的无意义性。
+哲学家们的大多数命题和问题，都是因为我们不懂得我们语言的逻辑而产生的。
+它们都是像善是否比美更为同一或者更不同一之类的问题。
+因而用不着奇怪，一下更深刻的问题实际上却根本不是问题。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.3.1_全部哲学都是一种”语言批判“。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.3.1_全部哲学都是一种”语言批判“。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.0.3_关于哲学问题所写的大多数命题和问题，不是假的而是无意义的"/>
+        <rdfs:comment>（当然不是在毛特纳的意义上的批判。）
+罗素的功绩在于指明了一个命题表面的逻辑形式不一定就是它真正的逻辑形式。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览"/>
+        <rdfs:comment>命题是我们所想象的实在的模型</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.1_乍看起来，一个命题&#45;&#45;例如印在纸上的某个命题&#45;&#45;不像是它所论及的实在的一个图像。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.1_乍看起来，一个命题--例如印在纸上的某个命题--不像是它所论及的实在的一个图像。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像"/>
+        <rdfs:comment>但是书写的音符乍看起来也不像是一首乐曲的图像，我们的声音记号（字母）也不像是我们口语的图像。
+然而，即使在通常的意义下，这些记号语言也证明是它们所表现的东西的图像。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.2_显然，一个”aRb“形式的命题使我们产生一个图像的印象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.2_显然，一个”aRb“形式的命题使我们产生一个图像的印象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像"/>
+        <rdfs:comment>这种情况下这个记号显然是被标示者的一个相像物</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.3_如果我们深入到图像特性的本质，就会看到，这种特性并不因表面的不规则性而蒙受损害。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.3_如果我们深入到图像特性的本质，就会看到，这种特性并不因表面的不规则性而蒙受损害。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像"/>
+        <rdfs:comment>这种不规则性如乐谱中使用#和b。
+因为就是这种不规则性也图示它们想要表达的东西；不过用的是另外一种方式。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.4_留声机唱片、音乐思想、乐谱、声波，彼此之间都处在一种图示的内在关系之中，这就是语言和世界之间具有的关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.4_留声机唱片、音乐思想、乐谱、声波，彼此之间都处在一种图示的内在关系之中，这就是语言和世界之间具有的关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像"/>
+        <rdfs:comment>它们的逻辑结构都是共同的。
+（就像童话里的两个少年，他们的两匹马和他们的百合花。在某种意义上，他们都是同一的。）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.4.1_有一条总的规则，使得音乐家能从总谱读出交响乐，使得我们能够通过唱片的沟纹放出交响乐来，而且应用原规则还可以从交响乐重新推得总谱。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.4.1_有一条总的规则，使得音乐家能从总谱读出交响乐，使得我们能够通过唱片的沟纹放出交响乐来，而且应用原规则还可以从交响乐重新推得总谱。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.4_留声机唱片、音乐思想、乐谱、声波，彼此之间都处在一种图示的内在关系之中，这就是语言和世界之间具有的关系"/>
+        <rdfs:comment>这些看起来完全不同的东西之间的内在相似性正在于此。
+这条规则就是将交响乐投射到音符语言上去的投影法则，也是把这种音符语言翻译为唱片语言的规则</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.5_所有的比喻以及所有的表达方式的图示性质，其可能性都是基于图示的逻辑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.5_所有的比喻以及所有的表达方式的图示性质，其可能性都是基于图示的逻辑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.6_为了理解命题的本质，我们可以看一看象形文字，它图示着它所描述的事实 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1.6_为了理解命题的本质，我们可以看一看象形文字，它图示着它所描述的事实">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.1_命题是实在的图像"/>
+        <rdfs:comment>从象形文字发展而来的字母文字，并未失去图示的本质</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.1_命题是实在的图像：因为当我理解一个命题，我就知道它所表述的情况，而且无须向我解释其意义，我就理解这个命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.1_命题是实在的图像：因为当我理解一个命题，我就知道它所表述的情况，而且无须向我解释其意义，我就理解这个命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.2_命题显示其意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.2_命题显示其意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义"/>
+        <rdfs:comment>命题显示当它为真时事情是怎样的，而且宣称事情就是这样的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.3_命题对实在的确定必须达到二者取一：是或者否 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.3_命题对实在的确定必须达到二者取一：是或者否">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义"/>
+        <rdfs:comment>为此命题必须完全地描述实在。
+命题是对事态的描述。
+正如一个对象是通过给出其外部属性来加以描述一样，命题是通过实在的内部属性来描述实在的。
+命题借助一种逻辑的脚手架来构造一个世界，因此如果一个命题为真，就可从中看出所有合乎逻辑的东西是怎样的。
+人们可以从假的命题作出推论。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.4_理解一个命题意味着知道若命题为真事情该是怎样的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.4_理解一个命题意味着知道若命题为真事情该是怎样的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义"/>
+        <rdfs:comment>因此，不知道一个命题是否为真也可以理解它。
+理解一个命题的组成部分也就理解这个命题。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.5_把一种语言翻译为另一种语言时，我们并不是把一种语言的每一个命题翻译为另一种语言的命题，而是只翻译命题的组成部分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.5_把一种语言翻译为另一种语言时，我们并不是把一种语言的每一个命题翻译为另一种语言的命题，而是只翻译命题的组成部分">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义"/>
+        <rdfs:comment>字典不仅翻译名词，也翻译动词、形容词和连接词等等，它以同样方式对待所有这些词</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.6_必须向我们解释简单记号（词）的指谓，我们才能理解它们。但是我们能够用命题清楚地表达自己的意思 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.6_必须向我们解释简单记号（词）的指谓，我们才能理解它们。但是我们能够用命题清楚地表达自己的意思">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.7_命题能够传达新的意义，这一点属于命题的本质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2.7_命题能够传达新的意义，这一点属于命题的本质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.2_我们看出这一点是基于如下事实：无须向我们解释我们就理解命题记号的意义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3_命题必须用已有的表达式来传达新的意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3_命题必须用已有的表达式来传达新的意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览"/>
+        <rdfs:comment>命题传达情况，因此它必定在本质上与情况有关联。
+而这种关联恰恰在于，命题时情况的理解图像。
+命题仅仅在它是一个图像时才能陈述某种东西。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1_在命题中情况就像是用试验的方法组合起来的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1_在命题中情况就像是用试验的方法组合起来的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3_命题必须用已有的表达式来传达新的意义"/>
+        <rdfs:comment>可以径直说：“这个命题表述如此这般的情况”，而不说：“这个命题有如此这般的意义”。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1.1_一个名称代表一个事物，另一个名称代表另一个事物，而且它们是彼此组合起来的；这样它们整个地就像一幅活的画一样表现一个事态。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1.1_一个名称代表一个事物，另一个名称代表另一个事物，而且它们是彼此组合起来的；这样它们整个地就像一幅活的画一样表现一个事态。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1_在命题中情况就像是用试验的方法组合起来的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1.2_命题的可能性建立在对象以记号为其代表物这一原理的基础上 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1.2_命题的可能性建立在对象以记号为其代表物这一原理的基础上">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.1_在命题中情况就像是用试验的方法组合起来的"/>
+        <rdfs:comment>我的一个基本的思想是：“逻辑常项”不是代表物，事实的逻辑是不能有代表物的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.2_只要当一个命题是合乎逻辑地组合起来的才是一个情况的图像 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3.2_只要当一个命题是合乎逻辑地组合起来的才是一个情况的图像">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.3_命题必须用已有的表达式来传达新的意义"/>
+        <rdfs:comment>甚至命题“Ambulo”也是组合的，因为它的词干配合领域种词尾，或它的词尾配合另一种词干，都会产生不同的意义。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4_在一个命题和它所表述的情况中，应该恰好具有同样多的可以区分开来的部分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4_在一个命题和它所表述的情况中，应该恰好具有同样多的可以区分开来的部分">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览"/>
+        <rdfs:comment>两者必定具有同样的逻辑（数学）的多样性。（参照赫兹的《力学》论动力学模型）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1_这种数学的多样性本身当然不能再被图示，因为图示时不可能摆脱这种多样性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1_这种数学的多样性本身当然不能再被图示，因为图示时不可能摆脱这种多样性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4_在一个命题和它所表述的情况中，应该恰好具有同样多的可以区分开来的部分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1.1_例如，如果我们想把“(x)*fx”所表达的东西，通过在“fx”前面加上一个附标来表达，如写作“Alg*fx”，那是不恰当的：我们会不知道那个附标概括的是什么。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1.1_例如，如果我们想把“(x)*fx”所表达的东西，通过在“fx”前面加上一个附标来表达，如写作“Alg*fx”，那是不恰当的：我们会不知道那个附标概括的是什么。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1_这种数学的多样性本身当然不能再被图示，因为图示时不可能摆脱这种多样性"/>
+        <rdfs:comment>如果想用一个下标“a”来标示，如写作“f(Xa)“，也不恰当：我们会不知道那个概况记号的范围。
+如果试图在主目位置上引入一个标记来表达，如写作”(A,A)*F(A,A)“，仍然不恰当：我们会不能确立诸变项的同一性，如此等等。
+所有这些标示方式都不恰当，因为它们没有必需的数学多样性。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1.2_同样的道理，唯心主义者以”空间眼镜“解释空间关系的视觉是不恰当的，因为它不能解释这些关系的多样性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1.2_同样的道理，唯心主义者以”空间眼镜“解释空间关系的视觉是不恰当的，因为它不能解释这些关系的多样性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.4.1_这种数学的多样性本身当然不能再被图示，因为图示时不可能摆脱这种多样性"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.5_实在是与命题相比较的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.5_实在是与命题相比较的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6_命题只因为是实在的图像，才能为真或者为假 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6_命题只因为是实在的图像，才能为真或者为假">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0_思想与命题概览"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.1_决不可忽略命题有一种独立于事实的意义，否则就很容易认为真和假是记号和它们所标示的东西之间具有同等地位的关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.1_决不可忽略命题有一种独立于事实的意义，否则就很容易认为真和假是记号和它们所标示的东西之间具有同等地位的关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6_命题只因为是实在的图像，才能为真或者为假"/>
+        <rdfs:comment>例如，这时人们就可以说，“p”以真的方式标示“~p”以假的方式所标示的东西，等等</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.2_我们能否用假命题&#45;&#45;只要我们知道它们被认为是假的&#45;&#45;来表达自己，就像我们一直用真命题表达自己一样能？不能！ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.2_我们能否用假命题--只要我们知道它们被认为是假的--来表达自己，就像我们一直用真命题表达自己一样能？不能！">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6_命题只因为是实在的图像，才能为真或者为假"/>
+        <rdfs:comment>因为如果我们用一个命题来说一些事物处于一定情况，而且它们确实如此，则这个命题为真；如果我们用“p”意指“~p”，而且情况确如我们所指的那样，那么在新的理解下“p”为真而不为假</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.2.1_然而记号p和~p能说同样的东西，这一点很重要，因为它表明实在中没有与记号~相对应的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.2.1_然而记号p和~p能说同样的东西，这一点很重要，因为它表明实在中没有与记号~相对应的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.2_我们能否用假命题--只要我们知道它们被认为是假的--来表达自己，就像我们一直用真命题表达自己一样能？不能！"/>
     </owl:Class>
     
 
