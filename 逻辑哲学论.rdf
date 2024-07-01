@@ -1834,6 +1834,214 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2.2_达尔文的理论不比自然科学中任何其他一种假设更与哲学有关 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2.2_达尔文的理论不比自然科学中任何其他一种假设更与哲学有关">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2_哲学的目的是从逻辑上澄清思想"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.3_哲学为自然科学划定可以在其中进行争论的范围 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.3_哲学为自然科学划定可以在其中进行争论的范围">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体）"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.4_哲学应当为能思考的东西划定界限，从而也为不能思考的东西划定界限 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.4_哲学应当为能思考的东西划定界限，从而也为不能思考的东西划定界限">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体）"/>
+        <rdfs:comment>哲学应当从内部通过能思考的东西为不能思考的东西划定界限</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.5_哲学将通过清楚地表达可说的东西来指谓那不可说的东西 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.5_哲学将通过清楚地表达可说的东西来指谓那不可说的东西">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体）"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.6_凡是能思考的东西都能清楚地思考。凡是可以说的东西都可以清楚地说出来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.6_凡是能思考的东西都能清楚地思考。凡是可以说的东西都可以清楚地说出来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体）"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西&#45;&#45;即逻辑形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1_命题表述事态的存在与不存在"/>
+        <rdfs:comment>为了能够表述逻辑形式，我们必须能够和命题一起置身于逻辑之外，也就是说，置身于世界之外</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1_命题不能表述逻辑形式：后者反映于命题之中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1_命题不能表述逻辑形式：后者反映于命题之中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+        <rdfs:comment>自行反映在语言中的东西，语言不能表述。
+语言中表达了自己的东西，我们不能用语言来表达。
+命题显示实在的逻辑形式。
+命题展示出这种逻辑形式。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1.1_因此，一个命题“fa”显示：对象a出现在该命题的意义中：两个命题“fa”和“ga”则显示：二者说的是同一个对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1.1_因此，一个命题“fa”显示：对象a出现在该命题的意义中：两个命题“fa”和“ga”则显示：二者说的是同一个对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1_命题不能表述逻辑形式：后者反映于命题之中"/>
+        <rdfs:comment>如果两个命题互相矛盾，则它们的结构显示这一点；如果其中一个从另一个推导出来，也由其结构显示出来。如此等等。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1.2_能显示出来的东西，不能说出来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1.2_能显示出来的东西，不能说出来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1_命题不能表述逻辑形式：后者反映于命题之中"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1.3_现在我们也理解了我们的这种感觉：只要我们的记号语言中一切都得到正确处理，我们也就有了一个正确的逻辑观点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1.3_现在我们也理解了我们的这种感觉：只要我们的记号语言中一切都得到正确处理，我们也就有了一个正确的逻辑观点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.1_命题不能表述逻辑形式：后者反映于命题之中"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.2_在某种意义上我们可以谈对象和事态的形式属性，或者，对事实而言，谈它们的结构属性，以及在同一意义上谈它们的形式关系和结构关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.2_在某种意义上我们可以谈对象和事态的形式属性，或者，对事实而言，谈它们的结构属性，以及在同一意义上谈它们的形式关系和结构关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+        <rdfs:comment>我也可以不说“结构属性”而说“内部属性”；不说“结构关系”而说“内部关系”。
+我引入这些表达式，是为了指明在哲学家当中广为流行的混淆内部关系和真正的（外部）关系的根源。
+不过，这些内部属性和关系的存在不能通过命题来断言，而是在表述有关事态和涉及有关对象的命题中它们自己显示出来。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.2.1_事实的一个内部属性也可以称为这个事实的一个特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.2.1_事实的一个内部属性也可以称为这个事实的一个特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.2_在某种意义上我们可以谈对象和事态的形式属性，或者，对事实而言，谈它们的结构属性，以及在同一意义上谈它们的形式关系和结构关系"/>
+        <rdfs:comment>如在我们所说的面部特征的意义上</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.3_一个属性，如果不能设想它的对象不具有它，它就是一个内部属性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.3_一个属性，如果不能设想它的对象不具有它，它就是一个内部属性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+        <rdfs:comment>因此，这个蓝色同那个蓝色处在浅些或者深些的内部关系中。
+这两个对象不处在这种关系中是不可设想的。
+在这里，“对象”一词的变化不定的用法和“属性”、“关系”这两个词的变化不定的用法是一致的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.4_一个可能情况的某个内部属性的存在，不是用命题来表达，而是在表述这个情况的命题中，通过该命题的一个内部属性自己表达出来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.4_一个可能情况的某个内部属性的存在，不是用命题来表达，而是在表述这个情况的命题中，通过该命题的一个内部属性自己表达出来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+        <rdfs:comment>断言命题具有一种形式属性和否认它具有一种形式属性，同样是无意义的</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.4.1_说一种形式具有这种属性而另一种形式具有那种属性，是不可能把这两种形式彼此区分开来的：因为这样就要假定二者之中任一属性归属任一形式是有意义的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.4.1_说一种形式具有这种属性而另一种形式具有那种属性，是不可能把这两种形式彼此区分开来的：因为这样就要假定二者之中任一属性归属任一形式是有意义的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.4_一个可能情况的某个内部属性的存在，不是用命题来表达，而是在表述这个情况的命题中，通过该命题的一个内部属性自己表达出来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5_可能情况之间的某种内部关系的存在，通过表述这些情况的命题之间的某种内部关系在语言中之间表达出来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5_可能情况之间的某种内部关系的存在，通过表述这些情况的命题之间的某种内部关系在语言中之间表达出来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5.1_这里我们就得到了关于“是否所有关系都是内部的或者外部的”这个争论不休的问题的回答 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5.1_这里我们就得到了关于“是否所有关系都是内部的或者外部的”这个争论不休的问题的回答">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5_可能情况之间的某种内部关系的存在，通过表述这些情况的命题之间的某种内部关系在语言中之间表达出来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5.2_一个按照内部关系依次序排列的系列，我称为形式系列 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5.2_一个按照内部关系依次序排列的系列，我称为形式系列">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.5_可能情况之间的某种内部关系的存在，通过表述这些情况的命题之间的某种内部关系在语言中之间表达出来"/>
+        <rdfs:comment>数列不是按照外部关系，而是按照内部关系依次序排列的。
+命题系列也是如此：“aRb”等等。（如果b对a处在上述关系，我称b为a的一个后继）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.6_现在我们也可以在形式属性的意义上来谈形式概念 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.6_现在我们也可以在形式属性的意义上来谈形式概念">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+        <rdfs:comment>我引入这个表达式，是为了弄清楚那贯穿于整个传统逻辑中的混淆形式概念和真正概念的根源。
+当某种东西归入形式概念而称为后者的一个对象，这一点是不能用命题来表达的，而是在这个对象的记号自身中显示出来。（一个名称显示它标示一个对象，一个数的记号显示它标示一个数，等等。）
+形式概念确实不能和专有概念一样用函项来表述。
+因为它们的特征，即形式属性，是不能用函项来表达的。
+形式属性的表达式是一定符号的特征。
+因此，一个形式概念的表达式是一个以这种特有特征为唯一常项的命题变项。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7_命题变项标示形式概念，命题变项的值标示属于该形式概念的对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7_命题变项标示形式概念，命题变项的值标示属于该形式概念的对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.1_每一个变项都是一个形式概念的记号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.1_每一个变项都是一个形式概念的记号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7_命题变项标示形式概念，命题变项的值标示属于该形式概念的对象"/>
+        <rdfs:comment>因为每一个变项都表示一个为它的所有值具有的不变形式，而这一形式就可以看作为这些值的形式属性</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.2_因此变名“x”就是对象这个伪概念的专有记号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.2_因此变名“x”就是对象这个伪概念的专有记号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7_命题变项标示形式概念，命题变项的值标示属于该形式概念的对象"/>
+        <rdfs:comment>凡属正确地使用“对象”（“事物”、“物”，等等）一词的地方，在概念记号系统中总是用变项名称来表达的。
+一旦以别种方式来使用这个词，如把它作为专有概念词使用，就只能造成无意义的似是而非的命题。
+因此，例如，不能像说“有一些书”那样，说“有一些对象”。同样也不能说“有100个对象”，或者，“有X0个对象”。
+因而说对象的总数是无意义的。
+这一点同样适用于“复合物”、“事实”、“函项”、“数”这些词，等等。
+它们全都标示形式概念，因而在概念记号系统中用变项来表述，而不是（如弗雷格和罗素所认为的）用函项或者类来表述。
+诸如”1是一个数“，”只要一个零“以及一切类似的表达式，都是无意义的。
+（说”只有一个1“就和说”2+2在3点钟的时候等于4“一样是无意义的。）</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
