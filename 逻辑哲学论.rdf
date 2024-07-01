@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus">
-        <owl:versionInfo>2024-07-01：完成第三章
+        <owl:versionInfo>2024-07-01：完成第三章，和第四章至4.2
 2024-06-26：添加内容至3.3.4
 2024-06-24：添加内容至3.3.3（飞机上）
 2024-06-22： 阅读微信读书，创建此本体（way from Montreal to Paris to Beijing）</owl:versionInfo>
@@ -2026,6 +2026,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.2.1_一个形式概念是随着属于它的任何一个对象的给定而立即给定的，因此，不能把属于一个形式概念的对象和这个形式概念本身一切作为初始观念引入。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.2.1_一个形式概念是随着属于它的任何一个对象的给定而立即给定的，因此，不能把属于一个形式概念的对象和这个形式概念本身一切作为初始观念引入。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.2_因此变名“x”就是对象这个伪概念的专有记号"/>
+        <rdfs:comment>因此，比如说，不能如罗素那样，把函项概念和特定的函项两者一起作为初始观念引入；或者，把数的概念和确定的数两者一起作为初始观念引入</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.2_因此变名“x”就是对象这个伪概念的专有记号 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.2_因此变名“x”就是对象这个伪概念的专有记号">
@@ -2038,6 +2047,166 @@
 它们全都标示形式概念，因而在概念记号系统中用变项来表述，而不是（如弗雷格和罗素所认为的）用函项或者类来表述。
 诸如”1是一个数“，”只要一个零“以及一切类似的表达式，都是无意义的。
 （说”只有一个1“就和说”2+2在3点钟的时候等于4“一样是无意义的。）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.3_如果我们要在概念记号系统中表达一般命题“b是a的一个后继”，就需要有一个形式系列的一般项的表达式：aRb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.3_如果我们要在概念记号系统中表达一般命题“b是a的一个后继”，就需要有一个形式系列的一般项的表达式：aRb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7_命题变项标示形式概念，命题变项的值标示属于该形式概念的对象"/>
+        <rdfs:comment>一个形式系列的一般项必须用变项来表达，因为“该形式系列的项”这个概念是一个形式概念。（这一点为弗雷格和罗素所忽略：因此他们用以表达上述那种一般命题的方式是不正确的，其中包含着一种恶性循环。）
+我们可以通过给出第一项和有前一命题产生下一项的运算的一般形式来规定形式系列的一般项。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.4_问一个形式概念是否存在是无意义的，因为不可能有一个命题是对这个问题的回答 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7.4_问一个形式概念是否存在是无意义的，因为不可能有一个命题是对这个问题的回答">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.7_命题变项标示形式概念，命题变项的值标示属于该形式概念的对象"/>
+        <rdfs:comment>因此，例如，不能提问“是否存在包括分析的主谓式问题？”这种问题</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.8_逻辑形式式无数的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2.8_逻辑形式式无数的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.2_命题能够表述全部实在，但是不能表述它们为了能够表述实在而必须和实在共有的东西--即逻辑形式"/>
+        <rdfs:comment>因此在逻辑中没有特殊的数，因此也没有哲学的一元论和二元论的可能性。等等</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.1_最简单的命题，即基本命题，断言一个事态的存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.1_最简单的命题，即基本命题，断言一个事态的存在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.1.1_不可能有基本命题同它相矛盾，这是一个基本命题的标志 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.1.1_不可能有基本命题同它相矛盾，这是一个基本命题的标志">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.1_最简单的命题，即基本命题，断言一个事态的存在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2_基本命题有名称组成 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2_基本命题有名称组成">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
+        <rdfs:comment>它是名称的一种关联，一种联结</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2.1_显然，对命题的分析必须达到由名称的直接结合而组成的基本命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2.1_显然，对命题的分析必须达到由名称的直接结合而组成的基本命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2_基本命题有名称组成"/>
+        <rdfs:comment>这就发生了一个问题：命题的结合是怎样产生的？</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2.1.1_即使世界无限复杂，因此每个事实都是由无限多个事态组成，而且每个事态又都是由无限多个对象组合起来，那也仍然必须由诸对象和事态 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2.1.1_即使世界无限复杂，因此每个事实都是由无限多个事态组成，而且每个事态又都是由无限多个对象组合起来，那也仍然必须由诸对象和事态">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.2.1_显然，对命题的分析必须达到由名称的直接结合而组成的基本命题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.3_名称只有同基本命题发生关联才能在命题中出现 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.3_名称只有同基本命题发生关联才能在命题中出现">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4.1_当我使用的两个记号具有同一指谓时，我就在它们之间放入记号“=”来表达这一点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4.1_当我使用的两个记号具有同一指谓时，我就在它们之间放入记号“=”来表达这一点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4_名称是简单符号，我用单个的字母（“x”，“y”，“z”）来表示"/>
+        <rdfs:comment>因此“a=b”就意味着记号“b”可以替换记号“a”。
+如果我用等式引进一个新记号“b”，规定它可用以替换已知记号“a”，那么，像罗素那样，我把这个等式（定义）写成“a=bDef.”的形式。定义就是一条记号规则。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4.2_因此，“a=b”形式的表达式不过是一种表述的辅助手段。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4.2_因此，“a=b”形式的表达式不过是一种表述的辅助手段。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4_名称是简单符号，我用单个的字母（“x”，“y”，“z”）来表示"/>
+        <rdfs:comment>关于记号“a”和“b”的指谓，它们并没有陈述什么东西</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4.3_如果不知道两个名称是标示同一个事物还是标示两个不同事物，我们能够理解这两个名称吗？ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4.3_如果不知道两个名称是标示同一个事物还是标示两个不同事物，我们能够理解这两个名称吗？">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4_名称是简单符号，我用单个的字母（“x”，“y”，“z”）来表示"/>
+        <rdfs:comment>--如果不知道在一个命题中出现的两个名称的指谓是相同还是不同，我们能够理解这个命题吗？
+假如我知道一个英文词和一个具有相同指谓的德文词的指谓：那么我就不可能不知道二者是具有相同指谓的；我必定能把其中一个翻译为另一个。
+像“a=a”这样的表达式以及从中推得的那些表达式，既不是基本命题，也不是另一类有意义的记号</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4_名称是简单符号，我用单个的字母（“x”，“y”，“z”）来表示 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.4_名称是简单符号，我用单个的字母（“x”，“y”，“z”）来表示">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
+        <rdfs:comment>我把基本命题写作名称的函项，所以它们具有“fx”，“A(x,y)”的形式，等等。
+或者我用字母p,q,r来表示它们。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.5_若一个基本命题为真，事态就存在；若一个基本命题为假，事态就不存在。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.5_若一个基本命题为真，事态就存在；若一个基本命题为假，事态就不存在。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.6_若列举出所以为真的基本命题，就完全地描述了世界。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.6_若列举出所以为真的基本命题，就完全地描述了世界。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
+        <rdfs:comment>世界通过列举所有的基本命题加上其中哪些为真哪些为假而被完全地描述</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.7_关于n个事态的存在和不存在，由Kn=Sigma(nv)_v=0_to_n种可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.7_关于n个事态的存在和不存在，由Kn=Sigma(nv)_v=0_to_n种可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
+        <rdfs:comment>这些事态的任何一种组合都可存在而同时别的组合不存在</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.8_和这些组合相应的即是同等数目的关于这n个基本命题的真（和假）的可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2.8_和这些组合相应的即是同等数目的关于这n个基本命题的真（和假）的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.2_命题的意义是它与事态的存在和不存在的可能性符合和不符合"/>
     </owl:Class>
     
 
