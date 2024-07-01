@@ -1748,6 +1748,88 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.2.1_然而记号p和~p能说同样的东西，这一点很重要，因为它表明实在中没有与记号~相对应的东西">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.2_我们能否用假命题--只要我们知道它们被认为是假的--来表达自己，就像我们一直用真命题表达自己一样能？不能！"/>
+        <rdfs:comment>一个命题中出现的否定，不足以表征这个命题的意义（~~p=p）。
+命题p和~p具有相反的意义，但是和它们相对应的是同一个实在。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.3_可用一个比喻来说明真这个概念：设想白纸上有一个黑斑块：通过指明这纸上的每一点是黑的还是白的，就可描述这个斑块的形状。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.3_可用一个比喻来说明真这个概念：设想白纸上有一个黑斑块：通过指明这纸上的每一点是黑的还是白的，就可描述这个斑块的形状。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6_命题只因为是实在的图像，才能为真或者为假"/>
+        <rdfs:comment>一个点是黑的事实，相应于一个肯定的事实，一个点是白（非黑）的事实，则相应于一个否定的事实。
+如果我在纸面上指出一个点（即弗雷格所谓的真值），这就相应于一个为判断而提出的假定，如此等等。
+但是为了能够说出一个点是黑的或者白的，我必须首先知道一个点在什么情况下称为黑的和在什么情况下称为白的：为了能够说“p”为真（或者假），我必须规定在何种情况下我称“p”为真，并由此而规定这命题的意义。
+这一比喻的不足之处在于：即使我们不知道什么是黑的和白的，我们也可以指出纸上的一点；但是如果一个命题没有意义，是没有什么东西与它相对应的，因为它并不标示一个具有可以称为“假”或“真”这种属性的东西（即真值）。一个命题的动词，并非如弗雷格所认为的，“为真”或者“为假”，而是“为真”的东西必须已经包含着动词。
+这就是蒙特卡罗模拟法的原理。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.4_每个命题必须已经具有一个意义：肯定并不能给命题以意义，因为所肯定的东西正好就是命题的意义。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.4_每个命题必须已经具有一个意义：肯定并不能给命题以意义，因为所肯定的东西正好就是命题的意义。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6_命题只因为是实在的图像，才能为真或者为假"/>
+        <rdfs:comment>这一点同样也适用于否定，等等。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.4.1_可以说，否定必定已经与被否定命题所规定的逻辑位置有关 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.4.1_可以说，否定必定已经与被否定命题所规定的逻辑位置有关">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.0.6.4_每个命题必须已经具有一个意义：肯定并不能给命题以意义，因为所肯定的东西正好就是命题的意义。"/>
+        <rdfs:comment>否定命题规定一个不同于被否定命题所规定的逻辑位置。
+否定命题借助被否定命题的逻辑位置来规定一个逻辑位置，因为它是在后者逻辑位置之外来描述后者的。
+被否定命题可以再被否定，这本身就表明，被否定者已经是一个命题，而不仅仅是命题的某个起始部分。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1_命题表述事态的存在与不存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1_命题表述事态的存在与不存在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1_命题表述事态的存在与不存在"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.1_哲学不是自然科学之一 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.1_哲学不是自然科学之一">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体）"/>
+        <rdfs:comment>“哲学”一词所指的东西，应该位于各门自然科学之上或者之下，而不是同它们并列</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2_哲学的目的是从逻辑上澄清思想 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2_哲学的目的是从逻辑上澄清思想">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1_真命题的总体就是全部自然科学（或各门自然科学的总体）"/>
+        <rdfs:comment>哲学不是一门学说，而是一项活动。
+哲学著作从本质上来看是由一些解释构成的。
+哲学的成果不是一些“哲学命题”，而是命题的澄清。
+可以说，没有哲学，思想就会模糊不清：哲学应该使思想清晰，并且为思想划定明确的界限。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2.1_心理学不比其他自然科学更为接近哲学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2.1_心理学不比其他自然科学更为接近哲学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.1.1.2_哲学的目的是从逻辑上澄清思想"/>
+        <rdfs:comment>知识论使心理学的哲学。
+我对记号语言的研究，和哲学家们认为对逻辑哲学如此重要的那种思想过程的研究，难道不是一致的吗？只是在大多数情形下，他们都纠缠于一些非本质的心理学考察，在我的方法这里也有类似的危险。</rdfs:comment>
     </owl:Class>
     
 
