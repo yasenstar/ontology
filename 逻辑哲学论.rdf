@@ -7,7 +7,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus">
-        <owl:versionInfo>2024-07-01：完成第三章，和第四章至4.2
+        <owl:versionInfo>2024-07-02：完成第四章
+2024-07-01：完成第三章，和第四章至4.2
 2024-06-26：添加内容至3.3.4
 2024-06-24：添加内容至3.3.3（飞机上）
 2024-06-22： 阅读微信读书，创建此本体（way from Montreal to Paris to Beijing）</owl:versionInfo>
@@ -2275,6 +2276,173 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.3_在图式中我们可用与真值可能性相关的标记“W”（为真）来表达与真值可能性的符合。没有这个标记就意指不符合。">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4.1_很清楚，关于记号“F”和“W”的复合物，并没有对象（或对象的复合物）与之相对应；正好就像没有任何对象与横线、竖线或括号相对应一样。&#45;&#45;不存在“逻辑对象” -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4.1_很清楚，关于记号“F”和“W”的复合物，并没有对象（或对象的复合物）与之相对应；正好就像没有任何对象与横线、竖线或括号相对应一样。--不存在“逻辑对象”">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4_由标记“W”与真值可能性相关而产生的记号，就是一个命题记号"/>
+        <rdfs:comment>当然，这也同样适用于所有和“W”与“F”的图式表达的东西相同的记号</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4.2_例如，以下就是一个命题记号：“p,q,”用WWW,FWW,WF(),FFW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4.2_例如，以下就是一个命题记号：“p,q,”用WWW,FWW,WF(),FFW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4_由标记“W”与真值可能性相关而产生的记号，就是一个命题记号"/>
+        <rdfs:comment>弗雷格的“断定号”逻辑上是完全无指谓的：在弗雷格（和罗素）的著作中，它不过表示作者主张用这个记号标记的命题是真的。因此，“断定号”不是命题的组成部分，就像命题的编号不是命题的组成部分一样。一个命题不可能宣传自己为真。
+如果一个图示中真值可能性的排列次序是由组合规则一次性地固定好的，那么最后一列本身就是一个真值条件的表达式。将这一列写成为一行，上述命题记号就成为：“(WW--W)(p,q)”，或者，更清楚一点：“(WWFW)(p,q)”。（左边括号中的位数由右边括号中的项数决定。）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4_由标记“W”与真值可能性相关而产生的记号，就是一个命题记号 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.4_由标记“W”与真值可能性相关而产生的记号，就是一个命题记号">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.5_对于n个基本命题由Ln组可能的真值条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.5_对于n个基本命题由Ln组可能的真值条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式"/>
+        <rdfs:comment>从一定数目基本命题的真值可能性得来的真值条件组，可以排成一个系列</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况&#45;&#45;重言式和矛盾式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况--重言式和矛盾式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式"/>
+        <rdfs:comment>第一种情况是，一个命题对于所有基本命题的真值可能性都为真。我们称该真值条件是重言式的。
+第二种情况是，一个命题对于所有真值可能性都为假：该真值条件是矛盾的。
+在第一种情况下，我们称这命题为重言式；在第二种情况下，称这命题为矛盾式。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.1_命题显示它们所说的东西，重言式和矛盾式则显示它们什么也没有说 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.1_命题显示它们所说的东西，重言式和矛盾式则显示它们什么也没有说">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况--重言式和矛盾式"/>
+        <rdfs:comment>重言式没有真值条件，因为它无条件地为真；而矛盾式则不在任何条件下为真。
+重言式和矛盾式式缺少意义的。
+就像两个箭头由此指向相反方向的一个点。
+例如，当我知道或者下着雨或者没有下雨时，关于天气我就什么也不知道。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.1.1_但是，重言式和矛盾式不是无意义的，它们是符号系统的一部分，正如“0”是算术符号系统的一部分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.1.1_但是，重言式和矛盾式不是无意义的，它们是符号系统的一部分，正如“0”是算术符号系统的一部分">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.1_命题显示它们所说的东西，重言式和矛盾式则显示它们什么也没有说"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.2_重言式和矛盾式不是实在的图像。它们不表述任何可能情况。因为前者容许每一种可能情况，后者则排除任何一种可能情况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.2_重言式和矛盾式不是实在的图像。它们不表述任何可能情况。因为前者容许每一种可能情况，后者则排除任何一种可能情况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况--重言式和矛盾式"/>
+        <rdfs:comment>在重言式中，与世界符合的条件--表现关系--互相抵消，以致它与实在没有任何表现关系。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.3_命题的真值条件规定它给事实留出的范围 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.3_命题的真值条件规定它给事实留出的范围">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况--重言式和矛盾式"/>
+        <rdfs:comment>一个命题，一个图像或者一个模型，在否定的意义上就像一个固体，限制着其他物体的活动自由；在肯定的意义上就像用固体物质围住的一个空间，其中有一个物体活动的场所。
+重言式为实在留出了全部--整个无限的--逻辑空间；矛盾式则占满了全部逻辑空间，一点也没有留给实在。因而二者都不以任何方式规定实在。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.4_重言式的真是确定的，命题的真是可能的，矛盾式的真是不可能的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.4_重言式的真是确定的，命题的真是可能的，矛盾式的真是不可能的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况--重言式和矛盾式"/>
+        <rdfs:comment>确定的，可能的，不可能的：这里就有了我们在概率论中所需要的最重要的分度标志。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.5_一个重言式和一个命题的逻辑积，与这个命题说的是同一回事情。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.5_一个重言式和一个命题的逻辑积，与这个命题说的是同一回事情。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况--重言式和矛盾式"/>
+        <rdfs:comment>因此，这积与这命题是同一的。因为没有改变一个符合的意义就不能改变它的本质。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.6_记号的一定的合乎逻辑的结合，对应着其指谓的一定的合乎逻辑的结合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.6_记号的一定的合乎逻辑的结合，对应着其指谓的一定的合乎逻辑的结合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6_在可能的真值条件组中由两种极端情况--重言式和矛盾式"/>
+        <rdfs:comment>能与每一种任意的结合对应的只能是非结合的记号。
+换句话说，对于每一种情况都为真的命题，根本不可能是记号的结合；因为，如果它们是记号的结合，就只能有对象的一定的结合与它们相对应。
+而不合乎逻辑的结合是没有一种对象的结合与之相对应的。
+重言式和矛盾式是记号结合的极限情形：即记号结合的解体。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.6.1_当然，在重言式和矛盾式中，记号也是互相结合着的，即它们彼此之间有一定的关系；但是这些关系是无指谓的，对“断言号”而言它们不是本质的对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.6.1_当然，在重言式和矛盾式中，记号也是互相结合着的，即它们彼此之间有一定的关系；但是这些关系是无指谓的，对“断言号”而言它们不是本质的对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.6.6_记号的一定的合乎逻辑的结合，对应着其指谓的一定的合乎逻辑的结合"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5_看来现在可以给出最一般的命题形式：即给出一个关于任何一种记号语言的命题的描述，使得每一种可能的意义都能够用适合这种描述的符号来表达，而且，在适当地选择名称指谓的前提下，每一个适合这种描述的符号都能表达一种意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5_看来现在可以给出最一般的命题形式：即给出一个关于任何一种记号语言的命题的描述，使得每一种可能的意义都能够用适合这种描述的符号来表达，而且，在适当地选择名称指谓的前提下，每一个适合这种描述的符号都能表达一种意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题"/>
+        <rdfs:comment>显然，在这种描述中只能包含对于最一般的命题形式为本质的东西，否则，它就不会是最一般的形式。
+一般的命题形式的存在，为以下事实所证明：即没有任何一个命题，其形式是不能预知（即构造）的。命题的一般形式是：事情是如此这般的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5.1_假如向我给出了所有的基本命题：那么问题就只在于我能用它们构造出一些什么命题。这样我就有了全部命题，而且这就确定了这全部命题的界限。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5.1_假如向我给出了所有的基本命题：那么问题就只在于我能用它们构造出一些什么命题。这样我就有了全部命题，而且这就确定了这全部命题的界限。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5_看来现在可以给出最一般的命题形式：即给出一个关于任何一种记号语言的命题的描述，使得每一种可能的意义都能够用适合这种描述的符号来表达，而且，在适当地选择名称指谓的前提下，每一个适合这种描述的符号都能表达一种意义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5.2_命题包括从所有基本命题的总体（自然，也从其确实是所有基本命题的总体）中所能得出的一切。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5.2_命题包括从所有基本命题的总体（自然，也从其确实是所有基本命题的总体）中所能得出的一切。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5_看来现在可以给出最一般的命题形式：即给出一个关于任何一种记号语言的命题的描述，使得每一种可能的意义都能够用适合这种描述的符号来表达，而且，在适当地选择名称指谓的前提下，每一个适合这种描述的符号都能表达一种意义"/>
+        <rdfs:comment>因此，在一定的意义上可以说，一切命题都是基本命题的概况。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5.3_一般的命题形式是变项。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5.3_一般的命题形式是变项。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.5_看来现在可以给出最一般的命题形式：即给出一个关于任何一种记号语言的命题的描述，使得每一种可能的意义都能够用适合这种描述的符号来表达，而且，在适当地选择名称指谓的前提下，每一个适合这种描述的符号都能表达一种意义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5_命题是基本命题的真值函项 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5_命题是基本命题的真值函项">
+        <rdfs:comment>基本命题是自身的真值函项。</rdfs:comment>
     </owl:Class>
     
 
