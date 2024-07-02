@@ -2211,6 +2211,74 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.3_基本命题的真值可能性意指事态存在和不存在的可能性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.3_基本命题的真值可能性意指事态存在和不存在的可能性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.3.1_我们可用如下图式来表述真值可能性（W指真，F指假） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.3.1_我们可用如下图式来表述真值可能性（W指真，F指假）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.3_基本命题的真值可能性意指事态存在和不存在的可能性"/>
+        <rdfs:comment>在基本命题行下面的W和F的各行，以易于理解的方式标明各种真值可能性</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4_思想是有意义的命题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.1_基本命题的真值可能性是命题真和假的条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.1_基本命题的真值可能性是命题真和假的条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.1.1_这也许立即使人想到，引入基本命题乃是理解所有其他命题的基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.1.1_这也许立即使人想到，引入基本命题乃是理解所有其他命题的基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.1_基本命题的真值可能性是命题真和假的条件"/>
+        <rdfs:comment>的确，对一般命题的理解显然是依赖于对基本命题的理解的</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.2_关于一个命题与n个基本命题的真值可能性符号和不符号，有K=0_to_Kn_K-Kn_=_Ln种可能情况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.2_关于一个命题与n个基本命题的真值可能性符号和不符号，有K=0_to_Kn_K-Kn_=_Ln种可能情况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.3.1_与基本命题的真值可能性符合和不符合的表达式，表达命题的真值条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.3.1_与基本命题的真值可能性符合和不符合的表达式，表达命题的真值条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.3_在图式中我们可用与真值可能性相关的标记“W”（为真）来表达与真值可能性的符合。没有这个标记就意指不符合。"/>
+        <rdfs:comment>命题即是其真值条件的表达式。
+因此，弗雷格在解释他的概念记号系统的记号时以真值条件为出发点，是完全正确的。但是弗雷格对真值概念的解释是错误的：如果“真”和“假”真的是对象，而且是~p等等中的主目，那么依照弗雷格的方法，~p的意义就根本是未确定的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.3_在图式中我们可用与真值可能性相关的标记“W”（为真）来表达与真值可能性的符合。没有这个标记就意指不符合。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4.3_在图式中我们可用与真值可能性相关的标记“W”（为真）来表达与真值可能性的符合。没有这个标记就意指不符合。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#4.4_命题是与基本命题的真值可能性符号和不符号的表达式"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
