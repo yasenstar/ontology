@@ -2447,6 +2447,74 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0_基本命题与主目 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0_基本命题与主目">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5_命题是基本命题的真值函项"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0.1_基本命题是命题的真值主目 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0.1_基本命题是命题的真值主目">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0_基本命题与主目"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0.2_函项的主目很容易和名称的附标相混淆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0.2_函项的主目很容易和名称的附标相混淆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.0_基本命题与主目"/>
+        <rdfs:comment>因为从主目和附标我都能看出包含它们的那些记号的指谓。
+如果我没有弄错，弗雷格关于命题和函项的指谓理论，就是建立在混淆主目和附标的基础之上的。弗雷格认为逻辑命题是名称，而它们的主目则是这些名称的附标。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5_命题是基本命题的真值函项"/>
+        <rdfs:comment>这是概率论的基础</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.0_真值函项的概念 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.0_真值函项的概念">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列"/>
+        <rdfs:comment>【添加】</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.0.1_一定数目的基本命题的真值函项，可以按注释中的图式列出 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.0.1_一定数目的基本命题的真值函项，可以按注释中的图式列出">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.0_真值函项的概念"/>
+        <rdfs:comment>(WWWW)(p,q) 重言式：如果p则p，且如果q则q。
+(FWWW)(p,q) 非p且q两者
+(WFWW)(p,q) 如果q则p
+(WWWF)(p,q) p或q
+(FFWW)(p,q) 非q
+(FWFW)(p,q) 非p
+(FWWF)(p,q) p或q，但非p且q
+(WFFW)(p,q) 如果p则q，且如果q则p
+(WFWF)(p,q) ：p
+(WWFF)(p,q) ：q
+(FFFW)(p,q) 既非p亦非q
+(FFWF)(p,q) p且非q
+(FWFF)(p,q) q且非p
+(WFFF)(p,q) p且q
+(FFFF)(p,q) p且非p，和q且非q</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
