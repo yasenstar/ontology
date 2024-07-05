@@ -2881,6 +2881,77 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5_运算的出现并不表证命题的意义 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5_运算的出现并不表证命题的意义">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2_命题的结构之间具有内在的关系"/>
+        <rdfs:comment>的确，运算是无所陈述的，只有它的结果才有所陈述，而这又依赖于运算的基础。
+运算和函项决不能互相混淆。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.1_一个函项不可能是它自身的主目，然而一个运算的结果可以成为该运算自身的基础 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.1_一个函项不可能是它自身的主目，然而一个运算的结果可以成为该运算自身的基础">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5_运算的出现并不表证命题的意义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2_只有这样，从一个形式系列中的一项到另一项（在罗素和怀特海的等级系统中是从一个类型到另一个类型）的推移才是可能的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2_只有这样，从一个形式系列中的一项到另一项（在罗素和怀特海的等级系统中是从一个类型到另一个类型）的推移才是可能的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5_运算的出现并不表证命题的意义"/>
+        <rdfs:comment>罗素和怀特海不承认这种推移的可能性，但是他们自己却一再地利用这种可能性</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2.1_一个运算重复地应用于其自身的结果，我称之为运算的连续应用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2.1_一个运算重复地应用于其自身的结果，我称之为运算的连续应用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2_只有这样，从一个形式系列中的一项到另一项（在罗素和怀特海的等级系统中是从一个类型到另一个类型）的推移才是可能的"/>
+        <rdfs:comment>“O&apos; O&apos; O&apos; a”是三次连续应用运算“O&apos;”于“a”的结果。
+我也在同样的意义上谈到连续应用几个运算于若干个命题。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2.2_因此我把形式系列a,o&apos;,a,o&apos;o&apos;a,.....的通项记为[a,x,o&apos;x] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2.2_因此我把形式系列a,o&apos;,a,o&apos;o&apos;a,.....的通项记为[a,x,o&apos;x]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2_只有这样，从一个形式系列中的一项到另一项（在罗素和怀特海的等级系统中是从一个类型到另一个类型）的推移才是可能的"/>
+        <rdfs:comment>这个括起来的表达式是一个变项：其中第一项是形式系列的首项，第二项是系列中任意选取的项x的形式，第三项是系列中紧接x之后的那一项的形式</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2.3_连续应用一个运算的概念和“如此等等”这个概念是等价的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2.3_连续应用一个运算的概念和“如此等等”这个概念是等价的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.2_只有这样，从一个形式系列中的一项到另一项（在罗素和怀特海的等级系统中是从一个类型到另一个类型）的推移才是可能的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.3_一个运算可以取消另一个运算的作用，运算可以互相抵消 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.3_一个运算可以取消另一个运算的作用，运算可以互相抵消">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5_运算的出现并不表证命题的意义"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.4_运算可以消失 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5.4_运算可以消失">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.5_运算的出现并不表证命题的意义"/>
+        <rdfs:comment>如在~~p中的否定：~~p=p</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
