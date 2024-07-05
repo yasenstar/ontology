@@ -7,7 +7,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus">
-        <owl:versionInfo>2024-07-02：完成第四章
+        <owl:versionInfo>2024-07-03：开始第五章5.0到5.1
+2024-07-02：完成第四章
 2024-07-01：完成第三章，和第四章至4.2
 2024-06-26：添加内容至3.3.4
 2024-06-24：添加内容至3.3.3（飞机上）
@@ -2511,6 +2512,371 @@
 (FWFF)(p,q) q且非p
 (WFFF)(p,q) p且q
 (FFFF)(p,q) p且非p，和q且非q</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.1_如果为一定数目的命题所共有的真值基础，同时也是某个命题的真值基础，那么我们就说，这个命题的真是从另外那些命题的真得来的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.1_如果为一定数目的命题所共有的真值基础，同时也是某个命题的真值基础，那么我们就说，这个命题的真是从另外那些命题的真得来的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.1_一个命题的真值基础包含在另一个命题的真值基础之中：p从q得出来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.1_一个命题的真值基础包含在另一个命题的真值基础之中：p从q得出来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2_特别是，如果命题“q”的所有真值基础也是命题“p”的真值基础，那么命题“p”的真就是从“q”的真得来的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.2_如果p从q得出来，则“p”的意义包含在“q”的意义之中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.2_如果p从q得出来，则“p”的意义包含在“q”的意义之中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2_特别是，如果命题“q”的所有真值基础也是命题“p”的真值基础，那么命题“p”的真就是从“q”的真得来的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.3_如果上帝创造一个世界，其中某些命题为真，那么由此它也就创造了一个世界，其中所有从这些命题得出来的命题也同样为真 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.3_如果上帝创造一个世界，其中某些命题为真，那么由此它也就创造了一个世界，其中所有从这些命题得出来的命题也同样为真">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2_特别是，如果命题“q”的所有真值基础也是命题“p”的真值基础，那么命题“p”的真就是从“q”的真得来的"/>
+        <rdfs:comment>同样，它也不可能在创造出一个命题“p”为真的世界的同时，而不创造出这个命题的所有对象</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.4_一个命题肯定每一个从它得出来的命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.4_一个命题肯定每一个从它得出来的命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2_特别是，如果命题“q”的所有真值基础也是命题“p”的真值基础，那么命题“p”的真就是从“q”的真得来的"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.4.1_“p.q”既是肯定“p”的命题之一，也是肯定“q”的命题之一 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.4.1_“p.q”既是肯定“p”的命题之一，也是肯定“q”的命题之一">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2.4_一个命题肯定每一个从它得出来的命题"/>
+        <rdfs:comment>两个命题，如果没有一个有意义的命题肯定它们两者，它们就是彼此反对的。
+凡与另一个命题矛盾的命题，都否定这个命题。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2_特别是，如果命题“q”的所有真值基础也是命题“p”的真值基础，那么命题“p”的真就是从“q”的真得来的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.2_特别是，如果命题“q”的所有真值基础也是命题“p”的真值基础，那么命题“p”的真就是从“q”的真得来的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.1_如果一个命题的真从另一些命题的真得出来，这一点为这些命题的形式相互之间的关系所表达 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.1_如果一个命题的真从另一些命题的真得出来，这一点为这些命题的形式相互之间的关系所表达">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来"/>
+        <rdfs:comment>我们无须通过把这些命题结合成为一个单独的命题，来建立起它们之间的这些关系；相反地，这些关系是内在的，它们的存在是这些命题存在的一个直接结果</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.1.1_当我们从pVq和~p推出q时，命题形式“pVq”和“~p”之间的关系在这里被我们的标示方式所掩盖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.1.1_当我们从pVq和~p推出q时，命题形式“pVq”和“~p”之间的关系在这里被我们的标示方式所掩盖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.1_如果一个命题的真从另一些命题的真得出来，这一点为这些命题的形式相互之间的关系所表达"/>
+        <rdfs:comment>但是，例如，若将“pVq”写成“p|q.|.p|q”，将“~p”写成“p|p”（p|q=既非p也非q），其内在联系就显而易见了</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.2_如果p从q得出来，则我能作出从q到p的推论，即从q推出p来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.2_如果p从q得出来，则我能作出从q到p的推论，即从q推出p来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来"/>
+        <rdfs:comment>单从这两个命题即可了解推论的特性。
+只有这两个命题本身才能证明此推论的正确。
+如弗雷格和罗素著作中用以证明推论为正确的“推演律”是缺少意义的，因而是多余的</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.3_一切演绎推理都是先天形成的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.3_一切演绎推理都是先天形成的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.4_一个基本命题不能从另一个基本命题推演出来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.4_一个基本命题不能从另一个基本命题推演出来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.5_从一种情况的存在无法推论出另一种完全不同的情况的存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.5_从一种情况的存在无法推论出另一种完全不同的情况的存在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6_没有证明这样一种推论为正确的因果联系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6_没有证明这样一种推论为正确的因果联系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3_一个命题的真从另一些命题的真得出来，这一点我们可以从这些命题的结构看出来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6.1_我们不能从现在的事件推出将来的事件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6.1_我们不能从现在的事件推出将来的事件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6_没有证明这样一种推论为正确的因果联系"/>
+        <rdfs:comment>相信因果联系是迷信</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6.2_意志自由在于不可能知道尚属未来的行为 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6.2_意志自由在于不可能知道尚属未来的行为">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6_没有证明这样一种推论为正确的因果联系"/>
+        <rdfs:comment>仅当因果性像逻辑推论一样是一种内在的必然性，我们才能知道这些行为。--知与所知的联系是逻辑必然性的联系</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6.3_如果不能从一个命题对于我们是自明的而推出它为真，则它的自明性就不能保证我们相信它为真是正确的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6.3_如果不能从一个命题对于我们是自明的而推出它为真，则它的自明性就不能保证我们相信它为真是正确的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.3.6_没有证明这样一种推论为正确的因果联系"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4_如果一个命题是从另一个命题得出来的，那么后者所说较前者为多，前者所说较后者为少 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4_如果一个命题是从另一个命题得出来的，那么后者所说较前者为多，前者所说较后者为少">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4.1_如果p从q得出来且q从p得出来，则二者为同一个命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4.1_如果p从q得出来且q从p得出来，则二者为同一个命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4_如果一个命题是从另一个命题得出来的，那么后者所说较前者为多，前者所说较后者为少"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4.2_重言式从一切命题得出来：它什么也没有说 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4.2_重言式从一切命题得出来：它什么也没有说">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4_如果一个命题是从另一个命题得出来的，那么后者所说较前者为多，前者所说较后者为少"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4.3_矛盾式是没有一个命题与其他命题共有的命题共性，重言式是彼此间没有任何共同东西的所有命题的共性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4.3_矛盾式是没有一个命题与其他命题共有的命题共性，重言式是彼此间没有任何共同东西的所有命题的共性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.4_如果一个命题是从另一个命题得出来的，那么后者所说较前者为多，前者所说较后者为少"/>
+        <rdfs:comment>可以说，矛盾式隐迹于一切命题之外；重言式则隐迹于一切命题之内。
+矛盾式是命题的外部界限；重言式则是居于诸命题中心的非实在的点。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.1.1_没有概率命题特约的特殊对象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.1.1_没有概率命题特约的特殊对象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.1_在如上述5.1.0.1那样的图式中，设Wr是命题r的“w”数，Wrs是和命题r的那些“w”同列的命题s的“w”数，则命题r给命题s以概率Wrs:Wr"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.1_在如上述5.1.0.1那样的图式中，设Wr是命题r的“w”数，Wrs是和命题r的那些“w”同列的命题s的“w”数，则命题r给命题s以概率Wrs:Wr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.1_在如上述5.1.0.1那样的图式中，设Wr是命题r的“w”数，Wrs是和命题r的那些“w”同列的命题s的“w”数，则命题r给命题s以概率Wrs:Wr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.2_彼此之间没有共同的真值主目的命题，我们称它们是相互独立的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.2_彼此之间没有共同的真值主目的命题，我们称它们是相互独立的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度"/>
+        <rdfs:comment>两个基本命题彼此给予概率1/2。
+如果p从q得出来，则命题q给与命题p概率1.
+逻辑推论的确实性是概率的一种极限情况。（应用于重言式和矛盾式）</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.3_就其自身而言，一个命题既不是概率的也不是非概率的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.3_就其自身而言，一个命题既不是概率的也不是非概率的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度"/>
+        <rdfs:comment>一个事件或者发生，或者不发生：没有中间状况</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.4_设在一个罐子里有相等数量的白球和黑球（且没有任何别种颜色的球）。我一个一个地取出球来，又将它放回罐里。用这种试验我能够确定，随着不断地这样做下去，取出来的黑球数和白球数是彼此接近的 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.4_设在一个罐子里有相等数量的白球和黑球（且没有任何别种颜色的球）。我一个一个地取出球来，又将它放回罐里。用这种试验我能够确定，随着不断地这样做下去，取出来的黑球数和白球数是彼此接近的">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度"/>
+        <rdfs:comment>所以这不是一个数学的真实。
+如果我说：“我取到一个白球的概率和取到一个黑球的概率是相等的”，这就意味着，我所知道的全部情况（包括作为假设的自然律）给予一个事件发生的概率不大于另一个事件发生的概率。也就是说，正如从以上的说明所不能理解的，给予每个事件以概率1/2。
+通过试验我能够确认的是：这两个事件的发生是独立于我并不详细知道的种种情况的。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.5_概率命题的最小单元是：诸情况&#45;&#45;我对它们别无所知&#45;&#45;对一特定事件的发生给予某一概率度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.5_概率命题的最小单元是：诸情况--我对它们别无所知--对一特定事件的发生给予某一概率度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.6_由此可见，概率是一种概况 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5.6_由此可见，概率是一种概况">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度"/>
+        <rdfs:comment>它包含着对一种命题形式的一般的描述。
+仅当缺少确定性时我们才使用概率--虽然我们关于一个事实的知识时不完全的，但是关于它的形式我们确实知道某种东西。
+一个命题也许是一定情况的不完全的图像，但它总归是某种东西的完全的图像。
+一个概率命题是另外一些命题的一种摘要。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1.5_如Wr是命题“r”的真值基础数，Wrs是同属命题“s”和“r”的真值基础数，则我们称比值Wrs:Wr为命题“r”给予命题“s”的概率度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.1_真值函项可以排成系列"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2_命题的结构之间具有内在的关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2_命题的结构之间具有内在的关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5_命题是基本命题的真值函项"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.1_为了在我们的表达方式中突出这些内在关系，可以把一个命题表现为一个运算的结果，这个运算通过另外一些命题（即该运算的基础）而产生出这个命题来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.1_为了在我们的表达方式中突出这些内在关系，可以把一个命题表现为一个运算的结果，这个运算通过另外一些命题（即该运算的基础）而产生出这个命题来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2_命题的结构之间具有内在的关系"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.2_运算就是其结果和基础两者结构之间关系的表达式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.2_运算就是其结果和基础两者结构之间关系的表达式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2_命题的结构之间具有内在的关系"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3_必须对一个命题施以运算才能产生出别的命题来 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3_必须对一个命题施以运算才能产生出别的命题来">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2_命题的结构之间具有内在的关系"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.1_当然，这要依赖于它们形式的属性，依赖于它们形式的内在相似性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.1_当然，这要依赖于它们形式的属性，依赖于它们形式的内在相似性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3_必须对一个命题施以运算才能产生出别的命题来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.2_整编成一个系列所依赖的内在关系，等价于一个从一项产生出另一项来的运算 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.2_整编成一个系列所依赖的内在关系，等价于一个从一项产生出另一项来的运算">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3_必须对一个命题施以运算才能产生出别的命题来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.3_运算只能出现在一个命题以逻辑上有意义的方式产生于其他命题的地方，也即命题的逻辑构造开始的地方 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.3_运算只能出现在一个命题以逻辑上有意义的方式产生于其他命题的地方，也即命题的逻辑构造开始的地方">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3_必须对一个命题施以运算才能产生出别的命题来"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.4_基本命题的真值函项是以基本命题为基础的运算的结果 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.4_基本命题的真值函项是以基本命题为基础的运算的结果">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3_必须对一个命题施以运算才能产生出别的命题来"/>
+        <rdfs:comment>我称这些运算为真值运算</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.4.1_p的真值函项的意义是p的意义的真值函项 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.4.1_p的真值函项的意义是p的意义的真值函项">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.3.4_基本命题的真值函项是以基本命题为基础的运算的结果"/>
+        <rdfs:comment>否定、逻辑加、逻辑乘等等都是运算。
+否定将命题的意义反转</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4_运算显示于变项中，它显示我们怎样可以从命题的一种形式得到另一种形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4_运算显示于变项中，它显示我们怎样可以从命题的一种形式得到另一种形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2_命题的结构之间具有内在的关系"/>
+        <rdfs:comment>运算表达形式之间的差异。
+运算的基础与其结果之间所共有的恰为这些基础本身</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4.1_运算标志的不是一种形式，而是一种形式之间的差异 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4.1_运算标志的不是一种形式，而是一种形式之间的差异">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4_运算显示于变项中，它显示我们怎样可以从命题的一种形式得到另一种形式"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4.2_从p产生q的运算，同样也从q产生r，如此等等。 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4.2_从p产生q的运算，同样也从q产生r，如此等等。">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/5/logico-philosophicus#5.2.4_运算显示于变项中，它显示我们怎样可以从命题的一种形式得到另一种形式"/>
+        <rdfs:comment>表达这一点的唯一方式是：p、q、r等等必须是为一定的形式关系给出一般表达式的变项</rdfs:comment>
     </owl:Class>
     
 
