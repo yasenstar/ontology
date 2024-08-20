@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/7/disease/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/7/disease/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#对应干预 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#对应干预">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#对应症状 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#对应症状">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#对应诊断 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#对应诊断">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#相关疾病 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#相关疾病">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#名称1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#名称1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#名称2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#名称2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#名称3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#名称3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#疾病名称"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#干预"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#症状"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/7/disease#诊断"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>疾病本体</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
