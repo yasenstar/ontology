@@ -26,7 +26,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#adopting">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#usedBy"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
     </owl:ObjectProperty>
     
@@ -58,7 +57,6 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#dateUseArchi -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#dateUseArchi">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
@@ -72,6 +70,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Tools"/>
+    </owl:Class>
     
 
 
@@ -429,24 +435,10 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ixml -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ixml">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Web_Scrapping_in_Python"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JS_Frontend_Framework -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JS_Frontend_Framework">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript"/>
     </owl:Class>
     
 
@@ -464,7 +456,31 @@ Octave is licensed under the GPL, and its source code can be found on the GNU do
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Dev_Lang"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Visual_Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript"/>
     </owl:Class>
     
 
@@ -583,15 +599,6 @@ Julia is licensed under the MIT license, and can be downloaded from julialang.or
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Nodebox">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Visual_Art"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#NueJS -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#NueJS">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JS_Frontend_Framework"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://nuejs.org/</rdfs:comment>
     </owl:Class>
     
 
@@ -1041,14 +1048,6 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vue.JS -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vue.JS">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JS_Frontend_Framework"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vuo -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vuo">
@@ -1186,15 +1185,6 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#tiny-vue -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#tiny-vue">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vue.JS"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/opentiny/tiny-vue</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Modeling -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#3D_Modeling">
@@ -1244,7 +1234,6 @@ Scilab is distributed as open source under the GPL-compatible CeCILL license, an
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AG2R_LA_MONDIALE -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AG2R_LA_MONDIALE">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-10T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Joel01 (2023-10-19):
@@ -1254,6 +1243,31 @@ Archi is used to document the global IS/IT Landscape, from an infrastructure, ap
 We use it for impact analysis (together with information shared in a CMDB based on MEGA - maybe in the future we&apos;ll use full archi...) and as a basis for each architecture change (ie. for project related solution architecture) where deliverables are created through the buitin jasperreport engine (whith a customized report we should soon share with the community).
 Joël</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ag2rlamondiale.fr/</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aippt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aippt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>ppt制作帮手</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Alpine.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Alpine.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Angular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Angular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
     </owl:NamedIndividual>
     
 
@@ -1273,7 +1287,6 @@ Joël</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aréas_Assurance -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aréas_Assurance">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-18T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>romuald (2023/09/18):
@@ -1286,7 +1299,6 @@ As the only EA in my company (Aréas Assurance, French Insurance), I chose to Ar
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AstraZeneca -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AstraZeneca">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-21T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>2023/08/21: danisman
@@ -1297,10 +1309,17 @@ I now use Archi in AstraZeneca and am an ambassador there .. fighting off BiZZde
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aurelia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Aurelia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BKWI -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BKWI">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-30T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>tgurts (2017-10-30):
@@ -1320,7 +1339,6 @@ Ton Geurts</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BOD_Banco_Universal -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#BOD_Banco_Universal">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-18T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>jose_agc@msn.com Jose Alfredo Guillen (2018-04-18):
@@ -1349,10 +1367,17 @@ https://www.linkedin.com/in/jose-guillen-12160085</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Backbone.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Backbone.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CGI -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#CGI">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sparx"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-03-15T00:00:00</MyKN:dateUseArchi>
@@ -1370,7 +1395,6 @@ Personally, I opted to be a Patron because it&apos;s only fair to support your w
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Canadian_province_of_New_Brunswick -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Canadian_province_of_New_Brunswick">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <rdfs:comment>prgee (2016-05-12):
 Archi Supports the Government of New Brunswick’s EA Program
@@ -1419,7 +1443,6 @@ re-imported to Archi before repeating the above steps.</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cap_Gemini -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cap_Gemini">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1429,7 +1452,6 @@ re-imported to Archi before repeating the above steps.</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Casewise -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Casewise">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1439,7 +1461,6 @@ re-imported to Archi before repeating the above steps.</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ciber_International -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ciber_International">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-25T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Johan2 (2016-03-25):
@@ -1456,10 +1477,25 @@ Ciber Global is now HTC Global Services with effect from November 30, 2021. This
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cucumber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cucumber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cypress -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Cypress">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#DXC_Technology -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#DXC_Technology">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-08T00:00:00</MyKN:dateUseArchi>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-28T00:00:00</MyKN:dateUseArchi>
@@ -1470,6 +1506,14 @@ Here in DXC Technology (https://www.dxc.technology/) Archi is quite a common too
 
 Pino</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://dxc.com/us/en</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ember.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ember.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
     </owl:NamedIndividual>
     
 
@@ -1486,7 +1530,6 @@ Pino</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#European_Commission -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#European_Commission">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <rdfs:comment>Jean-Baptiste Sarrodie (2016-03-24):
 Another known usage is the official documentation of the European Interoperability Reference Architecture.
 
@@ -1501,10 +1544,17 @@ The EIRA uses (and extends) the ArchiMate language as a modelling notation and u
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Express -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Express">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GE_Corporate_Initiatives_Group -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GE_Corporate_Initiatives_Group">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1514,7 +1564,6 @@ The EIRA uses (and extends) the ArchiMate language as a modelling notation and u
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GSK -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#GSK">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-05T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>nair (2022-09-05):
@@ -1524,10 +1573,26 @@ I used Archi at GSK. I was engaged at GSK as a consultant. I noticed that GSK ha
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Gatsby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Gatsby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Get笔记 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Get笔记">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>会议录音转文本</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Government_of_Canada_-_Treasury_Board -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Government_of_Canada_-_Treasury_Board">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1545,7 +1610,6 @@ I used Archi at GSK. I was engaged at GSK as a consultant. I noticed that GSK ha
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Havenbedrijf_Rotterdam_N.V. -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Havenbedrijf_Rotterdam_N.V.">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1555,7 +1619,6 @@ I used Archi at GSK. I was engaged at GSK as a consultant. I noticed that GSK ha
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#IBM -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#IBM">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>FJL (2016-04-15):
@@ -1571,10 +1634,25 @@ F.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jasmine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jasmine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jokosun -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Jokosun">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-03T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">tpedot (2023-12-03):
@@ -1595,7 +1673,6 @@ Happy to join this community.</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KBC -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KBC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-08T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Luc Gadeyne (2017-08-08):
@@ -1611,7 +1688,6 @@ We combine this with Grafico and GIT (or SVN-Subversion) to enable collaboration
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KPN -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#KPN">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-18T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>wiebow (2023-10-18):
 Hi,
@@ -1626,10 +1702,17 @@ Wiebo</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Karma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Karma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Kemerovo_Heart_Disease_Hospital_and_Dispensary -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Kemerovo_Heart_Disease_Hospital_and_Dispensary">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-10T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>mdvadim (2017-05-10):
@@ -1643,10 +1726,18 @@ New language - new opportunities for communication.</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Kimi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Kimi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>长文本，大量网搜总结</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Lafarge_Holcim -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Lafarge_Holcim">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-24T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Jean-Baptiste Sarrodie (2016-03-24):
@@ -1679,7 +1770,6 @@ JB</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MassMutual -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#MassMutual">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-04T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>kkosienski (Kevin) (2020-11-04):
@@ -1693,10 +1783,17 @@ I am part of an enterprise architecture group at a large financial services comp
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Meteor.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Meteor.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ministere_Des_Armees -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ministere_Des_Armees">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-09T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Jean Christophe (2023/06/09):
@@ -1708,10 +1805,33 @@ I discovered Archi a few month ago and I find this tool very simple and intuitiv
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Mithril -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Mithril">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Mocha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Mocha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Next.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Next.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Nijmegen -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Nijmegen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-08T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>AdGerrits (2018-05-08):
@@ -1721,10 +1841,25 @@ Although we have been working with Archi for some time within the municipality o
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Node.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Node.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Nuxt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Nuxt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Backend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#O-DA -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#O-DA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-26T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>majiro (2023-07-26):
@@ -1745,7 +1880,6 @@ Jiro</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ordnance_Survey -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Ordnance_Survey">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-20T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Jacqui (2023-12-20):
@@ -1767,7 +1901,6 @@ Thank you all, and I&apos;m looking forward to contributing in some way.</rdfs:c
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PharmaPartners -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#PharmaPartners">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-27T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Guido Janssen (2016-06-27):
@@ -1780,7 +1913,6 @@ I am working as a architect at PharmaPartners, a dutch IT company creating softw
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Philips_Lighting -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Philips_Lighting">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-23T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Paul Kraakman (pkraakman) (2016-05-23):
@@ -1796,10 +1928,25 @@ Paul Kraakman</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Playwright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Playwright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Preact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Preact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#RSPCA -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#RSPCA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-15T16:25:21</MyKN:dateUseArchi>
         <rdfs:comment rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">smileham (2022-06-15):
@@ -1815,10 +1962,25 @@ A huge thankyou to the Archi development team!</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#React -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#React">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sencha_Ext_JS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sencha_Ext_JS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sogeti_Nederland_B.V. -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Sogeti_Nederland_B.V.">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1836,7 +1998,6 @@ A huge thankyou to the Archi development team!</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Standard_Bank_of_South_Africa_Limited -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Standard_Bank_of_South_Africa_Limited">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1846,7 +2007,6 @@ A huge thankyou to the Archi development team!</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Stime -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Stime">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Herve (2026-04-15):
@@ -1866,10 +2026,33 @@ Best regards</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Storybook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Storybook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Svelte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Svelte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TestCafe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#TestCafe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#The_TriZetto_Group -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#The_TriZetto_Group">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1879,7 +2062,6 @@ Best regards</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#United_States_Department_of_Labor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#United_States_Department_of_Labor">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-15T00:00:00</MyKN:dateUseArchi>
     </owl:NamedIndividual>
@@ -1889,7 +2071,6 @@ Best regards</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#University_of_St_Gallen_HSG -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#University_of_St_Gallen_HSG">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Thomas Rischbeck (2023-03-12):
@@ -1912,7 +2093,6 @@ www.itmc.ch</rdfs:comment>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#University_of_Sydney -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#University_of_Sydney">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-06T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>yvain (2016-07-06):
@@ -1927,7 +2107,6 @@ What we&apos;ve liked about Archi is that it enforces the Archimate syntax - whi
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#VFS">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#HOPEX"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-01T00:00:00</MyKN:dateUseArchi>
@@ -1935,10 +2114,17 @@ What we&apos;ve liked about Archi is that it enforces the Archimate syntax - whi
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vue.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Vue.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Frontend_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Walraven -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Walraven">
-        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Institute"/>
         <MyKN:adopting rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#Archi"/>
         <MyKN:dateUseArchi rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-15T00:00:00</MyKN:dateUseArchi>
         <rdfs:comment>Marco m@rco (2017-08-15):
@@ -1953,14 +2139,67 @@ Marco</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#WebdriverIO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#WebdriverIO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#JavaScript_Testing_Framework"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#deepseek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#deepseek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>智能，有深度</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#iServer -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#iServer">
         <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#EA_Tool"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#即梦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#即梦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>生文本，视频</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#纳米Ai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#纳米Ai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>让图片动起来</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#豆包 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#豆包">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>文本，图文</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#通义 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#通义">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/MyKN#AI_Tools"/>
+        <rdfs:comment>会议纪要</rdfs:comment>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
