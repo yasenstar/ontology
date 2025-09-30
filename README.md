@@ -14,6 +14,13 @@ learn modeling in ontology with variable areas
 
 [Learning Structure](./use_protege/)
 
+## Resources on using Ontology
+
+- EasyRDF: https://www.easyrdf.org/, online converter
+- RDF Converter by zazuko: https://converter.zazuko.com/
+- RDF Converter by issemantic.net: https://issemantic.net/rdf-converter
+- Convert.Guru: https://convert.guru/rdf-converter
+
 ## my ontologies
 
 - [Yi - 易经](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/yi/yi-ontology/yi-rdf.owl)
