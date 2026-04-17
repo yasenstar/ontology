@@ -6,7 +6,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math">
+        <rdfs:comment>V2: 2026/4/17, 从新组合并拓展重点知识点
+V1: 2026/4/17, initialization</rdfs:comment>
+    </owl:Ontology>
     
 
 
@@ -21,6 +24,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#Kac-Moody代数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#Kac-Moody代数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#交换代数 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#交换代数">
@@ -29,16 +40,32 @@
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数K理论 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数K理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
+    </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数几何学 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数学_Algebra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数学_Algebra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数拓扑学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数拓扑学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
     </owl:Class>
     
 
@@ -51,17 +78,89 @@
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数编码理论 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数编码理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#仿射几何学 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#仿射几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#低维拓扑学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#低维拓扑学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#保险数学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#保险数学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#假设检验 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#假设检验">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分_Calculus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程数值解 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程数值解">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#公理集合论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#公理集合论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#决策论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#决策论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何拓扑学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何拓扑学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
     
 
 
@@ -73,24 +172,64 @@
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分形几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何概率 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分形几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何概率">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数空间 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数空间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析数学_Mathematical-Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数逼近论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数逼近论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分形几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分形几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分数维几何 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分数维几何">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析数学_Mathematical-Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析数学_Mathematical-Analysis"/>
     
 
 
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#初等代数 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#初等代数">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数学_Algebra"/>
     </owl:Class>
     
 
@@ -103,11 +242,50 @@
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#古典概率 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#动力系统 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#古典概率">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#动力系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#动态规划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#动态规划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#单复变函数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#单复变函数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复分析_Complex-Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#参数规划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#参数规划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#双曲型偏微分方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#双曲型偏微分方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#变分法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#变分法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
     </owl:Class>
     
 
@@ -115,7 +293,23 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#可计算性和可判定性 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#可计算性和可判定性">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#可靠性数学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#可靠性数学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#同伦论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#同伦论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
     </owl:Class>
     
 
@@ -128,34 +322,147 @@
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#图论 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#同调论 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#图论">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#同调论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复分析 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#向量和张量分析 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复分析">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#向量和张量分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#实分析 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#图论_Graph-Theory -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#实分析">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#图论_Graph-Theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#射影几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#域论 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#射影几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#域论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复分析_Complex-Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复分析_Complex-Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复动力系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复动力系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#动力系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复流形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复流形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#多元分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#多元分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#多复变函数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#多复变函数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#复分析_Complex-Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#奇点理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#奇点理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#定性理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#定性理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#常微分方程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#实分析_Real-Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#实分析_Real-Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#实变函数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#实变函数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#实分析_Real-Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#密码学_Cryptology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#密码学_Cryptology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#对策论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#对策论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#射影几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#射影几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#巴拿赫空间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#巴拿赫空间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#希尔伯特空间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#希尔伯特空间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
     </owl:Class>
     
 
@@ -163,7 +470,45 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#常微分方程 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#常微分方程">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分_Calculus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#常微分方程数值解 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#常微分方程数值解">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#广义函数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#广义函数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#库存论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#库存论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用数学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用数学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用概率论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用概率论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
     </owl:Class>
     
 
@@ -171,23 +516,63 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用统计 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用统计">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学_Statistics"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分代数 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分代数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#高等代数"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分几何学 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分动力系统 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分动力系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#动力系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分拓扑学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微分拓扑学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分_Calculus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分_Calculus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析数学_Mathematical-Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抛物型偏微分方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抛物型偏微分方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽样理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽样理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
     </owl:Class>
     
 
@@ -195,16 +580,78 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数学_Algebra"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑动力系统 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑动力系统">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#动力系统"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑线性空间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑线性空间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#排队论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#排队论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#插值法与逼近论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#插值法与逼近论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#搜索论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#搜索论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数值代数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数值代数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数值分析_Numerical-Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数值分析_Numerical-Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析数学_Mathematical-Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数学建模_Math-Modeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数学建模_Math-Modeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用数学"/>
     </owl:Class>
     
 
@@ -212,7 +659,7 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数据分析 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数据分析">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合数学"/>
     </owl:Class>
     
 
@@ -220,7 +667,7 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学_Statistics"/>
     </owl:Class>
     
 
@@ -228,7 +675,7 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理逻辑 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理逻辑">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
     </owl:Class>
     
 
@@ -236,7 +683,39 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数论 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数论">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#整数规划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#整数规划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#方差分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#方差分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#时间序列分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#时间序列分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#最优化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#最优化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
     </owl:Class>
     
 
@@ -249,79 +728,334 @@
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#李群 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率"/>
-    
-
-
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#李群">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#欧几里得几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#极限理论 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#欧几里得几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#极限理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#格上拓扑学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#格上拓扑学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#格论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#格论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#椭圆型偏微分方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#椭圆型偏微分方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率分布 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率分布">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#模型论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#模型论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#模论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#模论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#欧几里得几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#欧几里得几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛代数理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛代数理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#测度与积分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#测度与积分">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#演绎逻辑性 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#演绎逻辑性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理逻辑"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#点集拓扑学 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#点集拓扑学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#特殊函数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#特殊函数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#环论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#环论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#球面几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#球面几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#相关回归分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#相关回归分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
     
 
 
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#积分方程 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#积分方程">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#微积分_Calculus"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合学 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#积分方程数值解 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合学">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#积分方程数值解">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#稳定性理论 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#稳定性理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#常微分方程"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#罗巴切夫斯基几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#算子代数 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#罗巴切夫斯基几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#算子代数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#纤维丛论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#纤维丛论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#级数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#级数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析数学_Mathematical-Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#线性代数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#线性代数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#高等代数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#线性算子理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#线性算子理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#线性规划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#线性规划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合学_Combinatorics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合学_Combinatorics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合数学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合数学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合最优化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合最优化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统筹论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统筹论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计判决理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计判决理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学_Statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计学_Statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#组合数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计推断 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计推断">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计模拟 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计模拟">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计质量控制 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#统计质量控制">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#维数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#维数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#拓扑学_Topology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#罗巴切夫斯基几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#罗巴切夫斯基几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
     </owl:Class>
     
 
@@ -337,15 +1071,23 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#自动机和形式语言 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#自动机和形式语言">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#解析几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#范畴论 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#解析几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#范畴论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#抽象代数"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#解析几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#解析几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
     </owl:Class>
     
 
@@ -358,10 +1100,120 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#解析理论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#解析理论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#常微分方程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算几何学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#证明论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#证明论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#试验设计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#试验设计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#误差分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#误差分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#调和分析 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#调和分析">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#分析"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#函数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#贝叶斯统计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#贝叶斯统计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#超越数论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#超越数论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#应用数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#连续问题离散化方法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#连续问题离散化方法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#递归论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#递归论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随即规划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随即规划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
     </owl:Class>
     
 
@@ -374,18 +1226,74 @@
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机过程 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机数值实验 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机过程">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机数值实验">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#计算数学_Computation-Math"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#集合论 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机过程 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#集合论">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#随机过程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#集合论_Set-Theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#集合论_Set-Theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#离散数学_Discrete-Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非参数统计 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非参数统计">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#数理统计"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非线性偏微分方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非线性偏微分方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#偏微分方程"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非线性泛函分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非线性泛函分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#泛函分析"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非线性规划 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#非线性规划">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#运筹学_Game-Theory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#鞅论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#鞅论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#马尔可夫过程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#马尔可夫过程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#概率论_Probability"/>
     </owl:Class>
     
 
@@ -393,15 +1301,15 @@
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#高等代数 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#高等代数">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#代数学_Algebra"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#黎曼几何 -->
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#黎曼几何学 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#黎曼几何">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#黎曼几何学">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math#几何学_Geometry"/>
     </owl:Class>
     
 
@@ -415,6 +1323,10 @@
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>1. 基础：包括集合，逻辑和算术。思考和计算，这两个过关就能学好数学。集合是基础概念。
+2. 结构：代数，包括数论，组合。典型如线性代数，群环域等。学矩阵时研究矩阵间的关系，学群时研究子群，都是对结构的研究。
+3. 空间：几何，拓扑。各种测量，各种空间，各种几何体及其性质。
+4. 变化：分析。研究变化趋势，比如微积分，函数，泛函等。</rdfs:comment>
         <rdfs:label>数学</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
