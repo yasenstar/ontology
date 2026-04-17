@@ -10,7 +10,7 @@
     <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math">
         <dc:creator>Xiaoqi Zhao</dc:creator>
         <dc:language>Chinese / English</dc:language>
-        <rdfs:label>数学领域 Mathematics Tree</rdfs:label>
+        <dc:title>数学领域 Mathematics Tree</dc:title>
         <owl:versionInfo>V2: 2026/4/17, 从新组合并拓展重点知识点
 V1: 2026/4/17, initialization</owl:versionInfo>
     </owl:Ontology>
@@ -37,6 +37,12 @@ V1: 2026/4/17, initialization</owl:versionInfo>
     <!-- http://purl.org/dc/elements/1.1/language -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
