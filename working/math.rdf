@@ -7,8 +7,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/math">
-        <rdfs:comment>V2: 2026/4/17, 从新组合并拓展重点知识点
-V1: 2026/4/17, initialization</rdfs:comment>
+        <owl:versionInfo>V2: 2026/4/17, 从新组合并拓展重点知识点
+V1: 2026/4/17, initialization</owl:versionInfo>
     </owl:Ontology>
     
 
