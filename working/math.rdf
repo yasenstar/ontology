@@ -11,8 +11,9 @@
         <dc:creator>Xiaoqi Zhao</dc:creator>
         <dc:language>Chinese / English</dc:language>
         <dc:title>数学领域 Mathematics Tree</dc:title>
-        <owl:versionInfo>V2: 2026/4/17, 从新组合并拓展重点知识点
-V1: 2026/4/17, initialization</owl:versionInfo>
+        <rdfs:comment>V2: 2026/4/17, 从新组合并拓展重点知识点
+V1: 2026/4/17, initialization</rdfs:comment>
+        <owl:versionInfo>Version 2</owl:versionInfo>
     </owl:Ontology>
     
 
