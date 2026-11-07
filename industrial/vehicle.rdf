@@ -24,7 +24,36 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Angle_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Angle_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Features an angled blade that directs soil and debris to one side. Used for road construction, side casting, and maerial spreading.</rdfs:comment>
+        <rdfs:comment>配备倾斜铲刀，可将土壤和碎屑导向一侧。用于道路建设、侧向抛土和物料摊铺。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Construction_Equipment"/>
+        <rdfs:comment>Important selection factors:
+🔹 Ground and soil conditions
+🔹 Required pushing capacity
+🔹 Blade type and configuration
+🔹 Engine power and machine weight
+🔹 Track or tyre arrangement
+🔹 Working environment and site accessibility
+🔹 Operating and maintenance costs</rdfs:comment>
+        <rdfs:comment>Reference pictures: https://github.com/yasenstar/ontology/blob/main/industrial/img/dozer.jpg</rdfs:comment>
+        <rdfs:comment>推土机是一种强大的土方机械，用于推、切、摊铺和整平土壤、岩石、碎石和其他物料。它们广泛应用于建筑、采矿、道路建设、土地清理、废物管理和大型基础设施项目。不同类型的推土机设计用于应对特定的工况和工作要求。</rdfs:comment>
+        <rdfs:comment>重要选择因素：
+🔹 地面和土壤条件
+🔹 所需的推土能力
+🔹 铲刀类型和配置
+🔹 发动机功率和机器重量
+🔹 履带或轮胎配置
+🔹 工作环境和场地交通
+🔹 运营和维护成本</rdfs:comment>
+        <rdfs:isDefinedBy>Bulldozers are powerful earthmoving machines designed for pushing, cutting, spreading, and levelling soil, rocks, debris, and other materials. They are widely used in construction, mining, road development, land clearing, wast management, and large-scale infrastructure projects. Different types of bulldozers are designed to handle specific ground conditions and working requirements.</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -38,7 +67,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Crawler_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Crawler_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Uses tracked undercarriages to provide high traction and stability. Suitable for heavy earthmoving, rough terrain, land clearning, and construction sites.</rdfs:comment>
+        <rdfs:comment>采用履带式底盘，提供高牵引力和稳定性。适用于重型土方作业、崎岖地形、土地清理和建筑工地。</rdfs:comment>
     </owl:Class>
     
 
@@ -46,15 +77,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Cushion_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Cushion_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Construction_Equipment"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Features a reinforced rear push plate that helps absorb impact during pushing operations. Commonly used in scraper-loading operations.</rdfs:comment>
+        <rdfs:comment>配备加固的后推板，有助于吸收推土作业中的冲击力。通常用于铲运机装载作业。</rdfs:comment>
     </owl:Class>
     
 
@@ -62,7 +87,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Garbage_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Garbage_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Designed for landfill operations with protective featrues and specialized blades. Used for spreading, compacting, and moving municipla solid waste.</rdfs:comment>
+        <rdfs:comment>专为陆地作业设计，配备防护装置和专用铲刀。用于摊铺、压实和搬运城市固体垃圾。</rdfs:comment>
     </owl:Class>
     
 
@@ -70,7 +97,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Mini_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Mini_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Designed for compact working spaces, small construction projects, landscaping, residential site preparation, and light earchmoving.</rdfs:comment>
+        <rdfs:comment>专为紧凑的工作空间、小型建筑项目、景观美化、住宅用地准备和轻型土方作业而设计。</rdfs:comment>
     </owl:Class>
     
 
@@ -78,7 +107,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Nuclear_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Nuclear_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Specially modified bulldozer designed for remote or hazardous-area operations. Used in certain nuclear facility maintenance and specialised contaminated-site work.</rdfs:comment>
+        <rdfs:comment>专为偏远或危险区域作业而特别改装的推土机。用于部分核设施维护和特殊污染场地作业。</rdfs:comment>
     </owl:Class>
     
 
@@ -86,7 +117,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Push_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Push_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Designed for heavy pushing operations and moving large volumes of soil or material, particularly in mining and large-scale earthmoving projects.</rdfs:comment>
+        <rdfs:comment>专为重型起重作业和搬运大量土壤或物料而设计，尤其适用于采掘和大型项目。</rdfs:comment>
     </owl:Class>
     
 
@@ -94,7 +127,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Remote-Controlled_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Remote-Controlled_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Operated remotely from a safe location. Used in hazardous environments, unstable slopes, demolition areas, and dangerous construction operations.</rdfs:comment>
+        <rdfs:comment>可在安全位置进行远程操作。用于危险环境、不稳定边坡、拆除区域和危险的建筑作业。</rdfs:comment>
     </owl:Class>
     
 
@@ -102,7 +137,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Swamp_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Swamp_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Equipped with extra-wide tracks to distribute machine weight over soft ground. Used in marshlands, wetlands, muddy areas, and soft soil conditions.</rdfs:comment>
+        <rdfs:comment>配备超宽履带，可将机器重量分散到松软的地面上。适用于沼泽地、湿地、泥泞地区和松软土壤条件。</rdfs:comment>
     </owl:Class>
     
 
@@ -110,7 +147,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Tilt_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Tilt_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Allows the blade to tilt to one side for precise cutting and grading. Used for slope formation, ditching, and uneven ground leveling.</rdfs:comment>
+        <rdfs:comment>铲刀可向一侧倾斜，实现精确切割和整平。用于坡度形成、沟渠挖掘和不平整地面。</rdfs:comment>
     </owl:Class>
     
 
@@ -118,7 +157,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#U-Blade_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#U-Blade_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Equipped with a U-shaped blade with side wings to carry large quantities of material. Suitable for bulk earthmoving and long-distance pushing.</rdfs:comment>
+        <rdfs:comment>配备U型铲刀和侧翼，可装载更多物料。适用于大宗土方作业和长距离推土。</rdfs:comment>
     </owl:Class>
     
 
@@ -126,7 +167,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Wheel_Dozer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Wheel_Dozer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#Dozer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2026/10/vehicle#BullDozer"/>
+        <rdfs:comment>Uses large rubber tyres for better mobility and faster movement. Commonly used in material handling, site preparation, and large construction areas.</rdfs:comment>
+        <rdfs:comment>采用大型橡胶轮胎，具有更好的机动性和更快的移动速度。常用于物料搬运、场地准备和大型建筑工地。</rdfs:comment>
     </owl:Class>
     
 
