@@ -21,9 +21,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#OCR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#OCR"/>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ScreenRecording -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ScreenRecording"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ontology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ontology"/>
     
 
 
@@ -38,13 +56,95 @@
     
 
 
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Archi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Archi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#BizzDesign -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#BizzDesign">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Essential -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Essential">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ontology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#LeanIX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#LeanIX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Orbus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Orbus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Protégé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Protégé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ontology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#SparxSystems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#SparxSystems">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#EATool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Umi-OCR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#Umi-OCR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#OCR"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/hiroi-sora/Umi-OCR/tree/main</rdfs:comment>
+        <rdfs:comment>Free, Open-source, Batch Offline OCR Software
+Compatible with Windows7 x64 and above
+
+Free: All the code of this project is open-source and completely free.
+Convenient: Unzip and use, run offline, no need for network.
+Efficient: Comes with a highly efficient offline OCR engine. As long as the computer performance is sufficient, it can be faster than online OCR services.
+Flexible: Supports customizable interface, and supports multiple calling methods such as command-line and HTTP API.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ontosphere -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ontosphere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ontology"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ThHanke/ontosphere</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#recordly.dev -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#recordly.dev">
         <rdf:type rdf:resource="http://www.semanticweb.org/xiaoqi/ontologies/2026/3/hands-on-tools#ScreenRecording"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/webadderall/Recordly</rdfs:comment>
         <rdfs:comment>Recordly is an open-source screen recorder and editor for walkthroughs, demos, tutorials, product videos, and social clips. Record a screen or window, jump straight into the editor, and export a polished result with cursor effects, zooms, backgrounds, annotations, webcam overlays, and more.</rdfs:comment>
         <rdfs:comment>https://recordly.dev/</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/webadderall/Recordly</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>
 
